@@ -1,0 +1,13 @@
+{
+  "key": "004-step-1",
+  "id": 4,
+  "title": "Challenge #4 \u2014 actual evidence capture",
+  "command": "python - <<'PY'\nimport base64\nx=b'VVRGU1IyVXlOV3hrYlZaNVdETk9NR0l6UW1aaVIxWm9ZMjAxY0dKdFpEaz0='\nfor layer in range(1,4):\n    x=base64.b64decode(x,validate=True)\n    print(layer,x.decode())\nPY",
+  "filename": "004-step-01.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216283.34395,
+  "finished_at_unix": 1793216283.4363008,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/004-step-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

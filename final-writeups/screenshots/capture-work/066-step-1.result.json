@@ -1,0 +1,13 @@
+{
+  "key": "066-step-1",
+  "id": 66,
+  "title": "Challenge #66 \u2014 actual evidence capture",
+  "command": "python - <<'PY'\nfrom pathlib import Path\nimport re\nt=Path('PCGCTF/solved/cryptography/066-common-modulus/files/04_rsa_common_modulus.txt').read_text()\nd={k:int(v) for k,v in re.findall(r'(n|e1|e2|c1|c2)\\s*=\\s*(\\d+)',t)}\nn=d['n'];m=pow(d['c1'],2,n)*pow(d['c2'],-1,n)%n\nassert pow(m,d['e1'],n)==d['c1']\nassert pow(m,d['e2'],n)==d['c2']\nprint(m.to_bytes((m.bit_length()+7)//8,'big').decode())\nPY",
+  "filename": "066-step-01.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216324.1160405,
+  "finished_at_unix": 1793216324.2088172,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/066-step-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

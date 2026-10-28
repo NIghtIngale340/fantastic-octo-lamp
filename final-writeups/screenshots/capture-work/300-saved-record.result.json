@@ -1,0 +1,13 @@
+{
+  "key": "300-saved-record",
+  "id": 300,
+  "title": "Challenge #300 \u2014 actual evidence capture",
+  "command": "python -m json.tool /home/nightingale/CTF/PCGCTF/analysis-team-verification/public-source-observations.json",
+  "filename": "300-saved-evidence.png",
+  "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup.",
+  "exit_code": 0,
+  "started_at_unix": 1793216384.8057537,
+  "finished_at_unix": 1793216384.8980596,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/300-saved-record.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

@@ -1,0 +1,7 @@
+[2J[HChallenge #91 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.id
+
+frame.number	ip.id
+1	0xbed2
+
+[Actual command exit code: 0]

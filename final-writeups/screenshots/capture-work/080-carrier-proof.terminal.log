@@ -1,0 +1,8 @@
+[2J[HChallenge #80 — actual hidden-image extraction
+$ env LD_LIBRARY_PATH=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/portable-tools/steghide-root/usr/lib/x86_64-linux-gnu /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/portable-tools/steghide-root/usr/bin/steghide extract -sf /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/files/Culture-Grumpy-Cat-487386121.jpg -p iloveyou -xf /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/080-reproduced-from-image.zip -f && sha256sum /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/080-reproduced-from-image.zip /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/To_the_moon.zip
+
+wrote extracted data to "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/080-reproduced-from-image.zip".
+e25117a5c6ec00da9f8d5dad64c5be914ec3fa65c2c15e493c0f65a6c4d2af91  /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/080-reproduced-from-image.zip
+e25117a5c6ec00da9f8d5dad64c5be914ec3fa65c2c15e493c0f65a6c4d2af91  /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/To_the_moon.zip
+
+[Actual command exit code: 0]

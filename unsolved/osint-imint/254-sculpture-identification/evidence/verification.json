@@ -1,0 +1,34 @@
+{
+  "id": 254,
+  "answer": "Rudolph the Chrome Nosed Reindeer",
+  "flag_candidate": "pcgCTF{Rudolph the Chrome Nosed Reindeer}",
+  "confidence": "high",
+  "verdict": "confirmed_answer",
+  "verified_at": "2026-10-28",
+  "platform_accepted": false,
+  "evidence": [
+    "Supplied image shows a motorcycle-bodied reindeer with four long metallic legs in a green stone entrance court.",
+    "Independently inspected photographer Perry Tak\u2019s2014 Tjuvholmen photograph: same sculpture, long metal legs, motorcycle front, green stone walls and apartment-building outlook. Its caption names the sculpture.",
+    "Magne Furuholmen\u2019s official biography lists Rudolph The Chrome Nosed Reindeer under Apparatjik installations. This independently supports the title spelling."
+  ],
+  "inputs": [
+    {
+      "path": "unsolved/osint-imint/254-sculpture-identification/files/task7_1602636111226.png",
+      "sha256": "0824ea2bf1be382ef029a341a3a9ebaf9ea4c1096d99b8fafcf8e47d12fba493",
+      "size": 6943440
+    }
+  ],
+  "sources": [
+    {
+      "title": "Artist official biography",
+      "url": "https://magnefuruholmen.com/biography/"
+    },
+    {
+      "title": "Original photograph by Perry Tak / Meteorry",
+      "url": "https://www.flickr.com/photos/meteorry/12995187234"
+    }
+  ],
+  "limitations": [
+    "The title is shown without hyphens in the artist\u2019s own CV; grader normalization and acceptance have not been tested. Installation year is not needed for this question."
+  ]
+}

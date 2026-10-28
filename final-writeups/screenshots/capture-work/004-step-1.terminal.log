@@ -1,0 +1,14 @@
+[2J[HChallenge #4 — actual evidence capture
+$ python - <<'PY'
+import base64
+x=b'VVRGU1IyVXlOV3hrYlZaNVdETk9NR0l6UW1aaVIxWm9ZMjAxY0dKdFpEaz0='
+for layer in range(1,4):
+    x=base64.b64decode(x,validate=True)
+    print(layer,x.decode())
+PY
+
+1 UTFSR2UyNWxkbVZ5WDNOMGIzQmZiR1ZoY201cGJtZDk=
+2 Q1RGe25ldmVyX3N0b3BfbGVhcm5pbmd9
+3 CTF{never_stop_learning}
+
+[Actual command exit code: 0]

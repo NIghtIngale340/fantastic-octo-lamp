@@ -1,0 +1,8 @@
+[2J[HChallenge #18 — actual evidence capture
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/018-capture-1.py
+
+AGENT, THIS IS A SCRAMBLED BULLETIN. SHIFT ACROSS A CUSTOM ALPHABET (A-Z AND 0-9).
+RECOVER THE HIDDEN CODE TO PROCEED: FLAG{CAESAR_SHIFT_19_ALNUM}
+
+
+[Actual command exit code: 0]

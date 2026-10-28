@@ -1,0 +1,31 @@
+[2J[HChallenge #315 — actual evidence capture
+$ curl --connect-timeout 3 --max-time 6 -sS -D - http://emedra.dctf.io:8080/api/kiosk/login
+
+HTTP/1.1 200 OK
+Server: nginx/1.27.5
+Date: Wed, 28 Oct 2026 19:54:21 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 791
+Connection: keep-alive
+vary: Origin
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+X-Frame-Options: DENY
+Permissions-Policy: camera=(), microphone=(), geolocation=()
+Content-Security-Policy: default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+
+<!-- ScanWorks operator console · NeuraOS 2.3.1 -->
+<div class="sw-login">
+  <div class="sw-brand">🧠 Emedra ScanWorks</div>
+  <p class="sw-sub">Technician sign-in required to operate this unit.</p>
+  <div class="sw-status">Active study: <b>G.M.</b> · MRN ****13 · device locked</div>
+  <!-- TODO(dev): REMOVE before go-live — temporary QA technician PIN: deadface{v13w_s0urc3_sav3s_l1v3s} -->
+  <form id="sw-login-form" autocomplete="off">
+    <label>Username<input name="username" autocomplete="off" spellcheck="false"></label>
+    <label>Password<input name="password" type="password" autocomplete="off"></label>
+    <button type="submit">Sign in</button>
+    <p class="sw-error" hidden></p>
+  </form>
+  <div class="sw-foot">Emedra CerebraScan CS-9000 · EM-CS9K-04417</div>
+</div>
+[Actual command exit code: 0]

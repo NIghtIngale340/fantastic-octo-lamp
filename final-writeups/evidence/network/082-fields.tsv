@@ -1,0 +1,2 @@
+frame.number	http.request.method	http.host	http.request.uri	http.authorization
+1	GET	twitter.com	/statuses/replies.xml	Basic dXNlcnRlc3Q6cGFzc3dvcmQ=

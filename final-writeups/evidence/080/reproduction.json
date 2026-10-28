@@ -1,0 +1,10 @@
+{
+  "operation": "7z extraction of retained To_the_moon.zip",
+  "exit_code": 0,
+  "output_member": "To_the_moon.txt",
+  "size": 34,
+  "sha256": "dfcb63e18249f56ce3a854b2481a58fed6355620640ee41cb7e62dad77e026f6",
+  "content": "1NFoSEcGq4XwEbaXmio5yYaakbX5Gtia4R",
+  "carrier_extraction_replayed": false,
+  "limitation": "steghide/stegseek unavailable in final-review shell; earlier carrier extraction retained as attributed evidence."
+}

@@ -1,0 +1,8 @@
+[2J[HChallenge #321 — actual evidence capture
+$ find /home/nightingale/CTF/PCGCTF/solved/deadface/321-art-heist-the-forgery -maxdepth 2 -type f -printf '%P
+'
+
+README.md
+solution.md
+
+[Actual command exit code: 0]

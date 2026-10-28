@@ -1,0 +1,12 @@
+[2J[HChallenge #63 — actual evidence capture
+$ python - <<'PY'
+import codecs
+s='cptpgs{pnrfne_jnf_bayl_gur_ortvaavat}'
+p=codecs.decode(s,'rot_13')
+assert codecs.decode(p,'rot_13')==s
+print(p)
+PY
+
+pcgctf{caesar_was_only_the_beginning}
+
+[Actual command exit code: 0]

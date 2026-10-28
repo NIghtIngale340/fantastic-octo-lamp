@@ -1,0 +1,486 @@
+{
+  "imported_at": "2026-10-28T23:44:01+08:00",
+  "source": "/home/nightingale/CTF/WRITEUPS(GARCIA Day1).md",
+  "source_sha256": "d476cd404ebe15c5ffd817c8321c4631a2cda72fcfa0b6129376ffdd49618792",
+  "new_saved_records": [
+    {
+      "id": 333,
+      "name": "After the Lock",
+      "flag": "deadface{VELT-0137}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/333-after-the-lock/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 332,
+      "name": "Upon the Throne",
+      "flag": "deadface{REVENANT-7}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/332-upon-the-throne/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 331,
+      "name": "Heavy Hand",
+      "flag": "deadface{BR2938471}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/331-heavy-hand/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 336,
+      "name": "Two Places at Once",
+      "flag": "deadface{kbhat}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/336-two-places-at-once/solution.md",
+      "verification": "Garcia reports accepted spelling kbhat; underlying database username is kbhatt. Acceptance spelling is a teammate report, not newly tested."
+    },
+    {
+      "id": 335,
+      "name": "Too Good to be True",
+      "flag": "deadface{VELT-0148}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/335-too-good-to-be-true/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 334,
+      "name": "Ghost in the Registry",
+      "flag": "deadface{AH-0090001}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/334-ghost-in-the-registry/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 330,
+      "name": "The Original Reading",
+      "flag": "deadface{2.3}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/330-the-original-reading/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 329,
+      "name": "Prying Eyes",
+      "flag": "deadface{rborden}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/329-prying-eyes/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 328,
+      "name": "The Attending",
+      "flag": "deadface{mreyes}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/328-the-attending/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 311,
+      "name": "SQL Skillz",
+      "flag": "deadface{Candesartan}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/aurora-patient-zero/311-sql-skillz/solution.md",
+      "verification": "Answer independently corroborated from our original local evidence; teammate writeup preserved below. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 326,
+      "name": "Admitted Under Another Name",
+      "flag": "deadface{AH-0044719}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/326-admitted-under-another-name/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 327,
+      "name": "Schedule of Concern",
+      "flag": "deadface{9}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/327-schedule-of-concern/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 239,
+      "name": "Street-Level Clue",
+      "flag": "pcgCTF{Carnaby Street}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/osint-imint/239-street-level-clue/solution.md",
+      "verification": "Independently inspected original photo: overhead arch reads WELCOME TO CARNABY STREET. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 337,
+      "name": "Cereal Killer 04",
+      "flag": "deadface{Before_Consenting_to_Med_Exam_Ascertain_Destination_of_Finger!}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/337-cereal-killer-04/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 325,
+      "name": "Diagnosis",
+      "flag": "deadface{flaG_ManIfesT3d}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/325-diagnosis/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 318,
+      "name": "Live Boot",
+      "flag": "deadface{h4rdc0d3d_k3ys_1n_th3_c0nf1g}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/318-live-boot/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 317,
+      "name": "Second Opinion",
+      "flag": "deadface{hdm1_l34ks_th3_wh0l3_p4t13nt}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/317-second-opinion/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 339,
+      "name": "File Dump 01",
+      "flag": "deadface{gh0st404}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/339-file-dump-01/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 322,
+      "name": "Hard Kept Secrets",
+      "flag": "deadface{zqJRlVwBA9Xm2lE5EPjgbj/4rOxlkYZgDtkdP7jV80rZgLFrlnOEn+VAu31YKQrR}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/322-hard-kept-secrets/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 323,
+      "name": "Inside Man",
+      "flag": "deadface{l3FT_b3Hind!}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/323-inside-man/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 321,
+      "name": "Art Heist: The Forgery",
+      "flag": "deadface{L4MIA_SIGNS_HER_WORK}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/321-art-heist-the-forgery/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 319,
+      "name": "Car Crash",
+      "flag": "deadface{08_10_1961}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/319-car-crash/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 315,
+      "name": "Bedside Manner",
+      "flag": "deadface{v13w_s0urc3_sav3s_l1v3s}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/315-bedside-manner/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 316,
+      "name": "Factory Setting",
+      "flag": "deadface{d3fault_cr3ds_n3v3r_ch4ng3d}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/316-factory-setting/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 313,
+      "name": "Ghost of Squares Past",
+      "flag": "deadface{1733-1742-1815-1733-gordon}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/313-ghost-of-squares-past/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 338,
+      "name": "Headshot",
+      "flag": "deadface{b00m_h34Dsh0TTT}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/338-headshot/solution.md",
+      "verification": "Imported Garcia writeup; not independently reproduced during this import. Challenge already solved in our saved scoreboard snapshot."
+    },
+    {
+      "id": 320,
+      "name": "Hooked",
+      "flag": "deadface{http://demonne-secure-portal.net/login?ref=vpn_auth&token=df4e91bc}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/deadface/320-hooked/solution.md",
+      "verification": "Answer independently corroborated from our original local evidence; teammate writeup preserved below. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 5,
+      "name": "Silent Signal",
+      "flag": "pcgCTF{CYBER_SECURITY_IS_EVERYONES_RESPONSIBILITY}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/cryptography/005-silent-signal/solution.md",
+      "verification": "Answer independently corroborated from our original local evidence; teammate writeup preserved below. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 20,
+      "name": "Base Maze",
+      "flag": "pcgCTF{ilove_Cyber_Command}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/cryptography/020-base-maze/solution.md",
+      "verification": "Answer independently corroborated from our original local evidence; teammate writeup preserved below. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 33,
+      "name": "Multi-Base Layers",
+      "flag": "pcgCTF{ilove_Cyber_Command}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/cryptography/033-multi-base-layers/solution.md",
+      "verification": "Answer independently corroborated from our original local evidence; teammate writeup preserved below. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 36,
+      "name": "Commitment Issues",
+      "flag": "picoCTF{s@n1t1z3_be3dd3da}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/general-skills/036-commitment-issues/solution.md",
+      "verification": "Flag independently recovered from the original archive\u2019s Git object and SHA-1 checked. Original picoCTF wrapper retained; exact historical PCGCTF submission is not recorded."
+    },
+    {
+      "id": 84,
+      "name": "EASY PACKET 1 #02  One Packet Wonder",
+      "flag": "pcgCTF{1}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/084-easy-packet-1-02-one-packet-wonder/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 87,
+      "name": "EASY PACKET 1 #05  EtherType: IPv4",
+      "flag": "pcgCTF{IPv4}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/087-easy-packet-1-05-ethertype-ipv4/solution.md",
+      "verification": "The question asks which network protocol EtherType 0x0800 identifies, so answer IPv4, not the numeric EtherType. Locally derived answer; accepted formatting untested. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 88,
+      "name": "EASY PACKET 1 #06  Version Four",
+      "flag": "pcgCTF{4}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/088-easy-packet-1-06-version-four/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 92,
+      "name": "EASY PACKET 1 #10  TTL: 64 Hops",
+      "flag": "pcgCTF{64}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/092-easy-packet-1-10-ttl-64-hops/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 93,
+      "name": "EASY PACKET 1 #11  Protocol 6",
+      "flag": "pcgCTF{TCP}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/093-easy-packet-1-11-protocol-6/solution.md",
+      "verification": "The question asks which transport protocol IP number 6 represents, so answer TCP, not the numeric protocol identifier. Locally derived answer; accepted formatting untested. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 94,
+      "name": "EASY PACKET 1 #12  Who Sent It?",
+      "flag": "pcgCTF{128.222.228.85}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/094-easy-packet-1-12-who-sent-it/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 95,
+      "name": "EASY PACKET 1 #13  Where Is It Going?",
+      "flag": "pcgCTF{128.121.146.100}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/095-easy-packet-1-13-where-is-it-going/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 96,
+      "name": "EASY PACKET 1 #14  Ephemeral Source",
+      "flag": "pcgCTF{55872}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/096-easy-packet-1-14-ephemeral-source/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 97,
+      "name": "EASY PACKET 1 #15  Port 80",
+      "flag": "pcgCTF{80}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/097-easy-packet-1-15-port-80/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 98,
+      "name": "EASY PACKET 1 #16  TCP Sequence Marker",
+      "flag": "pcgCTF{3111702488}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/098-easy-packet-1-16-tcp-sequence-marker/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 99,
+      "name": "EASY PACKET 1 #17  TCP Acknowledgment Marker",
+      "flag": "pcgCTF{1790813139}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/099-easy-packet-1-17-tcp-acknowledgment-marker/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 101,
+      "name": "EASY PACKET 1 #19  TCP Window",
+      "flag": "pcgCTF{33088}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/101-easy-packet-1-19-tcp-window/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 104,
+      "name": "EASY PACKET 1 #22  GET the Resource",
+      "flag": "pcgCTF{GET}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/104-easy-packet-1-22-get-the-resource/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 105,
+      "name": "EASY PACKET 1 #23  The Requested Path",
+      "flag": "pcgCTF{/statuses/replies.xml}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/105-easy-packet-1-23-the-requested-path/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 106,
+      "name": "EASY PACKET 1 #24  HTTP/1.1",
+      "flag": "pcgCTF{HTTP/1.1}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/106-easy-packet-1-24-http-1-1/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 107,
+      "name": "EASY PACKET 1 #25  Know Your Host",
+      "flag": "pcgCTF{twitter.com}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/107-easy-packet-1-25-know-your-host/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 108,
+      "name": "EASY PACKET 1 #26  Identify the Client",
+      "flag": "pcgCTF{CFNetwork/330}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/108-easy-packet-1-26-identify-the-client/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 109,
+      "name": "EASY PACKET 1 #27  Keep the Connection",
+      "flag": "pcgCTF{keep-alive}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/109-easy-packet-1-27-keep-the-connection/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 110,
+      "name": "EASY PACKET 1 #28  Basic Authentication",
+      "flag": "pcgCTF{Basic}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/110-easy-packet-1-28-basic-authentication/solution.md",
+      "verification": "Packet value corroborated by our saved original-capture analysis; candidate spelling imported from Garcia. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 262,
+      "name": "ACT 1 - FIRST SIGNAL: Patient Zero",
+      "flag": "pcgCTF{172.16.8.49}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/solution.md",
+      "verification": "Original capture analysis agrees with Garcia\u2019s ACT identity value; teammate reports acceptance. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 263,
+      "name": "ACT 1 - FIRST SIGNAL: Hardware Fingerprint",
+      "flag": "pcgCTF{00:12:f0:28:d4:34}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/263-act-1-first-signal-hardware-fingerprint/solution.md",
+      "verification": "Original capture analysis agrees with Garcia\u2019s ACT identity value; teammate reports acceptance. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 264,
+      "name": "ACT 1 - FIRST SIGNAL: Name the Host",
+      "flag": "pcgCTF{DESKTOP-5NLV63K}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/264-act-1-first-signal-name-the-host/solution.md",
+      "verification": "Original capture analysis agrees with Garcia\u2019s ACT identity value; teammate reports acceptance. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 266,
+      "name": "ACT 1 - FIRST SIGNAL: Full Identity",
+      "flag": "pcgCTF{DESKTOP-5NLV63K.firsttolast.tech}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/266-act-1-first-signal-full-identity/solution.md",
+      "verification": "The question explicitly asks for the FQDN. Combine the DHCP/NBNS workstation name with the DNS domain. The bare hostname omits the requested domain. Locally derived answer; accepted formatting untested. Existing site-solved snapshot unchanged."
+    },
+    {
+      "id": 268,
+      "name": "ACT 2 - THE COMPROMISE: Infected IPV4",
+      "flag": "pcgCTF{10.2.28.88}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/solution.md",
+      "verification": "Original capture analysis agrees with Garcia\u2019s ACT identity value; teammate reports acceptance. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 269,
+      "name": "ACT 2 - THE COMPROMISE: VICTIM MAC",
+      "flag": "pcgCTF{00:19:d1:b2:4d:ad}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/269-act-2-the-compromise-victim-mac/solution.md",
+      "verification": "Original capture analysis agrees with Garcia\u2019s ACT identity value; teammate reports acceptance. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 270,
+      "name": "ACT 2 - THE COMPROMISE: VICTIM HOSTNAME",
+      "flag": "pcgCTF{DESKTOP-TEYQ2NR}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/270-act-2-the-compromise-victim-hostname/solution.md",
+      "verification": "Original capture analysis agrees with Garcia\u2019s ACT identity value; teammate reports acceptance. Existing solved snapshot unchanged."
+    },
+    {
+      "id": 271,
+      "name": "ACT 2 - THE COMPROMISE: Identify the User -User Account",
+      "flag": "pcgCTF{brolf}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/271-act-2-the-compromise-identify-the-user-user-account/solution.md",
+      "verification": "Original capture analysis agrees with Garcia\u2019s ACT identity value; teammate reports acceptance. Existing solved snapshot unchanged."
+    }
+  ],
+  "formatting_corrections": [
+    {
+      "id": 85,
+      "old_candidate": "pcgCTF{00:d0:bc:eb:e0:80}",
+      "new_candidate": "pcgCTF{00-D0-BC-EB-E0-80}"
+    },
+    {
+      "id": 86,
+      "old_candidate": "pcgCTF{00:1b:63:94:b1:0e}",
+      "new_candidate": "pcgCTF{00-1B-63-94-B1-0E}"
+    },
+    {
+      "id": 89,
+      "old_candidate": "pcgCTF{20}",
+      "new_candidate": "pcgCTF{20 bytes}"
+    },
+    {
+      "id": 90,
+      "old_candidate": "pcgCTF{504}",
+      "new_candidate": "pcgCTF{504 bytes}"
+    },
+    {
+      "id": 91,
+      "old_candidate": "pcgCTF{0xbed2}",
+      "new_candidate": "pcgCTF{48850}"
+    },
+    {
+      "id": 100,
+      "old_candidate": "pcgCTF{PSH_ACK}",
+      "new_candidate": "pcgCTF{PSH and ACK}"
+    },
+    {
+      "id": 111,
+      "old_candidate": "pcgCTF{usertest:password}",
+      "new_candidate": "pcgCTF{usertest/password}"
+    },
+    {
+      "id": 265,
+      "old_candidate": "pcgCTF{FIRSTTOLAST.TECH}",
+      "new_candidate": "pcgCTF{FIRSTTOLAST}"
+    }
+  ],
+  "unmapped_record": "unmapped-signals-from-the-skull.md",
+  "counts": {
+    "site_solved": 81,
+    "verified_solved": 11,
+    "flag_rejected": 1,
+    "flag_ready": 68,
+    "needs_work": 28,
+    "answer_only": 3
+  },
+  "site_snapshot_changed": false,
+  "new_platform_submissions": false,
+  "question_semantics_corrections": [
+    {
+      "id": 87,
+      "previous_import_candidate": "pcgCTF{0x0800}",
+      "corrected_candidate": "pcgCTF{IPv4}",
+      "reason": "The question asks which network protocol EtherType 0x0800 identifies, so answer IPv4, not the numeric EtherType."
+    },
+    {
+      "id": 93,
+      "previous_import_candidate": "pcgCTF{6}",
+      "corrected_candidate": "pcgCTF{TCP}",
+      "reason": "The question asks which transport protocol IP number 6 represents, so answer TCP, not the numeric protocol identifier."
+    },
+    {
+      "id": 266,
+      "previous_import_candidate": "pcgCTF{DESKTOP-5NLV63K}",
+      "corrected_candidate": "pcgCTF{DESKTOP-5NLV63K.firsttolast.tech}",
+      "reason": "The question explicitly asks for the FQDN. Combine the DHCP/NBNS workstation name with the DNS domain. The bare hostname omits the requested domain."
+    }
+  ]
+}

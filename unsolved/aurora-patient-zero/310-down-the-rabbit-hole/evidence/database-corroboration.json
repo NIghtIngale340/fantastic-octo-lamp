@@ -1,0 +1,25 @@
+[
+  {
+    "table": "medications",
+    "columns": [
+      "pid",
+      "medication_1",
+      "medication_1_dosage",
+      "medication_1_frequency",
+      "medication_2",
+      "medication_2_dosage",
+      "medication_2_frequency"
+    ],
+    "rows": [
+      [
+        847261,
+        "Ibuprofen",
+        "400 mg",
+        "Every 8 hours as needed",
+        "Candesartan",
+        "16 mg",
+        "Once daily"
+      ]
+    ]
+  }
+]

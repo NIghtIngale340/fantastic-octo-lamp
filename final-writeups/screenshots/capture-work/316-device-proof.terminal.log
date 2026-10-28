@@ -1,0 +1,14 @@
+[2J[HChallenge #316 — actual Emedra simulator result
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/emedra_evidence.py 316
+
+POST /api/kiosk/auth — documented factory training credentials
+{
+  "ok": true,
+  "token": "[REDACTED_SESSION_TOKEN]",
+  "tech": {
+    "name": "Service Technician"
+  },
+  "maintenanceToken": "deadface{d3fault_cr3ds_n3v3r_ch4ng3d}"
+}
+
+[Actual command exit code: 0]

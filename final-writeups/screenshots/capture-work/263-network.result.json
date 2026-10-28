@@ -1,0 +1,13 @@
+{
+  "key": "263-network",
+  "id": 263,
+  "title": "Challenge #263 \u2014 offline packet evidence",
+  "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49) && frame.number in {1884}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+  "filename": "263-decisive-evidence.png",
+  "purpose": "Fresh execution of the draft\u2019s field-specific TShark command.",
+  "exit_code": 0,
+  "started_at_unix": 1793216103.1447947,
+  "finished_at_unix": 1793216104.0536485,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/263-network.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

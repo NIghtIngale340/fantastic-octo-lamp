@@ -1,0 +1,7 @@
+[2J[HChallenge #271 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == "brolf" || samr.samr_UserInfo21.account_name == "brolf") && frame.number in {339}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name
+
+frame.number	ip.src	kerberos.CNameString	samr.samr_UserInfo21.account_name	samr.samr_UserInfo21.full_name
+339	10.2.28.2		brolf	Becka Rolf
+
+[Actual command exit code: 0]

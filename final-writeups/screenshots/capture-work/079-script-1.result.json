@@ -1,0 +1,13 @@
+{
+  "key": "079-script-1",
+  "id": 79,
+  "title": "Challenge #79 \u2014 actual evidence capture",
+  "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/079-capture-1.py",
+  "filename": "079-script-1.png",
+  "purpose": "Run the documented self-contained decoder/calculation on original inputs.",
+  "exit_code": 0,
+  "started_at_unix": 1793216325.935194,
+  "finished_at_unix": 1793216326.0280676,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/079-script-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

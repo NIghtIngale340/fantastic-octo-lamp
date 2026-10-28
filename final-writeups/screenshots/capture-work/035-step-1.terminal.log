@@ -1,0 +1,21 @@
+[2J[HChallenge #35 — actual evidence capture
+$ pdfinfo PCGCTF/solved/forensic/035-riddle-registry/files/confidential_2.pdf
+
+Author:          Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ==
+Producer:        kkr4m
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       186054 bytes
+Optimized:       no
+PDF version:     1.7
+
+[Actual command exit code: 0]

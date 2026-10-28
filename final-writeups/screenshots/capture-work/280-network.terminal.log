@@ -1,0 +1,7 @@
+[2J[HChallenge #280 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains "STRRAT") && frame.number in {9119}' -T fields -E header=y -e frame.number -e tcp.payload
+
+frame.number	tcp.payload
+9119	70696e677c5354525241547c31424538323932437c4445534b544f502d534b42523235467c63636f6c6c6965727c4d6963726f736f66742057696e646f77732031312050726f7c36342d6269747c57696e646f777320446566656e6465727c7c312e367c55533a556e69746564205374617465737c4e6f7420496e7374616c6c65647c3120536563
+
+[Actual command exit code: 0]

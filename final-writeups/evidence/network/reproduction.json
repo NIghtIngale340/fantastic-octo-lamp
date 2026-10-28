@@ -1,0 +1,1437 @@
+[
+  {
+    "id": 82,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.method -e http.host -e http.request.uri -e http.authorization",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.request.method",
+      "http.host",
+      "http.request.uri",
+      "http.authorization"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/082-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.request.method\thttp.host\thttp.request.uri\thttp.authorization\n1\tGET\ttwitter.com\t/statuses/replies.xml\tBasic dXNlcnRlc3Q6cGFzc3dvcmQ=\n"
+  },
+  {
+    "id": 83,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e frame.encap_type",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "frame.encap_type"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/083-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tframe.encap_type\n1\t1\n"
+  },
+  {
+    "id": 84,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/084-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\n1\n"
+  },
+  {
+    "id": 85,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e eth.dst",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "eth.dst"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/085-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.dst\n1\t00:d0:bc:eb:e0:80\n"
+  },
+  {
+    "id": 86,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e eth.src",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "eth.src"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/086-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.src\n1\t00:1b:63:94:b1:0e\n"
+  },
+  {
+    "id": 87,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e eth.type",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "eth.type"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/087-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.type\n1\t0x0800\n"
+  },
+  {
+    "id": 88,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.version",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "ip.version"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/088-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.version\n1\t4\n"
+  },
+  {
+    "id": 89,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.hdr_len",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "ip.hdr_len"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/089-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.hdr_len\n1\t20\n"
+  },
+  {
+    "id": 90,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.len",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "ip.len"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/090-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.len\n1\t504\n"
+  },
+  {
+    "id": 91,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.id",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "ip.id"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/091-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.id\n1\t0xbed2\n"
+  },
+  {
+    "id": 92,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.ttl",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "ip.ttl"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/092-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.ttl\n1\t64\n"
+  },
+  {
+    "id": 93,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.proto",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "ip.proto"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/093-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.proto\n1\t6\n"
+  },
+  {
+    "id": 94,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.src",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "ip.src"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/094-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.src\n1\t128.222.228.85\n"
+  },
+  {
+    "id": 95,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.dst",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "ip.dst"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/095-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.dst\n1\t128.121.146.100\n"
+  },
+  {
+    "id": 96,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.srcport",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "tcp.srcport"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/096-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.srcport\n1\t55872\n"
+  },
+  {
+    "id": 97,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.dstport",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "tcp.dstport"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/097-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.dstport\n1\t80\n"
+  },
+  {
+    "id": 98,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.seq_raw",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "tcp.seq_raw"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/098-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.seq_raw\n1\t3111702488\n"
+  },
+  {
+    "id": 99,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.ack_raw",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "tcp.ack_raw"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/099-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.ack_raw\n1\t1790813139\n"
+  },
+  {
+    "id": 100,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.flags -e tcp.flags.push -e tcp.flags.ack",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "tcp.flags",
+      "tcp.flags.push",
+      "tcp.flags.ack"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/100-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.flags\ttcp.flags.push\ttcp.flags.ack\n1\t0x0018\tTrue\tTrue\n"
+  },
+  {
+    "id": 101,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.window_size_value",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "tcp.window_size_value"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/101-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.window_size_value\n1\t33088\n"
+  },
+  {
+    "id": 102,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.flags.push -e tcp.flags.ack",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "tcp.flags.push",
+      "tcp.flags.ack"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/102-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.flags.push\ttcp.flags.ack\n1\tTrue\tTrue\n"
+  },
+  {
+    "id": 103,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e frame.protocols -e http.request.method",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "frame.protocols",
+      "http.request.method"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/103-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tframe.protocols\thttp.request.method\n1\teth:ethertype:ip:tcp:http\tGET\n"
+  },
+  {
+    "id": 104,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.method",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.request.method"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/104-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.request.method\n1\tGET\n"
+  },
+  {
+    "id": 105,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.uri",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.request.uri"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/105-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.request.uri\n1\t/statuses/replies.xml\n"
+  },
+  {
+    "id": 106,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.version",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.request.version"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/106-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.request.version\n1\tHTTP/1.1\n"
+  },
+  {
+    "id": 107,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.host",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.host"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/107-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.host\n1\ttwitter.com\n"
+  },
+  {
+    "id": 108,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.user_agent",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.user_agent"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/108-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.user_agent\n1\tCFNetwork/330\n"
+  },
+  {
+    "id": 109,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.connection",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.connection"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/109-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.connection\n1\tkeep-alive\n"
+  },
+  {
+    "id": 110,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.authorization",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.authorization"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/110-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.authorization\n1\tBasic dXNlcnRlc3Q6cGFzc3dvcmQ=\n"
+  },
+  {
+    "id": 111,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.authorization",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "http.authorization"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/111-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\thttp.authorization\n1\tBasic dXNlcnRlc3Q6cGFzc3dvcmQ=\n"
+  },
+  {
+    "id": 112,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "capture_sha256": "e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.dstport -e http.authorization",
+    "filter": "frame.number == 1",
+    "discovery_filter": "frame.number == 1",
+    "fields": [
+      "frame.number",
+      "tcp.dstport",
+      "http.authorization"
+    ],
+    "frames_requested": [
+      1
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/112-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.dstport\thttp.authorization\n1\t80\tBasic dXNlcnRlc3Q6cGFzc3dvcmQ=\n"
+  },
+  {
+    "id": 262,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap",
+    "capture_sha256": "0ea6b597732a9ce6af9a7e3adff4512c9a91b4bce27184c8fdeb746f05cce170",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request) && frame.number in {11227, 11714}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst -e http.host -e http.request.uri",
+    "filter": "(ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request) && frame.number in {11227, 11714}",
+    "discovery_filter": "ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "ip.dst",
+      "http.host",
+      "http.request.uri"
+    ],
+    "frames_requested": [
+      11227,
+      11714
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/262-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\teth.src\tip.src\tip.dst\thttp.host\thttp.request.uri\n11227\t00:12:f0:28:d4:34\t172.16.8.49\t146.59.71.167\twww.grinswakebthu.info\t/irpw/\n11714\t00:12:f0:28:d4:34\t172.16.8.49\t146.59.71.167\twww.grinswakebthu.info\t/irpw/?2kn1=kzCvvy54rrIQXFKjfYifb866d+M9hs2fv6bSi3WikvZmjVluebu6mUUhZtMb+2Gf6oxOm28aYOpkAiGzpoG3XIhyRfkkPR06YbIov6+BKgDj686nddFR9ZDwA1TR6R82KrYMll+QIfUC&kbBSJ=Ep6t_fJ_\n"
+  },
+  {
+    "id": 263,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap",
+    "capture_sha256": "0ea6b597732a9ce6af9a7e3adff4512c9a91b4bce27184c8fdeb746f05cce170",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49) && frame.number in {1884}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filter": "(ip.src == 172.16.8.49) && frame.number in {1884}",
+    "discovery_filter": "ip.src == 172.16.8.49",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "ip.dst"
+    ],
+    "frames_requested": [
+      1884
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/263-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.src\tip.src\tip.dst\n1884\t00:12:f0:28:d4:34\t172.16.8.49\t172.16.8.255\n"
+  },
+  {
+    "id": 264,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap",
+    "capture_sha256": "0ea6b597732a9ce6af9a7e3adff4512c9a91b4bce27184c8fdeb746f05cce170",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(dhcp.option.hostname == \"DESKTOP-5NLV63K\") && frame.number in {1828, 1830}' -T fields -E header=y -e frame.number -e eth.src -e dhcp.option.hostname",
+    "filter": "(dhcp.option.hostname == \"DESKTOP-5NLV63K\") && frame.number in {1828, 1830}",
+    "discovery_filter": "dhcp.option.hostname == \"DESKTOP-5NLV63K\"",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "dhcp.option.hostname"
+    ],
+    "frames_requested": [
+      1828,
+      1830
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/264-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\teth.src\tdhcp.option.hostname\n1828\t00:12:f0:28:d4:34\tDESKTOP-5NLV63K\n1830\t00:12:f0:28:d4:34\tDESKTOP-5NLV63K\n"
+  },
+  {
+    "id": 265,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap",
+    "capture_sha256": "0ea6b597732a9ce6af9a7e3adff4512c9a91b4bce27184c8fdeb746f05cce170",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.addr == 172.16.8.49 && kerberos) && frame.number in {1939, 1961}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e kerberos.realm",
+    "filter": "(ip.addr == 172.16.8.49 && kerberos) && frame.number in {1939, 1961}",
+    "discovery_filter": "ip.addr == 172.16.8.49 && kerberos",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "kerberos.CNameString",
+      "kerberos.realm"
+    ],
+    "frames_requested": [
+      1939,
+      1961
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/265-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\tip.src\tkerberos.CNameString\tkerberos.realm\n1939\t172.16.8.49\tdesktop-5nlv63k$\tFIRSTTOLAST.TECH\n1961\t172.16.8.8\tDESKTOP-5NLV63K$\tFIRSTTOLAST.TECH\n"
+  },
+  {
+    "id": 266,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap",
+    "capture_sha256": "0ea6b597732a9ce6af9a7e3adff4512c9a91b4bce27184c8fdeb746f05cce170",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49 && kerberos) && frame.number in {1939, 1961}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e kerberos.realm -e kerberos.SNameString",
+    "filter": "(ip.src == 172.16.8.49 && kerberos) && frame.number in {1939, 1961}",
+    "discovery_filter": "ip.src == 172.16.8.49 && kerberos",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "kerberos.CNameString",
+      "kerberos.realm",
+      "kerberos.SNameString"
+    ],
+    "frames_requested": [
+      1939,
+      1961
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/266-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.src\tkerberos.CNameString\tkerberos.realm\tkerberos.SNameString\n1939\t172.16.8.49\tdesktop-5nlv63k$\tFIRSTTOLAST.TECH\tkrbtgt,FIRSTTOLAST.TECH\n"
+  },
+  {
+    "id": 268,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap",
+    "capture_sha256": "3dc470f5490ec15b4024c513e87c67e0b17caeae2a2ce3d83541be24ef407e61",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(http.user_agent contains \"NetSupport\") && frame.number in {2638}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst -e http.user_agent -e http.request.uri",
+    "filter": "(http.user_agent contains \"NetSupport\") && frame.number in {2638}",
+    "discovery_filter": "http.user_agent contains \"NetSupport\"",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "ip.dst",
+      "http.user_agent",
+      "http.request.uri"
+    ],
+    "frames_requested": [
+      2638
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/268-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.src\tip.src\tip.dst\thttp.user_agent\thttp.request.uri\n2638\t00:19:d1:b2:4d:ad\t10.2.28.88\t45.131.214.85\tNetSupport Manager/1.3\thttp://45.131.214.85/fakeurl.htm\n"
+  },
+  {
+    "id": 269,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap",
+    "capture_sha256": "3dc470f5490ec15b4024c513e87c67e0b17caeae2a2ce3d83541be24ef407e61",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(ip.src == 10.2.28.88 && http.request) && frame.number in {2638}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filter": "(ip.src == 10.2.28.88 && http.request) && frame.number in {2638}",
+    "discovery_filter": "ip.src == 10.2.28.88 && http.request",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "ip.dst"
+    ],
+    "frames_requested": [
+      2638
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/269-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.src\tip.src\tip.dst\n2638\t00:19:d1:b2:4d:ad\t10.2.28.88\t45.131.214.85\n"
+  },
+  {
+    "id": 270,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap",
+    "capture_sha256": "3dc470f5490ec15b4024c513e87c67e0b17caeae2a2ce3d83541be24ef407e61",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y 'dhcp.option.hostname == \"DESKTOP-TEYQ2NR\" || nbns.name contains \"DESKTOP-TEYQ2NR\" || kerberos.CNameString contains \"teyq2nr\"' -d tcp.port==443,http -T fields -E header=y -e frame.number -e eth.src -e ip.src -e dhcp.option.hostname -e nbns.name -e kerberos.CNameString",
+    "filter": "dhcp.option.hostname == \"DESKTOP-TEYQ2NR\" || nbns.name contains \"DESKTOP-TEYQ2NR\" || kerberos.CNameString contains \"teyq2nr\"",
+    "discovery_filter": "dhcp.option.hostname == \"DESKTOP-TEYQ2NR\" || nbns.name contains \"DESKTOP-TEYQ2NR\" || kerberos.CNameString contains \"teyq2nr\"",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "dhcp.option.hostname",
+      "nbns.name",
+      "kerberos.CNameString"
+    ],
+    "frames_requested": [],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/270-fields.tsv",
+    "row_count": 10,
+    "output": "frame.number\teth.src\tip.src\tdhcp.option.hostname\tnbns.name\tkerberos.CNameString\n2\t00:19:d1:b2:4d:ad\t0.0.0.0\tDESKTOP-TEYQ2NR\t\t\n103\t00:19:d1:b2:4d:ad\t0.0.0.0\tDESKTOP-TEYQ2NR\t\t\n135\t00:19:d1:b2:4d:ad\t10.2.28.88\t\tDESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)\t\n136\t00:19:d1:b2:4d:ad\t10.2.28.88\t\tDESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)\t\n143\t00:19:d1:b2:4d:ad\t10.2.28.88\t\tDESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)\t\n144\t00:19:d1:b2:4d:ad\t10.2.28.88\t\tDESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)\t\n150\t00:19:d1:b2:4d:ad\t10.2.28.88\t\tDESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)\t\n151\t00:19:d1:b2:4d:ad\t10.2.28.88\t\tDESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)\t\n186\t00:19:d1:b2:4d:ad\t10.2.28.88\t\tDESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)\t\n187\t00:19:d1:b2:4d:ad\t10.2.28.88\t\tDESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)\t\n"
+  },
+  {
+    "id": 271,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap",
+    "capture_sha256": "3dc470f5490ec15b4024c513e87c67e0b17caeae2a2ce3d83541be24ef407e61",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == \"brolf\" || samr.samr_UserInfo21.account_name == \"brolf\") && frame.number in {339}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filter": "(kerberos.CNameString == \"brolf\" || samr.samr_UserInfo21.account_name == \"brolf\") && frame.number in {339}",
+    "discovery_filter": "kerberos.CNameString == \"brolf\" || samr.samr_UserInfo21.account_name == \"brolf\"",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "kerberos.CNameString",
+      "samr.samr_UserInfo21.account_name",
+      "samr.samr_UserInfo21.full_name"
+    ],
+    "frames_requested": [
+      339
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/271-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.src\tkerberos.CNameString\tsamr.samr_UserInfo21.account_name\tsamr.samr_UserInfo21.full_name\n339\t10.2.28.2\t\tbrolf\tBecka Rolf\n"
+  },
+  {
+    "id": 274,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "capture_sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e tcp.dstport -e tcp.payload",
+    "filter": "(tcp contains \"STRRAT\") && frame.number in {9119}",
+    "discovery_filter": "tcp contains \"STRRAT\"",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "ip.dst",
+      "tcp.dstport",
+      "tcp.payload"
+    ],
+    "frames_requested": [
+      9119
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/274-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.src\tip.dst\ttcp.dstport\ttcp.payload\n9119\t172.16.1.66\t141.98.10.79\t12132\t70696e677c5354525241547c31424538323932437c4445534b544f502d534b42523235467c63636f6c6c6965727c4d6963726f736f66742057696e646f77732031312050726f7c36342d6269747c57696e646f777320446566656e6465727c7c312e367c55533a556e69746564205374617465737c4e6f7420496e7374616c6c65647c3120536563\n"
+  },
+  {
+    "id": 275,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "capture_sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(frame.number == 9119) && frame.number in {9119}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filter": "(frame.number == 9119) && frame.number in {9119}",
+    "discovery_filter": "frame.number == 9119",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "ip.dst"
+    ],
+    "frames_requested": [
+      9119
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/275-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.src\tip.src\tip.dst\n9119\t00:1e:64:ec:f3:08\t172.16.1.66\t141.98.10.79\n"
+  },
+  {
+    "id": 267,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap",
+    "capture_sha256": "0ea6b597732a9ce6af9a7e3adff4512c9a91b4bce27184c8fdeb746f05cce170",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request) && frame.number in {11227, 11714}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e http.host -e http.request.uri -e http.user_agent",
+    "filter": "(ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request) && frame.number in {11227, 11714}",
+    "discovery_filter": "ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "ip.dst",
+      "http.host",
+      "http.request.uri",
+      "http.user_agent"
+    ],
+    "frames_requested": [
+      11227,
+      11714
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/267-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\tip.src\tip.dst\thttp.host\thttp.request.uri\thttp.user_agent\n11227\t172.16.8.49\t146.59.71.167\twww.grinswakebthu.info\t/irpw/\tMozilla/5.0 (Windows NT 6.2; rv:39.0) Gecko/20100101 Firefox/39.0\n11714\t172.16.8.49\t146.59.71.167\twww.grinswakebthu.info\t/irpw/?2kn1=kzCvvy54rrIQXFKjfYifb866d+M9hs2fv6bSi3WikvZmjVluebu6mUUhZtMb+2Gf6oxOm28aYOpkAiGzpoG3XIhyRfkkPR06YbIov6+BKgDj686nddFR9ZDwA1TR6R82KrYMll+QIfUC&kbBSJ=Ep6t_fJ_\tMozilla/5.0 (Windows NT 6.2; rv:39.0) Gecko/20100101 Firefox/39.0\n"
+  },
+  {
+    "id": 272,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap",
+    "capture_sha256": "3dc470f5490ec15b4024c513e87c67e0b17caeae2a2ce3d83541be24ef407e61",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(samr.samr_UserInfo21.account_name == \"brolf\") && frame.number in {339}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filter": "(samr.samr_UserInfo21.account_name == \"brolf\") && frame.number in {339}",
+    "discovery_filter": "samr.samr_UserInfo21.account_name == \"brolf\"",
+    "fields": [
+      "frame.number",
+      "samr.samr_UserInfo21.account_name",
+      "samr.samr_UserInfo21.full_name"
+    ],
+    "frames_requested": [
+      339
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/272-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tsamr.samr_UserInfo21.account_name\tsamr.samr_UserInfo21.full_name\n339\tbrolf\tBecka Rolf\n"
+  },
+  {
+    "id": 276,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "capture_sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e ip.src -e tcp.payload",
+    "filter": "(tcp contains \"STRRAT\") && frame.number in {9119}",
+    "discovery_filter": "tcp contains \"STRRAT\"",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "tcp.payload"
+    ],
+    "frames_requested": [
+      9119
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/276-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.src\ttcp.payload\n9119\t172.16.1.66\t70696e677c5354525241547c31424538323932437c4445534b544f502d534b42523235467c63636f6c6c6965727c4d6963726f736f66742057696e646f77732031312050726f7c36342d6269747c57696e646f777320446566656e6465727c7c312e367c55533a556e69746564205374617465737c4e6f7420496e7374616c6c65647c3120536563\n"
+  },
+  {
+    "id": 277,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "capture_sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == \"ccollier\" || samr.samr_UserInfo21.account_name == \"ccollier\") && frame.number in {913, 1070}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filter": "(kerberos.CNameString == \"ccollier\" || samr.samr_UserInfo21.account_name == \"ccollier\") && frame.number in {913, 1070}",
+    "discovery_filter": "kerberos.CNameString == \"ccollier\" || samr.samr_UserInfo21.account_name == \"ccollier\"",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "kerberos.CNameString",
+      "samr.samr_UserInfo21.account_name",
+      "samr.samr_UserInfo21.full_name"
+    ],
+    "frames_requested": [
+      913,
+      1070
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/277-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\tip.src\tkerberos.CNameString\tsamr.samr_UserInfo21.account_name\tsamr.samr_UserInfo21.full_name\n913\t172.16.1.66\tccollier\t\t\n1070\t172.16.1.4\t\tccollier\tClark Collier\n"
+  },
+  {
+    "id": 282,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap",
+    "capture_sha256": "f755444d0b6eac847e07b73dea0774084b232d8577f536547a12f39b959d7833",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(ip.dst == 153.92.1.49 && http.request) && frame.number in {24500, 25270}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e http.host -e http.request.uri",
+    "filter": "(ip.dst == 153.92.1.49 && http.request) && frame.number in {24500, 25270}",
+    "discovery_filter": "ip.dst == 153.92.1.49 && http.request",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "ip.dst",
+      "http.host",
+      "http.request.uri"
+    ],
+    "frames_requested": [
+      24500,
+      25270
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/282-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\tip.src\tip.dst\thttp.host\thttp.request.uri\n24500\t10.1.21.58\t153.92.1.49\twhitepepper.su\t/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Chrome\n25270\t10.1.21.58\t153.92.1.49\twhitepepper.su\t/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Edge\n"
+  },
+  {
+    "id": 283,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap",
+    "capture_sha256": "f755444d0b6eac847e07b73dea0774084b232d8577f536547a12f39b959d7833",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(ip.src == 10.1.21.58 && ip.dst == 153.92.1.49) && frame.number in {24500}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filter": "(ip.src == 10.1.21.58 && ip.dst == 153.92.1.49) && frame.number in {24500}",
+    "discovery_filter": "ip.src == 10.1.21.58 && ip.dst == 153.92.1.49",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "ip.dst"
+    ],
+    "frames_requested": [
+      24500
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/283-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.src\tip.src\tip.dst\n24500\t00:21:5d:c8:0e:f2\t10.1.21.58\t153.92.1.49\n"
+  },
+  {
+    "id": 289,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap",
+    "capture_sha256": "6971ca45f782265b10378d8331201b14704cd8525922fd89bb909fef3e788075",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.131 || ip.src == 10.3.14.134 || ip.src == 10.3.14.135) && frame.number in {6, 1684, 1771}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filter": "(ip.src == 10.3.14.131 || ip.src == 10.3.14.134 || ip.src == 10.3.14.135) && frame.number in {6, 1684, 1771}",
+    "discovery_filter": "ip.src == 10.3.14.131 || ip.src == 10.3.14.134 || ip.src == 10.3.14.135",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "ip.dst"
+    ],
+    "frames_requested": [
+      6,
+      1684,
+      1771
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/289-fields.tsv",
+    "row_count": 3,
+    "output": "frame.number\teth.src\tip.src\tip.dst\n6\t00:26:bb:4c:6b:e1\t10.3.14.135\t10.3.14.1\n1684\t14:da:e9:5b:42:1c\t10.3.14.134\t224.0.0.22\n1771\t00:25:64:18:4c:2a\t10.3.14.131\t224.0.0.22\n"
+  },
+  {
+    "id": 290,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap",
+    "capture_sha256": "6971ca45f782265b10378d8331201b14704cd8525922fd89bb909fef3e788075",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.131) && frame.number in {1771}' -T fields -E header=y -e frame.number -e eth.src -e ip.src",
+    "filter": "(ip.src == 10.3.14.131) && frame.number in {1771}",
+    "discovery_filter": "ip.src == 10.3.14.131",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src"
+    ],
+    "frames_requested": [
+      1771
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/290-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.src\tip.src\n1771\t00:25:64:18:4c:2a\t10.3.14.131\n"
+  },
+  {
+    "id": 291,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap",
+    "capture_sha256": "6971ca45f782265b10378d8331201b14704cd8525922fd89bb909fef3e788075",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.134) && frame.number in {1684, 1712}' -T fields -E header=y -e frame.number -e eth.src -e ip.src",
+    "filter": "(ip.src == 10.3.14.134) && frame.number in {1684, 1712}",
+    "discovery_filter": "ip.src == 10.3.14.134",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src"
+    ],
+    "frames_requested": [
+      1684,
+      1712
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/291-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\teth.src\tip.src\n1684\t14:da:e9:5b:42:1c\t10.3.14.134\n1712\t14:da:e9:5b:42:1c\t10.3.14.134\n"
+  },
+  {
+    "id": 292,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap",
+    "capture_sha256": "6971ca45f782265b10378d8331201b14704cd8525922fd89bb909fef3e788075",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.135) && frame.number in {6}' -T fields -E header=y -e frame.number -e eth.src -e ip.src",
+    "filter": "(ip.src == 10.3.14.135) && frame.number in {6}",
+    "discovery_filter": "ip.src == 10.3.14.135",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src"
+    ],
+    "frames_requested": [
+      6
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/292-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\teth.src\tip.src\n6\t00:26:bb:4c:6b:e1\t10.3.14.135\n"
+  },
+  {
+    "id": 273,
+    "capture": "/home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap",
+    "capture_sha256": "3dc470f5490ec15b4024c513e87c67e0b17caeae2a2ce3d83541be24ef407e61",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(http.user_agent contains \"NetSupport\") && frame.number in {2638}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e tcp.dstport -e http.request.uri -e http.user_agent",
+    "filter": "(http.user_agent contains \"NetSupport\") && frame.number in {2638}",
+    "discovery_filter": "http.user_agent contains \"NetSupport\"",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "ip.dst",
+      "tcp.dstport",
+      "http.request.uri",
+      "http.user_agent"
+    ],
+    "frames_requested": [
+      2638
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/273-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.src\tip.dst\ttcp.dstport\thttp.request.uri\thttp.user_agent\n2638\t10.2.28.88\t45.131.214.85\t443\thttp://45.131.214.85/fakeurl.htm\tNetSupport Manager/1.3\n"
+  },
+  {
+    "id": 278,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "capture_sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(frame.number == 10317 || frame.number == 9759 || frame.number == 1070) && frame.number in {9759, 10317, 1070}' -T fields -E header=y -e frame.number -e ldap.AttributeDescription -e ldap.AttributeValue -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filter": "(frame.number == 10317 || frame.number == 9759 || frame.number == 1070) && frame.number in {9759, 10317, 1070}",
+    "discovery_filter": "frame.number == 10317 || frame.number == 9759 || frame.number == 1070",
+    "fields": [
+      "frame.number",
+      "ldap.AttributeDescription",
+      "ldap.AttributeValue",
+      "samr.samr_UserInfo21.account_name",
+      "samr.samr_UserInfo21.full_name"
+    ],
+    "frames_requested": [
+      9759,
+      10317,
+      1070
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/278-fields.tsv",
+    "row_count": 3,
+    "output": "frame.number\tldap.AttributeDescription\tldap.AttributeValue\tsamr.samr_UserInfo21.account_name\tsamr.samr_UserInfo21.full_name\n1070\t\t\tccollier\tClark Collier\n9759\t\t436f6c6c696572,436c61726b\t\t\n10317\t\t434e3d436c61726b20436f6c6c6965722c434e3d55736572732c44433d77697265736861726b776f726b73686f702c44433d6f6e6c696e65,436c61726b20436f6c6c696572,434e3d506572736f6e2c434e3d536368656d612c434e3d436f6e66696775726174696f6e2c44433d77697265736861726b776f726b73686f702c44433d6f6e6c696e65\t\t\n"
+  },
+  {
+    "id": 279,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "capture_sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e tcp.dstport",
+    "filter": "(tcp contains \"STRRAT\") && frame.number in {9119}",
+    "discovery_filter": "tcp contains \"STRRAT\"",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "ip.dst",
+      "tcp.dstport"
+    ],
+    "frames_requested": [
+      9119
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/279-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tip.src\tip.dst\ttcp.dstport\n9119\t172.16.1.66\t141.98.10.79\t12132\n"
+  },
+  {
+    "id": 284,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap",
+    "capture_sha256": "f755444d0b6eac847e07b73dea0774084b232d8577f536547a12f39b959d7833",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(dhcp || (nbns && eth.src == 00:21:5d:c8:0e:f2)) && frame.number in {1, 2, 3, 4, 5}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e dhcp.option.hostname -e nbns.name",
+    "filter": "(dhcp || (nbns && eth.src == 00:21:5d:c8:0e:f2)) && frame.number in {1, 2, 3, 4, 5}",
+    "discovery_filter": "dhcp || (nbns && eth.src == 00:21:5d:c8:0e:f2)",
+    "fields": [
+      "frame.number",
+      "eth.src",
+      "ip.src",
+      "dhcp.option.hostname",
+      "nbns.name"
+    ],
+    "frames_requested": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/284-fields.tsv",
+    "row_count": 5,
+    "output": "frame.number\teth.src\tip.src\tdhcp.option.hostname\tnbns.name\n1\t00:21:5d:c8:0e:f2\t0.0.0.0\tDESKTOP-ES9F3ML\t\n2\t00:04:c1:be:8c:d4\t10.1.21.1\t\t\n3\t00:21:5d:c8:0e:f2\t0.0.0.0\tDESKTOP-ES9F3ML\t\n4\t00:04:c1:be:8c:d4\t10.1.21.1\t\t\n5\t00:21:5d:c8:0e:f2\t169.254.227.202\t\tDESKTOP-ES9F3ML<00>,DESKTOP-ES9F3ML<00> (Workstation/Redirector)\n"
+  },
+  {
+    "id": 285,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap",
+    "capture_sha256": "f755444d0b6eac847e07b73dea0774084b232d8577f536547a12f39b959d7833",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == \"gwyatt\" || samr.samr_UserInfo21.account_name == \"gwyatt\") && frame.number in {214, 358}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name",
+    "filter": "(kerberos.CNameString == \"gwyatt\" || samr.samr_UserInfo21.account_name == \"gwyatt\") && frame.number in {214, 358}",
+    "discovery_filter": "kerberos.CNameString == \"gwyatt\" || samr.samr_UserInfo21.account_name == \"gwyatt\"",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "kerberos.CNameString",
+      "samr.samr_UserInfo21.account_name"
+    ],
+    "frames_requested": [
+      214,
+      358
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/285-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\tip.src\tkerberos.CNameString\tsamr.samr_UserInfo21.account_name\n214\t10.1.21.58\tgwyatt\t\n358\t10.1.21.2\t\tgwyatt\n"
+  },
+  {
+    "id": 280,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "capture_sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e tcp.payload",
+    "filter": "(tcp contains \"STRRAT\") && frame.number in {9119}",
+    "discovery_filter": "tcp contains \"STRRAT\"",
+    "fields": [
+      "frame.number",
+      "tcp.payload"
+    ],
+    "frames_requested": [
+      9119
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/280-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.payload\n9119\t70696e677c5354525241547c31424538323932437c4445534b544f502d534b42523235467c63636f6c6c6965727c4d6963726f736f66742057696e646f77732031312050726f7c36342d6269747c57696e646f777320446566656e6465727c7c312e367c55533a556e69746564205374617465737c4e6f7420496e7374616c6c65647c3120536563\n"
+  },
+  {
+    "id": 286,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap",
+    "capture_sha256": "f755444d0b6eac847e07b73dea0774084b232d8577f536547a12f39b959d7833",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(samr.samr_UserInfo21.full_name) && frame.number in {358}' -T fields -E header=y -e frame.number -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filter": "(samr.samr_UserInfo21.full_name) && frame.number in {358}",
+    "discovery_filter": "samr.samr_UserInfo21.full_name",
+    "fields": [
+      "frame.number",
+      "samr.samr_UserInfo21.account_name",
+      "samr.samr_UserInfo21.full_name"
+    ],
+    "frames_requested": [
+      358
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/286-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\tsamr.samr_UserInfo21.account_name\tsamr.samr_UserInfo21.full_name\n358\tgwyatt\tGabriel Wyatt\n"
+  },
+  {
+    "id": 293,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap",
+    "capture_sha256": "6971ca45f782265b10378d8331201b14704cd8525922fd89bb909fef3e788075",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '((ip.src == 10.3.14.131 && http.host == \"spora.biz\") || (ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892))) && frame.number in {8820, 11043, 16762}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e udp.dstport -e http.host -e http.request.uri",
+    "filter": "((ip.src == 10.3.14.131 && http.host == \"spora.biz\") || (ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892))) && frame.number in {8820, 11043, 16762}",
+    "discovery_filter": "(ip.src == 10.3.14.131 && http.host == \"spora.biz\") || (ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892))",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "ip.dst",
+      "udp.dstport",
+      "http.host",
+      "http.request.uri"
+    ],
+    "frames_requested": [
+      8820,
+      11043,
+      16762
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/293-fields.tsv",
+    "row_count": 3,
+    "output": "frame.number\tip.src\tip.dst\tudp.dstport\thttp.host\thttp.request.uri\n8820\t10.3.14.134\t91.119.56.0\t6892\t\t\n11043\t10.3.14.134\t217.12.208.17\t\tp27dokhpz2n7nvgr.1nmrtq.top\t/3402-41D8-C680-0091-CCCF?iframe&_=1486782175308\n16762\t10.3.14.131\t186.2.163.47\t\tspora.biz\t/\n"
+  },
+  {
+    "id": 281,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "capture_sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e tcp.payload",
+    "filter": "(tcp contains \"STRRAT\") && frame.number in {9119}",
+    "discovery_filter": "tcp contains \"STRRAT\"",
+    "fields": [
+      "frame.number",
+      "tcp.payload"
+    ],
+    "frames_requested": [
+      9119
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/281-fields.tsv",
+    "row_count": 1,
+    "output": "frame.number\ttcp.payload\n9119\t70696e677c5354525241547c31424538323932437c4445534b544f502d534b42523235467c63636f6c6c6965727c4d6963726f736f66742057696e646f77732031312050726f7c36342d6269747c57696e646f777320446566656e6465727c7c312e367c55533a556e69746564205374617465737c4e6f7420496e7374616c6c65647c3120536563\n"
+  },
+  {
+    "id": 287,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap",
+    "capture_sha256": "f755444d0b6eac847e07b73dea0774084b232d8577f536547a12f39b959d7833",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(dns.a == 153.92.1.49 || (ip.dst == 153.92.1.49 && http.request)) && frame.number in {23723, 24500}' -T fields -E header=y -e frame.number -e dns.qry.name -e dns.a -e http.host -e ip.dst",
+    "filter": "(dns.a == 153.92.1.49 || (ip.dst == 153.92.1.49 && http.request)) && frame.number in {23723, 24500}",
+    "discovery_filter": "dns.a == 153.92.1.49 || (ip.dst == 153.92.1.49 && http.request)",
+    "fields": [
+      "frame.number",
+      "dns.qry.name",
+      "dns.a",
+      "http.host",
+      "ip.dst"
+    ],
+    "frames_requested": [
+      23723,
+      24500
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/287-fields.tsv",
+    "row_count": 2,
+    "output": "frame.number\tdns.qry.name\tdns.a\thttp.host\tip.dst\n23723\twhitepepper.su\t153.92.1.49\t\t10.1.21.58\n24500\t\t\twhitepepper.su\t153.92.1.49\n"
+  },
+  {
+    "id": 294,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap",
+    "capture_sha256": "6971ca45f782265b10378d8331201b14704cd8525922fd89bb909fef3e788075",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.131 && http.host == \"spora.biz\") && frame.number in {16762, 16772, 16979}' -T fields -E header=y -e frame.number -e ip.src -e http.host -e http.request.uri",
+    "filter": "(ip.src == 10.3.14.131 && http.host == \"spora.biz\") && frame.number in {16762, 16772, 16979}",
+    "discovery_filter": "ip.src == 10.3.14.131 && http.host == \"spora.biz\"",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "http.host",
+      "http.request.uri"
+    ],
+    "frames_requested": [
+      16762,
+      16772,
+      16979
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/294-fields.tsv",
+    "row_count": 3,
+    "output": "frame.number\tip.src\thttp.host\thttp.request.uri\n16762\t10.3.14.131\tspora.biz\t/\n16772\t10.3.14.131\tspora.biz\t/\n16979\t10.3.14.131\tspora.biz\t/\n"
+  },
+  {
+    "id": 295,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap",
+    "capture_sha256": "6971ca45f782265b10378d8331201b14704cd8525922fd89bb909fef3e788075",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892)) && frame.number in {8820, 11043, 16354}' -T fields -E header=y -e frame.number -e ip.src -e udp.dstport -e http.host -e http.request.uri",
+    "filter": "(ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892)) && frame.number in {8820, 11043, 16354}",
+    "discovery_filter": "ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892)",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "udp.dstport",
+      "http.host",
+      "http.request.uri"
+    ],
+    "frames_requested": [
+      8820,
+      11043,
+      16354
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/295-fields.tsv",
+    "row_count": 3,
+    "output": "frame.number\tip.src\tudp.dstport\thttp.host\thttp.request.uri\n8820\t10.3.14.134\t6892\t\t\n11043\t10.3.14.134\t\tp27dokhpz2n7nvgr.1nmrtq.top\t/3402-41D8-C680-0091-CCCF?iframe&_=1486782175308\n16354\t10.3.14.134\t\tp27dokhpz2n7nvgr.1nmrtq.top\t/3402-41D8-C680-0091-CCCF\n"
+  },
+  {
+    "id": 288,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap",
+    "capture_sha256": "f755444d0b6eac847e07b73dea0774084b232d8577f536547a12f39b959d7833",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(ip.dst == 153.92.1.49 && http.request.uri contains \"/api/set_agent\") && frame.number in {24500, 24601, 25270, 25286}' -T fields -E header=y -e frame.number -e http.host -e http.request.uri",
+    "filter": "(ip.dst == 153.92.1.49 && http.request.uri contains \"/api/set_agent\") && frame.number in {24500, 24601, 25270, 25286}",
+    "discovery_filter": "ip.dst == 153.92.1.49 && http.request.uri contains \"/api/set_agent\"",
+    "fields": [
+      "frame.number",
+      "http.host",
+      "http.request.uri"
+    ],
+    "frames_requested": [
+      24500,
+      24601,
+      25270,
+      25286
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/288-fields.tsv",
+    "row_count": 4,
+    "output": "frame.number\thttp.host\thttp.request.uri\n24500\twhitepepper.su\t/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Chrome\n24601\twhitepepper.su\t/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Chrome&act=log\n25270\twhitepepper.su\t/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Edge\n25286\twhitepepper.su\t/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Edge&act=log\n"
+  },
+  {
+    "id": 296,
+    "capture": "/home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap",
+    "capture_sha256": "6971ca45f782265b10378d8331201b14704cd8525922fd89bb909fef3e788075",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.135) && frame.number in {6, 1350, 2055}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e dns.qry.name -e http.host -e http.user_agent",
+    "filter": "(ip.src == 10.3.14.135) && frame.number in {6, 1350, 2055}",
+    "discovery_filter": "ip.src == 10.3.14.135",
+    "fields": [
+      "frame.number",
+      "ip.src",
+      "ip.dst",
+      "dns.qry.name",
+      "http.host",
+      "http.user_agent"
+    ],
+    "frames_requested": [
+      6,
+      1350,
+      2055
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout_path": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/network/296-fields.tsv",
+    "row_count": 3,
+    "output": "frame.number\tip.src\tip.dst\tdns.qry.name\thttp.host\thttp.user_agent\n6\t10.3.14.135\t10.3.14.1\t1-courier.sandbox.push.apple.com\t\t\n1350\t10.3.14.135\t17.254.32.16\t\twu-calculator.apple.com\tSpotlightNetHelper/917.36 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)\n2055\t10.3.14.135\t10.3.14.1\twww.reddit.com\t\t\n"
+  }
+]

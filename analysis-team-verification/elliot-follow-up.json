@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-28T23:28:11+08:00",
+  "id": 74,
+  "previous_status": "needs_work",
+  "status": "flag_ready",
+  "flag_candidate": "pcgCTF{hello_Elliot}",
+  "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/steganography-forensics/074-elliot-s-secret-stash/solution.md",
+  "evidence": "/home/nightingale/CTF/PCGCTF/unsolved/steganography-forensics/074-elliot-s-secret-stash/evidence/verification.json",
+  "counts": {
+    "site_solved": 81,
+    "verified_solved": 11,
+    "flag_rejected": 1,
+    "flag_ready": 69,
+    "needs_work": 28,
+    "answer_only": 2
+  },
+  "platform_submitted": false
+}

@@ -1,0 +1,13 @@
+{
+  "key": "075-ntfs",
+  "id": 75,
+  "title": "Challenge #75 \u2014 actual evidence capture",
+  "command": "mmls /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/winsock32.dll; fls -r -o 128 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/winsock32.dll",
+  "filename": "075-ntfs-stream-list.png",
+  "purpose": "Actual partition/NTFS stream listing from original archive.",
+  "exit_code": 0,
+  "started_at_unix": 1793216352.6936686,
+  "finished_at_unix": 1793216352.816544,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/075-ntfs.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

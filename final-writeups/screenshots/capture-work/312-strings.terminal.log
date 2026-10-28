@@ -1,0 +1,8 @@
+[2J[HChallenge #312 — actual evidence capture
+$ strings -n 4 '/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/Aurora Health Mobile' | rg -i 'gw-westlake|gateway|Aurora Diagnostics'
+
+gw-westlake-int-03
+Last Gateway Check
+Aurora Diagnostics
+
+[Actual command exit code: 0]

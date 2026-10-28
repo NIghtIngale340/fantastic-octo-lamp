@@ -1,0 +1,13 @@
+{
+  "key": "001-hash-check",
+  "id": 1,
+  "title": "Challenge #1 \u2014 actual evidence capture",
+  "command": "python -c \"h='530d378bd60243f41d169aad7cd238ae816a6ee3';print('Digest:',h);print('Hex length:',len(h));print('SHA-1 candidate: 160 bits; preimage remains unrecovered')\"",
+  "filename": "001-digest-evidence.png",
+  "purpose": "Inspect original hash, without pretending the unknown plaintext was recovered.",
+  "exit_code": 0,
+  "started_at_unix": 1793216324.9018764,
+  "finished_at_unix": 1793216324.994244,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/001-hash-check.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

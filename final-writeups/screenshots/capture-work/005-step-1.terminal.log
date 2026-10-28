@@ -1,0 +1,14 @@
+[2J[HChallenge #5 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+text=Path('PCGCTF/solved/cryptography/005-silent-signal/README.md').read_text()
+s=text.split('we intercepted the code via our oldest comms')[1].split('welcome')[0].strip()
+codes='.- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..'.split()
+m=dict(zip(codes,'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
+answer='_'.join(''.join(m[t] for t in word.split()) for word in s.split('/'))
+print(answer)
+PY
+
+CYBER_SECURITY_IS_EVERYONES_RESPONSIBILITY
+
+[Actual command exit code: 0]

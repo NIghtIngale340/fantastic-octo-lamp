@@ -1,0 +1,38 @@
+[2J[HChallenge #318 — actual Emedra simulator result
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/emedra_evidence.py 318
+
+Authenticated and connected the Live Linux training tool.
+{
+  "ok": true,
+  "windowType": "terminal",
+  "token": "[REDACTED_SESSION_TOKEN]"
+}
+
+Simulator shell command: cat README.txt
+{
+  "stdout": "Emedra field service - Ubuntu Live\n===================================\n\nThe scanner's internal storage is NOT encrypted.\nList the block devices with `lsblk`, then mount the data partition:\n\n    sudo mount /dev/sda2 /mnt\n\nThe ScanWorks install lives under /mnt/opt/scanworks.\n",
+  "stderr": "",
+  "exit": 0,
+  "cwd": "/home/ubuntu",
+  "clear": false
+}
+
+Simulator shell command: sudo mount /dev/sda2 /mnt
+{
+  "stdout": "",
+  "stderr": "",
+  "exit": 0,
+  "cwd": "/home/ubuntu",
+  "clear": false
+}
+
+Simulator shell command: cat /mnt/opt/scanworks/config.yaml
+{
+  "stdout": "# Emedra ScanWorks - runtime configuration\n# Generated at commissioning. DO NOT edit by hand.\nsite_id: stdymphna-rmc-01\nupstream: https://api.emedra.example/v2\n\n# Upstream API key (service account). TODO: move to secrets store before GA.\napi_key: deadface{h4rdc0d3d_k3ys_1n_th3_c0nf1g}\n\nintegrity:\n  salt: EM-2019          # calibration signature salt\n\ndebug_console:\n  enabled: true\n  function: debug.dump\n  tables: [patients, calibration, audit]\n",
+  "stderr": "",
+  "exit": 0,
+  "cwd": "/home/ubuntu",
+  "clear": false
+}
+
+[Actual command exit code: 0]

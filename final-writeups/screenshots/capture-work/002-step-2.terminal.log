@@ -1,0 +1,6 @@
+[2J[HChallenge #2 — actual evidence capture
+$ exiftool -s3 -Make 'PCGCTF/solved/cryptography/002-picture-perfect-evidence/files/cydex (1).jpg'
+
+Iphone17PROMaxFULLYPAID
+
+[Actual command exit code: 0]

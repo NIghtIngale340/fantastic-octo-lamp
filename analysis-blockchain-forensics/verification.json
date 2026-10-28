@@ -1,0 +1,30 @@
+{
+  "bad_blockchain": {
+    "answer": "192.168.200.48",
+    "transactions": [
+      {
+        "block": 696255,
+        "txid": "27bf9358822ef3ae44391950379e9206319e3bb3866d44bd9595a0e7cbdc2ca8",
+        "index": 0,
+        "satoshis": 43200,
+        "bytes": "c0a8000000000000"
+      },
+      {
+        "block": 696256,
+        "txid": "4a616f943720325cc87611bf4a3bbcf2b5071baf5aab9a0ffbb9297371377c41",
+        "index": 1,
+        "satoshis": 12488,
+        "bytes": "c830000000000000"
+      }
+    ],
+    "decoded_bytes": "c0a8c830"
+  },
+  "to_the_moon": {
+    "wallet": "1NFoSEcGq4XwEbaXmio5yYaakbX5Gtia4R",
+    "txid": "e22990a8494a2c22c8ab68c6288164fb084885ca3dad68b149da9e296ec67af5",
+    "output_index": 1,
+    "script": "6a1f666c61677b496e6630533363426c30636b636834316e416e346c797331357d",
+    "recovered_flag": "flag{Inf0S3cBl0ckch41nAn4lys15}"
+  },
+  "checks": "Raw transaction IDs, output amounts/scripts, chronological ordering, IP bytes, and OP_RETURN length independently verified. Platform acceptance unconfirmed."
+}

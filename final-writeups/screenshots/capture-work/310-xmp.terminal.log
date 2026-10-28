@@ -1,0 +1,6 @@
+[2J[HChallenge #310 — actual evidence capture
+$ exiftool -a -G1 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/aurora_chest_xray.jpg | rg -i 'identifier|PID|847261'
+
+[XMP-dc]        Identifier                      : PID-847261
+
+[Actual command exit code: 0]

@@ -1,0 +1,4 @@
+frame.number	ip.src	http.host	http.request.uri
+16762	10.3.14.131	spora.biz	/
+16772	10.3.14.131	spora.biz	/
+16979	10.3.14.131	spora.biz	/

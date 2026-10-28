@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-10-28",
+  "scope": [
+    309,
+    310,
+    312,
+    75,
+    122
+  ],
+  "results": [
+    {
+      "id": 309,
+      "answer": "Mara Voss; 1988-04-17",
+      "flag_candidate": "deadface{Mara-Voss-1988-04-17}",
+      "confidence": "high",
+      "verdict": "supported",
+      "evidence": [
+        "Original Info.plist AuroraPatientBootstrap decoded with plistlib/base64/JSON",
+        "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/309-info-leaks/evidence/patient-bootstrap.json",
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/aurora-rea-evidence.json"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/309-info-leaks/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown."
+      ]
+    },
+    {
+      "id": 310,
+      "answer": "847261",
+      "flag_candidate": "deadface{847261}",
+      "confidence": "high",
+      "verdict": "supported",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/310-down-the-rabbit-hole/evidence/xray-metadata.xmp",
+        "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/310-down-the-rabbit-hole/evidence/database-corroboration.json"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/310-down-the-rabbit-hole/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown."
+      ]
+    },
+    {
+      "id": 312,
+      "answer": "gw-westlake-int-03",
+      "flag_candidate": "deadface{gw-westlake-int-03}",
+      "confidence": "high",
+      "verdict": "supported",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/aurora-rea-evidence.json",
+        "ev_0745d9ce2e4004ae34aeecbb779fa55c6063564dad5864cc49c3447d06f4df54: DiagnosticInfo.items links Sync Gateway label with the gateway value"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/312-back-to-basics/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown.",
+        "Static analysis; no iOS runtime or live gateway verification."
+      ]
+    },
+    {
+      "id": 75,
+      "answer": "flag{me0w_hia!}",
+      "flag_candidate": "pcgCTF{me0w_hia!}",
+      "confidence": "high",
+      "verdict": "supported",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/evidence/flag.jpg",
+        "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/evidence/partition-table.txt",
+        "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/evidence/ntfs-files.txt",
+        "icat export matches exact carved bytes"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown.",
+        "Raw image prefix flag converted to requested pcgCTF wrapper."
+      ]
+    },
+    {
+      "id": 122,
+      "answer": "73dbb9f2bac263e70119eb5e22d79e029e03a27e",
+      "flag_candidate": "pcgCTF{73dbb9f2bac263e70119eb5e22d79e029e03a27e}",
+      "confidence": "high for documented flag algorithm; runtime unobserved",
+      "verdict": "supported",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/unsolved/reconnaissance/122-pcgctf-juice-shop-gateway/evidence/flag-derivation.json",
+        "https://raw.githubusercontent.com/juice-shop/juice-shop/master/lib/utils.ts",
+        "https://raw.githubusercontent.com/juice-shop/juice-shop/master/lib/challengeUtils.ts",
+        "https://raw.githubusercontent.com/juice-shop/juice-shop/master/data/static/challenges.yml"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/reconnaissance/122-pcgctf-juice-shop-gateway/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown.",
+        "Configured Docker image was not run or observed; current official source plus supplied key establishes deterministic derivation.",
+        "Compose image tag is unpinned."
+      ]
+    }
+  ]
+}

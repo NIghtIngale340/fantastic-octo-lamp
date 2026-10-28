@@ -1,0 +1,3 @@
+frame.number	ip.src	ip.dst	http.host	http.request.uri	http.user_agent
+11227	172.16.8.49	146.59.71.167	www.grinswakebthu.info	/irpw/	Mozilla/5.0 (Windows NT 6.2; rv:39.0) Gecko/20100101 Firefox/39.0
+11714	172.16.8.49	146.59.71.167	www.grinswakebthu.info	/irpw/?2kn1=kzCvvy54rrIQXFKjfYifb866d+M9hs2fv6bSi3WikvZmjVluebu6mUUhZtMb+2Gf6oxOm28aYOpkAiGzpoG3XIhyRfkkPR06YbIov6+BKgDj686nddFR9ZDwA1TR6R82KrYMll+QIfUC&kbBSJ=Ep6t_fJ_	Mozilla/5.0 (Windows NT 6.2; rv:39.0) Gecko/20100101 Firefox/39.0

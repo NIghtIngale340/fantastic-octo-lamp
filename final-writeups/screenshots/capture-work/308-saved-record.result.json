@@ -1,0 +1,13 @@
+{
+  "key": "308-saved-record",
+  "id": 308,
+  "title": "Challenge #308 \u2014 actual evidence capture",
+  "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-act4-act5/handyman24-dns.json",
+  "filename": "308-saved-evidence.png",
+  "purpose": "Actual display of retained packet/DNS evidence; source date remains the recorded verification date.",
+  "exit_code": 0,
+  "started_at_unix": 1793216459.3310015,
+  "finished_at_unix": 1793216459.3933256,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/308-saved-record.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

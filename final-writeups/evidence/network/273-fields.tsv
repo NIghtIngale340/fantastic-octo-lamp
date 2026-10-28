@@ -1,0 +1,2 @@
+frame.number	ip.src	ip.dst	tcp.dstport	http.request.uri	http.user_agent
+2638	10.2.28.88	45.131.214.85	443	http://45.131.214.85/fakeurl.htm	NetSupport Manager/1.3

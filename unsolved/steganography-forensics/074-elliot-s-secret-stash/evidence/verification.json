@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "size": 41305817,
+    "sha256": "22d4b44c6c707122b7a57c22e8ab2ad09883e7018b3fff8ac1f3c7352469c7d9"
+  },
+  "wav_member": "Dubwreckerz - Digital Revolution (Anonymous VIP).wav",
+  "wav": {
+    "size": 43534318,
+    "sha256": "19c87c40e184e3a338a87dc8a13faf611f1359fb4cf7adcb74096bc054fbc865"
+  },
+  "wav_data_offset": 46,
+  "deepsound_header": "445343460400",
+  "mode": "normal-quality (4)",
+  "encrypted": false,
+  "record_filename": "digital revolut.mp4",
+  "record_length": 8857850,
+  "decoded_payload_offset": 38,
+  "closing_marker_offset": 8857890,
+  "payload": {
+    "size": 8857850,
+    "sha256": "69bf7d4fa71f3274dda897ffde1a6e929bace7a429ce1eb60f09d029779c4001"
+  },
+  "visible_flag": "flag{hello_Elliot}",
+  "flag_candidate": "pcgCTF{hello_Elliot}",
+  "visual_evidence": "flag-frame-39s.png",
+  "flag_observation": "Visually read from video frame; not claimed to be plaintext in the MP4 bytes.",
+  "platform_accepted": false
+}

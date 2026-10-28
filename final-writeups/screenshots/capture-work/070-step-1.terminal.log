@@ -1,0 +1,7 @@
+[2J[HChallenge #70 — actual evidence capture
+$ tshark -n -r PCGCTF/solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap -Y http -T fields -e frame.number -e http.request.uri -e http.content_type
+
+11	/password.zip	
+13	/password.zip	application/zip
+
+[Actual command exit code: 0]

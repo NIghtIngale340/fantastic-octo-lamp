@@ -1,0 +1,13 @@
+{
+  "key": "337-artifact-inventory",
+  "id": 337,
+  "title": "Challenge #337 \u2014 actual evidence capture",
+  "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/337-cereal-killer-04 -maxdepth 2 -type f -printf '%P\n'",
+  "filename": "337-actual-artifact-inventory.png",
+  "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result.",
+  "exit_code": 0,
+  "started_at_unix": 1793217233.6678045,
+  "finished_at_unix": 1793217233.7301264,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/337-artifact-inventory.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

@@ -1,0 +1,45 @@
+[2J[HChallenge #298 — actual evidence capture
+$ python -m json.tool /home/nightingale/CTF/PCGCTF/analysis-team-verification/public-source-observations.json
+
+[
+    {
+        "url": "https://bazaar.abuse.ch/sample/c9e5bb7a368280d771edcfdb33717a3130560d2bb71773ab1aaffe0eb585fd2c/",
+        "retrieved_at": "2026-10-28T15:16:36.867097+00:00",
+        "observations": {
+            "sha256": "c9e5bb7a368280d771edcfdb33717a3130560d2bb71773ab1aaffe0eb585fd2c",
+            "signature": "NetSupport",
+            "tags": [
+                "45-131-214-85",
+                "NetSupport",
+                "vadusa-xyz"
+            ],
+            "c2": "45.131.214.85:443"
+        },
+        "retrieval": "Independently opened with web tool; locally fetched HTML may contain anti-bot page, so these are recorded observations, not a claim that the HTML is a complete sample record."
+    },
+    {
+        "url": "https://www.malware-traffic-analysis.net/2026/02/28/index.html",
+        "observations": {
+            "ioc": "45.131.214.85:443",
+            "family": "NetSupport Manager RAT"
+        }
+    },
+    {
+        "url": "https://threatfox.abuse.ch/ioc/1755776/",
+        "observations": {
+            "ioc": "45.131.214.85:443",
+            "family": "NetSupportManager RAT",
+            "alias": "NetSupport",
+            "sample_sha256": "c9e5bb7a368280d771edcfdb33717a3130560d2bb71773ab1aaffe0eb585fd2c"
+        }
+    },
+    {
+        "url": "https://www.malware-traffic-analysis.net/2026/01/31/index.html",
+        "observations": {
+            "ioc": "153.92.1.49:80",
+            "alert": "ET MALWARE Lumma Stealer Victim Fingerprinting Activity"
+        }
+    }
+]
+
+[Actual command exit code: 0]

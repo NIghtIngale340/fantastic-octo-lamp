@@ -1,0 +1,17 @@
+[2J[HChallenge #78 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+import re,base64
+s=Path('PCGCTF/solved/forensics-email-analysis/078-intercepted/files/intercepted.txt').read_text()
+c=base64.b64decode(re.search(r'^X-Spam-Signature: (.+)$',s,re.M)[1])
+k=bytes.fromhex(re.search(r'^X-Spam-Validator: (.+)$',s,re.M)[1])
+p=bytes(b^k[i%len(k)] for i,b in enumerate(c))
+print(k.decode());print(p.decode())
+PY
+
+key-to-the-kingdom
+We are meeting at 5 pm opposite the left side trashcan next to the entrance of Fakecity Train Station. Bring the tools.
+
+flag{something_is_about_to_happen}
+
+[Actual command exit code: 0]

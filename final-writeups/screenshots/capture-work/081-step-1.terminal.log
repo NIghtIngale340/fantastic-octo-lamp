@@ -1,0 +1,31 @@
+[2J[HChallenge #81 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+from PIL import Image
+p=Path('PCGCTF/final-writeups/evidence-solved/81/ctf')
+for f in p.iterdir():
+    im=Image.open(f);print(f.name,im.size,im.format)
+PY
+
+01.jpg (225, 225) JPEG
+02.jpg (225, 225) JPEG
+03.jpg (316, 308) JPEG
+04.jpg (385, 459) JPEG
+05.jpg (433, 512) JPEG
+06.jpg (533, 613) JPEG
+07.jpg (535, 600) JPEG
+08.jpg (567, 563) JPEG
+09.jpg (640, 480) JPEG
+10.jpeg (820, 388) JPEG
+11.jpg (840, 1072) JPEG
+12.jpg (860, 494) JPEG
+13.jpg (860, 505) JPEG
+14.jpg (860, 506) JPEG
+15.jpg (860, 562) JPEG
+16.jpg (860, 570) JPEG
+17.jpg (900, 669) JPEG
+18.jpg (900, 812) JPEG
+19.jpg (1000, 1000) JPEG
+20.png (1000, 848) PNG
+
+[Actual command exit code: 0]

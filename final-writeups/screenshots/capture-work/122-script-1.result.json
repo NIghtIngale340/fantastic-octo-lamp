@@ -1,0 +1,13 @@
+{
+  "key": "122-script-1",
+  "id": 122,
+  "title": "Challenge #122 \u2014 actual evidence capture",
+  "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/122-capture-1.py",
+  "filename": "122-script-1.png",
+  "purpose": "Run the documented self-contained decoder/calculation on original inputs.",
+  "exit_code": 0,
+  "started_at_unix": 1793216339.5812194,
+  "finished_at_unix": 1793216339.7645035,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/122-script-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

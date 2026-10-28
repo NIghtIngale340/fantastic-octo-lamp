@@ -1,0 +1,33 @@
+{
+  "id": 253,
+  "answer": "Andrew Knowlton",
+  "flag_candidate": "pcgCTF{Andrew Knowlton}",
+  "confidence": "high",
+  "verdict": "confirmed_answer",
+  "verified_at": "2026-10-28",
+  "platform_accepted": false,
+  "evidence": [
+    "This challenge has no separate attachment and refers to the restaurant identified in previous challenge #252. Inspected that saved restaurant image, showing Katz\u2019s Delicatessen interior.",
+    "Bon App\u00e9tit\u2019s own video page describes editor Andrew Knowlton working a24-hour shift at Katz\u2019s Delicatessen in New York City. Its transcript also identifies him. This directly answers the editor question."
+  ],
+  "inputs": [
+    {
+      "path": "solved/osint-imint/252-reverse-image-restaurant/files/task6_1602348602115.jpg",
+      "sha256": "ab68f0d511ca900ae45f1ff0a2e1f3201d41352e2780cdf42081da0051856f58",
+      "size": 36057
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bon App\u00e9tit original video",
+      "url": "https://www.bonappetit.com/video/watch/working-24-hours-straight-at-new-york-most-iconic-deli"
+    },
+    {
+      "title": "Bon App\u00e9tit author profile",
+      "url": "https://www.bonappetit.com/person/andrew-knowlton"
+    }
+  ],
+  "limitations": [
+    "Relies on the intended shared restaurant evidence from #252; #253 has no separate image. Platform acceptance untested."
+  ]
+}

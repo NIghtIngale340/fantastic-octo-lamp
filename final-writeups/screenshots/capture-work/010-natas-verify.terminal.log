@@ -1,0 +1,10 @@
+[2J[HChallenge #10 — actual evidence capture
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 10 verify
+
+Authenticated account: natas5
+URL: http://natas5.natas.labs.overthewire.org/
+HTTP status: 200
+Response SHA-256: caa909ae0346016d34d5b62e3eda7b03e0016d80beacec48dd32afc08901023c
+Password intentionally not printed.
+
+[Actual command exit code: 0]

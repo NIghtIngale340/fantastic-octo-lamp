@@ -1,0 +1,57 @@
+[
+  {
+    "id": 327,
+    "query": "SELECT dea_schedule, COUNT(*) AS drug_count\nFROM aurora_pharmacy.drugs\nGROUP BY dea_schedule;",
+    "filename": "327-step-02.png"
+  },
+  {
+    "id": 326,
+    "query": "SELECT patient_id, mrn, first_name, last_name, alias, is_vip\nFROM aurora_ehr.patients\nWHERE is_vip = 1;",
+    "filename": "326-step-02.png"
+  },
+  {
+    "id": 328,
+    "query": "SELECT e.encounter_id, e.encounter_type, e.admit_date, e.discharge_date,\n       p.provider_id, p.first_name, p.last_name, p.username\nFROM aurora_ehr.encounters e\nJOIN aurora_ehr.patients v ON v.patient_id=e.patient_id\nJOIN aurora_ehr.providers p ON p.provider_id=e.attending_provider_id\nWHERE v.is_vip=1 AND e.encounter_type='Inpatient'\n  AND e.admit_date >= '2025-11-01' AND e.admit_date < '2025-12-01';",
+    "filename": "328-step-02.png"
+  },
+  {
+    "id": 329,
+    "query": "SELECT u.user_id, u.username, u.role, COUNT(*) AS accesses\nFROM aurora_audit.access_log a\nJOIN aurora_audit.users u ON u.user_id=a.user_id\nWHERE a.patient_mrn='AH-0044719'\nGROUP BY u.user_id,u.username,u.role\nORDER BY accesses DESC;",
+    "filename": "329-step-02.png"
+  },
+  {
+    "id": 330,
+    "query": "SELECT change_id, record_ref, field_name, old_value, new_value,\n       changed_by, changed_at, reason\nFROM aurora_trials.data_changes\nWHERE field_name='primary_efficacy_delta'\nORDER BY changed_at;",
+    "filename": "330-step-02.png"
+  },
+  {
+    "id": 331,
+    "query": "SELECT p.prescriber_id,p.first_name,p.last_name,p.dea_number,\n       SUM(d.quantity_dispensed) AS total\nFROM aurora_pharmacy.dispenses d\nJOIN aurora_pharmacy.prescriptions rx ON rx.rx_id=d.rx_id\nJOIN aurora_pharmacy.drugs g ON g.drug_id=rx.drug_id\nJOIN aurora_pharmacy.prescribers p ON p.prescriber_id=rx.prescriber_id\nWHERE g.dea_schedule='II'\n  AND d.dispensed_at >= '2025-10-01'\n  AND d.dispensed_at < '2026-01-01'\nGROUP BY p.prescriber_id,p.first_name,p.last_name,p.dea_number\nORDER BY total DESC\nLIMIT 5;",
+    "filename": "331-step-02.png"
+  },
+  {
+    "id": 332,
+    "query": "SELECT u.handler_ref,u.username,p.provider_id\nFROM aurora_audit.users u\nJOIN aurora_ehr.providers p\n ON UPPER(TRIM(u.handler_ref))=UPPER(TRIM(p.handler_ref))\nWHERE u.handler_ref IS NOT NULL AND TRIM(u.handler_ref)<>'';",
+    "filename": "332-step-02.png"
+  },
+  {
+    "id": 333,
+    "query": "SELECT s.subject_code,r.visit,r.value,r.recorded_at,r.modified_by,\n       r.modified_at,st.data_lock_date\nFROM aurora_trials.results r\nJOIN aurora_trials.subjects s ON s.subject_id=r.subject_id\nJOIN aurora_trials.studies st ON st.study_id=s.study_id\nWHERE r.measure='primary_efficacy_delta'\n  AND r.modified_at >= st.data_lock_date\nORDER BY r.modified_at;",
+    "filename": "333-step-02.png"
+  },
+  {
+    "id": 334,
+    "query": "SELECT p.patient_id,p.mrn,p.first_name,p.last_name,\n       COUNT(DISTINCT rx.rx_id) AS rx_count\nFROM aurora_pharmacy.prescriptions rx\nJOIN aurora_pharmacy.drugs d ON d.drug_id=rx.drug_id\nJOIN aurora_ehr.patients p ON p.patient_id=rx.patient_id\nWHERE d.dea_schedule='II'\n  AND NOT EXISTS (SELECT 1 FROM aurora_ehr.encounters e\n                  WHERE e.patient_id=rx.patient_id)\nGROUP BY p.patient_id,p.mrn,p.first_name,p.last_name;",
+    "filename": "334-step-02.png"
+  },
+  {
+    "id": 335,
+    "query": "SELECT s.subject_code,s.arm,r.value,\n ROUND((r.value-st.m)/st.sd,2) AS z_score\nFROM aurora_trials.results r\nJOIN aurora_trials.subjects s ON s.subject_id=r.subject_id\nCROSS JOIN (SELECT AVG(value) AS m,STDDEV_POP(value) AS sd\n            FROM aurora_trials.results\n            WHERE measure='primary_efficacy_delta') st\nWHERE r.measure='primary_efficacy_delta'\nORDER BY z_score DESC;",
+    "filename": "335-step-02.png"
+  },
+  {
+    "id": 336,
+    "query": "SELECT u.user_id,u.username,COUNT(*) AS collisions\nFROM (SELECT user_id,accessed_at\n      FROM aurora_audit.access_log\n      GROUP BY user_id,accessed_at\n      HAVING COUNT(DISTINCT workstation)>1) t\nJOIN aurora_audit.users u ON u.user_id=t.user_id\nGROUP BY u.user_id,u.username\nORDER BY collisions DESC;",
+    "filename": "336-step-02.png"
+  }
+]

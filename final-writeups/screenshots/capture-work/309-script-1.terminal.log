@@ -1,0 +1,6 @@
+[2J[HChallenge #309 — actual evidence capture
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/309-capture-1.py
+
+{'patientName': 'Mara Voss', 'dateOfBirth': '1988-04-17', 'clinic': 'Westlake'}
+
+[Actual command exit code: 0]

@@ -1,0 +1,8 @@
+[2J[HChallenge #74 — actual evidence capture
+$ python /home/nightingale/CTF/PCGCTF/unsolved/steganography-forensics/074-elliot-s-secret-stash/solve.py
+
+Recovered digital revolut.mp4: 8857850 bytes
+Visual flag: flag{hello_Elliot}
+Submission candidate: pcgCTF{hello_Elliot}
+
+[Actual command exit code: 0]

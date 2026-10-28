@@ -1,0 +1,34 @@
+{
+  "id": 256,
+  "answer": "Lady Justice",
+  "flag_candidate": "pcgCTF{Lady Justice}",
+  "confidence": "high",
+  "verdict": "confirmed_answer",
+  "verified_at": "2026-10-28",
+  "platform_accepted": false,
+  "evidence": [
+    "Supplied image depicts a blindfolded woman with raised arms, scales in both hands and billowing robes in front of the courthouse windows.",
+    "U.S.General Services Administration\u2019s official art collection identifies this sculpture at A.V.Bryan U.S.Courthouse as Justice Delayed, Justice Denied by Raymond Kaskey. Its description confirms that the depicted figure is Justice, blindfolded and holding scales in each hand.",
+    "Independently inspected Tim Evanson\u2019s original photograph of the same statue, showing the same facial features, blindfold, hand grips, paired scales and drapery. Photographer calls the figure Blind Justice. For the requested character, Lady Justice is appropriate; the artwork title is a separate fact."
+  ],
+  "inputs": [
+    {
+      "path": "unsolved/osint-imint/256-justice-character/files/task8_1603365958159.png",
+      "sha256": "d0292206ce5bdead4c4ff3a65b085b0680d0391214d53eb8a95f9e84080532b0",
+      "size": 436040
+    }
+  ],
+  "sources": [
+    {
+      "title": "GSA official artwork record",
+      "url": "https://art.gsa.gov/objects/21667/justice-delayed-justice-denied"
+    },
+    {
+      "title": "Original photograph by Tim Evanson",
+      "url": "https://www.flickr.com/photos/timevanson/6830726642"
+    }
+  ],
+  "limitations": [
+    "Lady Justice identifies the character. Justice Delayed, Justice Denied is the artwork title; Themis is a related classical figure, not needed as a fallback assumption. Platform acceptance untested."
+  ]
+}

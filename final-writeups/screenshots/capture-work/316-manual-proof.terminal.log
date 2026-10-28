@@ -1,0 +1,26 @@
+[2J[HChallenge #316 — actual public field-manual excerpt
+$ pdftotext /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/cs9000-field-service-manual.pdf - | rg -n -A 8 -B 2 'Default technician account|emedra-svc|ChangeMe'
+
+39-asset label affixed to the unit chassis.
+40-
+41:2.3 Default technician account
+42-The unit ships with a factory technician account so engineers can complete first-boot setup. Use these credentials at the
+43-ScanWorks sign-in screen:
+44-
+45-Username:
+46-
+47:emedra-svc
+48-
+49-Password:
+50-
+51:ChangeMe!2019
+52-
+53-IMPORTANT: Change this password on first boot per site security policy (NeuraOS > Maintenance > Accounts).
+54-Leaving the factory password in place is a security risk and violates Emedra deployment guidelines.
+55-If the default password has already been changed and is unknown, perform an account recovery from the USB-C
+56-maintenance port using the Emedra service dongle (see Section 4).
+57-
+58-Emedra Medical - support.emedra.example - CONFIDENTIAL
+59-
+
+[Actual command exit code: 0]

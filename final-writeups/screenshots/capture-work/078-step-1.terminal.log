@@ -1,0 +1,7 @@
+[2J[HChallenge #78 — actual evidence capture
+$ grep -E '^X-Spam-(Signature|Validator):' PCGCTF/solved/forensics-email-analysis/078-intercepted/files/intercepted.txt
+
+X-Spam-Signature: PABZTAYKDRkNAFkCBwlHBRtNXkUJQFQAXQQHFkQfDE4TDApNBwAfWVQcRBANRVkZCB0PBw4DSwscVQBPWRtIEUUOSQsJEB0MBQYcDRsJDTIJDkgIABoeRDsfCgwXDScbTAABCkNFSSwVDQEKSxERSFQbQhsEFgNhYwgLBQgWGAoUSAAHRBoPOkQYNg8FCxoZNBEWchwOXQQNC1A=
+X-Spam-Validator: 6b65792d746f2d7468652d6b696e67646f6d
+
+[Actual command exit code: 0]

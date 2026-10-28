@@ -1,0 +1,7 @@
+[2J[HChallenge #36 — actual evidence capture
+$ git -c safe.directory=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/git036/drop-in -C /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/git036/drop-in log --oneline --all
+
+[33m144fdc4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m remove sensitive info
+[33m7d3aa55[m create flag
+
+[Actual command exit code: 0]

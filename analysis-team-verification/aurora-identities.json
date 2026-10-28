@@ -1,0 +1,22 @@
+{
+  "outer_zip_sha256": "b3b5f8b6492ccb082c1bc26fa2fdddd033b07072f96aca23a233beb731211bfa",
+  "ipa_sha256": "142e70d4f1db8eaca3f7e88cf446d442724472379196bcada7ad56531ce3b8db",
+  "members": {
+    "Info.plist": {
+      "sha256": "fca63c0a7bfc3bc51633bd2ddc79d59f6d73d4221b4d71b7590fc95b4a5c14be",
+      "bytes": 1626
+    },
+    "aurora_chest_xray.jpg": {
+      "sha256": "332f27ab49f5f4a4d0388e0b7aa22e4b4322a716477a0cbd7608d44c3d1b846b",
+      "bytes": 309080
+    },
+    "aurora_meds.sqlite": {
+      "sha256": "585b75933f848a0590c3f66467ebf7a437478936bc2b21c9163e80ce794ed2e5",
+      "bytes": 24576
+    },
+    "Aurora Health Mobile": {
+      "sha256": "017cf57640359bd4b0c03da2e4a311d8a405595bd028cb5ba55934a2d6c19658",
+      "bytes": 490128
+    }
+  }
+}

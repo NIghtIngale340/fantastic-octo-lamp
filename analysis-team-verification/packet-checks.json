@@ -1,0 +1,60 @@
+[
+  {
+    "name": "netsupport-http",
+    "path": "PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap",
+    "sha256": "3dc470f5490ec15b4024c513e87c67e0b17caeae2a2ce3d83541be24ef407e61",
+    "filter": "ip.dst==45.131.214.85 && http.request",
+    "count": 264,
+    "fields": [
+      "frame.number",
+      "ip.dst",
+      "tcp.dstport",
+      "http.request.method",
+      "http.host",
+      "http.request.uri",
+      "http.user_agent"
+    ],
+    "first": [
+      "2638\t45.131.214.85\t443\tPOST\t45.131.214.85\thttp://45.131.214.85/fakeurl.htm\tNetSupport Manager/1.3",
+      "2640\t45.131.214.85\t443\tPOST\t45.131.214.85\thttp://45.131.214.85/fakeurl.htm\tNetSupport Manager/1.3"
+    ],
+    "stderr": ""
+  },
+  {
+    "name": "strrat-beacons",
+    "path": "PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap",
+    "sha256": "c48854c24223cf7b4e9880ea72a21a877e4138e4ce36df7b7656e5c6c4043f68",
+    "filter": "ip.dst==141.98.10.79 && tcp contains \"STRRAT\"",
+    "count": 102,
+    "fields": [
+      "frame.number",
+      "ip.dst",
+      "tcp.dstport",
+      "data.data"
+    ],
+    "first": [
+      "9119\t141.98.10.79\t12132\t70696e677c5354525241547c31424538323932437c4445534b544f502d534b42523235467c63636f6c6c6965727c4d6963726f736f66742057696e646f77732031312050726f7c36342d6269747c57696e646f777320446566656e6465727c7c312e367c55533a556e69746564205374617465737c4e6f7420496e7374616c6c65647c3120536563",
+      "9352\t141.98.10.79\t12132\t70696e677c5354525241547c31424538323932437c4445534b544f502d534b42523235467c63636f6c6c6965727c4d6963726f736f66742057696e646f77732031312050726f7c36342d6269747c57696e646f777320446566656e6465727c7c312e367c55533a556e69746564205374617465737c4e6f7420496e7374616c6c65647c3720536563"
+    ],
+    "stderr": ""
+  },
+  {
+    "name": "lumma-domain",
+    "path": "PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap",
+    "sha256": "f755444d0b6eac847e07b73dea0774084b232d8577f536547a12f39b959d7833",
+    "filter": "ip.dst==153.92.1.49 && http.request",
+    "count": 6,
+    "fields": [
+      "frame.number",
+      "ip.dst",
+      "tcp.dstport",
+      "http.host",
+      "http.request.uri"
+    ],
+    "first": [
+      "24500\t153.92.1.49\t80\twhitepepper.su\t/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Chrome",
+      "24601\t153.92.1.49\t80\twhitepepper.su\t/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Chrome&act=log"
+    ],
+    "stderr": ""
+  }
+]

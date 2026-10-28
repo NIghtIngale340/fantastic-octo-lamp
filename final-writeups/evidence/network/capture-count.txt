@@ -1,0 +1,3 @@
+File name:           /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap
+File type:           Wireshark/tcpdump/... - pcap
+Number of packets:   1

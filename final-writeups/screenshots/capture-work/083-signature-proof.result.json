@@ -1,0 +1,13 @@
+{
+  "key": "083-signature-proof",
+  "id": 83,
+  "title": "Challenge #83 \u2014 original capture format",
+  "command": "xxd -l 24 /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap && capinfos -t -c /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+  "filename": "083-file-signature.png",
+  "purpose": "Actual magic bytes and independent capture file classification; encapsulation alone does not identify the container.",
+  "exit_code": 0,
+  "started_at_unix": 1793218236.1844199,
+  "finished_at_unix": 1793218236.2470052,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/083-signature-proof.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

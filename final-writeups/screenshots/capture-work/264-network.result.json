@@ -1,0 +1,13 @@
+{
+  "key": "264-network",
+  "id": 264,
+  "title": "Challenge #264 \u2014 offline packet evidence",
+  "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(dhcp.option.hostname == \"DESKTOP-5NLV63K\") && frame.number in {1828, 1830}' -T fields -E header=y -e frame.number -e eth.src -e dhcp.option.hostname",
+  "filename": "264-decisive-evidence.png",
+  "purpose": "Fresh execution of the draft\u2019s field-specific TShark command.",
+  "exit_code": 0,
+  "started_at_unix": 1793216104.193142,
+  "finished_at_unix": 1793216104.951688,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/264-network.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

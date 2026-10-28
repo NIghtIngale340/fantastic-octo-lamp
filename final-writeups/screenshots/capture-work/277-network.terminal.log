@@ -1,0 +1,8 @@
+[2J[HChallenge #277 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == "ccollier" || samr.samr_UserInfo21.account_name == "ccollier") && frame.number in {913, 1070}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name
+
+frame.number	ip.src	kerberos.CNameString	samr.samr_UserInfo21.account_name	samr.samr_UserInfo21.full_name
+913	172.16.1.66	ccollier		
+1070	172.16.1.4		ccollier	Clark Collier
+
+[Actual command exit code: 0]

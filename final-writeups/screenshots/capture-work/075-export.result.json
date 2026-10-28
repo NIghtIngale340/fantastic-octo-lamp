@@ -1,0 +1,13 @@
+{
+  "key": "075-export",
+  "id": 75,
+  "title": "Challenge #75 \u2014 actual evidence capture",
+  "command": "icat -o 128 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/winsock32.dll 40-128-3 > /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg && file /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg && sha256sum /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg",
+  "filename": "075-ntfs-export.png",
+  "purpose": "Actual named stream export and original-payload hash.",
+  "exit_code": 0,
+  "started_at_unix": 1793216360.8302846,
+  "finished_at_unix": 1793216360.9226902,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/075-export.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

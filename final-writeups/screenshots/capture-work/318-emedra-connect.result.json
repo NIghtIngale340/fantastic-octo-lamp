@@ -1,0 +1,13 @@
+{
+  "key": "318-emedra-connect",
+  "id": 318,
+  "title": "Challenge #318 \u2014 actual evidence capture",
+  "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://emedra.dctf.io:8080/api/kiosk/login",
+  "filename": "318-actual-device-response.png",
+  "purpose": "Actual device service response; authentication/port actions require a reachable intended endpoint.",
+  "exit_code": 0,
+  "started_at_unix": 1793217280.7376952,
+  "finished_at_unix": 1793217281.404748,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/318-emedra-connect.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

@@ -1,0 +1,13 @@
+{
+  "key": "278-network",
+  "id": 278,
+  "title": "Challenge #278 \u2014 offline packet evidence",
+  "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(frame.number == 10317 || frame.number == 9759 || frame.number == 1070) && frame.number in {9759, 10317, 1070}' -T fields -E header=y -e frame.number -e ldap.AttributeDescription -e ldap.AttributeValue -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+  "filename": "278-decisive-evidence.png",
+  "purpose": "Fresh execution of the draft\u2019s field-specific TShark command.",
+  "exit_code": 0,
+  "started_at_unix": 1793216120.6045823,
+  "finished_at_unix": 1793216121.121254,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/278-network.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

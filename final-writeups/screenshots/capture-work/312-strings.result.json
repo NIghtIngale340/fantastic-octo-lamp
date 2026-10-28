@@ -1,0 +1,13 @@
+{
+  "key": "312-strings",
+  "id": 312,
+  "title": "Challenge #312 \u2014 actual evidence capture",
+  "command": "strings -n 4 '/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/Aurora Health Mobile' | rg -i 'gw-westlake|gateway|Aurora Diagnostics'",
+  "filename": "312-actual-binary-strings.png",
+  "purpose": "Actual original executable string triage; label/value code role remains grounded in retained static-analysis dossier.",
+  "exit_code": 0,
+  "started_at_unix": 1793217291.7436275,
+  "finished_at_unix": 1793217291.8059483,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/312-strings.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

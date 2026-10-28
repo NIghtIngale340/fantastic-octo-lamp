@@ -1,0 +1,7 @@
+[2J[HChallenge #75 — actual evidence capture
+$ icat -o 128 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/winsock32.dll 40-128-3 > /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg && file /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg && sha256sum /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg
+
+/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=0], progressive, precision 8, 285x177, components 3
+f513d38515dc97946983a6b036c6a56a59f1d084831e7cd790342ad8b178428e  /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg
+
+[Actual command exit code: 0]

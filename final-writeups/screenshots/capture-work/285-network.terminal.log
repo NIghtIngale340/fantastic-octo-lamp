@@ -1,0 +1,8 @@
+[2J[HChallenge #285 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == "gwyatt" || samr.samr_UserInfo21.account_name == "gwyatt") && frame.number in {214, 358}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name
+
+frame.number	ip.src	kerberos.CNameString	samr.samr_UserInfo21.account_name
+214	10.1.21.58	gwyatt	
+358	10.1.21.2		gwyatt
+
+[Actual command exit code: 0]

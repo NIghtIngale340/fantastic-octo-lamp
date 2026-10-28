@@ -1,0 +1,14 @@
+[
+  {
+    "id": 79,
+    "answer": "FLAG LANGUAGE",
+    "flag_candidate": "pcgCTF{FLAG LANGUAGE}",
+    "confidence": "high",
+    "evidence": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/sequence-extraction.json"
+    ],
+    "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/cryptography-encoding/079-sequence/solution.md",
+    "limitations": "Recovered both words directly. Exact platform acceptance and whitespace normalization remain untested.",
+    "verdict": "supported-corrected"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "http://10.56.102.240:4280/",
+    "checked_at": "2026-10-28T15:55:42.340278+00:00",
+    "method": "GET",
+    "timeout_seconds": 12,
+    "allow_redirects": false,
+    "error_type": "ConnectTimeout",
+    "error": "HTTPConnectionPool(host='10.56.102.240', port=4280): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f488c71b620>, 'Connection to 10.56.102.240 timed out. (connect timeout=12)'))"
+  },
+  {
+    "url": "http://10.56.102.240:4280/robots.txt",
+    "checked_at": "2026-10-28T15:55:42.340811+00:00",
+    "method": "GET",
+    "timeout_seconds": 12,
+    "allow_redirects": false,
+    "error_type": "ConnectTimeout",
+    "error": "HTTPConnectionPool(host='10.56.102.240', port=4280): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f488c5f2ad0>, 'Connection to 10.56.102.240 timed out. (connect timeout=12)'))"
+  },
+  {
+    "url": "http://flag1.cgcybercom.online/",
+    "checked_at": "2026-10-28T15:55:42.341138+00:00",
+    "method": "GET",
+    "timeout_seconds": 12,
+    "allow_redirects": false,
+    "error_type": "ConnectionError",
+    "error": "HTTPConnectionPool(host='flag1.cgcybercom.online', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f488c5f2fd0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "url": "http://flag1.cgcybercom.online/robots.txt",
+    "checked_at": "2026-10-28T15:55:42.341593+00:00",
+    "method": "GET",
+    "timeout_seconds": 12,
+    "allow_redirects": false,
+    "error_type": "ConnectionError",
+    "error": "HTTPConnectionPool(host='flag1.cgcybercom.online', port=80): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f488c5ed350>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "url": "http://flag1.cgcybercom.online/repo/.git/HEAD",
+    "checked_at": "2026-10-28T15:55:42.345750+00:00",
+    "method": "GET",
+    "timeout_seconds": 12,
+    "allow_redirects": false,
+    "error_type": "ConnectionError",
+    "error": "HTTPConnectionPool(host='flag1.cgcybercom.online', port=80): Max retries exceeded with url: /repo/.git/HEAD (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f488c5ede00>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "url": "http://flag.cgcybercom.online/",
+    "checked_at": "2026-10-28T15:55:42.346565+00:00",
+    "method": "GET",
+    "timeout_seconds": 12,
+    "allow_redirects": false,
+    "error_type": "ConnectionError",
+    "error": "HTTPConnectionPool(host='flag.cgcybercom.online', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f488c5e3530>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "url": "http://flag.cgcybercom.online/admin-map",
+    "checked_at": "2026-10-28T15:55:42.347456+00:00",
+    "method": "GET",
+    "timeout_seconds": 12,
+    "allow_redirects": false,
+    "error_type": "ConnectionError",
+    "error": "HTTPConnectionPool(host='flag.cgcybercom.online', port=80): Max retries exceeded with url: /admin-map (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f488c57c270>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  },
+  {
+    "url": "http://flag2.cgcybercom.online/index.php",
+    "checked_at": "2026-10-28T15:55:42.348650+00:00",
+    "method": "GET",
+    "timeout_seconds": 12,
+    "allow_redirects": false,
+    "error_type": "ConnectionError",
+    "error": "HTTPConnectionPool(host='flag2.cgcybercom.online', port=80): Max retries exceeded with url: /index.php (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f488c57cc00>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+  }
+]

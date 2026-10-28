@@ -1,0 +1,8 @@
+[2J[HChallenge #67 — actual offline reproduction
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/067-reproduce.py
+
+512 65537
+False False
+1 True
+
+[Actual command exit code: 0]

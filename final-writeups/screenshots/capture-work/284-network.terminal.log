@@ -1,0 +1,11 @@
+[2J[HChallenge #284 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(dhcp || (nbns && eth.src == 00:21:5d:c8:0e:f2)) && frame.number in {1, 2, 3, 4, 5}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e dhcp.option.hostname -e nbns.name
+
+frame.number	eth.src	ip.src	dhcp.option.hostname	nbns.name
+1	00:21:5d:c8:0e:f2	0.0.0.0	DESKTOP-ES9F3ML	
+2	00:04:c1:be:8c:d4	10.1.21.1		
+3	00:21:5d:c8:0e:f2	0.0.0.0	DESKTOP-ES9F3ML	
+4	00:04:c1:be:8c:d4	10.1.21.1		
+5	00:21:5d:c8:0e:f2	169.254.227.202		DESKTOP-ES9F3ML<00>,DESKTOP-ES9F3ML<00> (Workstation/Redirector)
+
+[Actual command exit code: 0]

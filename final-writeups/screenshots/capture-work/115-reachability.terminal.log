@@ -1,0 +1,6 @@
+[2J[HChallenge #115 — actual evidence capture
+$ curl --connect-timeout 3 --max-time 6 -sS -D - http://flag1.cgcybercom.online/
+
+curl: (7) Failed to connect to flag1.cgcybercom.online:80 after 74 ms: Could not connect to server
+
+[Actual command exit code: 7]

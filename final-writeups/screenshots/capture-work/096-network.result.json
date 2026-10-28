@@ -1,0 +1,13 @@
+{
+  "key": "096-network",
+  "id": 96,
+  "title": "Challenge #96 \u2014 offline packet evidence",
+  "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.srcport",
+  "filename": "096-decisive-evidence.png",
+  "purpose": "Fresh execution of the draft\u2019s field-specific TShark command.",
+  "exit_code": 0,
+  "started_at_unix": 1793216272.1520946,
+  "finished_at_unix": 1793216272.551098,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/096-network.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

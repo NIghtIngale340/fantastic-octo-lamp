@@ -1,0 +1,14 @@
+{
+  "source_sha256": "8c661ce249161b4f3da08e5866dbf0cfc3cd352912bb066600368c5060c4ff2d",
+  "ciphertext": "TZX6C, C01B 1B T BVAT5U4XW UD44XC16. B01YC TVA7BB T VDBC75 T480TUXC (T-I T6W J-S).\nAXV7EXA C0X 01WWX6 V7WX C7 8A7VXXW: Y4TZ{VTXBTA_B01YC_KS_T46D5}\n",
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+  "decryption_shift": -19,
+  "plaintext": "AGENT, THIS IS A SCRAMBLED BULLETIN. SHIFT ACROSS A CUSTOM ALPHABET (A-Z AND 0-9).\nRECOVER THE HIDDEN CODE TO PROCEED: FLAG{CAESAR_SHIFT_19_ALNUM}\n",
+  "reencoded_equals_original": true,
+  "rejected_candidates": [
+    "pcgCTF{CAESAR_SHIFT_19_ALNUM}",
+    "FLAG{CAESAR_SHIFT_19_ALNUM}",
+    "pcgCTF{caesar_shift_19_alnum}"
+  ],
+  "rejection_provenance": "First two reported rejected by user; third prior assistant site test returned Incorrect. Original rejection screenshot is no longer present on disk."
+}

@@ -1,0 +1,13 @@
+{
+  "key": "320-step-1",
+  "id": 320,
+  "title": "Challenge #320 \u2014 actual evidence capture",
+  "command": "python - <<'PY'\nimport sqlite3\np='/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/Hooked-History.sqlite'\nc=sqlite3.connect('file:'+p+'?mode=ro',uri=True)\nfor r in c.execute('SELECT id,url,title,last_visit_time FROM urls ORDER BY id'):print(r)\nPY",
+  "filename": "320-step-01.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216292.0915382,
+  "finished_at_unix": 1793216292.2142642,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/320-step-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

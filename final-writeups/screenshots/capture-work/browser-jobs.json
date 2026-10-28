@@ -1,0 +1,86 @@
+[
+  {
+    "id": 57,
+    "url": "http://127.0.0.1:8769/artifact/57",
+    "filename": "057-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 239,
+    "url": "http://127.0.0.1:8769/artifact/239",
+    "filename": "239-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 240,
+    "url": "http://127.0.0.1:8769/artifact/240",
+    "filename": "240-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 241,
+    "url": "http://127.0.0.1:8769/artifact/241",
+    "filename": "241-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 242,
+    "url": "http://127.0.0.1:8769/artifact/242",
+    "filename": "242-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 243,
+    "url": "http://127.0.0.1:8769/artifact/243",
+    "filename": "243-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 244,
+    "url": "http://127.0.0.1:8769/artifact/244",
+    "filename": "244-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 247,
+    "url": "http://127.0.0.1:8769/artifact/247",
+    "filename": "247-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 252,
+    "url": "http://127.0.0.1:8769/artifact/252",
+    "filename": "252-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 253,
+    "url": "http://127.0.0.1:8769/artifact/253",
+    "filename": "253-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 254,
+    "url": "http://127.0.0.1:8769/artifact/254",
+    "filename": "254-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 256,
+    "url": "http://127.0.0.1:8769/artifact/256",
+    "filename": "256-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 259,
+    "url": "http://127.0.0.1:8769/artifact/259",
+    "filename": "259-actual-browser-image.png",
+    "purpose": "Real browser view of the supplied/recovered original image, not a simulated source page."
+  },
+  {
+    "id": 260,
+    "url": "https://github.com/ColdHeat",
+    "filename": "260-primary-profile.png",
+    "purpose": "Actual primary public author profile; exact commit proof remains separate."
+  }
+]

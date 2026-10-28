@@ -1,0 +1,35 @@
+[2J[HChallenge #70 — actual evidence capture
+$ mkdir -p /tmp/pcgctf-http70
+tshark -r PCGCTF/solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap --export-objects http,/tmp/pcgctf-http70
+unzip -t /tmp/pcgctf-http70/password.zip
+unzip -p /tmp/pcgctf-http70/password.zip password.txt
+
+    1   0.000000 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+    2   1.001880 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+    3   2.005875 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+    4   2.199321   10.0.0.252 → 10.0.0.255   CAPWAP-Control 816 CAPWAP-Control - Discovery Request
+    5   3.008809 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+    6   4.011899 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+    7   5.015816 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+    8   5.057777    10.0.0.66 → 10.0.0.34    TCP 74 52476 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=1103266652 TSecr=0 WS=128
+    9   5.057884    10.0.0.34 → 10.0.0.66    TCP 74 80 → 52476 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=995535553 TSecr=1103266652 WS=128
+   10   5.058384    10.0.0.66 → 10.0.0.34    TCP 66 52476 → 80 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=1103266653 TSecr=995535553
+   11   5.062639    10.0.0.66 → 10.0.0.34    HTTP 203 GET /password.zip HTTP/1.1 
+   12   5.062743    10.0.0.34 → 10.0.0.66    TCP 66 80 → 52476 [ACK] Seq=1 Ack=138 Win=65024 Len=0 TSval=995535558 TSecr=1103266657
+   13   5.067033    10.0.0.34 → 10.0.0.66    HTTP 559 HTTP/1.1 200 OK  (application/zip)
+   14   5.067526    10.0.0.66 → 10.0.0.34    TCP 66 52476 → 80 [ACK] Seq=138 Ack=494 Win=64128 Len=0 TSval=1103266662 TSecr=995535562
+   15   5.090601    10.0.0.66 → 10.0.0.34    TCP 66 52476 → 80 [FIN, ACK] Seq=138 Ack=494 Win=64128 Len=0 TSval=1103266685 TSecr=995535562
+   16   5.090731    10.0.0.34 → 10.0.0.66    TCP 66 80 → 52476 [FIN, ACK] Seq=494 Ack=139 Win=65024 Len=0 TSval=995535586 TSecr=1103266685
+   17   5.091192    10.0.0.66 → 10.0.0.34    TCP 66 52476 → 80 [ACK] Seq=139 Ack=495 Win=64128 Len=0 TSval=1103266686 TSecr=995535586
+   18   6.018869 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+   19   6.227133   10.0.0.252 → 10.0.0.255   CAPWAP-Control 816 CAPWAP-Control - Discovery Request
+   20   7.021934 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+   21   8.024780 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+   22   9.028318 PCEngines_5a:58:59 → Broadcast    ARP 60 Who has 10.0.0.103? Tell 10.0.0.1
+Archive:  /tmp/pcgctf-http70/password.zip
+    testing: password.txt             OK
+No errors detected in compressed data of /tmp/pcgctf-http70/password.zip.
+my password is:
+Cx689iO7Fu4G
+
+[Actual command exit code: 0]

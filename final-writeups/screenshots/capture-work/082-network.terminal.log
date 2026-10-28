@@ -1,0 +1,7 @@
+[2J[HChallenge #82 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.method -e http.host -e http.request.uri -e http.authorization
+
+frame.number	http.request.method	http.host	http.request.uri	http.authorization
+1	GET	twitter.com	/statuses/replies.xml	Basic dXNlcnRlc3Q6cGFzc3dvcmQ=
+
+[Actual command exit code: 0]

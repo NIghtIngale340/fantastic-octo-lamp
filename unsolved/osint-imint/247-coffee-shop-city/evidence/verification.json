@@ -1,0 +1,38 @@
+{
+  "id": 247,
+  "answer": "Blairgowrie",
+  "flag_candidate": "pcgCTF{Blairgowrie}",
+  "confidence": "high",
+  "verdict": "confirmed_answer",
+  "verified_at": "2026-10-28",
+  "platform_accepted": false,
+  "evidence": [
+    "Original photo looks out onto The Edinburgh Woollen Mill: white corner fa\u00e7ade, red quoins/window frames and fascia, with a blue traffic sign and railing outside.",
+    "Independently inspected Mike Pennington\u2019s geotagged original photograph of the Blairgowrie branch. The corner entrance, red fascia, white corner, red-trimmed windows and street furniture match the supplied caf\u00e9 view.",
+    "Local community heritage record places that branch at 20 Wellmeadow, Blairgowrie. Local tourism listing places The Wee Coffee Shop at 1 Allan Street, Blairgowrie. The requested answer is the town/city, not the chain\u2019s name."
+  ],
+  "inputs": [
+    {
+      "path": "unsolved/osint-imint/247-coffee-shop-city/files/task5_1602347907147.jpg",
+      "sha256": "7c709fa6fb974d362ddf43305115ee7ee496c013f23ea3ceaffe71bc6a10623e",
+      "size": 571247
+    }
+  ],
+  "sources": [
+    {
+      "title": "Original geotagged photograph by Mike Pennington",
+      "url": "https://www.geograph.org.uk/photo/1647585"
+    },
+    {
+      "title": "Community heritage record, The Wellmeadow Architecture",
+      "url": "https://www.ourheritageblairrattray.scot/timeline/the-well-meadow-architecture"
+    },
+    {
+      "title": "Discover Blairgowrie local listing",
+      "url": "https://www.discoverblairgowrie.co.uk/blairgowrie-and-rattray-businesses/the-wee-coffee-shop"
+    }
+  ],
+  "limitations": [
+    "No GPS/EXIF location in supplied image. Location is established by visual matching and local records. Platform acceptance untested."
+  ]
+}

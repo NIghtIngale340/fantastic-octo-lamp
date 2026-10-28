@@ -1,0 +1,10 @@
+[2J[HChallenge #35 — actual evidence capture
+$ python - <<'PY'
+import base64
+s='Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ=='
+print(base64.b64decode(s,validate=True).decode())
+PY
+
+CTF{puzzl3d_m3tadata_f0und!_42440c7d}
+
+[Actual command exit code: 0]

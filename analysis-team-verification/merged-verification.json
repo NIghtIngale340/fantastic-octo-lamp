@@ -1,0 +1,539 @@
+{
+  "generated_at": "2026-10-28T23:20:05+08:00",
+  "before_counts": {
+    "site_solved": 81,
+    "verified_solved": 11,
+    "flag_rejected": 1,
+    "flag_ready": 46,
+    "needs_work": 51,
+    "answer_only": 2
+  },
+  "after_counts": {
+    "site_solved": 81,
+    "verified_solved": 11,
+    "flag_rejected": 1,
+    "flag_ready": 68,
+    "needs_work": 29,
+    "answer_only": 2
+  },
+  "new_flag_ready_ids": [
+    75,
+    79,
+    122,
+    244,
+    247,
+    253,
+    254,
+    256,
+    259,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    309,
+    310,
+    312
+  ],
+  "results": [
+    {
+      "id": 75,
+      "answer": "flag{me0w_hia!}",
+      "flag_candidate": "pcgCTF{me0w_hia!}",
+      "confidence": "high",
+      "verdict": "supported",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/evidence/flag.jpg",
+        "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/evidence/partition-table.txt",
+        "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/evidence/ntfs-files.txt",
+        "icat export matches exact carved bytes"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown.",
+        "Raw image prefix flag converted to requested pcgCTF wrapper."
+      ],
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/artifacts.json"
+    },
+    {
+      "id": 79,
+      "answer": "FLAG LANGUAGE",
+      "flag_candidate": "pcgCTF{FLAG LANGUAGE}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/sequence-extraction.json"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/cryptography-encoding/079-sequence/solution.md",
+      "limitations": "Recovered both words directly. Exact platform acceptance and whitespace normalization remain untested.",
+      "verdict": "supported-corrected",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/sequence.json"
+    },
+    {
+      "id": 122,
+      "answer": "73dbb9f2bac263e70119eb5e22d79e029e03a27e",
+      "flag_candidate": "pcgCTF{73dbb9f2bac263e70119eb5e22d79e029e03a27e}",
+      "confidence": "high for documented flag algorithm; runtime unobserved",
+      "verdict": "supported",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/unsolved/reconnaissance/122-pcgctf-juice-shop-gateway/evidence/flag-derivation.json",
+        "https://raw.githubusercontent.com/juice-shop/juice-shop/master/lib/utils.ts",
+        "https://raw.githubusercontent.com/juice-shop/juice-shop/master/lib/challengeUtils.ts",
+        "https://raw.githubusercontent.com/juice-shop/juice-shop/master/data/static/challenges.yml"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/reconnaissance/122-pcgctf-juice-shop-gateway/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown.",
+        "Configured Docker image was not run or observed; current official source plus supplied key establishes deterministic derivation.",
+        "Compose image tag is unpinned."
+      ],
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/artifacts.json"
+    },
+    {
+      "id": 244,
+      "answer": "Vancouver International Airport",
+      "flag_candidate": "pcgCTF{Vancouver International Airport}",
+      "confidence": "high",
+      "verdict": "confirmed_answer",
+      "verified_at": "2026-10-28",
+      "platform_accepted": false,
+      "evidence": [
+        "Original supplied photo visibly reads YVR CONNECTS and YVR.CA.",
+        "Official airport website identifies YVR as Vancouver International Airport."
+      ],
+      "inputs": [
+        {
+          "path": "unsolved/osint-imint/244-airport-context-building/files/task4_1603353588780.jpg",
+          "sha256": "3b2fe6118905fe895022337752360a968f4f431fbe722cc86615fd4350b01f0d",
+          "size": 256365
+        }
+      ],
+      "sources": [
+        {
+          "title": "YVR official airport site",
+          "url": "https://www.yvr.ca/en/about-yvr"
+        }
+      ],
+      "limitations": [
+        "Specific terminal/food-court sub-area is not required by this challenge. Platform flag spelling/case acceptance has not been tested."
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/244-airport-context-building/solution.md",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/imint.json"
+    },
+    {
+      "id": 247,
+      "answer": "Blairgowrie",
+      "flag_candidate": "pcgCTF{Blairgowrie}",
+      "confidence": "high",
+      "verdict": "confirmed_answer",
+      "verified_at": "2026-10-28",
+      "platform_accepted": false,
+      "evidence": [
+        "Original photo looks out onto The Edinburgh Woollen Mill: white corner fa\u00e7ade, red quoins/window frames and fascia, with a blue traffic sign and railing outside.",
+        "Independently inspected Mike Pennington\u2019s geotagged original photograph of the Blairgowrie branch. The corner entrance, red fascia, white corner, red-trimmed windows and street furniture match the supplied caf\u00e9 view.",
+        "Local community heritage record places that branch at 20 Wellmeadow, Blairgowrie. Local tourism listing places The Wee Coffee Shop at 1 Allan Street, Blairgowrie. The requested answer is the town/city, not the chain\u2019s name."
+      ],
+      "inputs": [
+        {
+          "path": "unsolved/osint-imint/247-coffee-shop-city/files/task5_1602347907147.jpg",
+          "sha256": "7c709fa6fb974d362ddf43305115ee7ee496c013f23ea3ceaffe71bc6a10623e",
+          "size": 571247
+        }
+      ],
+      "sources": [
+        {
+          "title": "Original geotagged photograph by Mike Pennington",
+          "url": "https://www.geograph.org.uk/photo/1647585"
+        },
+        {
+          "title": "Community heritage record, The Wellmeadow Architecture",
+          "url": "https://www.ourheritageblairrattray.scot/timeline/the-well-meadow-architecture"
+        },
+        {
+          "title": "Discover Blairgowrie local listing",
+          "url": "https://www.discoverblairgowrie.co.uk/blairgowrie-and-rattray-businesses/the-wee-coffee-shop"
+        }
+      ],
+      "limitations": [
+        "No GPS/EXIF location in supplied image. Location is established by visual matching and local records. Platform acceptance untested."
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/247-coffee-shop-city/solution.md",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/imint.json"
+    },
+    {
+      "id": 253,
+      "answer": "Andrew Knowlton",
+      "flag_candidate": "pcgCTF{Andrew Knowlton}",
+      "confidence": "high",
+      "verdict": "confirmed_answer",
+      "verified_at": "2026-10-28",
+      "platform_accepted": false,
+      "evidence": [
+        "This challenge has no separate attachment and refers to the restaurant identified in previous challenge #252. Inspected that saved restaurant image, showing Katz\u2019s Delicatessen interior.",
+        "Bon App\u00e9tit\u2019s own video page describes editor Andrew Knowlton working a24-hour shift at Katz\u2019s Delicatessen in New York City. Its transcript also identifies him. This directly answers the editor question."
+      ],
+      "inputs": [
+        {
+          "path": "solved/osint-imint/252-reverse-image-restaurant/files/task6_1602348602115.jpg",
+          "sha256": "ab68f0d511ca900ae45f1ff0a2e1f3201d41352e2780cdf42081da0051856f58",
+          "size": 36057
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bon App\u00e9tit original video",
+          "url": "https://www.bonappetit.com/video/watch/working-24-hours-straight-at-new-york-most-iconic-deli"
+        },
+        {
+          "title": "Bon App\u00e9tit author profile",
+          "url": "https://www.bonappetit.com/person/andrew-knowlton"
+        }
+      ],
+      "limitations": [
+        "Relies on the intended shared restaurant evidence from #252; #253 has no separate image. Platform acceptance untested."
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/253-reverse-image-editor/solution.md",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/imint.json"
+    },
+    {
+      "id": 254,
+      "answer": "Rudolph the Chrome Nosed Reindeer",
+      "flag_candidate": "pcgCTF{Rudolph the Chrome Nosed Reindeer}",
+      "confidence": "high",
+      "verdict": "confirmed_answer",
+      "verified_at": "2026-10-28",
+      "platform_accepted": false,
+      "evidence": [
+        "Supplied image shows a motorcycle-bodied reindeer with four long metallic legs in a green stone entrance court.",
+        "Independently inspected photographer Perry Tak\u2019s2014 Tjuvholmen photograph: same sculpture, long metal legs, motorcycle front, green stone walls and apartment-building outlook. Its caption names the sculpture.",
+        "Magne Furuholmen\u2019s official biography lists Rudolph The Chrome Nosed Reindeer under Apparatjik installations. This independently supports the title spelling."
+      ],
+      "inputs": [
+        {
+          "path": "unsolved/osint-imint/254-sculpture-identification/files/task7_1602636111226.png",
+          "sha256": "0824ea2bf1be382ef029a341a3a9ebaf9ea4c1096d99b8fafcf8e47d12fba493",
+          "size": 6943440
+        }
+      ],
+      "sources": [
+        {
+          "title": "Artist official biography",
+          "url": "https://magnefuruholmen.com/biography/"
+        },
+        {
+          "title": "Original photograph by Perry Tak / Meteorry",
+          "url": "https://www.flickr.com/photos/meteorry/12995187234"
+        }
+      ],
+      "limitations": [
+        "The title is shown without hyphens in the artist\u2019s own CV; grader normalization and acceptance have not been tested. Installation year is not needed for this question."
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/254-sculpture-identification/solution.md",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/imint.json"
+    },
+    {
+      "id": 256,
+      "answer": "Lady Justice",
+      "flag_candidate": "pcgCTF{Lady Justice}",
+      "confidence": "high",
+      "verdict": "confirmed_answer",
+      "verified_at": "2026-10-28",
+      "platform_accepted": false,
+      "evidence": [
+        "Supplied image depicts a blindfolded woman with raised arms, scales in both hands and billowing robes in front of the courthouse windows.",
+        "U.S.General Services Administration\u2019s official art collection identifies this sculpture at A.V.Bryan U.S.Courthouse as Justice Delayed, Justice Denied by Raymond Kaskey. Its description confirms that the depicted figure is Justice, blindfolded and holding scales in each hand.",
+        "Independently inspected Tim Evanson\u2019s original photograph of the same statue, showing the same facial features, blindfold, hand grips, paired scales and drapery. Photographer calls the figure Blind Justice. For the requested character, Lady Justice is appropriate; the artwork title is a separate fact."
+      ],
+      "inputs": [
+        {
+          "path": "unsolved/osint-imint/256-justice-character/files/task8_1603365958159.png",
+          "sha256": "d0292206ce5bdead4c4ff3a65b085b0680d0391214d53eb8a95f9e84080532b0",
+          "size": 436040
+        }
+      ],
+      "sources": [
+        {
+          "title": "GSA official artwork record",
+          "url": "https://art.gsa.gov/objects/21667/justice-delayed-justice-denied"
+        },
+        {
+          "title": "Original photograph by Tim Evanson",
+          "url": "https://www.flickr.com/photos/timevanson/6830726642"
+        }
+      ],
+      "limitations": [
+        "Lady Justice identifies the character. Justice Delayed, Justice Denied is the artwork title; Themis is a related classical figure, not needed as a fallback assumption. Platform acceptance untested."
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/256-justice-character/solution.md",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/imint.json"
+    },
+    {
+      "id": 259,
+      "answer": "Novotel Singapore Clarke Quay",
+      "flag_candidate": "pcgCTF{Novotel Singapore Clarke Quay}",
+      "confidence": "high",
+      "verdict": "confirmed_answer",
+      "verified_at": "2026-10-28",
+      "platform_accepted": false,
+      "evidence": [
+        "Extracted and inspected the original supplied video at00:05. It looks past the hotel\u2019s distinctive gold/orange vertical fa\u00e7ade toward Fort Canning\u2019s sloped lawn and Singapore skyline; Clarke Quay roofs are below.",
+        "CDL Hospitality Trusts2019annual report, printed page65 (PDFpage67), names Novotel Singapore Clarke Quay and shows a photograph of the same orange/gold tower above the Clarke Quay roofs. It states that rooms offer Fort Canning Park views.",
+        "The owner report states the hotel would cease operations in early April2020 for redevelopment. Thus the teammate\u2019s approximate2021closure should not be copied. New Otani was an earlier name of this property, whereas the identified hotel in the supplied video is Novotel Singapore Clarke Quay."
+      ],
+      "inputs": [
+        {
+          "path": "unsolved/osint-imint/259-hotel-from-the-past/files/task9_1602643917499.mp4",
+          "sha256": "58a629358a793d5994eb370dbb2f0764251ace0d9657de7d9262c31649ef76f5",
+          "size": 30688837
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hotel owner2019annual report, p65",
+          "url": "https://links.sgx.com/1.0.0/corporate-announcements/0AEJA5FHMB9YXN5I/606133_CDLHT%20AR19%20Final.pdf"
+        },
+        {
+          "title": "Hotel owner transaction circular, name history",
+          "url": "https://links.sgx.com/FileOpen/CDLHT-Circular.030120.ashx?App=Prospectus&FileID=41766"
+        }
+      ],
+      "limitations": [
+        "The supplied description asks for the former hotel and gives no precise recording date. The Novotel identity is supported by matching architecture/location and owner records. Platform acceptance untested."
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/259-hotel-from-the-past/solution.md",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/imint.json"
+    },
+    {
+      "id": 297,
+      "answer": "NetSupport Manager RAT",
+      "flag_candidate": "pcgCTF{NetSupport Manager RAT}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/netsupport-http.tsv"
+      ],
+      "sources": [
+        "https://bazaar.abuse.ch/sample/c9e5bb7a368280d771edcfdb33717a3130560d2bb71773ab1aaffe0eb585fd2c/",
+        "https://www.malware-traffic-analysis.net/2026/02/28/index.html",
+        "https://threatfox.abuse.ch/ioc/1755776/",
+        "https://www.malware-traffic-analysis.net/2026/01/31/index.html"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/297-act-1-easy-as-123-threat-identity/solution.md",
+      "limitations": "The family is established; the platform\u2019s accepted capitalization/spacing is not tested. The longer family label follows the original exercise.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 298,
+      "answer": "vadusa.xyz",
+      "flag_candidate": "pcgCTF{vadusa.xyz}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/public-source-observations.json"
+      ],
+      "sources": [
+        "https://bazaar.abuse.ch/sample/c9e5bb7a368280d771edcfdb33717a3130560d2bb71773ab1aaffe0eb585fd2c/",
+        "https://www.malware-traffic-analysis.net/2026/02/28/index.html",
+        "https://threatfox.abuse.ch/ioc/1755776/",
+        "https://www.malware-traffic-analysis.net/2026/01/31/index.html"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/298-act-1-easy-as-123-domain-pivot/solution.md",
+      "limitations": "This is a historical malicious infrastructure association, not a claim about its current DNS or ownership. No lookup/contact to the malicious host was needed.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 299,
+      "answer": "HTTP",
+      "flag_candidate": "pcgCTF{HTTP}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/netsupport-http.tsv"
+      ],
+      "sources": [],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/299-act-1-easy-as-123-protocol-deception/solution.md",
+      "limitations": "Confirmed for the cited C2 requests; this does not claim there is no TLS elsewhere in the capture.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 300,
+      "answer": "NetSupport",
+      "flag_candidate": "pcgCTF{NetSupport}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/public-source-observations.json"
+      ],
+      "sources": [
+        "https://bazaar.abuse.ch/sample/c9e5bb7a368280d771edcfdb33717a3130560d2bb71773ab1aaffe0eb585fd2c/",
+        "https://www.malware-traffic-analysis.net/2026/02/28/index.html",
+        "https://threatfox.abuse.ch/ioc/1755776/",
+        "https://www.malware-traffic-analysis.net/2026/01/31/index.html"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/300-act-1-easy-as-123-malware-hash-pivot/solution.md",
+      "limitations": "This confirms the reported malware tag, not independent execution or attribution of the sample. No malware was downloaded or run.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 301,
+      "answer": "STRRAT",
+      "flag_candidate": "pcgCTF{STRRAT}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/strrat-beacons.tsv"
+      ],
+      "sources": [],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/301-act-2-you-dirty-rat-identify-the-rat/solution.md",
+      "limitations": "The family string and traffic association are directly observed; exact flag acceptance is not tested.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 302,
+      "answer": "UAB Host Baltic",
+      "flag_candidate": "pcgCTF{UAB Host Baltic}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/routing-status.json"
+      ],
+      "sources": [],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/302-act-2-you-dirty-rat-infrastructure-owner/solution.md",
+      "limitations": "The question asks the current announcing organization, not the attacker or end customer. AS209605 identifies the ASN; UAB Host Baltic supplies the requested organization.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 303,
+      "answer": "12132",
+      "flag_candidate": "pcgCTF{12132}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/strrat-beacons.tsv"
+      ],
+      "sources": [],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/303-act-2-you-dirty-rat-c2-service-port/solution.md",
+      "limitations": "Port verified for this incident; other STRRAT samples can use different ports.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 304,
+      "answer": "Lumma Stealer",
+      "flag_candidate": "pcgCTF{Lumma Stealer}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/lumma-domain.tsv"
+      ],
+      "sources": [
+        "https://bazaar.abuse.ch/sample/c9e5bb7a368280d771edcfdb33717a3130560d2bb71773ab1aaffe0eb585fd2c/",
+        "https://www.malware-traffic-analysis.net/2026/02/28/index.html",
+        "https://threatfox.abuse.ch/ioc/1755776/",
+        "https://www.malware-traffic-analysis.net/2026/01/31/index.html"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/304-act-3-lumma-in-the-room-ah-identify-the-stealer/solution.md",
+      "limitations": "The family is directly named by the original incident source; exact grader normalization remains untested.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 305,
+      "answer": "whitepepper.su",
+      "flag_candidate": "pcgCTF{whitepepper.su}",
+      "confidence": "high",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/lumma-domain.tsv"
+      ],
+      "sources": [],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/305-act-3-lumma-in-the-room-ah-domain-pivot/solution.md",
+      "limitations": "Historical C2 association is established; current DNS/ownership is not implied.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 306,
+      "answer": "2025",
+      "flag_candidate": "pcgCTF{2025}",
+      "confidence": "high-current-record",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/whitepepper-whois.txt"
+      ],
+      "sources": [],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/osint/306-act-3-lumma-in-the-room-ah-registration-osint/solution.md",
+      "limitations": "The current registration date is confirmed. Historical DNS observations go back before 2025, so this does not establish the first-ever registration date across lapsed registrations. The challenge does not specify a historical WHOIS snapshot; exact platform acceptance remains untested.",
+      "verdict": "supported",
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/osint.json"
+    },
+    {
+      "id": 309,
+      "answer": "Mara Voss; 1988-04-17",
+      "flag_candidate": "deadface{Mara-Voss-1988-04-17}",
+      "confidence": "high",
+      "verdict": "supported",
+      "evidence": [
+        "Original Info.plist AuroraPatientBootstrap decoded with plistlib/base64/JSON",
+        "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/309-info-leaks/evidence/patient-bootstrap.json",
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/aurora-rea-evidence.json"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/309-info-leaks/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown."
+      ],
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/artifacts.json"
+    },
+    {
+      "id": 310,
+      "answer": "847261",
+      "flag_candidate": "deadface{847261}",
+      "confidence": "high",
+      "verdict": "supported",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/310-down-the-rabbit-hole/evidence/xray-metadata.xmp",
+        "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/310-down-the-rabbit-hole/evidence/database-corroboration.json"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/310-down-the-rabbit-hole/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown."
+      ],
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/artifacts.json"
+    },
+    {
+      "id": 312,
+      "answer": "gw-westlake-int-03",
+      "flag_candidate": "deadface{gw-westlake-int-03}",
+      "confidence": "high",
+      "verdict": "supported",
+      "evidence": [
+        "/home/nightingale/CTF/PCGCTF/analysis-team-verification/aurora-rea-evidence.json",
+        "ev_0745d9ce2e4004ae34aeecbb779fa55c6063564dad5864cc49c3447d06f4df54: DiagnosticInfo.items links Sync Gateway label with the gateway value"
+      ],
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/312-back-to-basics/solution.md",
+      "limitations": [
+        "Not submitted to PCGCTF; platform acceptance is unknown.",
+        "Static analysis; no iOS runtime or live gateway verification."
+      ],
+      "verification_report": "/home/nightingale/CTF/PCGCTF/analysis-team-verification/artifacts.json"
+    }
+  ],
+  "unchanged_checks": {
+    "matching_existing_candidates": [
+      61,
+      62,
+      69,
+      307,
+      308
+    ],
+    "rejected_candidate_retained": [
+      18
+    ],
+    "viral_name": {
+      "id": 57,
+      "answer": "Renz Angeles",
+      "flag_candidate": "pcgCTF{Renz Angeles}"
+    }
+  },
+  "platform_submissions": false
+}

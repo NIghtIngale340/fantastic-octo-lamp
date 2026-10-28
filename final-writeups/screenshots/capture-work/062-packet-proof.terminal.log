@@ -1,0 +1,8 @@
+[2J[HChallenge #62 — actual evidence capture
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-analysis/062-the-hidden-download/files/http_file_extraction.pcap -Y 'frame.number in {11,13}' -T fields -E header=y -e frame.number -e http.request.uri -e http.content_type
+
+frame.number	http.request.uri	http.content_type
+11	/password.zip	
+13	/password.zip	application/zip
+
+[Actual command exit code: 0]

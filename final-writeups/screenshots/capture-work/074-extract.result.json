@@ -1,0 +1,13 @@
+{
+  "key": "074-extract",
+  "id": 74,
+  "title": "Challenge #74 \u2014 actual evidence capture",
+  "command": "python /home/nightingale/CTF/PCGCTF/unsolved/steganography-forensics/074-elliot-s-secret-stash/solve.py",
+  "filename": "074-terminal-extraction.png",
+  "purpose": "Re-run checked DeepSound extraction from the original audio ZIP.",
+  "exit_code": 0,
+  "started_at_unix": 1793216344.9532845,
+  "finished_at_unix": 1793216347.6500432,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/074-extract.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

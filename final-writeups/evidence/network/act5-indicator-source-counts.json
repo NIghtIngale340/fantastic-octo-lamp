@@ -1,0 +1,8 @@
+{
+  "filter": "http.host == \"spora.biz\" || http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892",
+  "counts": {
+    "10.3.14.134": 2204,
+    "10.3.14.131": 7
+  },
+  "scope": "Only these observed ransomware indicators; no claim of universal malware detection."
+}

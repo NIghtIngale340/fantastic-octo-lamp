@@ -1,0 +1,13 @@
+{
+  "key": "016-natas-verify",
+  "id": 16,
+  "title": "Challenge #16 \u2014 actual evidence capture",
+  "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 16 verify",
+  "filename": "016-natas-verify.png",
+  "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display.",
+  "exit_code": 0,
+  "started_at_unix": 1793217164.5824869,
+  "finished_at_unix": 1793217165.584889,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/016-natas-verify.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

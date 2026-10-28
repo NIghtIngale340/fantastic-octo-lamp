@@ -1,0 +1,34 @@
+{
+  "id": 259,
+  "answer": "Novotel Singapore Clarke Quay",
+  "flag_candidate": "pcgCTF{Novotel Singapore Clarke Quay}",
+  "confidence": "high",
+  "verdict": "confirmed_answer",
+  "verified_at": "2026-10-28",
+  "platform_accepted": false,
+  "evidence": [
+    "Extracted and inspected the original supplied video at00:05. It looks past the hotel\u2019s distinctive gold/orange vertical fa\u00e7ade toward Fort Canning\u2019s sloped lawn and Singapore skyline; Clarke Quay roofs are below.",
+    "CDL Hospitality Trusts2019annual report, printed page65 (PDFpage67), names Novotel Singapore Clarke Quay and shows a photograph of the same orange/gold tower above the Clarke Quay roofs. It states that rooms offer Fort Canning Park views.",
+    "The owner report states the hotel would cease operations in early April2020 for redevelopment. Thus the teammate\u2019s approximate2021closure should not be copied. New Otani was an earlier name of this property, whereas the identified hotel in the supplied video is Novotel Singapore Clarke Quay."
+  ],
+  "inputs": [
+    {
+      "path": "unsolved/osint-imint/259-hotel-from-the-past/files/task9_1602643917499.mp4",
+      "sha256": "58a629358a793d5994eb370dbb2f0764251ace0d9657de7d9262c31649ef76f5",
+      "size": 30688837
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hotel owner2019annual report, p65",
+      "url": "https://links.sgx.com/1.0.0/corporate-announcements/0AEJA5FHMB9YXN5I/606133_CDLHT%20AR19%20Final.pdf"
+    },
+    {
+      "title": "Hotel owner transaction circular, name history",
+      "url": "https://links.sgx.com/FileOpen/CDLHT-Circular.030120.ashx?App=Prospectus&FileID=41766"
+    }
+  ],
+  "limitations": [
+    "The supplied description asks for the former hotel and gives no precise recording date. The Novotel identity is supported by matching architecture/location and owner records. Platform acceptance untested."
+  ]
+}

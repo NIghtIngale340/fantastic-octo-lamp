@@ -1,0 +1,7 @@
+[2J[HChallenge #315 — actual Emedra simulator result
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/emedra_evidence.py 315
+
+GET /api/kiosk/login — HTTP 200
+<!-- TODO(dev): REMOVE before go-live — temporary QA technician PIN: deadface{v13w_s0urc3_sav3s_l1v3s} -->
+
+[Actual command exit code: 0]

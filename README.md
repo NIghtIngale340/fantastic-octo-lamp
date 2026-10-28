@@ -4,7 +4,7 @@ Source: https://cgcybercom.online/challenges
 
 Snapshot: October 28, 2026 (Asia/Manila). Solved status comes from the signed-in account.
 
-**192 challenges: 81 solved, 111 unsolved.**
+**Original scoreboard snapshot: 192 challenges, 81 solved, 111 unsolved.**
 **42/42 files downloaded; 200,982,348 bytes total.**
 
 Folders: `solved/<category>/<id>-<challenge>/` and `unsolved/<category>/<id>-<challenge>/`. Each has the complete description and any direct attachments in `files/`.
@@ -242,3 +242,19 @@ Existing files and writeups in the parent CTF folder were preserved. Target webs
 | 15 | Web Exploitation - Natas | [Layers of Encoding](unsolved/web-exploitation-natas/015-layers-of-encoding/README.md) | 100 | 0 |
 | 16 | Web Exploitation - Natas | [Command Me](unsolved/web-exploitation-natas/016-command-me/README.md) | 100 | 0 |
 | 17 | Web Exploitation - Natas | [Filtered but Broken](unsolved/web-exploitation-natas/017-filtered-but-broken/README.md) | 100 | 0 |
+
+## Current analysis status
+
+[Final categorized status list](STATUS.md) · [Flags/answers ready but not site-confirmed](FLAGS_READY.md) · [Network Analysis solutions](analysis-network-analysis/answers.md)
+
+The original solved/unsolved listing above is an account snapshot. Use the status list to distinguish local solutions from accepted site solves.
+
+## Current local progress
+
+92 solved in our records (81 PCGCTF snapshot + 11 independently verified Natas), 69 saved flag/answer candidates with solutions, 3 answers needing exact submission wording, 1 rejected flag, and 27 still needing work. Candidate answers are not counted as accepted PCGCTF solves.
+
+[Current categorized status](STATUS.md) · [Ready candidates](FLAGS_READY.md) · [Independent teammate-answer verification](analysis-team-verification/README.md)
+
+[Garcia Day 1 imported writeups and corrections](team-writeups/garcia-day1/README.md)
+
+[Complete final-draft collection — all 192 challenges](final-writeups/README.md)

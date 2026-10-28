@@ -1,0 +1,10 @@
+[2J[HChallenge #83 — original capture format
+$ xxd -l 24 /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap && capinfos -t -c /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap
+
+00000000: d4c3 b2a1 0200 0400 0000 0000 0000 0000  ................
+00000010: ffff 0000 0100 0000                      ........
+File name:           /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap
+File type:           Wireshark/tcpdump/... - pcap
+Number of packets:   1
+
+[Actual command exit code: 0]

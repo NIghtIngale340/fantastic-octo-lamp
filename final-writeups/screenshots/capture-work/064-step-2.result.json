@@ -1,0 +1,13 @@
+{
+  "key": "064-step-2",
+  "id": 64,
+  "title": "Challenge #64 \u2014 actual evidence capture",
+  "command": "python - <<'PY'\nct='rtermt{xzetgstv_gh_gcv_vldnuj}';key='crypto';j=0;out=[]\nfor c in ct:\n    if c.isalpha():\n        out.append(chr((ord(c)-ord(key[j%len(key)]))%26+97));j+=1\n    else:out.append(c)\nprint(''.join(out))\nPY",
+  "filename": "064-step-02.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216289.5314498,
+  "finished_at_unix": 1793216289.6241055,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/064-step-2.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

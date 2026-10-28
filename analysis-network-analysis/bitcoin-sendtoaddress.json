@@ -1,0 +1,9 @@
+{
+  "jsonrpc": "1.0",
+  "id": "3",
+  "method": "sendtoaddress",
+  "params": [
+    "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    0.015
+  ]
+}

@@ -1,0 +1,16 @@
+[2J[HChallenge #33 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+import base64
+h=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()
+a=base64.a85decode(bytes.fromhex(h))
+b=base64.b32decode(a)
+c=base64.b64decode(b,validate=True)
+print(a.decode());print(b.decode());print(c.decode())
+PY
+
+KEYVER3FGJWHGYRTLJWFQMCOGVMW2VTZLAYE45TCK4YWQYTNKI4Q====
+Q1RGe2lsb3ZlX0N5YmVyX0NvbW1hbmR9
+CTF{ilove_Cyber_Command}
+
+[Actual command exit code: 0]

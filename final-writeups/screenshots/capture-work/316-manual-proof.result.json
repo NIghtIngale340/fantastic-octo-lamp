@@ -1,0 +1,13 @@
+{
+  "key": "316-manual-proof",
+  "id": 316,
+  "title": "Challenge #316 \u2014 actual public field-manual excerpt",
+  "command": "pdftotext /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/cs9000-field-service-manual.pdf - | rg -n -A 8 -B 2 'Default technician account|emedra-svc|ChangeMe'",
+  "filename": "316-actual-manual-credentials.png",
+  "purpose": "Actual text extraction from the simulator\u2019s public manual; documented default CTF credentials, not unrelated secrets.",
+  "exit_code": 0,
+  "started_at_unix": 1793218011.0441937,
+  "finished_at_unix": 1793218011.1368585,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/316-manual-proof.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

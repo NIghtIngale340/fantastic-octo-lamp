@@ -1,38 +1,29 @@
-# 83 EASY PACKET 1 #01  The Capture Signature
-pcgCTF{pcap}
-
 # 85 EASY PACKET 1 #03  Destination at Layer 2
-pcgCTF{00:d0:bc:eb:e0:80}
+pcgCTF{00-D0-BC-EB-E0-80}
 
 # 86 EASY PACKET 1 #04  Source at Layer 2
-pcgCTF{00:1b:63:94:b1:0e}
+pcgCTF{00-1B-63-94-B1-0E}
 
 # 89 EASY PACKET 1 #07  The 20-Byte Header
-pcgCTF{20}
+pcgCTF{20 bytes}
 
 # 90 EASY PACKET 1 #08  Total Packet Weight
-pcgCTF{504}
+pcgCTF{504 bytes}
 
 # 91 EASY PACKET 1 #09  Packet Identity
-pcgCTF{0xbed2}
+pcgCTF{48850}
 
 # 100 EASY PACKET 1 #18  Push and Acknowledge
-pcgCTF{PSH_ACK}
-
-# 102 EASY PACKET 1 #20  Push to the Application
-# Exact flag phrase unknown. Answer: Push buffered data to the receiving application without waiting for more data
+pcgCTF{PSH and ACK}
 
 # 103 EASY PACKET 1 #21  Speak HTTP
 pcgCTF{HTTP}
 
 # 111 EASY PACKET 1 #29  The Exposed Credentials
-pcgCTF{usertest:password}
-
-# 112 EASY PACKET 1 #30  Cleartext on the Wire
-# Exact flag phrase unknown. Answer: HTTP Basic credentials are recoverable over unencrypted HTTP; use HTTPS (HTTP over TLS)
+pcgCTF{usertest/password}
 
 # 265 ACT 1 - FIRST SIGNAL: Domain Membership
-pcgCTF{FIRSTTOLAST.TECH}
+pcgCTF{FIRSTTOLAST}
 
 # 267 ACT 1 - FIRST SIGNAL: Calling Home
 pcgCTF{146.59.71.167}
@@ -111,3 +102,4 @@ pcgCTF{Cerber}
 
 # 296 ACT 5 - FINAL INCIDENT: Final Assessment
 pcgCTF{10.3.14.135}
+

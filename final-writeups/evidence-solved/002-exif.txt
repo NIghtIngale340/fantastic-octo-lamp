@@ -1,0 +1,108 @@
+ExifTool Version Number         : 13.25
+File Name                       : cydex (1).jpg
+Directory                       : PCGCTF/solved/cryptography/002-picture-perfect-evidence/files
+File Size                       : 5.9 MB
+File Modification Date/Time     : 2026:10:28 14:16:57+08:00
+File Access Date/Time           : 2026:10:28 14:16:57+08:00
+File Inode Change Date/Time     : 2026:10:28 14:16:57+08:00
+File Permissions                : -rw-rw-r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Little-endian (Intel, II)
+Make                            : Iphone17PROMaxFULLYPAID
+Camera Model Name               : --
+Orientation                     : Unknown (0)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Software                        : MediaTek Camera Application
+Modify Date                     : 2026:03:05 16:24:08
+Y Cb Cr Positioning             : Co-sited
+Exposure Time                   : 1
+F Number                        : 0
+Exposure Program                : Not Defined
+ISO                             : 0
+Sensitivity Type                : Unknown
+Recommended Exposure Index      : 0
+Exif Version                    : 0220
+Date/Time Original              : 2026:03:05 16:24:08
+Create Date                     : 2026:03:05 16:24:08
+Components Configuration        : Y, Cb, Cr, -
+Shutter Speed Value             : 1/60
+Brightness Value                : 6.6
+Exposure Compensation           : 0
+Max Aperture Value              : 1.0
+Metering Mode                   : Center-weighted average
+Light Source                    : D65
+Flash                           : No Flash
+Focal Length                    : 0.0 mm
+Maker Note Unknown Text         : 0
+User Comment                    : filter: 0; fileterIntensity: 0.0; filterMask: 0; captureOrientation: 90; brp_mask:0; brp_del_th:null; brp_del_sen:null; delta:null; module: photo;hw-remosaic: false;touch: (0.5690484, 0.42917615);sceneMode: 7864320;cct_value: 0;AI_Scene: (-1, -1);aec_lux: 0.0;aec_lux_index: 0;albedo: ;confidence: ;motionLevel: -1;weatherinfo: null;temperature: 36;
+Sub Sec Time                    : 
+Sub Sec Time Original           : 
+Sub Sec Time Digitized          : 
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 3456
+Exif Image Height               : 4608
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Sensing Method                  : One-chip color area
+Scene Type                      : Directly photographed
+Exposure Mode                   : Auto
+White Balance                   : Auto
+Digital Zoom Ratio              : 1
+Focal Length In 35mm Format     : 25 mm
+Scene Capture Type              : Standard
+GPS Version ID                  : 2.2.0.0
+GPS Latitude Ref                : Unknown ()
+GPS Longitude Ref               : Unknown ()
+GPS Altitude Ref                : Unknown ()
+GPS Time Stamp                  : 00:00:00
+GPS Date Stamp                  : 0
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 1512
+Thumbnail Length                : 45696
+Profile CMM Type                : Unknown (mtk)
+Profile Version                 : 4.0.0
+Profile Class                   : Display Device Profile
+Color Space Data                : RGB
+Profile Connection Space        : XYZ
+Profile Date Time               : 2018:01:09 16:16:16
+Profile File Signature          : acsp
+Primary Platform                : Unknown (MTK)
+CMM Flags                       : Not Embedded, Independent
+Device Manufacturer             : Unknown (MTK)
+Device Model                    : 
+Device Attributes               : Reflective, Glossy, Positive, Color
+Rendering Intent                : Perceptual
+Connection Space Illuminant     : 0.9642 1 0.82491
+Profile Creator                 : Unknown (mtk)
+Profile ID                      : 5757fd27eab54605c10d72f26398853b
+Profile Description             : Display P3
+Profile Copyright               : Copyright Apple Inc., 2015
+Media White Point               : 0.95045 1 1.08905
+Red Matrix Column               : 0.51512 0.2412 -0.00105
+Green Matrix Column             : 0.29198 0.69225 0.04189
+Blue Matrix Column              : 0.1571 0.06657 0.78407
+Red Tone Reproduction Curve     : (Binary data 32 bytes, use -b option to extract)
+Chromatic Adaptation            : 1.04788 0.02292 -0.0502 0.02959 0.99048 -0.01706 -0.00923 0.01508 0.75168
+Blue Tone Reproduction Curve    : (Binary data 32 bytes, use -b option to extract)
+Green Tone Reproduction Curve   : (Binary data 32 bytes, use -b option to extract)
+Image Width                     : 3456
+Image Height                    : 4608
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+JSON Info                       : {"com.android.camera.joint.fullview.orientation":0,"com.android.camera.hdr":-1,"com.android.camera.fisheye":-1,"com.android.camera.takenmodel":"V25 Pro","com.android.camera.camerafacing":"0","com.android.camera.document":-1,"com.android.camera.joint.conshoot":0,"com.android.camera.moduleid":"photo","com.android.camera.joint.motioncapture":0,"version":2012,"com.android.camera.joint.fullview":false}
+Image Size                      : 3456x4608
+Megapixels                      : 15.9
+Shutter Speed                   : 1
+Thumbnail Image                 : (Binary data 45696 bytes, use -b option to extract)
+GPS Altitude                    : 0 m Above Sea Level
+GPS Date/Time                   : 0 00:00:00Z
+GPS Latitude                    : 0 deg 0' 0.00" N
+GPS Longitude                   : 0 deg 0' 0.00" E
+Focal Length                    : 0.0 mm
+GPS Position                    : 0 deg 0' 0.00" N, 0 deg 0' 0.00" E

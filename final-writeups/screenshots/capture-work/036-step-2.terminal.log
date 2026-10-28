@@ -1,0 +1,6 @@
+[2J[HChallenge #36 — actual evidence capture
+$ git -c safe.directory=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/git036/drop-in -C /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/git036/drop-in show 7d3aa55:message.txt
+
+picoCTF{s@n1t1z3_be3dd3da}
+
+[Actual command exit code: 0]

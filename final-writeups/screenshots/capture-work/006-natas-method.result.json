@@ -1,0 +1,13 @@
+{
+  "key": "006-natas-method",
+  "id": 6,
+  "title": "Challenge #6 \u2014 actual evidence capture",
+  "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 6 method",
+  "filename": "006-natas-method.png",
+  "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display.",
+  "exit_code": 0,
+  "started_at_unix": 1793217044.5900886,
+  "finished_at_unix": 1793217045.8344789,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/006-natas-method.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

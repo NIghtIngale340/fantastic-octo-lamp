@@ -1,0 +1,15 @@
+[2J[HChallenge #66 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+import re
+t=Path('PCGCTF/solved/cryptography/066-common-modulus/files/04_rsa_common_modulus.txt').read_text()
+d={k:int(v) for k,v in re.findall(r'(n|e1|e2|c1|c2)\s*=\s*(\d+)',t)}
+n=d['n'];m=pow(d['c1'],2,n)*pow(d['c2'],-1,n)%n
+assert pow(m,d['e1'],n)==d['c1']
+assert pow(m,d['e2'],n)==d['c2']
+print(m.to_bytes((m.bit_length()+7)//8,'big').decode())
+PY
+
+pcgctf{common_modulus_common_mistake}
+
+[Actual command exit code: 0]

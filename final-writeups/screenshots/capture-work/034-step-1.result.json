@@ -1,0 +1,13 @@
+{
+  "key": "034-step-1",
+  "id": 34,
+  "title": "Challenge #34 \u2014 actual evidence capture",
+  "command": "python - <<'PY'\nimport codecs\ns='synt vf pbby'\np=codecs.decode(s,'rot_13')\nassert codecs.decode(p,'rot_13')==s\nprint(p)\nPY",
+  "filename": "034-step-01.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216284.3946576,
+  "finished_at_unix": 1793216284.4871385,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/034-step-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

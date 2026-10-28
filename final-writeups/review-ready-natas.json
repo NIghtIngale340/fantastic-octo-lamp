@@ -1,0 +1,1062 @@
+[
+  {
+    "id": 6,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/006-hidden-in-plain-sight.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/006-natas-method.png",
+      "screenshots/006-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 7,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/007-access-denied-think-again.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/007-natas-method.png",
+      "screenshots/007-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 8,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/008-forgotten-files.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/008-natas-method.png",
+      "screenshots/008-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 9,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/009-robots-know-everything.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/009-natas-method.png",
+      "screenshots/009-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 10,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/010-trust-the-referer.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/010-natas-method.png",
+      "screenshots/010-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 12,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/012-the-cookie-jar.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/012-natas-method.png",
+      "screenshots/012-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 13,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/013-the-exposed-script.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/013-natas-method.png",
+      "screenshots/013-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 14,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/014-path-explorer.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/014-natas-method.png",
+      "screenshots/014-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 15,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/015-layers-of-encoding.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/015-natas-method.png",
+      "screenshots/015-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 16,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/016-command-me.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/016-natas-method.png",
+      "screenshots/016-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 17,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/02-overthewire-verified/017-filtered-but-broken.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Public screenshot with level passwords redacted; PCGCTF wrapper acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from saved level-specific investigation and the 2026-10-28 live-authentication ledger. No new exploit or credential transmission was performed while drafting. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Checked recorded distinct method, next-level URL, HTTP result and response digest; redacted credential material. Encoding reversal additionally checked offline for #15.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence/ready-natas/natas-verification-redacted.json"
+    ],
+    "public_credentials_redacted": true,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/017-natas-method.png",
+      "screenshots/017-natas-verify.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 57,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/057-the-viral-name.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original image/video and recorded independent visual/source comparison; rewritten from the preserved verification notes without inventing a historical search transcript.",
+    "independent_attempt": "Compared supplied artifact identity, verified source references and saved visual matches; retained the documented answer and explicitly limited what the image proves.",
+    "evidence_paths": [],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/057-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 244,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/244-airport-context-building.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original image/video and recorded independent visual/source comparison; rewritten from the preserved verification notes without inventing a historical search transcript.",
+    "independent_attempt": "Compared supplied artifact identity, verified source references and saved visual matches; retained the documented answer and explicitly limited what the image proves.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/244-airport-context-building/evidence/verification.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/244-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 247,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/247-coffee-shop-city.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original image/video and recorded independent visual/source comparison; rewritten from the preserved verification notes without inventing a historical search transcript.",
+    "independent_attempt": "Compared supplied artifact identity, verified source references and saved visual matches; retained the documented answer and explicitly limited what the image proves.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/247-coffee-shop-city/evidence/verification.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/247-coffee-shop-city/evidence/REFERENCE_ATTRIBUTION.md"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/247-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 253,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/253-reverse-image-editor.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original image/video and recorded independent visual/source comparison; rewritten from the preserved verification notes without inventing a historical search transcript.",
+    "independent_attempt": "Compared supplied artifact identity, verified source references and saved visual matches; retained the documented answer and explicitly limited what the image proves.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/253-reverse-image-editor/evidence/verification.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/253-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 254,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/254-sculpture-identification.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original image/video and recorded independent visual/source comparison; rewritten from the preserved verification notes without inventing a historical search transcript.",
+    "independent_attempt": "Compared supplied artifact identity, verified source references and saved visual matches; retained the documented answer and explicitly limited what the image proves.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/254-sculpture-identification/evidence/verification.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/254-sculpture-identification/evidence/REFERENCE_ATTRIBUTION.md"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/254-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 256,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/256-justice-character.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original image/video and recorded independent visual/source comparison; rewritten from the preserved verification notes without inventing a historical search transcript.",
+    "independent_attempt": "Compared supplied artifact identity, verified source references and saved visual matches; retained the documented answer and explicitly limited what the image proves.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/256-justice-character/evidence/verification.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/256-justice-character/evidence/REFERENCE_ATTRIBUTION.md"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/256-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 259,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/259-hotel-from-the-past.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original image/video and recorded independent visual/source comparison; rewritten from the preserved verification notes without inventing a historical search transcript.",
+    "independent_attempt": "Compared supplied artifact identity, verified source references and saved visual matches; retained the documented answer and explicitly limited what the image proves.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/259-hotel-from-the-past/evidence/verification.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/osint-imint/259-hotel-from-the-past/files/task9_1602643917499.mp4"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/259-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 297,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/297-act-1-easy-as-123-threat-identity.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/netsupport-http.tsv",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/297-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 298,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/298-act-1-easy-as-123-domain-pivot.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/public-source-observations.json",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/298-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 299,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/299-act-1-easy-as-123-protocol-deception.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/netsupport-http.tsv",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/299-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 300,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/300-act-1-easy-as-123-malware-hash-pivot.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/public-source-observations.json",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/300-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 301,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/301-act-2-you-dirty-rat-identify-the-rat.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/strrat-beacons.tsv",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/301-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 302,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/302-act-2-you-dirty-rat-infrastructure-owner.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/routing-status.json",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/ripe-route.json",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/ripe-asn.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/302-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 303,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/303-act-2-you-dirty-rat-c2-service-port.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/strrat-beacons.tsv",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/303-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 304,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/304-act-3-lumma-in-the-room-ah-identify-the-stealer.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/lumma-domain.tsv",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/304-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 305,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/305-act-3-lumma-in-the-room-ah-domain-pivot.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/lumma-domain.tsv",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/305-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 306,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/306-act-3-lumma-in-the-room-ah-registration-osint.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/whitepepper-whois.txt",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/306-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 307,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/307-act-4-first-to-last-malware-attribution.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-act4-act5/act4-formbook-get-evidence.tsv",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/307-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 308,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/308-act-4-first-to-last-infrastructure-pivot.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Rewritten from our independently checked original-capture/primary-source verification ledger; raw records linked and acceptance explicitly separated.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-act4-act5/handyman24-dns.json",
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/packet-checks.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/308-saved-evidence.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 21,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/021-packet-detective.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed.",
+      "The candidate pcgCTF{zip} follows the FTP transfer. CRX/CA downloads make the expected target ambiguous; an organizer hint or actual acceptance is still needed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-network-analysis/answers.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/network-analysis/021-packet-detective/files/UNODC-GPC-001-003-JohnDoe-NetworkCapture-2021-04-29.pcapng"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/021-packet-proof.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 22,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/022-ftp-credential-leak.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-network-analysis/answers.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/network-analysis/021-packet-detective/files/UNODC-GPC-001-003-JohnDoe-NetworkCapture-2021-04-29.pcapng"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/022-packet-proof.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 61,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/061-the-exposed-password.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-network-analysis/answers.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/network-analysis/061-the-exposed-password/files/http_authentication.pcap"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/061-packet-proof.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 62,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/062-the-hidden-download.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-network-analysis/verification.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/network-analysis/062-the-hidden-download/files/http_file_extraction.pcap"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/062-packet-proof.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 69,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/069-bitcoin-trail.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-network-analysis/verification.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/network-analysis/069-bitcoin-trail/files/cryptocurrency_transfer_tracking.pcap"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/069-packet-proof.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 75,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/075-hidden.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/artifacts.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/evidence/partition-table.txt",
+      "/home/nightingale/CTF/PCGCTF/unsolved/forensics/075-hidden/evidence/ntfs-files.txt"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/075-ntfs-stream-list.png",
+      "screenshots/075-ntfs-export.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 79,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/079-sequence.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/sequence-extraction.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/cryptography-encoding/079-sequence/files/sequence.txt"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/079-decisive-result.png",
+      "screenshots/079-script-1.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 122,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/122-pcgctf-juice-shop-gateway.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/artifacts.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/reconnaissance/122-pcgctf-juice-shop-gateway/files/docker-compose.yml"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/122-script-1.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 309,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/309-info-leaks.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/aurora-rea-evidence.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/309-info-leaks/files/AuroraPatientPortal.ipa.zip",
+      "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/309-info-leaks/evidence/patient-bootstrap.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/309-script-1.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 310,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/310-down-the-rabbit-hole.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/aurora-identities.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/309-info-leaks/files/AuroraPatientPortal.ipa.zip",
+      "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/310-down-the-rabbit-hole/evidence/xray-metadata.xmp"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/310-actual-xmp-identifier.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 312,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/312-back-to-basics.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-team-verification/aurora-rea-evidence.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/aurora-patient-zero/309-info-leaks/files/AuroraPatientPortal.ipa.zip"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/312-actual-binary-strings.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 73,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/073-bad-blockchain.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-blockchain-forensics/verification.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/073-script-1.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 80,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/080-to-the-moon.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-blockchain-forensics/verification.json"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/080-script-1.png",
+      "screenshots/080-wallet-extraction.png",
+      "screenshots/080-actual-stego-extraction.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 74,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/074-elliot-s-secret-stash.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Exact PCGCTF acceptance remains unconfirmed."
+    ],
+    "verification_basis": "Original local artifacts and preserved independent extraction/sourceverification; drafted without claiming newliveattacks or fabricatedexecutions.",
+    "independent_attempt": "Reviewed original description, source solution and preserved decisive evidence; no new platform submission.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/unsolved/steganography-forensics/074-elliot-s-secret-stash/evidence/verification.json",
+      "/home/nightingale/CTF/PCGCTF/unsolved/steganography-forensics/074-elliot-s-secret-stash/solve.py",
+      "/home/nightingale/CTF/PCGCTF/unsolved/steganography-forensics/074-elliot-s-secret-stash/evidence/digital revolut.mp4"
+    ],
+    "public_credentials_redacted": false,
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/074-terminal-extraction.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  }
+]

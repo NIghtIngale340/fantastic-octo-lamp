@@ -1,0 +1,23 @@
+[
+  {
+    "id": 67,
+    "source": "/home/nightingale/CTF/PCGCTF/final-writeups/06-unresolved-appendix/067-weak-rsa.md",
+    "code": "from math import gcd, isqrt\nfrom sympy import isprime\nfrom pathlib import Path\nimport re\nsource = Path('/home/nightingale/CTF/PCGCTF/unsolved/cryptography/067-weak-rsa/files/05_weak_rsa.txt').read_text()\nn, e, c = [int(re.search(r'\\b' + key + r'\\s*=\\s*(\\d+)', source)[1])\n           for key in ('n', 'e', 'c')]\nprint(n.bit_length(), e)\nprint(isprime(n), isqrt(n) ** 2 == n)\nprint(gcd(c, n), 0 < c < n)\n",
+    "actual_stdout": "512 65537\nFalse False\n1 True\n",
+    "status": "executed_successfully_in_final_check"
+  },
+  {
+    "id": 77,
+    "source": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/077-hit-a-brick-wall.md",
+    "code": "from PIL import Image\nim = Image.open('/home/nightingale/CTF/PCGCTF/unsolved/forensics-steganography/077-hit-a-brick-wall/files/bricks.png').convert('RGB')\nmessage = ''\nfor row in range(12):\n    y = 38 + 56 * row\n    first_x = 115 if row % 2 == 0 else 62\n    colors = [im.getpixel((round(first_x + 108.5 * c), y))\n              for c in range(8)]\n    bits = ''.join('0' if c == (240, 227, 213) else\n                   '1' if c == (224, 212, 199) else '?'\n                   for c in colors)\n    assert '?' not in bits\n    message += chr(int(bits, 2))\nprint(message)\n",
+    "actual_stdout": "flag{b1nary}\n",
+    "status": "executed_successfully_in_final_check"
+  },
+  {
+    "id": 79,
+    "source": "/home/nightingale/CTF/PCGCTF/final-writeups/03-answer-ready/079-sequence.md",
+    "code": "import re\nfrom pathlib import Path\ntext = Path('/home/nightingale/CTF/PCGCTF/unsolved/cryptography-encoding/079-sequence/files/sequence.txt').read_text()\njson_text = text[text.index('{'):text.rindex('}') + 1]\nkeys = re.findall(r'^\\s*\"([^\"\\n]+)\"\\s*:', json_text, re.M)\npositions = [1, 2, 3, 5, 8, 13, 21, 34]\nprint(''.join(keys[i-1][0] for i in positions))\n",
+    "actual_stdout": "LANGUAGE\n",
+    "status": "executed_successfully_in_final_check"
+  }
+]

@@ -1,0 +1,15 @@
+[2J[HChallenge #71 — actual bounded dictionary attempt
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/dictionary_evidence.py 71
+
+ver 2.0 efh 5455 efh 7875 embedded-text.zip/embedded-text.jpg PKZIP Encr: TS_chk, cmplen=121728, decmplen=121896, crc=C9787FF7 ts=B6C8 cs=b6c8 type=8
+Executing: john --wordlist=/usr/share/wordlists/rockyou.txt --max-run-time=20 --pot=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/071-capture.pot --session=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/071-1793217997070578055 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/071.hash
+Using default input encoding: UTF-8
+Loaded 1 password hash (PKZIP [32/64])
+Will run 12 OpenMP threads
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+0g 0:00:00:02 DONE (2026-10-29 04:06) 0g/s 5495Kp/s 5495Kc/s 5495KC/s $$snowbunny24..*7¡Vamos!
+Session completed. 
+John process exit: 0
+Bound: at most20seconds; actual run output determines whether dictionary completed. No success is invented.
+
+[Actual command exit code: 0]

@@ -1,0 +1,13 @@
+{
+  "key": "051-reachability",
+  "id": 51,
+  "title": "Challenge #51 \u2014 actual evidence capture",
+  "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+  "filename": "051-actual-target-response.png",
+  "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag.",
+  "exit_code": 28,
+  "started_at_unix": 1793216541.5669901,
+  "finished_at_unix": 1793216544.6314454,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/051-reachability.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

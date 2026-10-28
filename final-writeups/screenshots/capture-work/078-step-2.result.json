@@ -1,0 +1,13 @@
+{
+  "key": "078-step-2",
+  "id": 78,
+  "title": "Challenge #78 \u2014 actual evidence capture",
+  "command": "python - <<'PY'\nfrom pathlib import Path\nimport re,base64\ns=Path('PCGCTF/solved/forensics-email-analysis/078-intercepted/files/intercepted.txt').read_text()\nc=base64.b64decode(re.search(r'^X-Spam-Signature: (.+)$',s,re.M)[1])\nk=bytes.fromhex(re.search(r'^X-Spam-Validator: (.+)$',s,re.M)[1])\np=bytes(b^k[i%len(k)] for i,b in enumerate(c))\nprint(k.decode());print(p.decode())\nPY",
+  "filename": "078-step-02.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216291.8600957,
+  "finished_at_unix": 1793216291.952602,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/078-step-2.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

@@ -1,0 +1,3 @@
+/usr/bin/deepsound2john:105: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn('file is not encrypted')
+WARNING:Dubwreckerz - Digital Revolution (Anonymous VIP).wav:file is not encrypted

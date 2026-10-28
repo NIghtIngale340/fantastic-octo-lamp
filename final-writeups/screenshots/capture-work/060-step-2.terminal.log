@@ -1,0 +1,16 @@
+[2J[HChallenge #60 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+import re
+from cryptography.hazmat.primitives.ciphers import Cipher,algorithms,modes
+t=Path('PCGCTF/solved/cryptography/060-cryptomaze/files/output.txt').read_text()
+c=bytes.fromhex(re.search(r'[0-9a-f]{80,}',t)[0])
+d=Cipher(algorithms.AES(bytes.fromhex('912e6fe0b77afbd3f41c246cb5de62a7')),modes.ECB()).decryptor()
+p=d.update(c)+d.finalize();n=p[-1]
+assert 1<=n<=16 and p[-n:]==bytes([n])*n
+print(p[:-n].decode())
+PY
+
+pcgCTF{scr8mbledt_flvg_79d68fe0}
+
+[Actual command exit code: 0]

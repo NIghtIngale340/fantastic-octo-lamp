@@ -1,0 +1,13 @@
+{
+  "key": "070-step-1",
+  "id": 70,
+  "title": "Challenge #70 \u2014 actual evidence capture",
+  "command": "tshark -n -r PCGCTF/solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap -Y http -T fields -e frame.number -e http.request.uri -e http.content_type",
+  "filename": "070-step-01.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216290.6988263,
+  "finished_at_unix": 1793216291.002737,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/070-step-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

@@ -1,0 +1,2 @@
+frame.number	ip.src	kerberos.CNameString	kerberos.realm	kerberos.SNameString
+1939	172.16.8.49	desktop-5nlv63k$	FIRSTTOLAST.TECH	krbtgt,FIRSTTOLAST.TECH

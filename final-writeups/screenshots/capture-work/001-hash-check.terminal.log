@@ -1,0 +1,8 @@
+[2J[HChallenge #1 — actual evidence capture
+$ python -c "h='530d378bd60243f41d169aad7cd238ae816a6ee3';print('Digest:',h);print('Hex length:',len(h));print('SHA-1 candidate: 160 bits; preimage remains unrecovered')"
+
+Digest: 530d378bd60243f41d169aad7cd238ae816a6ee3
+Hex length: 40
+SHA-1 candidate: 160 bits; preimage remains unrecovered
+
+[Actual command exit code: 0]

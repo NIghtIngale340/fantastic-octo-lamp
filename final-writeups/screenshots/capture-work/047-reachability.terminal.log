@@ -1,0 +1,6 @@
+[2J[HChallenge #47 — actual evidence capture
+$ curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/
+
+curl: (28) Connection timed out after 3002 milliseconds
+
+[Actual command exit code: 28]

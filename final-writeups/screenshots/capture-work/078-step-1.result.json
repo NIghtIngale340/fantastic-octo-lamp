@@ -1,0 +1,13 @@
+{
+  "key": "078-step-1",
+  "id": 78,
+  "title": "Challenge #78 \u2014 actual evidence capture",
+  "command": "grep -E '^X-Spam-(Signature|Validator):' PCGCTF/solved/forensics-email-analysis/078-intercepted/files/intercepted.txt",
+  "filename": "078-step-01.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216291.6270304,
+  "finished_at_unix": 1793216291.6891563,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/078-step-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

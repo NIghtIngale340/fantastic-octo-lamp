@@ -1,0 +1,72 @@
+{
+  "id": 79,
+  "source": "/home/nightingale/CTF/PCGCTF/unsolved/cryptography-encoding/079-sequence/files/sequence.txt",
+  "sha256": "23a3527e22179d7d309112afda5da7815fd862eab2d0ac325837e65df8d22b8a",
+  "method": "Restart Fibonacci indices at the JSON block; 1-based, omit duplicate 1, enumerate nested keys in lexical source order.",
+  "first_word": [
+    {
+      "position": 1,
+      "sentence": "For internal use only.",
+      "letter": "F"
+    },
+    {
+      "position": 2,
+      "sentence": "Let's get started with our latest proposal for the new business venture.",
+      "letter": "L"
+    },
+    {
+      "position": 3,
+      "sentence": "Angie, our predecessor, has spoken to me recently and has confirmed the steps to move forward.",
+      "letter": "A"
+    },
+    {
+      "position": 5,
+      "sentence": "Great news.",
+      "letter": "G"
+    }
+  ],
+  "second_word": [
+    {
+      "position": 1,
+      "key": "Location",
+      "letter": "L"
+    },
+    {
+      "position": 2,
+      "key": "Accept",
+      "letter": "A"
+    },
+    {
+      "position": 3,
+      "key": "No-cache",
+      "letter": "N"
+    },
+    {
+      "position": 5,
+      "key": "Gui",
+      "letter": "G"
+    },
+    {
+      "position": 8,
+      "key": "User-agent",
+      "letter": "U"
+    },
+    {
+      "position": 13,
+      "key": "Alt-svc",
+      "letter": "A"
+    },
+    {
+      "position": 21,
+      "key": "Gateway",
+      "letter": "G"
+    },
+    {
+      "position": 34,
+      "key": "Expires",
+      "letter": "E"
+    }
+  ],
+  "message": "FLAG LANGUAGE",
+  "flag_candidate": "pcgCTF{FLAG LANGUAGE}"
+}

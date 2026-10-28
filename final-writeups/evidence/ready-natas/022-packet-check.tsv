@@ -1,0 +1,4 @@
+frame.number	tcp.stream	ftp.request.command	ftp.request.arg	ftp.response.code	ftp.response.arg
+496	10	USER	kali		
+500	10	PASS	AfricaCTF2021		
+502	10			230	Login successful.

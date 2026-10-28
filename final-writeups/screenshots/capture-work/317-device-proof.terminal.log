@@ -1,0 +1,28 @@
+[2J[HChallenge #317 — actual Emedra simulator result
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/emedra_evidence.py 317
+
+Connected HDMI training tool:
+{
+  "ok": true,
+  "windowType": "external-display",
+  "token": "[REDACTED_SESSION_TOKEN]"
+}
+GET /api/external-display?level=3 — HTTP 200
+{
+  "source": "CEREBRASCAN DIAG MIRROR (FB0 1920x1080) \u2014 NeuraOS 2.3.1",
+  "firmware": "NeuraOS 2.3.1",
+  "osdLevel": 3,
+  "maxLevel": 3,
+  "raw": true,
+  "patient": {
+    "name": "Gideon Marsh",
+    "dob": "1981-10-31",
+    "mrn": "100413"
+  },
+  "study": "Cranial perfusion, contrast",
+  "technician": "Service Technician",
+  "startedAt": "2026-03-14 09:22",
+  "diagSession": "deadface{hdm1_l34ks_th3_wh0l3_p4t13nt}"
+}
+
+[Actual command exit code: 0]

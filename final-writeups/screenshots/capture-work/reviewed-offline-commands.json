@@ -1,0 +1,132 @@
+[
+  [
+    3,
+    1,
+    "python - <<'PY'\ns='Frdvw Jxdug Fbehu Frppdqg'\nout=[]\nfor c in s:\n    if c.isalpha():\n        a=ord('A' if c.isupper() else 'a')\n        out.append(chr((ord(c)-a-3)%26+a))\n    else:\n        out.append(c)\nprint(''.join(out))\nPY"
+  ],
+  [
+    2,
+    1,
+    "exiftool -Make -Model -Software 'PCGCTF/solved/cryptography/002-picture-perfect-evidence/files/cydex (1).jpg'"
+  ],
+  [
+    2,
+    2,
+    "exiftool -s3 -Make 'PCGCTF/solved/cryptography/002-picture-perfect-evidence/files/cydex (1).jpg'"
+  ],
+  [
+    4,
+    1,
+    "python - <<'PY'\nimport base64\nx=b'VVRGU1IyVXlOV3hrYlZaNVdETk9NR0l6UW1aaVIxWm9ZMjAxY0dKdFpEaz0='\nfor layer in range(1,4):\n    x=base64.b64decode(x,validate=True)\n    print(layer,x.decode())\nPY"
+  ],
+  [
+    5,
+    1,
+    "python - <<'PY'\nfrom pathlib import Path\ntext=Path('PCGCTF/solved/cryptography/005-silent-signal/README.md').read_text()\ns=text.split('we intercepted the code via our oldest comms')[1].split('welcome')[0].strip()\ncodes='.- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..'.split()\nm=dict(zip(codes,'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))\nanswer='_'.join(''.join(m[t] for t in word.split()) for word in s.split('/'))\nprint(answer)\nPY"
+  ],
+  [
+    33,
+    1,
+    "python - <<'PY'\nfrom pathlib import Path\nh=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()\nprint(bytes.fromhex(h).decode())\nPY"
+  ],
+  [
+    33,
+    2,
+    "python - <<'PY'\nfrom pathlib import Path\nimport base64\nh=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()\na=base64.a85decode(bytes.fromhex(h))\nb=base64.b32decode(a)\nc=base64.b64decode(b,validate=True)\nprint(a.decode());print(b.decode());print(c.decode())\nPY"
+  ],
+  [
+    34,
+    1,
+    "python - <<'PY'\nimport codecs\ns='synt vf pbby'\np=codecs.decode(s,'rot_13')\nassert codecs.decode(p,'rot_13')==s\nprint(p)\nPY"
+  ],
+  [
+    63,
+    1,
+    "python - <<'PY'\nimport codecs\ns='cptpgs{pnrfne_jnf_bayl_gur_ortvaavat}'\np=codecs.decode(s,'rot_13')\nassert codecs.decode(p,'rot_13')==s\nprint(p)\nPY"
+  ],
+  [
+    64,
+    1,
+    "python - <<'PY'\nct='rtermt';pt='pcgctf'\nprint(''.join(chr((ord(c)-ord(p))%26+97) for c,p in zip(ct,pt)))\nPY"
+  ],
+  [
+    64,
+    2,
+    "python - <<'PY'\nct='rtermt{xzetgstv_gh_gcv_vldnuj}';key='crypto';j=0;out=[]\nfor c in ct:\n    if c.isalpha():\n        out.append(chr((ord(c)-ord(key[j%len(key)]))%26+97));j+=1\n    else:out.append(c)\nprint(''.join(out))\nPY"
+  ],
+  [
+    81,
+    1,
+    "python - <<'PY'\nfrom pathlib import Path\nfrom PIL import Image\np=Path('PCGCTF/final-writeups/evidence-solved/81/ctf')\nfor f in p.iterdir():\n    im=Image.open(f);print(f.name,im.size,im.format)\nPY"
+  ],
+  [
+    81,
+    2,
+    "python - <<'PY'\nfrom pathlib import Path\nimport struct,zlib\np=Path('PCGCTF/final-writeups/evidence-solved/81/ctf/20.png');b=p.read_bytes();o=8;data=b''\nwhile o<len(b):\n    n=struct.unpack('>I',b[o:o+4])[0];kind=b[o+4:o+8]\n    if kind==b'IDAT':data+=b[o+8:o+8+n]\n    o+=n+12\nraw=zlib.decompress(data);print('decompressed bytes:',len(raw))\nassert len(raw)==1000*(1+1000*4)\nc=bytearray(b);c[20:24]=struct.pack('>I',1000)\nc[29:33]=struct.pack('>I',zlib.crc32(c[12:29])&0xffffffff)\np.with_name('20-restored.png').write_bytes(c)\nPY"
+  ],
+  [
+    65,
+    1,
+    "python - <<'PY'\nfrom pathlib import Path\nimport re\nt=Path('PCGCTF/solved/cryptography/065-small-exponent/files/03_rsa_small_exponent.txt').read_text()\nd={k:int(v) for k,v in re.findall(r'(n|e|ciphertext)\\s*=\\s*(\\d+)',t)}\nc=d['ciphertext'];lo=0;hi=1<<((c.bit_length()+2)//3)\nwhile lo+1<hi:\n    m=(lo+hi)//2\n    if m**3<=c:lo=m\n    else:hi=m\nassert lo**3==c and lo**3<d['n']\nprint(lo.to_bytes((lo.bit_length()+7)//8,'big').decode())\nPY"
+  ],
+  [
+    70,
+    1,
+    "tshark -n -r PCGCTF/solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap -Y http -T fields -e frame.number -e http.request.uri -e http.content_type"
+  ],
+  [
+    70,
+    2,
+    "mkdir -p /tmp/pcgctf-http70\ntshark -r PCGCTF/solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap --export-objects http,/tmp/pcgctf-http70\nunzip -t /tmp/pcgctf-http70/password.zip\nunzip -p /tmp/pcgctf-http70/password.zip password.txt"
+  ],
+  [
+    78,
+    1,
+    "grep -E '^X-Spam-(Signature|Validator):' PCGCTF/solved/forensics-email-analysis/078-intercepted/files/intercepted.txt"
+  ],
+  [
+    78,
+    2,
+    "python - <<'PY'\nfrom pathlib import Path\nimport re,base64\ns=Path('PCGCTF/solved/forensics-email-analysis/078-intercepted/files/intercepted.txt').read_text()\nc=base64.b64decode(re.search(r'^X-Spam-Signature: (.+)$',s,re.M)[1])\nk=bytes.fromhex(re.search(r'^X-Spam-Validator: (.+)$',s,re.M)[1])\np=bytes(b^k[i%len(k)] for i,b in enumerate(c))\nprint(k.decode());print(p.decode())\nPY"
+  ],
+  [
+    320,
+    1,
+    "python - <<'PY'\nimport sqlite3\np='/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/Hooked-History.sqlite'\nc=sqlite3.connect('file:'+p+'?mode=ro',uri=True)\nfor r in c.execute('SELECT id,url,title,last_visit_time FROM urls ORDER BY id'):print(r)\nPY"
+  ],
+  [
+    35,
+    1,
+    "pdfinfo PCGCTF/solved/forensic/035-riddle-registry/files/confidential_2.pdf"
+  ],
+  [
+    35,
+    2,
+    "python - <<'PY'\nimport base64\ns='Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ=='\nprint(base64.b64decode(s,validate=True).decode())\nPY"
+  ],
+  [
+    20,
+    1,
+    "python - <<'PY'\nfrom pathlib import Path\nh=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()\nprint(bytes.fromhex(h).decode())\nPY"
+  ],
+  [
+    20,
+    2,
+    "python - <<'PY'\nfrom pathlib import Path\nimport base64\nh=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()\na=base64.a85decode(bytes.fromhex(h))\nb=base64.b32decode(a)\nc=base64.b64decode(b,validate=True)\nprint(a.decode());print(b.decode());print(c.decode())\nPY"
+  ],
+  [
+    60,
+    1,
+    "python - <<'PY'\nfrom pathlib import Path\nimport ast,re\nt=Path('PCGCTF/solved/cryptography/060-cryptomaze/files/output.txt').read_text()\ns=ast.literal_eval(re.search(r'\\[[01,\\s]+\\]',t)[0]);bits=[]\nfor _ in range(128):\n    bits.append(s[0]);s=s[1:]+[s[63]^s[61]^s[60]^s[58]]\nk=bytes(int(''.join(map(str,bits[i:i+8])),2) for i in range(0,128,8))\nprint(k.hex())\nPY"
+  ],
+  [
+    60,
+    2,
+    "python - <<'PY'\nfrom pathlib import Path\nimport re\nfrom cryptography.hazmat.primitives.ciphers import Cipher,algorithms,modes\nt=Path('PCGCTF/solved/cryptography/060-cryptomaze/files/output.txt').read_text()\nc=bytes.fromhex(re.search(r'[0-9a-f]{80,}',t)[0])\nd=Cipher(algorithms.AES(bytes.fromhex('912e6fe0b77afbd3f41c246cb5de62a7')),modes.ECB()).decryptor()\np=d.update(c)+d.finalize();n=p[-1]\nassert 1<=n<=16 and p[-n:]==bytes([n])*n\nprint(p[:-n].decode())\nPY"
+  ],
+  [
+    66,
+    1,
+    "python - <<'PY'\nfrom pathlib import Path\nimport re\nt=Path('PCGCTF/solved/cryptography/066-common-modulus/files/04_rsa_common_modulus.txt').read_text()\nd={k:int(v) for k,v in re.findall(r'(n|e1|e2|c1|c2)\\s*=\\s*(\\d+)',t)}\nn=d['n'];m=pow(d['c1'],2,n)*pow(d['c2'],-1,n)%n\nassert pow(m,d['e1'],n)==d['c1']\nassert pow(m,d['e2'],n)==d['c2']\nprint(m.to_bytes((m.bit_length()+7)//8,'big').decode())\nPY"
+  ]
+]

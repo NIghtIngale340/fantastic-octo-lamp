@@ -1,0 +1,5 @@
+[2J[HChallenge #308 — actual evidence capture
+$ head -n 12 /home/nightingale/CTF/PCGCTF/analysis-act4-act5/handyman24-dns.json
+
+{"Status":0,"TC":false,"RD":true,"RA":true,"AD":false,"CD":false,"Question":[{"name":"handyman24.eu.","type":1}],"Answer":[{"name":"handyman24.eu.","type":1,"TTL":300,"data":"146.59.71.167"}],"Comment":"Response from 173.245.58.98."}
+[Actual command exit code: 0]

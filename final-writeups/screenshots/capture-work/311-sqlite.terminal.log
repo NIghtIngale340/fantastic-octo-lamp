@@ -1,0 +1,6 @@
+[2J[HChallenge #311 — actual evidence capture
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/311-capture.py
+
+(847261, 'Ibuprofen', '400 mg', 'Every 8 hours as needed', 'Candesartan', '16 mg', 'Once daily')
+
+[Actual command exit code: 0]

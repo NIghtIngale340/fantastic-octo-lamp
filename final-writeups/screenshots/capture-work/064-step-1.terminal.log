@@ -1,0 +1,9 @@
+[2J[HChallenge #64 — actual evidence capture
+$ python - <<'PY'
+ct='rtermt';pt='pcgctf'
+print(''.join(chr((ord(c)-ord(p))%26+97) for c,p in zip(ct,pt)))
+PY
+
+crypto
+
+[Actual command exit code: 0]

@@ -1,0 +1,13 @@
+{
+  "key": "289-network",
+  "id": 289,
+  "title": "Challenge #289 \u2014 offline packet evidence",
+  "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.131 || ip.src == 10.3.14.134 || ip.src == 10.3.14.135) && frame.number in {6, 1684, 1771}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+  "filename": "289-decisive-evidence.png",
+  "purpose": "Fresh execution of the draft\u2019s field-specific TShark command.",
+  "exit_code": 0,
+  "started_at_unix": 1793216145.448647,
+  "finished_at_unix": 1793216146.2986073,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/289-network.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

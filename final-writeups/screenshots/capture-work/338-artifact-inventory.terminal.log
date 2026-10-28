@@ -1,0 +1,8 @@
+[2J[HChallenge #338 — actual evidence capture
+$ find /home/nightingale/CTF/PCGCTF/solved/deadface/338-headshot -maxdepth 2 -type f -printf '%P
+'
+
+README.md
+solution.md
+
+[Actual command exit code: 0]

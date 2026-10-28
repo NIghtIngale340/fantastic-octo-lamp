@@ -1,0 +1,13 @@
+{
+  "key": "113-reachability",
+  "id": 113,
+  "title": "Challenge #113 \u2014 actual evidence capture",
+  "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag1.cgcybercom.online/",
+  "filename": "113-actual-target-response.png",
+  "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag.",
+  "exit_code": 7,
+  "started_at_unix": 1793216514.5131602,
+  "finished_at_unix": 1793216514.7266183,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/113-reachability.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

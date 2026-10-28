@@ -1,0 +1,13 @@
+{
+  "key": "287-network",
+  "id": 287,
+  "title": "Challenge #287 \u2014 offline packet evidence",
+  "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(dns.a == 153.92.1.49 || (ip.dst == 153.92.1.49 && http.request)) && frame.number in {23723, 24500}' -T fields -E header=y -e frame.number -e dns.qry.name -e dns.a -e http.host -e ip.dst",
+  "filename": "287-decisive-evidence.png",
+  "purpose": "Fresh execution of the draft\u2019s field-specific TShark command.",
+  "exit_code": 0,
+  "started_at_unix": 1793216142.3819187,
+  "finished_at_unix": 1793216143.713252,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/287-network.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

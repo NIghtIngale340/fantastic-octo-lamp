@@ -1,0 +1,13 @@
+{
+  "key": "071-archive-check",
+  "id": 71,
+  "title": "Challenge #71 \u2014 actual evidence capture",
+  "command": "zipinfo -v /home/nightingale/CTF/PCGCTF/solved/steganography/071-embedded-text/files/embedded-text.zip",
+  "filename": "071-archive-evidence.png",
+  "purpose": "Inspect encrypted ZIP metadata; actual member cannot be opened without recovered password.",
+  "exit_code": 0,
+  "started_at_unix": 1793216325.1712892,
+  "finished_at_unix": 1793216325.2335703,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/071-archive-check.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

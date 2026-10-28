@@ -1,0 +1,13 @@
+{
+  "key": "323-artifact-inventory",
+  "id": 323,
+  "title": "Challenge #323 \u2014 actual evidence capture",
+  "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/323-inside-man -maxdepth 2 -type f -printf '%P\n'",
+  "filename": "323-actual-artifact-inventory.png",
+  "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result.",
+  "exit_code": 0,
+  "started_at_unix": 1793217193.6198502,
+  "finished_at_unix": 1793217193.682442,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/323-artifact-inventory.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

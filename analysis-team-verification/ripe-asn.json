@@ -1,0 +1,108 @@
+{
+  "objects" : {
+    "object" : [ {
+      "type" : "aut-num",
+      "link" : {
+        "type" : "locator",
+        "href" : "https://rest.db.ripe.net/ripe/aut-num/AS209605"
+      },
+      "source" : {
+        "id" : "ripe"
+      },
+      "primary-key" : {
+        "attribute" : [ {
+          "name" : "aut-num",
+          "value" : "AS209605"
+        } ]
+      },
+      "attributes" : {
+        "attribute" : [ {
+          "name" : "aut-num",
+          "value" : "AS209605"
+        }, {
+          "name" : "as-name",
+          "value" : "hostbaltic"
+        }, {
+          "link" : {
+            "type" : "locator",
+            "href" : "https://rest.db.ripe.net/ripe/organisation/ORG-UHB3-RIPE"
+          },
+          "name" : "org",
+          "value" : "ORG-UHB3-RIPE",
+          "referenced-type" : "organisation"
+        }, {
+          "name" : "import",
+          "value" : "from AS15440 accept ANY"
+        }, {
+          "name" : "export",
+          "value" : "to AS15440 announce AS209605"
+        }, {
+          "name" : "import",
+          "value" : "from AS24645 accept ANY"
+        }, {
+          "name" : "import",
+          "value" : "from AS133398 accept ANY"
+        }, {
+          "name" : "export",
+          "value" : "to AS24645 announce AS209605"
+        }, {
+          "name" : "export",
+          "value" : "to AS133398 announce AS209605"
+        }, {
+          "link" : {
+            "type" : "locator",
+            "href" : "https://rest.db.ripe.net/ripe/person/PV7242-RIPE"
+          },
+          "name" : "admin-c",
+          "value" : "PV7242-RIPE",
+          "referenced-type" : "person"
+        }, {
+          "link" : {
+            "type" : "locator",
+            "href" : "https://rest.db.ripe.net/ripe/person/PV7242-RIPE"
+          },
+          "name" : "tech-c",
+          "value" : "PV7242-RIPE",
+          "referenced-type" : "person"
+        }, {
+          "name" : "status",
+          "value" : "ASSIGNED"
+        }, {
+          "link" : {
+            "type" : "locator",
+            "href" : "https://rest.db.ripe.net/ripe/mntner/RIPE-NCC-END-MNT"
+          },
+          "name" : "mnt-by",
+          "value" : "RIPE-NCC-END-MNT",
+          "referenced-type" : "mntner"
+        }, {
+          "link" : {
+            "type" : "locator",
+            "href" : "https://rest.db.ripe.net/ripe/mntner/mnt-lt-hostbaltic-1"
+          },
+          "name" : "mnt-by",
+          "value" : "mnt-lt-hostbaltic-1",
+          "referenced-type" : "mntner"
+        }, {
+          "name" : "created",
+          "value" : "2019-01-10T09:41:53Z"
+        }, {
+          "name" : "last-modified",
+          "value" : "2019-01-10T14:54:38Z"
+        }, {
+          "name" : "source",
+          "value" : "RIPE"
+        } ]
+      }
+    } ]
+  },
+  "terms-and-conditions" : {
+    "type" : "locator",
+    "href" : "https://docs.db.ripe.net/terms-conditions.html"
+  },
+  "version" : {
+    "version" : "1.124.1",
+    "timestamp" : "2026-08-31T08:10:22Z",
+    "commit-id" : "1a68e9a"
+  }
+}

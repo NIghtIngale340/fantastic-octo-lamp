@@ -1,0 +1,13 @@
+{
+  "key": "339-artifact-inventory",
+  "id": 339,
+  "title": "Challenge #339 \u2014 actual evidence capture",
+  "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/339-file-dump-01 -maxdepth 2 -type f -printf '%P\n'",
+  "filename": "339-actual-artifact-inventory.png",
+  "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result.",
+  "exit_code": 0,
+  "started_at_unix": 1793217197.6331375,
+  "finished_at_unix": 1793217197.6969662,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/339-artifact-inventory.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

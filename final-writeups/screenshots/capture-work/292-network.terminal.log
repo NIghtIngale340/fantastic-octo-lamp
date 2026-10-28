@@ -1,0 +1,7 @@
+[2J[HChallenge #292 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.135) && frame.number in {6}' -T fields -E header=y -e frame.number -e eth.src -e ip.src
+
+frame.number	eth.src	ip.src
+6	00:26:bb:4c:6b:e1	10.3.14.135
+
+[Actual command exit code: 0]

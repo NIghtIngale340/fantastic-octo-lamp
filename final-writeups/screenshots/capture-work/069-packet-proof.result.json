@@ -1,0 +1,13 @@
+{
+  "key": "069-packet-proof",
+  "id": 69,
+  "title": "Challenge #69 \u2014 actual evidence capture",
+  "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-analysis/069-bitcoin-trail/files/cryptocurrency_transfer_tracking.pcap -Y 'frame.number in {187,196,218}' -T fields -E header=y -e frame.number -e tcp.payload",
+  "filename": "069-packet-proof.png",
+  "purpose": "Actual field extraction from preserved capture; no invented successful grader response.",
+  "exit_code": 0,
+  "started_at_unix": 1793216344.3860457,
+  "finished_at_unix": 1793216344.721573,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/069-packet-proof.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

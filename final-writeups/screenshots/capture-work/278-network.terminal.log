@@ -1,0 +1,9 @@
+[2J[HChallenge #278 — offline packet evidence
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(frame.number == 10317 || frame.number == 9759 || frame.number == 1070) && frame.number in {9759, 10317, 1070}' -T fields -E header=y -e frame.number -e ldap.AttributeDescription -e ldap.AttributeValue -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name
+
+frame.number	ldap.AttributeDescription	ldap.AttributeValue	samr.samr_UserInfo21.account_name	samr.samr_UserInfo21.full_name
+1070			ccollier	Clark Collier
+9759		436f6c6c696572,436c61726b		
+10317		434e3d436c61726b20436f6c6c6965722c434e3d55736572732c44433d77697265736861726b776f726b73686f702c44433d6f6e6c696e65,436c61726b20436f6c6c696572,434e3d506572736f6e2c434e3d536368656d612c434e3d436f6e66696775726174696f6e2c44433d77697265736861726b776f726b73686f702c44433d6f6e6c696e65		
+
+[Actual command exit code: 0]

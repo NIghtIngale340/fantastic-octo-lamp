@@ -1,0 +1,18 @@
+[2J[HChallenge #65 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+import re
+t=Path('PCGCTF/solved/cryptography/065-small-exponent/files/03_rsa_small_exponent.txt').read_text()
+d={k:int(v) for k,v in re.findall(r'(n|e|ciphertext)\s*=\s*(\d+)',t)}
+c=d['ciphertext'];lo=0;hi=1<<((c.bit_length()+2)//3)
+while lo+1<hi:
+    m=(lo+hi)//2
+    if m**3<=c:lo=m
+    else:hi=m
+assert lo**3==c and lo**3<d['n']
+print(lo.to_bytes((lo.bit_length()+7)//8,'big').decode())
+PY
+
+pcgctf{rsa_small_exponents_are_dangerous}
+
+[Actual command exit code: 0]

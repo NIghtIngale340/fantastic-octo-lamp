@@ -1,0 +1,13 @@
+{
+  "key": "302-saved-record",
+  "id": 302,
+  "title": "Challenge #302 \u2014 actual evidence capture",
+  "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/routing-status.json",
+  "filename": "302-saved-evidence.png",
+  "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup.",
+  "exit_code": 0,
+  "started_at_unix": 1793216398.841409,
+  "finished_at_unix": 1793216398.9033113,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/302-saved-record.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

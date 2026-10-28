@@ -1,0 +1,13 @@
+{
+  "key": "001-dictionary-proof",
+  "id": 1,
+  "title": "Challenge #1 \u2014 actual bounded dictionary attempt",
+  "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/dictionary_evidence.py 1",
+  "filename": "001-actual-dictionary-attempt.png",
+  "purpose": "Actual fresh dictionary recovery attempt with explicit20-secondbound; no inventedplaintext.",
+  "exit_code": 0,
+  "started_at_unix": 1793217994.9463284,
+  "finished_at_unix": 1793217996.649688,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/001-dictionary-proof.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

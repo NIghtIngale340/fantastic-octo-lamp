@@ -1,0 +1,12 @@
+[2J[HChallenge #34 — actual evidence capture
+$ python - <<'PY'
+import codecs
+s='synt vf pbby'
+p=codecs.decode(s,'rot_13')
+assert codecs.decode(p,'rot_13')==s
+print(p)
+PY
+
+flag is cool
+
+[Actual command exit code: 0]

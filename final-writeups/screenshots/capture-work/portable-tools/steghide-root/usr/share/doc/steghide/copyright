@@ -1,0 +1,60 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Source: http://steghide.sourceforge.net/
+Upstream-Name: steghide
+
+Files: *
+Copyright: 1999-2003 Stefan Hetzl <shetzl@chello.at>
+License: GPL-2+
+
+Files: intl/*
+Copyright: 1995-2002 Free Software Foundation, Inc
+License: LGPL-2+
+
+Files: src/gettext.h
+Copyright: 1995-2002 Free Software Foundation, Inc
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2001      Dr. Guenter Bechly <gbechly@debian.org>
+           2001-2002 Brian Russo <wolfie@debian.org>
+           2003-2016 Ola Lundqvist <opal@debian.org>
+           2006      Erinn Clark <erinn@double-helix.org>
+           2014      Matthias Klose <doko@debian.org>
+           2016      Fernando Seiti Furusato <ferseiti@linux.vnet.ibm.com>
+           2016-2020 Giovani Augusto Ferreira <giovani@debian.org>
+           2019-2020 Samuel Henrique <samueloph@debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.

@@ -3,7 +3,7 @@
     "id": 83,
     "name": "EASY PACKET 1 #01  The Capture Signature",
     "answer": "pcap (classic libpcap/tcpdump format)",
-    "flag": "pcgCTF{pcap}",
+    "flag": null,
     "filter": "frame.number == 1",
     "frames": [
       1
@@ -12,13 +12,13 @@
     "reason": "File magic d4 c3 b2 a1 indicates classic little-endian, microsecond-resolution PCAP; capinfos independently reports pcap. This is file-level evidence, not a packet protocol field. The platform may call this libpcap.",
     "local_folder": "unsolved/network-forensics/083-easy-packet-1-01-the-capture-signature",
     "capture_challenge_id": 82,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Candidate pcap reported rejected by teammate; exact accepted phrase unresolved."
   },
   {
     "id": 85,
     "name": "EASY PACKET 1 #03  Destination at Layer 2",
     "answer": "00:d0:bc:eb:e0:80",
-    "flag": "pcgCTF{00:d0:bc:eb:e0:80}",
+    "flag": "pcgCTF{00-D0-BC-EB-E0-80}",
     "filter": "frame.number == 1 && eth.dst == 00:d0:bc:eb:e0:80",
     "frames": [
       1
@@ -29,13 +29,14 @@
     "reason": "Ethernet destination address; independently verified from the first six frame bytes.",
     "local_folder": "unsolved/network-forensics/085-easy-packet-1-03-destination-at-layer-2",
     "capture_challenge_id": 82,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Accepted per Garcia Day1 report; not independently retested in our account.",
+    "previous_flag_candidate": "pcgCTF{00:d0:bc:eb:e0:80}"
   },
   {
     "id": 86,
     "name": "EASY PACKET 1 #04  Source at Layer 2",
     "answer": "00:1b:63:94:b1:0e",
-    "flag": "pcgCTF{00:1b:63:94:b1:0e}",
+    "flag": "pcgCTF{00-1B-63-94-B1-0E}",
     "filter": "frame.number == 1 && eth.src == 00:1b:63:94:b1:0e",
     "frames": [
       1
@@ -46,13 +47,14 @@
     "reason": "Ethernet source address; independently verified from frame bytes 6\u201311.",
     "local_folder": "unsolved/network-forensics/086-easy-packet-1-04-source-at-layer-2",
     "capture_challenge_id": 82,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Accepted per Garcia Day1 report; not independently retested in our account.",
+    "previous_flag_candidate": "pcgCTF{00:1b:63:94:b1:0e}"
   },
   {
     "id": 89,
     "name": "EASY PACKET 1 #07  The 20-Byte Header",
     "answer": "20 bytes (IHL = 5)",
-    "flag": "pcgCTF{20}",
+    "flag": "pcgCTF{20 bytes}",
     "filter": "frame.number == 1 && ip.hdr_len == 20",
     "frames": [
       1
@@ -60,16 +62,17 @@
     "tcp_streams": [
       0
     ],
-    "reason": "The IHL nibble is 5, meaning five 32-bit words: 5 \u00d7 4 = 20 bytes. The numeric flag candidate uses bytes, without a units suffix.",
+    "reason": "IHL is 5, which is 20 bytes. Garcia reports that the accepted flag includes the literal units suffix: 20 bytes.",
     "local_folder": "unsolved/network-forensics/089-easy-packet-1-07-the-20-byte-header",
     "capture_challenge_id": 82,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Accepted per Garcia Day1 report; not independently retested in our account.",
+    "previous_flag_candidate": "pcgCTF{20}"
   },
   {
     "id": 90,
     "name": "EASY PACKET 1 #08  Total Packet Weight",
     "answer": "504",
-    "flag": "pcgCTF{504}",
+    "flag": "pcgCTF{504 bytes}",
     "filter": "frame.number == 1 && ip.len == 504",
     "frames": [
       1
@@ -80,13 +83,14 @@
     "reason": "IPv4 Total Length is 504 bytes; the Ethernet header is not included.",
     "local_folder": "unsolved/network-forensics/090-easy-packet-1-08-total-packet-weight",
     "capture_challenge_id": 82,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Accepted per Garcia Day1 report; not independently retested in our account.",
+    "previous_flag_candidate": "pcgCTF{504}"
   },
   {
     "id": 91,
     "name": "EASY PACKET 1 #09  Packet Identity",
     "answer": "0xbed2 (48850 decimal)",
-    "flag": "pcgCTF{0xbed2}",
+    "flag": "pcgCTF{48850}",
     "filter": "frame.number == 1 && ip.id == 0xbed2",
     "frames": [
       1
@@ -97,13 +101,14 @@
     "reason": "The IPv4 Identification field is hexadecimal 0xbed2, decimal 48850. The flag candidate uses Wireshark's hexadecimal notation; the grader's numeric representation is unvalidated.",
     "local_folder": "unsolved/network-forensics/091-easy-packet-1-09-packet-identity",
     "capture_challenge_id": 82,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Accepted per Garcia Day1 report; not independently retested in our account.",
+    "previous_flag_candidate": "pcgCTF{0xbed2}"
   },
   {
     "id": 100,
     "name": "EASY PACKET 1 #18  Push and Acknowledge",
     "answer": "PSH and ACK",
-    "flag": "pcgCTF{PSH_ACK}",
+    "flag": "pcgCTF{PSH and ACK}",
     "filter": "frame.number == 1 && tcp.flags.push == 1 && tcp.flags.ack == 1",
     "frames": [
       1
@@ -114,7 +119,8 @@
     "reason": "TCP flags value is 0x018. PSH and ACK are set; SYN, FIN, RST, and URG are clear. The underscore separator is a submission-format candidate, not an observed grader requirement.",
     "local_folder": "unsolved/network-forensics/100-easy-packet-1-18-push-and-acknowledge",
     "capture_challenge_id": 82,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Accepted per Garcia Day1 report; not independently retested in our account.",
+    "previous_flag_candidate": "pcgCTF{PSH_ACK}"
   },
   {
     "id": 102,
@@ -154,7 +160,7 @@
     "id": 111,
     "name": "EASY PACKET 1 #29  The Exposed Credentials",
     "answer": "usertest:password",
-    "flag": "pcgCTF{usertest:password}",
+    "flag": "pcgCTF{usertest/password}",
     "filter": "frame.number == 1 && http.authorization",
     "frames": [
       1
@@ -165,7 +171,8 @@
     "reason": "Authorization is Basic dXNlcnRlc3Q6cGFzc3dvcmQ=. Base64 decoding yields username usertest and password password, separated by a colon. These are challenge-supplied packet contents.",
     "local_folder": "unsolved/network-forensics/111-easy-packet-1-29-the-exposed-credentials",
     "capture_challenge_id": 82,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Accepted per Garcia Day1 report; not independently retested in our account.",
+    "previous_flag_candidate": "pcgCTF{usertest:password}"
   },
   {
     "id": 112,
@@ -188,7 +195,7 @@
     "id": 265,
     "name": "ACT 1 - FIRST SIGNAL: Domain Membership",
     "answer": "FIRSTTOLAST.TECH",
-    "flag": "pcgCTF{FIRSTTOLAST.TECH}",
+    "flag": "pcgCTF{FIRSTTOLAST}",
     "filter": "ip.addr == 172.16.8.49 && kerberos",
     "frames": [
       1939,
@@ -198,10 +205,11 @@
       86,
       88
     ],
-    "reason": "The victim's machine-account Kerberos exchanges explicitly name realm FIRSTTOLAST.TECH, also usable as lowercase DNS domain firsttolast.tech.",
+    "reason": "Captured DNS realm is FIRSTTOLAST.TECH. Garcia reports that the grader accepts the short/NetBIOS name FIRSTTOLAST instead of the DNS realm.",
     "local_folder": "unsolved/network-forensics/265-act-1-first-signal-domain-membership",
     "capture_challenge_id": 262,
-    "platform_validation": "not confirmed"
+    "platform_validation": "Accepted per Garcia Day1 report; not independently retested in our account.",
+    "previous_flag_candidate": "pcgCTF{FIRSTTOLAST.TECH}"
   },
   {
     "id": 267,

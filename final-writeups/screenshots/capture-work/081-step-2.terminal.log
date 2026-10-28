@@ -1,0 +1,19 @@
+[2J[HChallenge #81 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+import struct,zlib
+p=Path('PCGCTF/final-writeups/evidence-solved/81/ctf/20.png');b=p.read_bytes();o=8;data=b''
+while o<len(b):
+    n=struct.unpack('>I',b[o:o+4])[0];kind=b[o+4:o+8]
+    if kind==b'IDAT':data+=b[o+8:o+8+n]
+    o+=n+12
+raw=zlib.decompress(data);print('decompressed bytes:',len(raw))
+assert len(raw)==1000*(1+1000*4)
+c=bytearray(b);c[20:24]=struct.pack('>I',1000)
+c[29:33]=struct.pack('>I',zlib.crc32(c[12:29])&0xffffffff)
+p.with_name('20-restored.png').write_bytes(c)
+PY
+
+decompressed bytes: 4001000
+
+[Actual command exit code: 0]

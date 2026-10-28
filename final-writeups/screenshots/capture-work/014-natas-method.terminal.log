@@ -1,0 +1,13 @@
+[2J[HChallenge #14 — actual evidence capture
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 14 method
+
+GET http://natas7.natas.labs.overthewire.org/index.php HTTP 200
+Actual response excerpt, level passwords redacted:
+<!-- This stuff in the header has nothing to do with the level -->
+<script>var wechallinfo = { "level": "natas7", "pass": "[REDACTED_LEVEL_PASSWORD]" };</script></head>
+[REDACTED_LEVEL_PASSWORD]
+<!-- hint: password for webuser natas8 is in /etc/natas_webpass/natas8 -->
+Response SHA-256: 7ae899247cb8df717275e12ad9dec2f3e357021aad91ddacee6a6857d139e33e
+No unredacted level password is displayed or saved in this capture.
+
+[Actual command exit code: 0]

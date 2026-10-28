@@ -1,0 +1,129 @@
+{
+  "checked_at": "2026-10-28T22:35:45+08:00",
+  "local_results": "All 11 writeups contain a 32-character next-level password, matching flag wrapper, matching recorded output, and consistent adjacent-level credentials. Natas8 reversal also checked.",
+  "live_overthewire_verification": "Not performed: automatic approval review rejected transmission of the recovered credentials without explicit authorization.",
+  "live_pcgctf_status": "HTTP 403 Forbidden; scoreboard cannot be verified.",
+  "results": [
+    {
+      "id": 6,
+      "name": "Hidden in Plain Sight",
+      "level": 0,
+      "next_level": 1,
+      "password": "scfWG6qNEIdzqVyfRwEGXyNUfFZkZeQ7",
+      "flag_candidate": "pcgCTF{scfWG6qNEIdzqVyfRwEGXyNUfFZkZeQ7}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/006-hidden-in-plain-sight/solution.md",
+      "solution_sha256": "3ffcf86c33a85ac6ae3886b1664e6b0540b170267934481a1516bc15e2696b98",
+      "local_folder": "unsolved/web-exploitation-natas/006-hidden-in-plain-sight"
+    },
+    {
+      "id": 7,
+      "name": "Access Denied? Think Again",
+      "level": 1,
+      "next_level": 2,
+      "password": "vsDOxoXyq3wckCP1ZmTZ71ngIA606odB",
+      "flag_candidate": "pcgCTF{vsDOxoXyq3wckCP1ZmTZ71ngIA606odB}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/007-access-denied-think-again/solution.md",
+      "solution_sha256": "ea16b9208cb8153fa4365aa373c5091676b53b4959be1fbd41f73b327f65791c",
+      "local_folder": "unsolved/web-exploitation-natas/007-access-denied-think-again"
+    },
+    {
+      "id": 8,
+      "name": "Forgotten Files",
+      "level": 2,
+      "next_level": 3,
+      "password": "K30JrSRHzjxq3paUQuwozY4MNvmNFyhI",
+      "flag_candidate": "pcgCTF{K30JrSRHzjxq3paUQuwozY4MNvmNFyhI}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/008-forgotten-files/solution.md",
+      "solution_sha256": "41fee6a704b8bc685c25329ee42d66a1188bdafa777d71431c54ec20647eef82",
+      "local_folder": "unsolved/web-exploitation-natas/008-forgotten-files"
+    },
+    {
+      "id": 9,
+      "name": "Robots Know Everything",
+      "level": 3,
+      "next_level": 4,
+      "password": "JDrPnuZAKyl6MkiqQGFIddrqpvgOASth",
+      "flag_candidate": "pcgCTF{JDrPnuZAKyl6MkiqQGFIddrqpvgOASth}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/009-robots-know-everything/solution.md",
+      "solution_sha256": "64bc808baa49f699b7d47395f6dfa2be0d8da4c803aa8ffa8c39b6138264ac06",
+      "local_folder": "unsolved/web-exploitation-natas/009-robots-know-everything"
+    },
+    {
+      "id": 10,
+      "name": "Trust the Referer",
+      "level": 4,
+      "next_level": 5,
+      "password": "e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M",
+      "flag_candidate": "pcgCTF{e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/010-trust-the-referer/solution.md",
+      "solution_sha256": "0345223267cd60f87f0da35caa6965129d3b2169854e7427cf11dbc4d4067060",
+      "local_folder": "unsolved/web-exploitation-natas/010-trust-the-referer"
+    },
+    {
+      "id": 12,
+      "name": "The Cookie Jar",
+      "level": 5,
+      "next_level": 6,
+      "password": "7mhjtShJAcld2NYbKHEadnhEwRn2P8VT",
+      "flag_candidate": "pcgCTF{7mhjtShJAcld2NYbKHEadnhEwRn2P8VT}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/012-the-cookie-jar/solution.md",
+      "solution_sha256": "18505edbd2f51f8463ea9b113c400fcdd68e64688c6f084bd460c16317dbbb59",
+      "local_folder": "unsolved/web-exploitation-natas/012-the-cookie-jar"
+    },
+    {
+      "id": 13,
+      "name": "The Exposed Script",
+      "level": 6,
+      "next_level": 7,
+      "password": "B1szg95UcTnrzwnF3i3TzYHlyYh8iBV0",
+      "flag_candidate": "pcgCTF{B1szg95UcTnrzwnF3i3TzYHlyYh8iBV0}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/013-the-exposed-script/solution.md",
+      "solution_sha256": "85f8d3ff9fbd5c35fdf26c53e20890e0705d960523adf045dab32a48996c84fc",
+      "local_folder": "unsolved/web-exploitation-natas/013-the-exposed-script"
+    },
+    {
+      "id": 14,
+      "name": "Path Explorer",
+      "level": 7,
+      "next_level": 8,
+      "password": "ugXL95KQmUAJJj6bMezOlBNDyI9Imwkc",
+      "flag_candidate": "pcgCTF{ugXL95KQmUAJJj6bMezOlBNDyI9Imwkc}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/014-path-explorer/solution.md",
+      "solution_sha256": "4a5f8e8864997937906e75243e2918aebc735b9639ea7311817b85637e0a21e3",
+      "local_folder": "unsolved/web-exploitation-natas/014-path-explorer"
+    },
+    {
+      "id": 15,
+      "name": "Layers of Encoding",
+      "level": 8,
+      "next_level": 9,
+      "password": "UdxmI27dTaXmnd1rxKQTfws6jihTdcQ9",
+      "flag_candidate": "pcgCTF{UdxmI27dTaXmnd1rxKQTfws6jihTdcQ9}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/015-layers-of-encoding/solution.md",
+      "solution_sha256": "2c794ff0dfaf6fdbc3ec6077d2d30201aa2dd3c0f875659f354c902d03af0e89",
+      "local_folder": "unsolved/web-exploitation-natas/015-layers-of-encoding"
+    },
+    {
+      "id": 16,
+      "name": "Command Me",
+      "level": 9,
+      "next_level": 10,
+      "password": "EgjlkzB6E8LJyf2Obt4q7q4ewt5ZWSNv",
+      "flag_candidate": "pcgCTF{EgjlkzB6E8LJyf2Obt4q7q4ewt5ZWSNv}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/016-command-me/solution.md",
+      "solution_sha256": "8a5487c6390f12aa42b5f4f1a745d732e84188671f962cdd3321866bfdc50387",
+      "local_folder": "unsolved/web-exploitation-natas/016-command-me"
+    },
+    {
+      "id": 17,
+      "name": "Filtered but Broken",
+      "level": 10,
+      "next_level": 11,
+      "password": "VUMQDmuITOEHzhviLE5V0VG9cPMQkyxd",
+      "flag_candidate": "pcgCTF{VUMQDmuITOEHzhviLE5V0VG9cPMQkyxd}",
+      "solution_path": "/home/nightingale/CTF/PCGCTF/unsolved/web-exploitation-natas/017-filtered-but-broken/solution.md",
+      "solution_sha256": "0802decb5517fb2db1deaa426d7987c27c85fdec1fdc825dee76fd39d0fc8e9f",
+      "local_folder": "unsolved/web-exploitation-natas/017-filtered-but-broken"
+    }
+  ]
+}

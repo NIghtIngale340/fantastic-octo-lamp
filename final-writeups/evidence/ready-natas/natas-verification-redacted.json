@@ -1,0 +1,116 @@
+{
+  "checked_at": "2026-10-28T22:37:26+08:00",
+  "verification": "HTTP Basic authentication only, exact corresponding host, no redirects followed, no exploitation or changes.",
+  "results": [
+    {
+      "id": 6,
+      "name": "Hidden in Plain Sight",
+      "level": 0,
+      "next_level": 1,
+      "verification_url": "http://natas1.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "cdf0a3d3f99f80b89b93ff0a965323a6ca8e690087c69a29c2cbfb8ff347131b",
+      "password_accepted": true
+    },
+    {
+      "id": 7,
+      "name": "Access Denied? Think Again",
+      "level": 1,
+      "next_level": 2,
+      "verification_url": "http://natas2.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "45c35160c4b382984b646576286642067667127b8236a2124d7997eae8daf3e2",
+      "password_accepted": true
+    },
+    {
+      "id": 8,
+      "name": "Forgotten Files",
+      "level": 2,
+      "next_level": 3,
+      "verification_url": "http://natas3.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "1f756fa9f80ae7d93ef30a99d3a55759de68eca872fb510384b47a41088c8eaa",
+      "password_accepted": true
+    },
+    {
+      "id": 9,
+      "name": "Robots Know Everything",
+      "level": 3,
+      "next_level": 4,
+      "verification_url": "http://natas4.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "7beea102839bb41ea19d3e4db586c5b8600f6b09a6f20825e4ee01dd84196c57",
+      "password_accepted": true
+    },
+    {
+      "id": 10,
+      "name": "Trust the Referer",
+      "level": 4,
+      "next_level": 5,
+      "verification_url": "http://natas5.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "caa909ae0346016d34d5b62e3eda7b03e0016d80beacec48dd32afc08901023c",
+      "password_accepted": true
+    },
+    {
+      "id": 12,
+      "name": "The Cookie Jar",
+      "level": 5,
+      "next_level": 6,
+      "verification_url": "http://natas6.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "f2ae024f10ba97577bbee0afc33b2b9e2b688ca842f361517317308166b94eab",
+      "password_accepted": true
+    },
+    {
+      "id": 13,
+      "name": "The Exposed Script",
+      "level": 6,
+      "next_level": 7,
+      "verification_url": "http://natas7.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "5a2622b73e2246c9bc621141da384be168589ff5b20ed88b08aa0a4f939b9ad8",
+      "password_accepted": true
+    },
+    {
+      "id": 14,
+      "name": "Path Explorer",
+      "level": 7,
+      "next_level": 8,
+      "verification_url": "http://natas8.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "285b79e8b82285fc3e0441cd78ad16edcb5b6b321e52dee13dcfd672b098a39c",
+      "password_accepted": true
+    },
+    {
+      "id": 15,
+      "name": "Layers of Encoding",
+      "level": 8,
+      "next_level": 9,
+      "verification_url": "http://natas9.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "673370635b86a5d901bc264af379f14df2a100d8e09d5f5ea2b9cd756d67ef01",
+      "password_accepted": true
+    },
+    {
+      "id": 16,
+      "name": "Command Me",
+      "level": 9,
+      "next_level": 10,
+      "verification_url": "http://natas10.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "4a72d3f22c14f9c0adad0a21aa8d7bca745eddd590fec8089c9af8e950b5eb89",
+      "password_accepted": true
+    },
+    {
+      "id": 17,
+      "name": "Filtered but Broken",
+      "level": 10,
+      "next_level": 11,
+      "verification_url": "http://natas11.natas.labs.overthewire.org/",
+      "http_status": 200,
+      "response_sha256": "7f87e67fd9d026332fb13b6cd75ec189f695afc8acc64ce2c57a9517f5703fed",
+      "password_accepted": true
+    }
+  ]
+}

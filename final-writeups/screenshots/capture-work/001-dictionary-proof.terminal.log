@@ -1,0 +1,14 @@
+[2J[HChallenge #1 — actual bounded dictionary attempt
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/dictionary_evidence.py 1
+
+Executing: john --format=Raw-SHA1 --wordlist=/usr/share/wordlists/rockyou.txt --max-run-time=20 --pot=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/001-capture.pot --session=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/001-1793217995000891616 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/001.sha1
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-SHA1 [SHA1 256/256 AVX2 8x])
+Warning: no OpenMP support for this hash type, consider --fork=12
+Press Ctrl-C to abort, or send SIGUSR1 to john process for status
+0g 0:00:00:01 DONE (2026-10-29 04:06) 0g/s 10469Kp/s 10469Kc/s 10469KC/s xCvBnM,..*7¡Vamos!
+Session completed. 
+John process exit: 0
+Bound: at most20seconds; actual run output determines whether dictionary completed. No success is invented.
+
+[Actual command exit code: 0]

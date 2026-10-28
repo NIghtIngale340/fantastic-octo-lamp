@@ -1,0 +1,13 @@
+{
+  "key": "060-step-1",
+  "id": 60,
+  "title": "Challenge #60 \u2014 actual evidence capture",
+  "command": "python - <<'PY'\nfrom pathlib import Path\nimport ast,re\nt=Path('PCGCTF/solved/cryptography/060-cryptomaze/files/output.txt').read_text()\ns=ast.literal_eval(re.search(r'\\[[01,\\s]+\\]',t)[0]);bits=[]\nfor _ in range(128):\n    bits.append(s[0]);s=s[1:]+[s[63]^s[61]^s[60]^s[58]]\nk=bytes(int(''.join(map(str,bits[i:i+8])),2) for i in range(0,128,8))\nprint(k.hex())\nPY",
+  "filename": "060-step-01.png",
+  "purpose": "Fresh execution of the documented offline step.",
+  "exit_code": 0,
+  "started_at_unix": 1793216319.5012546,
+  "finished_at_unix": 1793216319.5938928,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/060-step-1.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

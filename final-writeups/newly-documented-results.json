@@ -1,0 +1,95 @@
+{
+  "new_ready_candidate": {
+    "id": 77,
+    "flag": "pcgCTF{b1nary}",
+    "prior_status": "needs_work",
+    "current_status": "flag_ready",
+    "evidence": "evidence/077/brick-decode.json"
+  },
+  "previously_solved_newly_recorded_values": [
+    {
+      "id": 3,
+      "flag_or_candidate": "pcgCTF{Coast Guard Cyber Command}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/003-ancient-message.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 2,
+      "flag_or_candidate": "pcgCTF{Iphone17PROMaxFULLYPAID}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/002-picture-perfect-evidence.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 4,
+      "flag_or_candidate": "CTF{never_stop_learning}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/004-encoded-secret.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 34,
+      "flag_or_candidate": "pcgCTF{flag is cool}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/034-rot13.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 63,
+      "flag_or_candidate": "pcgCTF{caesar_was_only_the_beginning}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/063-caesar-s-last-stand.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 81,
+      "flag_or_candidate": "pcgCTF{coffee_first_then_smiles}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/081-turtles-all-the-way-down.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 240,
+      "flag_or_candidate": "pcgCTF{London}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/240-tube-station-city.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 241,
+      "flag_or_candidate": "pcgCTF{Piccadilly Circus}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/241-tube-station-station.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 242,
+      "flag_or_candidate": "pcgCTF{1906}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/242-tube-station-opening-year.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 243,
+      "flag_or_candidate": "pcgCTF{4}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/243-tube-station-platforms.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 252,
+      "flag_or_candidate": "pcgCTF{Katz's Delicatessen}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/252-reverse-image-restaurant.md",
+      "basis": "Answer supported by the earlier image investigation and Bon App\u00e9tit\u2019s original video; exact historical accepted punctuation is not recorded."
+    },
+    {
+      "id": 78,
+      "flag_or_candidate": "pcgCTF{something_is_about_to_happen}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/078-intercepted.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 35,
+      "flag_or_candidate": "CTF{puzzl3d_m3tadata_f0und!_42440c7d}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/035-riddle-registry.md",
+      "basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested."
+    },
+    {
+      "id": 260,
+      "flag_or_candidate": "pcgCTF{Kevin Chung}",
+      "source": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/260-who-is-behind-the-platform.md",
+      "basis": "Creator identity supported by primary public profile; earliest-commit command and exact accepted flag spacing remain to be captured."
+    }
+  ]
+}

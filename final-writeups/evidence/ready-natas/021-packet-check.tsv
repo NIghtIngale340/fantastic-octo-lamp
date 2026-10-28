@@ -1,0 +1,3 @@
+frame.number	tcp.stream	ftp.request.command	ftp.request.arg	ftp-data.command
+11831	19	RETR	accountNum.zip	
+11837	20			RETR accountNum.zip

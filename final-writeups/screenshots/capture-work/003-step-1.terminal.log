@@ -1,0 +1,16 @@
+[2J[HChallenge #3 — actual evidence capture
+$ python - <<'PY'
+s='Frdvw Jxdug Fbehu Frppdqg'
+out=[]
+for c in s:
+    if c.isalpha():
+        a=ord('A' if c.isupper() else 'a')
+        out.append(chr((ord(c)-a-3)%26+a))
+    else:
+        out.append(c)
+print(''.join(out))
+PY
+
+Coast Guard Cyber Command
+
+[Actual command exit code: 0]

@@ -1,0 +1,12 @@
+[2J[HChallenge #305 — actual evidence capture
+$ head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/lumma-domain.tsv
+
+frame.number	ip.dst	tcp.dstport	http.host	http.request.uri
+24500	153.92.1.49	80	whitepepper.su	/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Chrome
+24601	153.92.1.49	80	whitepepper.su	/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Chrome&act=log
+24614	153.92.1.49	80	whitepepper.su	/favicon.ico
+25270	153.92.1.49	80	whitepepper.su	/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Edge
+25286	153.92.1.49	80	whitepepper.su	/api/set_agent?id=3BF67EC05320C5729578BE4C0ADF174C&token=842e2802df0f0a06b4ed51f12f4387e761523b&description=&agent=Edge&act=log
+25298	153.92.1.49	80	whitepepper.su	/favicon.ico
+
+[Actual command exit code: 0]

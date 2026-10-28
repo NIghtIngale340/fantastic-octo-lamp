@@ -1,0 +1,29 @@
+{
+  "id": 244,
+  "answer": "Vancouver International Airport",
+  "flag_candidate": "pcgCTF{Vancouver International Airport}",
+  "confidence": "high",
+  "verdict": "confirmed_answer",
+  "verified_at": "2026-10-28",
+  "platform_accepted": false,
+  "evidence": [
+    "Original supplied photo visibly reads YVR CONNECTS and YVR.CA.",
+    "Official airport website identifies YVR as Vancouver International Airport."
+  ],
+  "inputs": [
+    {
+      "path": "unsolved/osint-imint/244-airport-context-building/files/task4_1603353588780.jpg",
+      "sha256": "3b2fe6118905fe895022337752360a968f4f431fbe722cc86615fd4350b01f0d",
+      "size": 256365
+    }
+  ],
+  "sources": [
+    {
+      "title": "YVR official airport site",
+      "url": "https://www.yvr.ca/en/about-yvr"
+    }
+  ],
+  "limitations": [
+    "Specific terminal/food-court sub-area is not required by this challenge. Platform flag spelling/case acceptance has not been tested."
+  ]
+}

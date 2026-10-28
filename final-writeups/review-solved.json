@@ -1,0 +1,1128 @@
+[
+  {
+    "id": 327,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/327-schedule-of-concern.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The useful distinction is between a drug record and a dispense. Counting prescriptions or total tablets would answer a different question. I would inspect the `drugs` schedule column first, because “Schedule II” can be stored as `II`, `CII` or `2` depending on the application.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/327-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 326,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/326-admitted-under-another-name.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The prompt gives a reliable discriminator: staff marked the record as VIP. That is a stronger filter than guessing which patient name sounds important. The alias matters as context, but the requested identifier is the MRN in the same row.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/326-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 328,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/328-the-attending.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "This continues the VIP investigation rather than restarting it. The patient table establishes the identity, while the encounter table contains the foreign key naming the attending. A person’s audit account can differ from the provider account, so the join must end at `providers.username`.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/328-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 329,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/329-prying-eyes.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "With MRN AH-0044719 established, the problem becomes an audit-log aggregation. The ranking should count individual accesses to that chart, not every event performed by the account across the hospital. Joining `users` gives a readable username after grouping the log.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/329-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 330,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/330-the-original-reading.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "Current results show the value after an edit, while the `data_changes` table preserves old and new values. The strongest starting filter is the endpoint name, `primary_efficacy_delta`, because the prompt says exactly one edit changed that measure.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/330-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 331,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/331-heavy-hand.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "This query has four distinct entities: dispensing events carry quantity and time; prescriptions connect those events to drugs and prescribers; drugs provide the schedule; prescribers provide the requested identifier. Counting prescriptions would miss the central quantity comparison.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/331-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 332,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/332-upon-the-throne.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The prompt describes a set intersection, not the most frequent handler on either side. A cross-database join directly expresses the relationship. Case and incidental whitespace can obscure a match, so normalize them for comparison without changing the original value displayed as evidence.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/332-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 333,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/333-after-the-lock.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "A lock date freezes the study record for the purpose of this scenario. The comparison should use each result’s modification timestamp and the corresponding study’s lock date, not the initial recording timestamp or a hardcoded date from another trial.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/333-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 334,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/334-ghost-in-the-registry.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The challenge is defined by both presence and absence. An ordinary inner join to encounters would eliminate exactly the patient we want. Start from controlled-substance prescriptions, then use an anti-join condition to keep patients with no matching encounter.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/334-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 335,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/335-too-good-to-be-true.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The prompt provides a statistical criterion, so there is no need to guess a “large” threshold. Compute the mean and standard deviation over the same endpoint population, then express each value as a z-score: its distance from the mean divided by the standard deviation.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/335-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 336,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/336-two-places-at-once.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Solved in our saved PCGCTF snapshot; SQL procedure and decisive rows are recorded by Antonio B. Garcia Jr., not newly executed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The anomaly is simultaneity, not simply a high activity count. Group accesses by user and exact timestamp, require more than one workstation, and only then count how often that collision occurs for each account. An IP difference supports the finding but is not a replacement for the workstation condition.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/aurora-live-databases.png",
+      "screenshots/aurora-live-schema.png",
+      "screenshots/336-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 1,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/001-hash-me-if-you-can.md",
+    "completion": "partial",
+    "flag_known": false,
+    "screenshot_available": true,
+    "outstanding": [
+      "Recover the original accepted password from team submission history, or obtain a challenge hint that constrains the dictionary.",
+      "If another hash family or salted construction is suggested, record that evidence before changing the algorithm assumption.",
+      "Verify any recovered candidate by recomputing the full supplied digest, then capture the exact accepted flag spelling."
+    ],
+    "verification_basis": "Historical solved snapshot only; no password recovered in the saved materials or the new bounded dictionary attempt.",
+    "independent_attempt": "The length and hexadecimal alphabet are consistent with a SHA-1 digest, but that shape alone does not prove the algorithm. A digest is one-way: decoding it as hex does not reveal the password. A defensible first test is to hash plausible candidates and compare their full digest to the supplied value.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/001-digest-evidence.png",
+      "screenshots/001-actual-dictionary-attempt.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 2,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/002-picture-perfect-evidence.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The description asks about the device used to create the image, so EXIF metadata is the natural starting point. Camera “Make” and “Model” are separate fields. This file contains many plausible-looking camera and software attributes; the answer comes from the named Make field, even though its value appears deliberately edited.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/002-exif.txt"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/002-step-01.png",
+      "screenshots/002-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 3,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/003-ancient-message.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The ciphertext preserves word lengths and capitalization. The prompt explicitly supplies the alphabet and shift, so frequency analysis or a large brute force is unnecessary. Caesar encryption moves each letter by a fixed number of positions; decryption reverses that movement modulo 26.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/003-step-01.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 4,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/004-encoded-secret.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "Base64 changes a byte sequence into printable characters; it is not encryption. The prompt’s “once is enough?” clue suggests nesting. After each decode, inspect the output rather than blindly continuing until an arbitrary number of iterations has elapsed.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/004-step-01.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 5,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/005-silent-signal.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "Dots, dashes, inter-letter spaces and slash-separated words make the encoding identifiable before any tool is needed. The task’s important formatting instruction is “space should be _”; that instruction applies after decoding, not to the Morse groups themselves.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/independent-checks.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/005-step-01.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 20,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/020-base-maze.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The outer string contains only hexadecimal digits and has an even length, so converting pairs of hex digits into bytes is a strong first hypothesis. The resulting punctuation-heavy text is not another hex string. Its character set suggests Ascii85; subsequent outputs have the padding and alphabet of Base32 and then Base64. The method is driven by each intermediate result rather than by the title alone.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/independent-checks.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/020-step-01.png",
+      "screenshots/020-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 33,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/033-multi-base-layers.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The outer string contains only hexadecimal digits and has an even length, so converting pairs of hex digits into bytes is a strong first hypothesis. The resulting punctuation-heavy text is not another hex string. Its character set suggests Ascii85; subsequent outputs have the padding and alphabet of Base32 and then Base64. The method is driven by each intermediate result rather than by the title alone.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/independent-checks.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/033-step-01.png",
+      "screenshots/033-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 34,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/034-rot13.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "ROT13 is a Caesar rotation by half the 26-letter alphabet. The title supplies the method and the short phrase preserves spaces. Because rotating twice returns the original text, the decoder can be checked without needing an external expected answer.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/034-step-01.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 63,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/063-caesar-s-last-stand.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The flag-shaped braces and underscores survive the transformation, suggesting a substitution of letters rather than encryption of arbitrary bytes. The title and Roman general hint point to a Caesar cipher. ROT13 is a particularly quick candidate because familiar fragments such as `gur` often map to `the` under that rotation.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/063-step-01.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 64,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/064-broken-vigenere.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The known prefix `pcgctf` provides six plaintext letters aligned with ciphertext `rtermt`. In Vigenère, subtracting a known plaintext letter from its ciphertext letter modulo 26 reveals the key shift at that position. Those six shifts spell `crypto`, a compact candidate key that can be tested over the whole message.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/crypto-reproduction.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/064-step-01.png",
+      "screenshots/064-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 65,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/065-small-exponent.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "RSA computes `c = m^e mod n`. A small exponent is not automatically a break, but an unpadded short message can satisfy `m^3 < n`. Then the ciphertext is an ordinary perfect cube. Testing an exact integer cube root is much cheaper and more relevant than factoring a 1024-bit modulus.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/crypto-reproduction.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/065-step-01.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 66,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/066-common-modulus.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The shared modulus is the key clue. With e1=3 and e2=5, Bézout’s identity gives `2·3 − 1·5 = 1`. Multiplying the first ciphertext squared by the inverse of the second cancels the exponents and leaves the message modulo n. This is a common-modulus attack; it does not require recovering either private exponent.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/crypto-reproduction.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/066-step-01.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 60,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/060-cryptomaze.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The supplied state and tap positions fully determine a linear feedback shift register. The missing implementation choices are output position, shift direction and bit packing. The earlier solver identified the consistent convention: output state[0], shift left, append the XOR of taps, and pack bytes most-significant-bit first. AES is then tested with that derived key, not with a guessed dictionary password.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/crypto-reproduction.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/060-step-01.png",
+      "screenshots/060-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 35,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/035-riddle-registry.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The description explicitly warns that the visible text is a decoy and names metadata as the relevant layer. PDF metadata can contain document title, author and producer values independent of the rendered page. The Author field is especially conspicuous here because it is a long Base64-looking string instead of a person’s name.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/035-pdfinfo.txt"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/035-step-01.png",
+      "screenshots/035-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 78,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/078-intercepted.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The body contains only a meeting pretext. Most long mail headers are ordinary authentication signatures and should not be treated as ciphertext merely because they look random. The unusual pair is `X-Spam-Signature` and `X-Spam-Validator`: one is Base64-shaped, while the other is hex that decodes to a readable key phrase.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/078-decoded.txt"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/078-step-01.png",
+      "screenshots/078-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 81,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/081-turtles-all-the-way-down.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The archive contains nineteen JPEGs and one PNG. The last image is also visibly unhappy, which matches the wording. Rather than assuming LSB steganography, compare its declared dimensions with its decompressed pixel data. PNG stores width and height in IHDR and compressed scanlines in IDAT; those two representations should agree.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/081-step-01.png",
+      "screenshots/081-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 71,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/071-embedded-text.md",
+    "completion": "partial",
+    "flag_known": false,
+    "screenshot_available": true,
+    "outstanding": [
+      "Recover the archive password from the original team notes or organizer download instructions.",
+      "After a successful ZIP integrity check, run `file`, `exiftool`, and `steghide info` on the extracted original JPEG.",
+      "If steghide reports an embedded file, preserve its exact extraction command and recovered plaintext before deriving the platform flag."
+    ],
+    "verification_basis": "Historical solved snapshot; encrypted ZIP independently inspected, but its password and hidden text were not recovered in this pass.",
+    "independent_attempt": "The proposed steganographic carrier is inside an encrypted ZIP. That outer layer must be opened before claims about JPEG metadata or steghide contents can be checked. The original inventory has a historical solve but no saved extraction password or plaintext. A careful reconstruction therefore begins with the actual ZIP properties rather than presenting an imagined steghide success.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/071-archive-evidence.png",
+      "screenshots/071-actual-dictionary-attempt.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 36,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/036-commitment-issues.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "Deleting a line in a later commit does not immediately erase the earlier blob object. The repository includes a create-flag commit followed by a removal commit. Reading the older version is enough; there is no reason to run project code or restore the old commit into the working tree.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/git-recovered-objects.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/036-step-01.png",
+      "screenshots/036-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 70,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/070-http-file-extraction.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The capture is a saved HTTP transaction, so the file is reconstructible from response bytes without visiting the hostname. This challenge’s capture is byte-identical to the one used for Hidden Download (#62); reusing a verified extraction is appropriate, but the duplicate relationship must be stated instead of pretending a second independent incident occurred.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/analysis-network-analysis/hidden-download-objects/password.zip",
+      "/home/nightingale/CTF/PCGCTF/analysis-network-analysis/hidden-download-contents.txt",
+      "/home/nightingale/CTF/PCGCTF/analysis-network-analysis/verification.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/070-step-01.png",
+      "screenshots/070-step-02.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 239,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/239-street-level-clue.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The most useful clue is already legible in the source image: an overhead arch names the street. Secondary storefront text supports the reading. This is a direct visual identification, so reverse-image searching and guessed GPS coordinates add little and can introduce unrelated locations.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/239-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 240,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/240-tube-station-city.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The city and station questions share one image. I would separate generic network branding from the actual station name: “Underground” identifies the transport system, while the lower sign identifies the individual stop. The surrounding advertising screens fit the same location, but they are supporting context rather than the primary proof.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/240-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 241,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/241-tube-station-station.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The city and station questions share one image. I would separate generic network branding from the actual station name: “Underground” identifies the transport system, while the lower sign identifies the individual stop. The surrounding advertising screens fit the same location, but they are supporting context rather than the primary proof.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/241-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 242,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/242-tube-station-opening-year.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "A station can have several plausible dates: initial opening, an additional line, a rebuilt ticket hall or a later entrance. The prompt asks when the station opened, so the initial operation date is the relevant one. Both lines arrived in 1906, while the substantial modernization in 1928 is a separate event.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/242-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 243,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/243-tube-station-platforms.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The count is not the number of lines. Piccadilly Circus serves two lines, each with two directions and a separate numbered platform. Use the operator’s listed platform identifiers rather than counting only the platforms currently showing live arrivals.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/243-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 252,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/252-reverse-image-restaurant.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Answer supported by the earlier image investigation and Bon Appétit’s original video; exact historical accepted punctuation is not recorded.",
+    "independent_attempt": "The photograph’s arrangement and interior signage are the starting point. This restaurant image is also the prerequisite evidence for the editor question (#253). The existing image investigation matched it to Katz’s Delicatessen and corroborated that link with Bon Appétit’s own video filmed at the restaurant; the latter names the editor working a 24-hour shift there.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/252-actual-browser-image.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 38,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/038-the-lazy-gatekeeper.md",
+    "completion": "partial",
+    "flag_known": false,
+    "screenshot_available": true,
+    "outstanding": [
+      "Access the named private lab host from the authorized network and capture the actual login result.",
+      "Recover or verify the exact accepted flag text; the snapshot alone does not preserve it."
+    ],
+    "verification_basis": "Solved in the historical snapshot; official defaults support the approach, but current deployment output and exact historical flag are missing.",
+    "independent_attempt": "The “original keys” language suggests default credentials rather than an injection attack. The legitimate DVWA project documents a default web username of admin and password of password. That is relevant background, but the saved material does not contain the original login response or exact submitted flag, so the account hypothesis must stay distinct from a reproduced solve.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/038-actual-target-response.png"
+    ],
+    "capture_blocker": "target_unreachable",
+    "screenshots_needed": []
+  },
+  {
+    "id": 260,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/260-who-is-behind-the-platform.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Run the root-commit verification commands and save their real output.",
+      "Recover the historical accepted submission to settle capitalization and spacing without guessing."
+    ],
+    "verification_basis": "Creator identity supported by primary public profile; earliest-commit command and exact accepted flag spacing remain to be captured.",
+    "independent_attempt": "The platform clues point to CTFd rather than the organizer of this specific event. Its upstream author Kevin Chung uses the public handle ColdHeat, whose own GitHub profile identifies him as CTFd’s creator. The remaining provenance step is to tie that identity to the root commit, since being a current maintainer alone would not satisfy the “started the project” clue.",
+    "evidence_paths": [],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/260-primary-profile.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 311,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/311-sql-skillz.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The prerequisite challenges identify patient ID 847261. A bundled SQLite database can be read without running the iOS app, but the patient ID should still be cross-checked against the medication rows. Exactly one row in the saved database lists Ibuprofen, making that content check useful corroboration.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/independent-checks.json",
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/aurora_meds.sqlite"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/311-readonly-sqlite.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 320,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/320-hooked.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Local evidence independently reproduced; exact historical platform submission is not newly tested.",
+    "independent_attempt": "The archive contains a small browser profile with History, Login Data, Cookies and Cache. The History database directly models URL records and visits, so it is the best starting point for reconstructing the click chain. The post-submit redirect is a separate URL and would be the wrong answer even though it belongs to the same phishing host.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/Hooked-History.sqlite",
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/independent-checks.json"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/320-step-01.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 315,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/315-bedside-manner.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Historical site solve and Garcia’s recorded live HTML; the live response was not independently reproduced in this pass. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The challenge asks for lingering browser strings rather than a user account or network exploit. That points to source delivered to the browser: HTML comments, script literals and other client-visible data. The earlier teammate report records a QA PIN comment in the login HTML; a client-side comment is visible regardless of whether the rendered sign-in page shows it.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/315-actual-device-response.png",
+      "screenshots/315-actual-device-proof.png",
+      "screenshots/emedra-actual-browser-interface.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 316,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/316-factory-setting.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Saved site-solved snapshot and teammate-recorded live authentication; no new login performed here. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The previous source-code flag is a deliberate distraction for this task. The challenge points to vendor defaults, so the field service manual is the appropriate source of credentials. The saved teammate investigation records a default account in manual section 2.3 and an authentication response containing a separate maintenanceToken.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/316-actual-device-response.png",
+      "screenshots/316-actual-device-proof.png",
+      "screenshots/316-actual-manual-credentials.png",
+      "screenshots/emedra-actual-browser-interface.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 317,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/317-second-opinion.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Historical solved snapshot and recorded teammate HDMI investigation; no fresh device interaction. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The primary touchscreen masks patient data, but a different output can expose the original record. In the recorded lab, plugging an HDMI cable creates a separate external-display token. That token belongs to the output surface; an ordinary authentication token is not interchangeable with it.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/317-actual-device-response.png",
+      "screenshots/317-actual-device-proof.png",
+      "screenshots/emedra-actual-browser-interface.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 318,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/318-live-boot.md",
+    "completion": "complete_draft",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [],
+    "verification_basis": "Historical site solve and Garcia’s reported live simulated-shell reproduction; not rerun in this pass. Fresh screenshot pass independently reproduced the documented training-service result; see the capture manifest. PCGCTF acceptance was not newly tested.",
+    "independent_attempt": "The task contrasts keys in the published manual with keys on disk. In the recorded lab, the live Linux USB-A tool exposes a shell that can mount the internal partition. The key lesson is the on-disk configuration file, not guessing a vendor PIN. These are CTF device-simulator actions; the commands were reported by Garcia and are not claims of a real medical-device intrusion.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/318-actual-device-response.png",
+      "screenshots/318-actual-device-proof.png",
+      "screenshots/emedra-actual-browser-interface.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  },
+  {
+    "id": 338,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/338-headshot.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Obtain the original headshot.zip and verify its identity before following the proposed procedure.",
+      "Identify the exact anomalous filename and extraction method; do not call a large file or unusual comment malicious without comparing its peers.",
+      "Capture the decisive extraction and, if available, the original accepted submission screenshot."
+    ],
+    "verification_basis": "Historical site-solved snapshot; flag is retained from Garcia’s attributed public-writeup report, while the original payload and decisive extraction are missing.",
+    "independent_attempt": "The challenge is comparative: one image differs from the rest, so dimensions, metadata and container structure should be compared before trying a random extraction password. The original snapshot contains no headshot.zip attachment. The saved flag comes from Garcia’s public-writeup report, not a retained local extraction.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/338-actual-artifact-inventory.png"
+    ],
+    "capture_blocker": "original_artifact_missing",
+    "screenshots_needed": []
+  },
+  {
+    "id": 321,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/321-art-heist-the-forgery.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Obtain the original CTF_Forgery_Paintings.zip and verify its identity before following the proposed procedure.",
+      "Capture the forged file, anomalous field and exact decoded value. The current report does not preserve which PNG chunk or metadata tag was decisive.",
+      "Capture the decisive extraction and, if available, the original accepted submission screenshot."
+    ],
+    "verification_basis": "Historical site-solved snapshot; flag is retained from Garcia’s attributed public-writeup report, while the original payload and decisive extraction are missing.",
+    "independent_attempt": "The prompt emphasizes digital archive records as well as visual similarity. Garcia’s notes suggest metadata as the intended channel and record a Lamia-themed flag, but no original painting archive was downloaded in this snapshot. The forged filename and decisive metadata field therefore remain evidence gaps.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/321-actual-artifact-inventory.png"
+    ],
+    "capture_blocker": "original_artifact_missing",
+    "screenshots_needed": []
+  },
+  {
+    "id": 339,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/339-file-dump-01.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Obtain the original File_Dump_Challenge.zip and verify its identity before following the proposed procedure.",
+      "Recover the dump, identify the actual alias-bearing artifact and record why it refers to the responsible crew member rather than a contact or decoy.",
+      "Capture the decisive extraction and, if available, the original accepted submission screenshot."
+    ],
+    "verification_basis": "Historical site-solved snapshot; flag is retained from Garcia’s attributed public-writeup report, while the original payload and decisive extraction are missing.",
+    "independent_attempt": "The laptop dump is the primary source that should tie an alias to the identity theft. The saved snapshot has no File_Dump_Challenge.zip member, while Garcia records gh0st404 from a public challenge writeup. That result can be retained as attributed knowledge without pretending that a particular image or hidden file was extracted locally.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/339-actual-artifact-inventory.png"
+    ],
+    "capture_blocker": "original_artifact_missing",
+    "screenshots_needed": []
+  },
+  {
+    "id": 337,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/337-cereal-killer-04.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Obtain the original inner.dll and verify its identity before following the proposed procedure.",
+      "Obtain inner.dll, record its SHA-256, identify the actual export/function and preserve the decoded buffer or a decompiler-backed reconstruction. No function address is known in the local notes.",
+      "Capture the decisive extraction and, if available, the original accepted submission screenshot."
+    ],
+    "verification_basis": "Historical site-solved snapshot; flag is retained from Garcia’s attributed public-writeup report, while the original payload and decisive extraction are missing.",
+    "independent_attempt": "“Assembly Codes” points toward native code, and Garcia’s reference names inner.dll. The source material explicitly admits that the DLL was unavailable locally. Its published flag can be preserved, but an export name, disassembly address, register sequence or runtime buffer cannot be invented. The series numbering differs between the local title and the cited public notes.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/337-actual-artifact-inventory.png"
+    ],
+    "capture_blocker": "original_artifact_missing",
+    "screenshots_needed": []
+  },
+  {
+    "id": 322,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/322-hard-kept-secrets.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Obtain the original shared APK/ZIP and record its SHA-256.",
+      "Find the assignment that makes the candidate an API request credential. Record the class, method and header name from the actual DEX.",
+      "Capture the decisive code/manifest evidence and any runtime observation separately."
+    ],
+    "verification_basis": "Historical site-solved snapshot; flag retained from teammate’s explicitly unreproduced public-writeup notes. Original APK missing.",
+    "independent_attempt": "The question asks for an API token, not a login password or a visible UI flag. The recorded method follows the networking client to the header interceptor, where a constant is attached to requests. A Base64-looking value can be the right type of secret, but its appearance alone does not prove it is the actual token.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/322-actual-artifact-inventory.png"
+    ],
+    "capture_blocker": "original_artifact_missing",
+    "screenshots_needed": []
+  },
+  {
+    "id": 323,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/323-inside-man.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Obtain the original shared APK/ZIP and record its SHA-256.",
+      "Show the actual authentication comparison and how it reaches the privileged data path; distinguish a password constant from a test string.",
+      "Capture the decisive code/manifest evidence and any runtime observation separately."
+    ],
+    "verification_basis": "Historical site-solved snapshot; flag retained from teammate’s explicitly unreproduced public-writeup notes. Original APK missing.",
+    "independent_attempt": "This question reuses the APK from Hard Kept Secrets but asks about privileged access rather than the API transport token. Follow authentication decisions from the login activity: a literal account comparison or privileged account selector would be relevant. An unrelated token or a merely displayed string would answer a different question.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/323-actual-artifact-inventory.png"
+    ],
+    "capture_blocker": "original_artifact_missing",
+    "screenshots_needed": []
+  },
+  {
+    "id": 325,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/325-diagnosis.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Obtain the original shared APK/ZIP and record its SHA-256.",
+      "Identify the exported diagnostic component and inspect its implementation. If runtime confirmation is needed, construct the explicit activity intent using the package/component names actually observed, not placeholders disguised as real names.",
+      "Capture the decisive code/manifest evidence and any runtime observation separately."
+    ],
+    "verification_basis": "Historical site-solved snapshot; flag retained from teammate’s explicitly unreproduced public-writeup notes. Original APK missing.",
+    "independent_attempt": "The manifest is a map of application components. An exported activity may be reachable by another app or explicit intent, but exporting a component alone is not proof that it exposes a flag. The implementing class and any permission checks must be traced as well.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/325-actual-artifact-inventory.png"
+    ],
+    "capture_blocker": "original_artifact_missing",
+    "screenshots_needed": []
+  },
+  {
+    "id": 319,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/319-car-crash.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Recover car_crash.jpg and verify the exact USDOT digits in a labeled crop.",
+      "Capture the matching FMCSA carrier record and first-party founding-date source; verify day/month order."
+    ],
+    "verification_basis": "Historical site solve; date and USDOT pivot retained from Garcia’s report, but original photo and fresh official lookup evidence are missing.",
+    "independent_attempt": "The useful pivot in Garcia’s record is a USDOT carrier number, not the truck model or crash location. Such a registration number can identify a company even when branding is hard to read. However, the original crash photograph is absent from the snapshot, so the claimed 080806 marking cannot be independently read here.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/319-primary-company-anniversary.png"
+    ],
+    "capture_blocker": "truck_image_missing",
+    "screenshots_needed": []
+  },
+  {
+    "id": 313,
+    "draft_path": "/home/nightingale/CTF/PCGCTF/final-writeups/01-pcgctf-solved/313-ghost-of-squares-past.md",
+    "completion": "partial",
+    "flag_known": true,
+    "screenshot_available": true,
+    "outstanding": [
+      "Recover the missing Point 2 and Point 4 images from the original challenge page or organizer archive.",
+      "Identify their exact squares and verify the two establishment years with primary local records.",
+      "Create a real annotated map showing N/E/S/W and the center monument; capture the surname inscription."
+    ],
+    "verification_basis": "Historical site solve and teammate-reported flag; Point 2/4 photo identities and full compass reconstruction remain incomplete.",
+    "independent_attempt": "The clue order is part of the flag. Johnson Square’s “first of them all” clue and Chippewa Square’s battle/Forrest Gump references give specific anchors. The final surname is a monument inscription at the center, not a square’s name. Two other points depend on photographs that are not present in the saved description, so the full geographic reconstruction cannot be independently completed from the text alone.",
+    "evidence_paths": [
+      "/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/source.md"
+    ],
+    "original_screenshot_requests": [],
+    "capture_manifest": "screenshots/capture-manifest.json",
+    "captured_images": [
+      "screenshots/313-original-clues.png"
+    ],
+    "capture_blocker": null,
+    "screenshots_needed": []
+  }
+]

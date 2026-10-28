@@ -1,0 +1,6 @@
+[2J[HChallenge #77 — actual offline reproduction
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/077-reproduce.py
+
+flag{b1nary}
+
+[Actual command exit code: 0]

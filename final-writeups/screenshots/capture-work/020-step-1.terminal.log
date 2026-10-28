@@ -1,0 +1,10 @@
+[2J[HChallenge #20 — actual evidence capture
+$ python - <<'PY'
+from pathlib import Path
+h=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()
+print(bytes.fromhex(h).decode())
+PY
+
+91;ua78bp27nQiR7p/_h9M/AU;,'DR7oi>c10.@X9L2fM1c86"9/KdQ;-?jn91^s;4Ztqk
+
+[Actual command exit code: 0]

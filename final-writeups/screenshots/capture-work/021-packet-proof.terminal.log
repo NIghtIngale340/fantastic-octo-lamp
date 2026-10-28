@@ -1,0 +1,8 @@
+[2J[HChallenge #21 — actual evidence capture
+$ tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-analysis/021-packet-detective/files/UNODC-GPC-001-003-JohnDoe-NetworkCapture-2021-04-29.pcapng -Y 'frame.number in {11831,11837}' -T fields -E header=y -e frame.number -e ftp.request.command -e ftp.request.arg -e ftp-data.command
+
+frame.number	ftp.request.command	ftp.request.arg	ftp-data.command
+11831	RETR	accountNum.zip	
+11837			RETR accountNum.zip
+
+[Actual command exit code: 0]

@@ -1,0 +1,11 @@
+frame.number	eth.src	ip.src	dhcp.option.hostname	nbns.name	kerberos.CNameString
+2	00:19:d1:b2:4d:ad	0.0.0.0	DESKTOP-TEYQ2NR		
+103	00:19:d1:b2:4d:ad	0.0.0.0	DESKTOP-TEYQ2NR		
+135	00:19:d1:b2:4d:ad	10.2.28.88		DESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)	
+136	00:19:d1:b2:4d:ad	10.2.28.88		DESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)	
+143	00:19:d1:b2:4d:ad	10.2.28.88		DESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)	
+144	00:19:d1:b2:4d:ad	10.2.28.88		DESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)	
+150	00:19:d1:b2:4d:ad	10.2.28.88		DESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)	
+151	00:19:d1:b2:4d:ad	10.2.28.88		DESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)	
+186	00:19:d1:b2:4d:ad	10.2.28.88		DESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)	
+187	00:19:d1:b2:4d:ad	10.2.28.88		DESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)	

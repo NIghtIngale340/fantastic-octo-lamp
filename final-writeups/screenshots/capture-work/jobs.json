@@ -1,0 +1,1594 @@
+[
+  {
+    "key": "082-network",
+    "id": 82,
+    "title": "Challenge #82 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.method -e http.host -e http.request.uri -e http.authorization",
+    "filename": "082-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "083-network",
+    "id": 83,
+    "title": "Challenge #83 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e frame.encap_type",
+    "filename": "083-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "084-network",
+    "id": 84,
+    "title": "Challenge #84 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number",
+    "filename": "084-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "085-network",
+    "id": 85,
+    "title": "Challenge #85 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e eth.dst",
+    "filename": "085-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "086-network",
+    "id": 86,
+    "title": "Challenge #86 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e eth.src",
+    "filename": "086-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "087-network",
+    "id": 87,
+    "title": "Challenge #87 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e eth.type",
+    "filename": "087-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "088-network",
+    "id": 88,
+    "title": "Challenge #88 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.version",
+    "filename": "088-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "089-network",
+    "id": 89,
+    "title": "Challenge #89 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.hdr_len",
+    "filename": "089-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "090-network",
+    "id": 90,
+    "title": "Challenge #90 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.len",
+    "filename": "090-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "091-network",
+    "id": 91,
+    "title": "Challenge #91 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.id",
+    "filename": "091-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "092-network",
+    "id": 92,
+    "title": "Challenge #92 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.ttl",
+    "filename": "092-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "093-network",
+    "id": 93,
+    "title": "Challenge #93 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.proto",
+    "filename": "093-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "094-network",
+    "id": 94,
+    "title": "Challenge #94 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.src",
+    "filename": "094-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "095-network",
+    "id": 95,
+    "title": "Challenge #95 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e ip.dst",
+    "filename": "095-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "096-network",
+    "id": 96,
+    "title": "Challenge #96 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.srcport",
+    "filename": "096-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "097-network",
+    "id": 97,
+    "title": "Challenge #97 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.dstport",
+    "filename": "097-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "098-network",
+    "id": 98,
+    "title": "Challenge #98 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.seq_raw",
+    "filename": "098-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "099-network",
+    "id": 99,
+    "title": "Challenge #99 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.ack_raw",
+    "filename": "099-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "100-network",
+    "id": 100,
+    "title": "Challenge #100 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.flags -e tcp.flags.push -e tcp.flags.ack",
+    "filename": "100-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "101-network",
+    "id": 101,
+    "title": "Challenge #101 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.window_size_value",
+    "filename": "101-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "102-network",
+    "id": 102,
+    "title": "Challenge #102 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.flags.push -e tcp.flags.ack",
+    "filename": "102-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "103-network",
+    "id": 103,
+    "title": "Challenge #103 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e frame.protocols -e http.request.method",
+    "filename": "103-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "104-network",
+    "id": 104,
+    "title": "Challenge #104 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.method",
+    "filename": "104-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "105-network",
+    "id": 105,
+    "title": "Challenge #105 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.uri",
+    "filename": "105-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "106-network",
+    "id": 106,
+    "title": "Challenge #106 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.request.version",
+    "filename": "106-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "107-network",
+    "id": 107,
+    "title": "Challenge #107 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.host",
+    "filename": "107-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "108-network",
+    "id": 108,
+    "title": "Challenge #108 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.user_agent",
+    "filename": "108-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "109-network",
+    "id": 109,
+    "title": "Challenge #109 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.connection",
+    "filename": "109-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "110-network",
+    "id": 110,
+    "title": "Challenge #110 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.authorization",
+    "filename": "110-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "111-network",
+    "id": 111,
+    "title": "Challenge #111 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e http.authorization",
+    "filename": "111-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "112-network",
+    "id": 112,
+    "title": "Challenge #112 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap -Y 'frame.number == 1' -T fields -E header=y -e frame.number -e tcp.dstport -e http.authorization",
+    "filename": "112-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "262-network",
+    "id": 262,
+    "title": "Challenge #262 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request) && frame.number in {11227, 11714}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst -e http.host -e http.request.uri",
+    "filename": "262-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "263-network",
+    "id": 263,
+    "title": "Challenge #263 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49) && frame.number in {1884}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filename": "263-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "264-network",
+    "id": 264,
+    "title": "Challenge #264 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(dhcp.option.hostname == \"DESKTOP-5NLV63K\") && frame.number in {1828, 1830}' -T fields -E header=y -e frame.number -e eth.src -e dhcp.option.hostname",
+    "filename": "264-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "265-network",
+    "id": 265,
+    "title": "Challenge #265 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.addr == 172.16.8.49 && kerberos) && frame.number in {1939, 1961}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e kerberos.realm",
+    "filename": "265-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "266-network",
+    "id": 266,
+    "title": "Challenge #266 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49 && kerberos) && frame.number in {1939, 1961}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e kerberos.realm -e kerberos.SNameString",
+    "filename": "266-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "268-network",
+    "id": 268,
+    "title": "Challenge #268 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(http.user_agent contains \"NetSupport\") && frame.number in {2638}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst -e http.user_agent -e http.request.uri",
+    "filename": "268-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "269-network",
+    "id": 269,
+    "title": "Challenge #269 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(ip.src == 10.2.28.88 && http.request) && frame.number in {2638}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filename": "269-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "270-network",
+    "id": 270,
+    "title": "Challenge #270 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y 'dhcp.option.hostname == \"DESKTOP-TEYQ2NR\" || nbns.name contains \"DESKTOP-TEYQ2NR\" || kerberos.CNameString contains \"teyq2nr\"' -d tcp.port==443,http -T fields -E header=y -e frame.number -e eth.src -e ip.src -e dhcp.option.hostname -e nbns.name -e kerberos.CNameString",
+    "filename": "270-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "271-network",
+    "id": 271,
+    "title": "Challenge #271 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == \"brolf\" || samr.samr_UserInfo21.account_name == \"brolf\") && frame.number in {339}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filename": "271-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "274-network",
+    "id": 274,
+    "title": "Challenge #274 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e tcp.dstport -e tcp.payload",
+    "filename": "274-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "275-network",
+    "id": 275,
+    "title": "Challenge #275 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(frame.number == 9119) && frame.number in {9119}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filename": "275-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "267-network",
+    "id": 267,
+    "title": "Challenge #267 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap -Y '(ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request) && frame.number in {11227, 11714}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e http.host -e http.request.uri -e http.user_agent",
+    "filename": "267-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "272-network",
+    "id": 272,
+    "title": "Challenge #272 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(samr.samr_UserInfo21.account_name == \"brolf\") && frame.number in {339}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filename": "272-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "276-network",
+    "id": 276,
+    "title": "Challenge #276 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e ip.src -e tcp.payload",
+    "filename": "276-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "277-network",
+    "id": 277,
+    "title": "Challenge #277 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == \"ccollier\" || samr.samr_UserInfo21.account_name == \"ccollier\") && frame.number in {913, 1070}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filename": "277-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "282-network",
+    "id": 282,
+    "title": "Challenge #282 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(ip.dst == 153.92.1.49 && http.request) && frame.number in {24500, 25270}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e http.host -e http.request.uri",
+    "filename": "282-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "283-network",
+    "id": 283,
+    "title": "Challenge #283 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(ip.src == 10.1.21.58 && ip.dst == 153.92.1.49) && frame.number in {24500}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filename": "283-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "289-network",
+    "id": 289,
+    "title": "Challenge #289 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.131 || ip.src == 10.3.14.134 || ip.src == 10.3.14.135) && frame.number in {6, 1684, 1771}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst",
+    "filename": "289-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "290-network",
+    "id": 290,
+    "title": "Challenge #290 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.131) && frame.number in {1771}' -T fields -E header=y -e frame.number -e eth.src -e ip.src",
+    "filename": "290-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "291-network",
+    "id": 291,
+    "title": "Challenge #291 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.134) && frame.number in {1684, 1712}' -T fields -E header=y -e frame.number -e eth.src -e ip.src",
+    "filename": "291-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "292-network",
+    "id": 292,
+    "title": "Challenge #292 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.135) && frame.number in {6}' -T fields -E header=y -e frame.number -e eth.src -e ip.src",
+    "filename": "292-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "273-network",
+    "id": 273,
+    "title": "Challenge #273 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(http.user_agent contains \"NetSupport\") && frame.number in {2638}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e tcp.dstport -e http.request.uri -e http.user_agent",
+    "filename": "273-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "278-network",
+    "id": 278,
+    "title": "Challenge #278 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(frame.number == 10317 || frame.number == 9759 || frame.number == 1070) && frame.number in {9759, 10317, 1070}' -T fields -E header=y -e frame.number -e ldap.AttributeDescription -e ldap.AttributeValue -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filename": "278-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "279-network",
+    "id": 279,
+    "title": "Challenge #279 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e tcp.dstport",
+    "filename": "279-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "284-network",
+    "id": 284,
+    "title": "Challenge #284 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(dhcp || (nbns && eth.src == 00:21:5d:c8:0e:f2)) && frame.number in {1, 2, 3, 4, 5}' -T fields -E header=y -e frame.number -e eth.src -e ip.src -e dhcp.option.hostname -e nbns.name",
+    "filename": "284-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "285-network",
+    "id": 285,
+    "title": "Challenge #285 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(kerberos.CNameString == \"gwyatt\" || samr.samr_UserInfo21.account_name == \"gwyatt\") && frame.number in {214, 358}' -T fields -E header=y -e frame.number -e ip.src -e kerberos.CNameString -e samr.samr_UserInfo21.account_name",
+    "filename": "285-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "280-network",
+    "id": 280,
+    "title": "Challenge #280 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e tcp.payload",
+    "filename": "280-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "286-network",
+    "id": 286,
+    "title": "Challenge #286 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(samr.samr_UserInfo21.full_name) && frame.number in {358}' -T fields -E header=y -e frame.number -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name",
+    "filename": "286-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "293-network",
+    "id": 293,
+    "title": "Challenge #293 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '((ip.src == 10.3.14.131 && http.host == \"spora.biz\") || (ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892))) && frame.number in {8820, 11043, 16762}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e udp.dstport -e http.host -e http.request.uri",
+    "filename": "293-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "281-network",
+    "id": 281,
+    "title": "Challenge #281 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap -Y '(tcp contains \"STRRAT\") && frame.number in {9119}' -T fields -E header=y -e frame.number -e tcp.payload",
+    "filename": "281-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "287-network",
+    "id": 287,
+    "title": "Challenge #287 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(dns.a == 153.92.1.49 || (ip.dst == 153.92.1.49 && http.request)) && frame.number in {23723, 24500}' -T fields -E header=y -e frame.number -e dns.qry.name -e dns.a -e http.host -e ip.dst",
+    "filename": "287-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "294-network",
+    "id": 294,
+    "title": "Challenge #294 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.131 && http.host == \"spora.biz\") && frame.number in {16762, 16772, 16979}' -T fields -E header=y -e frame.number -e ip.src -e http.host -e http.request.uri",
+    "filename": "294-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "295-network",
+    "id": 295,
+    "title": "Challenge #295 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892)) && frame.number in {8820, 11043, 16354}' -T fields -E header=y -e frame.number -e ip.src -e udp.dstport -e http.host -e http.request.uri",
+    "filename": "295-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "288-network",
+    "id": 288,
+    "title": "Challenge #288 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap -Y '(ip.dst == 153.92.1.49 && http.request.uri contains \"/api/set_agent\") && frame.number in {24500, 24601, 25270, 25286}' -T fields -E header=y -e frame.number -e http.host -e http.request.uri",
+    "filename": "288-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "296-network",
+    "id": 296,
+    "title": "Challenge #296 \u2014 offline packet evidence",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap -Y '(ip.src == 10.3.14.135) && frame.number in {6, 1350, 2055}' -T fields -E header=y -e frame.number -e ip.src -e ip.dst -e dns.qry.name -e http.host -e http.user_agent",
+    "filename": "296-decisive-evidence.png",
+    "purpose": "Fresh execution of the draft\u2019s field-specific TShark command."
+  },
+  {
+    "key": "067-decode",
+    "id": 67,
+    "title": "Challenge #67 \u2014 actual offline reproduction",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/067-reproduce.py",
+    "filename": "067-decisive-result.png",
+    "purpose": "Run the exact independently checked decoder/check."
+  },
+  {
+    "key": "077-decode",
+    "id": 77,
+    "title": "Challenge #77 \u2014 actual offline reproduction",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/077-reproduce.py",
+    "filename": "077-decisive-result.png",
+    "purpose": "Run the exact independently checked decoder/check."
+  },
+  {
+    "key": "079-decode",
+    "id": 79,
+    "title": "Challenge #79 \u2014 actual offline reproduction",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/079-reproduce.py",
+    "filename": "079-decisive-result.png",
+    "purpose": "Run the exact independently checked decoder/check."
+  },
+  {
+    "key": "003-step-1",
+    "id": 3,
+    "title": "Challenge #3 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\ns='Frdvw Jxdug Fbehu Frppdqg'\nout=[]\nfor c in s:\n    if c.isalpha():\n        a=ord('A' if c.isupper() else 'a')\n        out.append(chr((ord(c)-a-3)%26+a))\n    else:\n        out.append(c)\nprint(''.join(out))\nPY",
+    "filename": "003-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "002-step-1",
+    "id": 2,
+    "title": "Challenge #2 \u2014 actual evidence capture",
+    "command": "exiftool -Make -Model -Software 'PCGCTF/solved/cryptography/002-picture-perfect-evidence/files/cydex (1).jpg'",
+    "filename": "002-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "002-step-2",
+    "id": 2,
+    "title": "Challenge #2 \u2014 actual evidence capture",
+    "command": "exiftool -s3 -Make 'PCGCTF/solved/cryptography/002-picture-perfect-evidence/files/cydex (1).jpg'",
+    "filename": "002-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "004-step-1",
+    "id": 4,
+    "title": "Challenge #4 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nimport base64\nx=b'VVRGU1IyVXlOV3hrYlZaNVdETk9NR0l6UW1aaVIxWm9ZMjAxY0dKdFpEaz0='\nfor layer in range(1,4):\n    x=base64.b64decode(x,validate=True)\n    print(layer,x.decode())\nPY",
+    "filename": "004-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "005-step-1",
+    "id": 5,
+    "title": "Challenge #5 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\ntext=Path('PCGCTF/solved/cryptography/005-silent-signal/README.md').read_text()\ns=text.split('we intercepted the code via our oldest comms')[1].split('welcome')[0].strip()\ncodes='.- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..'.split()\nm=dict(zip(codes,'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))\nanswer='_'.join(''.join(m[t] for t in word.split()) for word in s.split('/'))\nprint(answer)\nPY",
+    "filename": "005-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "033-step-1",
+    "id": 33,
+    "title": "Challenge #33 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nh=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()\nprint(bytes.fromhex(h).decode())\nPY",
+    "filename": "033-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "033-step-2",
+    "id": 33,
+    "title": "Challenge #33 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nimport base64\nh=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()\na=base64.a85decode(bytes.fromhex(h))\nb=base64.b32decode(a)\nc=base64.b64decode(b,validate=True)\nprint(a.decode());print(b.decode());print(c.decode())\nPY",
+    "filename": "033-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "034-step-1",
+    "id": 34,
+    "title": "Challenge #34 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nimport codecs\ns='synt vf pbby'\np=codecs.decode(s,'rot_13')\nassert codecs.decode(p,'rot_13')==s\nprint(p)\nPY",
+    "filename": "034-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "063-step-1",
+    "id": 63,
+    "title": "Challenge #63 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nimport codecs\ns='cptpgs{pnrfne_jnf_bayl_gur_ortvaavat}'\np=codecs.decode(s,'rot_13')\nassert codecs.decode(p,'rot_13')==s\nprint(p)\nPY",
+    "filename": "063-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "064-step-1",
+    "id": 64,
+    "title": "Challenge #64 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nct='rtermt';pt='pcgctf'\nprint(''.join(chr((ord(c)-ord(p))%26+97) for c,p in zip(ct,pt)))\nPY",
+    "filename": "064-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "064-step-2",
+    "id": 64,
+    "title": "Challenge #64 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nct='rtermt{xzetgstv_gh_gcv_vldnuj}';key='crypto';j=0;out=[]\nfor c in ct:\n    if c.isalpha():\n        out.append(chr((ord(c)-ord(key[j%len(key)]))%26+97));j+=1\n    else:out.append(c)\nprint(''.join(out))\nPY",
+    "filename": "064-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "081-step-1",
+    "id": 81,
+    "title": "Challenge #81 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nfrom PIL import Image\np=Path('PCGCTF/final-writeups/evidence-solved/81/ctf')\nfor f in p.iterdir():\n    im=Image.open(f);print(f.name,im.size,im.format)\nPY",
+    "filename": "081-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "081-step-2",
+    "id": 81,
+    "title": "Challenge #81 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nimport struct,zlib\np=Path('PCGCTF/final-writeups/evidence-solved/81/ctf/20.png');b=p.read_bytes();o=8;data=b''\nwhile o<len(b):\n    n=struct.unpack('>I',b[o:o+4])[0];kind=b[o+4:o+8]\n    if kind==b'IDAT':data+=b[o+8:o+8+n]\n    o+=n+12\nraw=zlib.decompress(data);print('decompressed bytes:',len(raw))\nassert len(raw)==1000*(1+1000*4)\nc=bytearray(b);c[20:24]=struct.pack('>I',1000)\nc[29:33]=struct.pack('>I',zlib.crc32(c[12:29])&0xffffffff)\np.with_name('20-restored.png').write_bytes(c)\nPY",
+    "filename": "081-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "065-step-1",
+    "id": 65,
+    "title": "Challenge #65 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nimport re\nt=Path('PCGCTF/solved/cryptography/065-small-exponent/files/03_rsa_small_exponent.txt').read_text()\nd={k:int(v) for k,v in re.findall(r'(n|e|ciphertext)\\s*=\\s*(\\d+)',t)}\nc=d['ciphertext'];lo=0;hi=1<<((c.bit_length()+2)//3)\nwhile lo+1<hi:\n    m=(lo+hi)//2\n    if m**3<=c:lo=m\n    else:hi=m\nassert lo**3==c and lo**3<d['n']\nprint(lo.to_bytes((lo.bit_length()+7)//8,'big').decode())\nPY",
+    "filename": "065-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "070-step-1",
+    "id": 70,
+    "title": "Challenge #70 \u2014 actual evidence capture",
+    "command": "tshark -n -r PCGCTF/solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap -Y http -T fields -e frame.number -e http.request.uri -e http.content_type",
+    "filename": "070-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "070-step-2",
+    "id": 70,
+    "title": "Challenge #70 \u2014 actual evidence capture",
+    "command": "mkdir -p /tmp/pcgctf-http70\ntshark -r PCGCTF/solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap --export-objects http,/tmp/pcgctf-http70\nunzip -t /tmp/pcgctf-http70/password.zip\nunzip -p /tmp/pcgctf-http70/password.zip password.txt",
+    "filename": "070-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "078-step-1",
+    "id": 78,
+    "title": "Challenge #78 \u2014 actual evidence capture",
+    "command": "grep -E '^X-Spam-(Signature|Validator):' PCGCTF/solved/forensics-email-analysis/078-intercepted/files/intercepted.txt",
+    "filename": "078-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "078-step-2",
+    "id": 78,
+    "title": "Challenge #78 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nimport re,base64\ns=Path('PCGCTF/solved/forensics-email-analysis/078-intercepted/files/intercepted.txt').read_text()\nc=base64.b64decode(re.search(r'^X-Spam-Signature: (.+)$',s,re.M)[1])\nk=bytes.fromhex(re.search(r'^X-Spam-Validator: (.+)$',s,re.M)[1])\np=bytes(b^k[i%len(k)] for i,b in enumerate(c))\nprint(k.decode());print(p.decode())\nPY",
+    "filename": "078-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "320-step-1",
+    "id": 320,
+    "title": "Challenge #320 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nimport sqlite3\np='/home/nightingale/CTF/PCGCTF/team-writeups/garcia-day1/Hooked-History.sqlite'\nc=sqlite3.connect('file:'+p+'?mode=ro',uri=True)\nfor r in c.execute('SELECT id,url,title,last_visit_time FROM urls ORDER BY id'):print(r)\nPY",
+    "filename": "320-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "035-step-1",
+    "id": 35,
+    "title": "Challenge #35 \u2014 actual evidence capture",
+    "command": "pdfinfo PCGCTF/solved/forensic/035-riddle-registry/files/confidential_2.pdf",
+    "filename": "035-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "035-step-2",
+    "id": 35,
+    "title": "Challenge #35 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nimport base64\ns='Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ=='\nprint(base64.b64decode(s,validate=True).decode())\nPY",
+    "filename": "035-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "020-step-1",
+    "id": 20,
+    "title": "Challenge #20 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nh=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()\nprint(bytes.fromhex(h).decode())\nPY",
+    "filename": "020-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "020-step-2",
+    "id": 20,
+    "title": "Challenge #20 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nimport base64\nh=Path('PCGCTF/solved/cryptography/020-base-maze/files/encoded.txt').read_text().strip()\na=base64.a85decode(bytes.fromhex(h))\nb=base64.b32decode(a)\nc=base64.b64decode(b,validate=True)\nprint(a.decode());print(b.decode());print(c.decode())\nPY",
+    "filename": "020-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "060-step-1",
+    "id": 60,
+    "title": "Challenge #60 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nimport ast,re\nt=Path('PCGCTF/solved/cryptography/060-cryptomaze/files/output.txt').read_text()\ns=ast.literal_eval(re.search(r'\\[[01,\\s]+\\]',t)[0]);bits=[]\nfor _ in range(128):\n    bits.append(s[0]);s=s[1:]+[s[63]^s[61]^s[60]^s[58]]\nk=bytes(int(''.join(map(str,bits[i:i+8])),2) for i in range(0,128,8))\nprint(k.hex())\nPY",
+    "filename": "060-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "060-step-2",
+    "id": 60,
+    "title": "Challenge #60 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nimport re\nfrom cryptography.hazmat.primitives.ciphers import Cipher,algorithms,modes\nt=Path('PCGCTF/solved/cryptography/060-cryptomaze/files/output.txt').read_text()\nc=bytes.fromhex(re.search(r'[0-9a-f]{80,}',t)[0])\nd=Cipher(algorithms.AES(bytes.fromhex('912e6fe0b77afbd3f41c246cb5de62a7')),modes.ECB()).decryptor()\np=d.update(c)+d.finalize();n=p[-1]\nassert 1<=n<=16 and p[-n:]==bytes([n])*n\nprint(p[:-n].decode())\nPY",
+    "filename": "060-step-02.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "066-step-1",
+    "id": 66,
+    "title": "Challenge #66 \u2014 actual evidence capture",
+    "command": "python - <<'PY'\nfrom pathlib import Path\nimport re\nt=Path('PCGCTF/solved/cryptography/066-common-modulus/files/04_rsa_common_modulus.txt').read_text()\nd={k:int(v) for k,v in re.findall(r'(n|e1|e2|c1|c2)\\s*=\\s*(\\d+)',t)}\nn=d['n'];m=pow(d['c1'],2,n)*pow(d['c2'],-1,n)%n\nassert pow(m,d['e1'],n)==d['c1']\nassert pow(m,d['e2'],n)==d['c2']\nprint(m.to_bytes((m.bit_length()+7)//8,'big').decode())\nPY",
+    "filename": "066-step-01.png",
+    "purpose": "Fresh execution of the documented offline step."
+  },
+  {
+    "key": "036-step-1",
+    "id": 36,
+    "title": "Challenge #36 \u2014 actual evidence capture",
+    "command": "git -c safe.directory=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/git036/drop-in -C /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/git036/drop-in log --oneline --all",
+    "filename": "036-step-01.png",
+    "purpose": "Read historical Git objects; no checkout or hooks."
+  },
+  {
+    "key": "036-step-2",
+    "id": 36,
+    "title": "Challenge #36 \u2014 actual evidence capture",
+    "command": "git -c safe.directory=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/git036/drop-in -C /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/git036/drop-in show 7d3aa55:message.txt",
+    "filename": "036-step-02.png",
+    "purpose": "Read historical Git objects; no checkout or hooks."
+  },
+  {
+    "key": "001-hash-check",
+    "id": 1,
+    "title": "Challenge #1 \u2014 actual evidence capture",
+    "command": "python -c \"h='530d378bd60243f41d169aad7cd238ae816a6ee3';print('Digest:',h);print('Hex length:',len(h));print('SHA-1 candidate: 160 bits; preimage remains unrecovered')\"",
+    "filename": "001-digest-evidence.png",
+    "purpose": "Inspect original hash, without pretending the unknown plaintext was recovered."
+  },
+  {
+    "key": "071-archive-check",
+    "id": 71,
+    "title": "Challenge #71 \u2014 actual evidence capture",
+    "command": "zipinfo -v /home/nightingale/CTF/PCGCTF/solved/steganography/071-embedded-text/files/embedded-text.zip",
+    "filename": "071-archive-evidence.png",
+    "purpose": "Inspect encrypted ZIP metadata; actual member cannot be opened without recovered password."
+  },
+  {
+    "key": "018-script-1",
+    "id": 18,
+    "title": "Challenge #18 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/018-capture-1.py",
+    "filename": "018-script-1.png",
+    "purpose": "Run the documented self-contained decoder/calculation on original inputs."
+  },
+  {
+    "key": "079-script-1",
+    "id": 79,
+    "title": "Challenge #79 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/079-capture-1.py",
+    "filename": "079-script-1.png",
+    "purpose": "Run the documented self-contained decoder/calculation on original inputs."
+  },
+  {
+    "key": "122-script-1",
+    "id": 122,
+    "title": "Challenge #122 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/122-capture-1.py",
+    "filename": "122-script-1.png",
+    "purpose": "Run the documented self-contained decoder/calculation on original inputs."
+  },
+  {
+    "key": "309-script-1",
+    "id": 309,
+    "title": "Challenge #309 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/309-capture-1.py",
+    "filename": "309-script-1.png",
+    "purpose": "Run the documented self-contained decoder/calculation on original inputs."
+  },
+  {
+    "key": "073-script-1",
+    "id": 73,
+    "title": "Challenge #73 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/073-capture-1.py",
+    "filename": "073-script-1.png",
+    "purpose": "Run the documented self-contained decoder/calculation on original inputs."
+  },
+  {
+    "key": "080-script-1",
+    "id": 80,
+    "title": "Challenge #80 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/080-capture-1.py",
+    "filename": "080-script-1.png",
+    "purpose": "Run the documented self-contained decoder/calculation on original inputs."
+  },
+  {
+    "key": "021-packet-proof",
+    "id": 21,
+    "title": "Challenge #21 \u2014 actual evidence capture",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-analysis/021-packet-detective/files/UNODC-GPC-001-003-JohnDoe-NetworkCapture-2021-04-29.pcapng -Y 'frame.number in {11831,11837}' -T fields -E header=y -e frame.number -e ftp.request.command -e ftp.request.arg -e ftp-data.command",
+    "filename": "021-packet-proof.png",
+    "purpose": "Actual field extraction from preserved capture; no invented successful grader response."
+  },
+  {
+    "key": "022-packet-proof",
+    "id": 22,
+    "title": "Challenge #22 \u2014 actual evidence capture",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-analysis/021-packet-detective/files/UNODC-GPC-001-003-JohnDoe-NetworkCapture-2021-04-29.pcapng -Y 'frame.number in {500,502,587,11816}' -T fields -E header=y -e frame.number -e ftp.request.command -e ftp.request.arg -e ftp.response.code -e ftp.response.arg",
+    "filename": "022-packet-proof.png",
+    "purpose": "Actual field extraction from preserved capture; no invented successful grader response."
+  },
+  {
+    "key": "061-packet-proof",
+    "id": 61,
+    "title": "Challenge #61 \u2014 actual evidence capture",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-analysis/061-the-exposed-password/files/http_authentication.pcap -Y 'frame.number in {27,46,48}' -T fields -E header=y -e frame.number -e http.request.method -e http.file_data -e http.response.code",
+    "filename": "061-packet-proof.png",
+    "purpose": "Actual field extraction from preserved capture; no invented successful grader response."
+  },
+  {
+    "key": "062-packet-proof",
+    "id": 62,
+    "title": "Challenge #62 \u2014 actual evidence capture",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-analysis/062-the-hidden-download/files/http_file_extraction.pcap -Y 'frame.number in {11,13}' -T fields -E header=y -e frame.number -e http.request.uri -e http.content_type",
+    "filename": "062-packet-proof.png",
+    "purpose": "Actual field extraction from preserved capture; no invented successful grader response."
+  },
+  {
+    "key": "069-packet-proof",
+    "id": 69,
+    "title": "Challenge #69 \u2014 actual evidence capture",
+    "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/unsolved/network-analysis/069-bitcoin-trail/files/cryptocurrency_transfer_tracking.pcap -Y 'frame.number in {187,196,218}' -T fields -E header=y -e frame.number -e tcp.payload",
+    "filename": "069-packet-proof.png",
+    "purpose": "Actual field extraction from preserved capture; no invented successful grader response."
+  },
+  {
+    "key": "074-extract",
+    "id": 74,
+    "title": "Challenge #74 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/unsolved/steganography-forensics/074-elliot-s-secret-stash/solve.py",
+    "filename": "074-terminal-extraction.png",
+    "purpose": "Re-run checked DeepSound extraction from the original audio ZIP."
+  },
+  {
+    "key": "080-zip",
+    "id": 80,
+    "title": "Challenge #80 \u2014 actual evidence capture",
+    "command": "7z x /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/To_the_moon.zip -pprisonbreak -o/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/moon-wallet -y && cat /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/moon-wallet/To_the_moon.txt",
+    "filename": "080-wallet-extraction.png",
+    "purpose": "Actually extract the retained encrypted CTF ZIP and read wallet text."
+  },
+  {
+    "key": "075-ntfs",
+    "id": 75,
+    "title": "Challenge #75 \u2014 actual evidence capture",
+    "command": "mmls /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/winsock32.dll; fls -r -o 128 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/winsock32.dll",
+    "filename": "075-ntfs-stream-list.png",
+    "purpose": "Actual partition/NTFS stream listing from original archive."
+  },
+  {
+    "key": "075-export",
+    "id": 75,
+    "title": "Challenge #75 \u2014 actual evidence capture",
+    "command": "icat -o 128 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/winsock32.dll 40-128-3 > /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg && file /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg && sha256sum /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/recovered-flag.jpg",
+    "filename": "075-ntfs-export.png",
+    "purpose": "Actual named stream export and original-payload hash."
+  },
+  {
+    "key": "311-sqlite",
+    "id": 311,
+    "title": "Challenge #311 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/311-capture.py",
+    "filename": "311-readonly-sqlite.png",
+    "purpose": "Actual read-only SQLite query for the recovered patient."
+  },
+  {
+    "key": "297-saved-record",
+    "id": 297,
+    "title": "Challenge #297 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/netsupport-http.tsv",
+    "filename": "297-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "298-saved-record",
+    "id": 298,
+    "title": "Challenge #298 \u2014 actual evidence capture",
+    "command": "python -m json.tool /home/nightingale/CTF/PCGCTF/analysis-team-verification/public-source-observations.json",
+    "filename": "298-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "299-saved-record",
+    "id": 299,
+    "title": "Challenge #299 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/netsupport-http.tsv",
+    "filename": "299-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "300-saved-record",
+    "id": 300,
+    "title": "Challenge #300 \u2014 actual evidence capture",
+    "command": "python -m json.tool /home/nightingale/CTF/PCGCTF/analysis-team-verification/public-source-observations.json",
+    "filename": "300-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "301-saved-record",
+    "id": 301,
+    "title": "Challenge #301 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/strrat-beacons.tsv",
+    "filename": "301-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "302-saved-record",
+    "id": 302,
+    "title": "Challenge #302 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/routing-status.json",
+    "filename": "302-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "303-saved-record",
+    "id": 303,
+    "title": "Challenge #303 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/strrat-beacons.tsv",
+    "filename": "303-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "304-saved-record",
+    "id": 304,
+    "title": "Challenge #304 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/lumma-domain.tsv",
+    "filename": "304-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "305-saved-record",
+    "id": 305,
+    "title": "Challenge #305 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/lumma-domain.tsv",
+    "filename": "305-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "306-saved-record",
+    "id": 306,
+    "title": "Challenge #306 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-team-verification/whitepepper-whois.txt",
+    "filename": "306-saved-evidence.png",
+    "purpose": "Actual terminal inspection of preserved verification record, explicitly historical rather than a new external lookup."
+  },
+  {
+    "key": "307-saved-record",
+    "id": 307,
+    "title": "Challenge #307 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-act4-act5/act4-formbook-get-evidence.tsv",
+    "filename": "307-saved-evidence.png",
+    "purpose": "Actual display of retained packet/DNS evidence; source date remains the recorded verification date."
+  },
+  {
+    "key": "308-saved-record",
+    "id": 308,
+    "title": "Challenge #308 \u2014 actual evidence capture",
+    "command": "head -n 12 /home/nightingale/CTF/PCGCTF/analysis-act4-act5/handyman24-dns.json",
+    "filename": "308-saved-evidence.png",
+    "purpose": "Actual display of retained packet/DNS evidence; source date remains the recorded verification date."
+  },
+  {
+    "key": "042-reachability",
+    "id": 42,
+    "title": "Challenge #42 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "042-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "039-reachability",
+    "id": 39,
+    "title": "Challenge #39 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "039-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "040-reachability",
+    "id": 40,
+    "title": "Challenge #40 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "040-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "041-reachability",
+    "id": 41,
+    "title": "Challenge #41 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "041-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "050-reachability",
+    "id": 50,
+    "title": "Challenge #50 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "050-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "113-reachability",
+    "id": 113,
+    "title": "Challenge #113 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag1.cgcybercom.online/",
+    "filename": "113-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "114-reachability",
+    "id": 114,
+    "title": "Challenge #114 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag1.cgcybercom.online/",
+    "filename": "114-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "043-reachability",
+    "id": 43,
+    "title": "Challenge #43 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "043-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "049-reachability",
+    "id": 49,
+    "title": "Challenge #49 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "049-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "051-reachability",
+    "id": 51,
+    "title": "Challenge #51 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "051-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "052-reachability",
+    "id": 52,
+    "title": "Challenge #52 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "052-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "119-reachability",
+    "id": 119,
+    "title": "Challenge #119 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag.cgcybercom.online/",
+    "filename": "119-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "120-reachability",
+    "id": 120,
+    "title": "Challenge #120 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag.cgcybercom.online/admin-map",
+    "filename": "120-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "121-reachability",
+    "id": 121,
+    "title": "Challenge #121 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag2.cgcybercom.online/index.php",
+    "filename": "121-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "045-reachability",
+    "id": 45,
+    "title": "Challenge #45 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "045-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "046-reachability",
+    "id": 46,
+    "title": "Challenge #46 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "046-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "047-reachability",
+    "id": 47,
+    "title": "Challenge #47 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "047-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "053-reachability",
+    "id": 53,
+    "title": "Challenge #53 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "053-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "054-reachability",
+    "id": 54,
+    "title": "Challenge #54 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "054-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "055-reachability",
+    "id": 55,
+    "title": "Challenge #55 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "055-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "056-reachability",
+    "id": 56,
+    "title": "Challenge #56 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "056-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "116-reachability",
+    "id": 116,
+    "title": "Challenge #116 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag1.cgcybercom.online/",
+    "filename": "116-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "117-reachability",
+    "id": 117,
+    "title": "Challenge #117 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag.cgcybercom.online/",
+    "filename": "117-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "118-reachability",
+    "id": 118,
+    "title": "Challenge #118 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag.cgcybercom.online/",
+    "filename": "118-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "115-reachability",
+    "id": 115,
+    "title": "Challenge #115 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://flag1.cgcybercom.online/",
+    "filename": "115-actual-target-response.png",
+    "purpose": "Fresh bounded read-only response or connection error; no invented exploit/flag."
+  },
+  {
+    "key": "006-natas-method",
+    "id": 6,
+    "title": "Challenge #6 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 6 method",
+    "filename": "006-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "006-natas-verify",
+    "id": 6,
+    "title": "Challenge #6 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 6 verify",
+    "filename": "006-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "007-natas-method",
+    "id": 7,
+    "title": "Challenge #7 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 7 method",
+    "filename": "007-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "007-natas-verify",
+    "id": 7,
+    "title": "Challenge #7 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 7 verify",
+    "filename": "007-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "008-natas-method",
+    "id": 8,
+    "title": "Challenge #8 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 8 method",
+    "filename": "008-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "008-natas-verify",
+    "id": 8,
+    "title": "Challenge #8 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 8 verify",
+    "filename": "008-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "009-natas-method",
+    "id": 9,
+    "title": "Challenge #9 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 9 method",
+    "filename": "009-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "009-natas-verify",
+    "id": 9,
+    "title": "Challenge #9 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 9 verify",
+    "filename": "009-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "010-natas-method",
+    "id": 10,
+    "title": "Challenge #10 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 10 method",
+    "filename": "010-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "010-natas-verify",
+    "id": 10,
+    "title": "Challenge #10 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 10 verify",
+    "filename": "010-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "012-natas-method",
+    "id": 12,
+    "title": "Challenge #12 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 12 method",
+    "filename": "012-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "012-natas-verify",
+    "id": 12,
+    "title": "Challenge #12 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 12 verify",
+    "filename": "012-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "013-natas-method",
+    "id": 13,
+    "title": "Challenge #13 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 13 method",
+    "filename": "013-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "013-natas-verify",
+    "id": 13,
+    "title": "Challenge #13 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 13 verify",
+    "filename": "013-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "014-natas-method",
+    "id": 14,
+    "title": "Challenge #14 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 14 method",
+    "filename": "014-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "014-natas-verify",
+    "id": 14,
+    "title": "Challenge #14 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 14 verify",
+    "filename": "014-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "015-natas-method",
+    "id": 15,
+    "title": "Challenge #15 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 15 method",
+    "filename": "015-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "015-natas-verify",
+    "id": 15,
+    "title": "Challenge #15 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 15 verify",
+    "filename": "015-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "016-natas-method",
+    "id": 16,
+    "title": "Challenge #16 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 16 method",
+    "filename": "016-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "016-natas-verify",
+    "id": 16,
+    "title": "Challenge #16 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 16 verify",
+    "filename": "016-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "017-natas-method",
+    "id": 17,
+    "title": "Challenge #17 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 17 method",
+    "filename": "017-natas-method.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "017-natas-verify",
+    "id": 17,
+    "title": "Challenge #17 \u2014 actual evidence capture",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 17 verify",
+    "filename": "017-natas-verify.png",
+    "purpose": "Actual authenticated request to the named authorized Natas training level; passwords redacted before terminal display."
+  },
+  {
+    "key": "338-artifact-inventory",
+    "id": 338,
+    "title": "Challenge #338 \u2014 actual evidence capture",
+    "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/338-headshot -maxdepth 2 -type f -printf '%P\n'",
+    "filename": "338-actual-artifact-inventory.png",
+    "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result."
+  },
+  {
+    "key": "321-artifact-inventory",
+    "id": 321,
+    "title": "Challenge #321 \u2014 actual evidence capture",
+    "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/321-art-heist-the-forgery -maxdepth 2 -type f -printf '%P\n'",
+    "filename": "321-actual-artifact-inventory.png",
+    "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result."
+  },
+  {
+    "key": "323-artifact-inventory",
+    "id": 323,
+    "title": "Challenge #323 \u2014 actual evidence capture",
+    "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/323-inside-man -maxdepth 2 -type f -printf '%P\n'",
+    "filename": "323-actual-artifact-inventory.png",
+    "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result."
+  },
+  {
+    "key": "339-artifact-inventory",
+    "id": 339,
+    "title": "Challenge #339 \u2014 actual evidence capture",
+    "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/339-file-dump-01 -maxdepth 2 -type f -printf '%P\n'",
+    "filename": "339-actual-artifact-inventory.png",
+    "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result."
+  },
+  {
+    "key": "322-artifact-inventory",
+    "id": 322,
+    "title": "Challenge #322 \u2014 actual evidence capture",
+    "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/322-hard-kept-secrets -maxdepth 2 -type f -printf '%P\n'",
+    "filename": "322-actual-artifact-inventory.png",
+    "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result."
+  },
+  {
+    "key": "325-artifact-inventory",
+    "id": 325,
+    "title": "Challenge #325 \u2014 actual evidence capture",
+    "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/325-diagnosis -maxdepth 2 -type f -printf '%P\n'",
+    "filename": "325-actual-artifact-inventory.png",
+    "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result."
+  },
+  {
+    "key": "337-artifact-inventory",
+    "id": 337,
+    "title": "Challenge #337 \u2014 actual evidence capture",
+    "command": "find /home/nightingale/CTF/PCGCTF/solved/deadface/337-cereal-killer-04 -maxdepth 2 -type f -printf '%P\n'",
+    "filename": "337-actual-artifact-inventory.png",
+    "purpose": "Actual inventory confirms which original challenge artifact is absent; does not invent a reverse-engineering/stego result."
+  },
+  {
+    "key": "038-target",
+    "id": 38,
+    "title": "Challenge #38 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://10.56.102.240:4280/",
+    "filename": "038-actual-target-response.png",
+    "purpose": "Actual bounded connection attempt to the original private lab."
+  },
+  {
+    "key": "261-description",
+    "id": 261,
+    "title": "Challenge #261 \u2014 actual evidence capture",
+    "command": "cat /home/nightingale/CTF/PCGCTF/unsolved/sensitive-data-exposure/261-password-hash-leak/README.md",
+    "filename": "261-actual-evidence-gap.png",
+    "purpose": "Read actual saved task to document missing target/API response, not a fabricated hash recovery."
+  },
+  {
+    "key": "313-clues",
+    "id": 313,
+    "title": "Challenge #313 \u2014 actual evidence capture",
+    "command": "cat /home/nightingale/CTF/PCGCTF/solved/deadface/313-ghost-of-squares-past/README.md",
+    "filename": "313-original-clues.png",
+    "purpose": "Actual original clue inventory; no recreated photos are asserted."
+  },
+  {
+    "key": "315-emedra-connect",
+    "id": 315,
+    "title": "Challenge #315 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://emedra.dctf.io:8080/api/kiosk/login",
+    "filename": "315-actual-device-response.png",
+    "purpose": "Actual device service response; authentication/port actions require a reachable intended endpoint."
+  },
+  {
+    "key": "316-emedra-connect",
+    "id": 316,
+    "title": "Challenge #316 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://emedra.dctf.io:8080/api/kiosk/login",
+    "filename": "316-actual-device-response.png",
+    "purpose": "Actual device service response; authentication/port actions require a reachable intended endpoint."
+  },
+  {
+    "key": "317-emedra-connect",
+    "id": 317,
+    "title": "Challenge #317 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://emedra.dctf.io:8080/api/kiosk/login",
+    "filename": "317-actual-device-response.png",
+    "purpose": "Actual device service response; authentication/port actions require a reachable intended endpoint."
+  },
+  {
+    "key": "318-emedra-connect",
+    "id": 318,
+    "title": "Challenge #318 \u2014 actual evidence capture",
+    "command": "curl --connect-timeout 3 --max-time 6 -sS -D - http://emedra.dctf.io:8080/api/kiosk/login",
+    "filename": "318-actual-device-response.png",
+    "purpose": "Actual device service response; authentication/port actions require a reachable intended endpoint."
+  },
+  {
+    "key": "310-xmp",
+    "id": 310,
+    "title": "Challenge #310 \u2014 actual evidence capture",
+    "command": "exiftool -a -G1 /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/aurora_chest_xray.jpg | rg -i 'identifier|PID|847261'",
+    "filename": "310-actual-xmp-identifier.png",
+    "purpose": "Actual EXIF/XMP extraction from original bundled X-ray."
+  },
+  {
+    "key": "312-strings",
+    "id": 312,
+    "title": "Challenge #312 \u2014 actual evidence capture",
+    "command": "strings -n 4 '/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/Aurora Health Mobile' | rg -i 'gw-westlake|gateway|Aurora Diagnostics'",
+    "filename": "312-actual-binary-strings.png",
+    "purpose": "Actual original executable string triage; label/value code role remains grounded in retained static-analysis dossier."
+  },
+  {
+    "key": "315-device-proof",
+    "id": 315,
+    "title": "Challenge #315 \u2014 actual Emedra simulator result",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/emedra_evidence.py 315",
+    "filename": "315-actual-device-proof.png",
+    "purpose": "Fresh intended CTF simulator request; session tokens redacted, actual response retained."
+  },
+  {
+    "key": "316-device-proof",
+    "id": 316,
+    "title": "Challenge #316 \u2014 actual Emedra simulator result",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/emedra_evidence.py 316",
+    "filename": "316-actual-device-proof.png",
+    "purpose": "Fresh intended CTF simulator request; session tokens redacted, actual response retained."
+  },
+  {
+    "key": "317-device-proof",
+    "id": 317,
+    "title": "Challenge #317 \u2014 actual Emedra simulator result",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/emedra_evidence.py 317",
+    "filename": "317-actual-device-proof.png",
+    "purpose": "Fresh intended CTF simulator request; session tokens redacted, actual response retained."
+  },
+  {
+    "key": "318-device-proof",
+    "id": 318,
+    "title": "Challenge #318 \u2014 actual Emedra simulator result",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/emedra_evidence.py 318",
+    "filename": "318-actual-device-proof.png",
+    "purpose": "Fresh intended CTF simulator request; session tokens redacted, actual response retained."
+  },
+  {
+    "key": "001-dictionary-proof",
+    "id": 1,
+    "title": "Challenge #1 \u2014 actual bounded dictionary attempt",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/dictionary_evidence.py 1",
+    "filename": "001-actual-dictionary-attempt.png",
+    "purpose": "Actual fresh dictionary recovery attempt with explicit20-secondbound; no inventedplaintext."
+  },
+  {
+    "key": "071-dictionary-proof",
+    "id": 71,
+    "title": "Challenge #71 \u2014 actual bounded dictionary attempt",
+    "command": "python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/dictionary_evidence.py 71",
+    "filename": "071-actual-dictionary-attempt.png",
+    "purpose": "Actual fresh dictionary recovery attempt with explicit20-secondbound; no inventedplaintext."
+  },
+  {
+    "key": "080-carrier-proof",
+    "id": 80,
+    "title": "Challenge #80 \u2014 actual hidden-image extraction",
+    "command": "env LD_LIBRARY_PATH=/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/portable-tools/steghide-root/usr/lib/x86_64-linux-gnu /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/portable-tools/steghide-root/usr/bin/steghide extract -sf /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/files/Culture-Grumpy-Cat-487386121.jpg -p iloveyou -xf /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/080-reproduced-from-image.zip -f && sha256sum /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/080-reproduced-from-image.zip /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/To_the_moon.zip",
+    "filename": "080-actual-stego-extraction.png",
+    "purpose": "Actual steghide extraction using the verified challenge password; hashes compared to the earlier retained ZIP. Workspace-only official package, no system installation."
+  },
+  {
+    "key": "316-manual-proof",
+    "id": 316,
+    "title": "Challenge #316 \u2014 actual public field-manual excerpt",
+    "command": "pdftotext /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/cs9000-field-service-manual.pdf - | rg -n -A 8 -B 2 'Default technician account|emedra-svc|ChangeMe'",
+    "filename": "316-actual-manual-credentials.png",
+    "purpose": "Actual text extraction from the simulator\u2019s public manual; documented default CTF credentials, not unrelated secrets."
+  },
+  {
+    "key": "083-signature-proof",
+    "id": 83,
+    "title": "Challenge #83 \u2014 original capture format",
+    "command": "xxd -l 24 /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap && capinfos -t -c /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap",
+    "filename": "083-file-signature.png",
+    "purpose": "Actual magic bytes and independent capture file classification; encapsulation alone does not identify the container."
+  }
+]

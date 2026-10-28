@@ -1,0 +1,40 @@
+{
+  "address": "1CTFzzCwntEm3a6CBGBfgxZdiArwY1HBSD",
+  "total_received": 55688,
+  "total_sent": 0,
+  "balance": 55688,
+  "unconfirmed_balance": 0,
+  "final_balance": 55688,
+  "n_tx": 2,
+  "unconfirmed_n_tx": 0,
+  "final_n_tx": 2,
+  "txrefs": [
+    {
+      "tx_hash": "4a616f943720325cc87611bf4a3bbcf2b5071baf5aab9a0ffbb9297371377c41",
+      "block_height": 696256,
+      "tx_input_n": -1,
+      "tx_output_n": 1,
+      "value": 12488,
+      "ref_balance": 55688,
+      "spent": true,
+      "spent_by": "7e62250f167a26eff50db0e1134ef7d6556811da67db27cac4a268dc299e0a6d",
+      "confirmations": 277299,
+      "confirmed": "2021-08-17T16:34:36Z",
+      "double_spend": false
+    },
+    {
+      "tx_hash": "27bf9358822ef3ae44391950379e9206319e3bb3866d44bd9595a0e7cbdc2ca8",
+      "block_height": 696255,
+      "tx_input_n": -1,
+      "tx_output_n": 0,
+      "value": 43200,
+      "ref_balance": 43200,
+      "spent": true,
+      "spent_by": "7e62250f167a26eff50db0e1134ef7d6556811da67db27cac4a268dc299e0a6d",
+      "confirmations": 277300,
+      "confirmed": "2021-08-17T16:28:41Z",
+      "double_spend": false
+    }
+  ],
+  "tx_url": "https://api.blockcypher.com/v1/btc/main/txs/"
+}

@@ -1,0 +1,14 @@
+{
+  "compose_sha256": "c5d9faf98e18dbbe585c9a5b54964922718ca34489bb917ee5772a275c2fdb95",
+  "ctf_key_ascii": "0ae20b40bbb05e9cbde184f7e8625a6f21eaf6cb52259c1e0f4a287709a2c62b",
+  "challenge_name": "Score Board",
+  "algorithm": "HMAC-SHA1(ASCII CTF_KEY, UTF-8 challenge.name), hex digest",
+  "digest": "73dbb9f2bac263e70119eb5e22d79e029e03a27e",
+  "sources": [
+    "https://raw.githubusercontent.com/juice-shop/juice-shop/master/lib/utils.ts",
+    "https://raw.githubusercontent.com/juice-shop/juice-shop/master/lib/challengeUtils.ts",
+    "https://raw.githubusercontent.com/juice-shop/juice-shop/master/data/static/challenges.yml"
+  ],
+  "checked_at": "2026-10-28",
+  "runtime_observed": false
+}

@@ -1,0 +1,22 @@
+[2J[HChallenge #80 — actual evidence capture
+$ 7z x /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/To_the_moon.zip -pprisonbreak -o/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/moon-wallet -y && cat /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/moon-wallet/To_the_moon.txt
+
+
+7-Zip 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+ 64-bit locale=C.UTF-8 Threads:12 OPEN_MAX:524288, ASM
+
+Scanning the drive for archives:
+  0M Scan /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/                                                                                     1 file, 266 bytes (1 KiB)
+
+Extracting archive: /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/To_the_moon.zip
+--
+Path = /home/nightingale/CTF/PCGCTF/unsolved/blockchain-forensics/080-to-the-moon/To_the_moon.zip
+Type = zip
+Physical Size = 266
+
+  0%    Everything is Ok
+
+Size:       34
+Compressed: 266
+1NFoSEcGq4XwEbaXmio5yYaakbX5Gtia4R
+[Actual command exit code: 0]

@@ -1,0 +1,1920 @@
+[
+  {
+    "id": 3,
+    "draft": "01-pcgctf-solved/003-ancient-message.md",
+    "caption": "003-step-01.png",
+    "target": "../screenshots/003-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 38,
+    "draft": "01-pcgctf-solved/038-the-lazy-gatekeeper.md",
+    "caption": "038-actual-target-response.png",
+    "target": "../screenshots/038-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 1,
+    "draft": "01-pcgctf-solved/001-hash-me-if-you-can.md",
+    "caption": "001-digest-evidence.png",
+    "target": "../screenshots/001-digest-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 1,
+    "draft": "01-pcgctf-solved/001-hash-me-if-you-can.md",
+    "caption": "001-actual-dictionary-attempt.png",
+    "target": "../screenshots/001-actual-dictionary-attempt.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 2,
+    "draft": "01-pcgctf-solved/002-picture-perfect-evidence.md",
+    "caption": "002-step-01.png",
+    "target": "../screenshots/002-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 2,
+    "draft": "01-pcgctf-solved/002-picture-perfect-evidence.md",
+    "caption": "002-step-02.png",
+    "target": "../screenshots/002-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 4,
+    "draft": "01-pcgctf-solved/004-encoded-secret.md",
+    "caption": "004-step-01.png",
+    "target": "../screenshots/004-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 5,
+    "draft": "01-pcgctf-solved/005-silent-signal.md",
+    "caption": "005-step-01.png",
+    "target": "../screenshots/005-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 6,
+    "draft": "02-overthewire-verified/006-hidden-in-plain-sight.md",
+    "caption": "006-natas-method.png",
+    "target": "../screenshots/006-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 6,
+    "draft": "02-overthewire-verified/006-hidden-in-plain-sight.md",
+    "caption": "006-natas-verify.png",
+    "target": "../screenshots/006-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 7,
+    "draft": "02-overthewire-verified/007-access-denied-think-again.md",
+    "caption": "007-natas-method.png",
+    "target": "../screenshots/007-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 7,
+    "draft": "02-overthewire-verified/007-access-denied-think-again.md",
+    "caption": "007-natas-verify.png",
+    "target": "../screenshots/007-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 8,
+    "draft": "02-overthewire-verified/008-forgotten-files.md",
+    "caption": "008-natas-method.png",
+    "target": "../screenshots/008-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 8,
+    "draft": "02-overthewire-verified/008-forgotten-files.md",
+    "caption": "008-natas-verify.png",
+    "target": "../screenshots/008-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 9,
+    "draft": "02-overthewire-verified/009-robots-know-everything.md",
+    "caption": "009-natas-method.png",
+    "target": "../screenshots/009-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 9,
+    "draft": "02-overthewire-verified/009-robots-know-everything.md",
+    "caption": "009-natas-verify.png",
+    "target": "../screenshots/009-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 10,
+    "draft": "02-overthewire-verified/010-trust-the-referer.md",
+    "caption": "010-natas-method.png",
+    "target": "../screenshots/010-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 10,
+    "draft": "02-overthewire-verified/010-trust-the-referer.md",
+    "caption": "010-natas-verify.png",
+    "target": "../screenshots/010-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 12,
+    "draft": "02-overthewire-verified/012-the-cookie-jar.md",
+    "caption": "012-natas-method.png",
+    "target": "../screenshots/012-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 12,
+    "draft": "02-overthewire-verified/012-the-cookie-jar.md",
+    "caption": "012-natas-verify.png",
+    "target": "../screenshots/012-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 13,
+    "draft": "02-overthewire-verified/013-the-exposed-script.md",
+    "caption": "013-natas-method.png",
+    "target": "../screenshots/013-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 13,
+    "draft": "02-overthewire-verified/013-the-exposed-script.md",
+    "caption": "013-natas-verify.png",
+    "target": "../screenshots/013-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 14,
+    "draft": "02-overthewire-verified/014-path-explorer.md",
+    "caption": "014-natas-method.png",
+    "target": "../screenshots/014-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 14,
+    "draft": "02-overthewire-verified/014-path-explorer.md",
+    "caption": "014-natas-verify.png",
+    "target": "../screenshots/014-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 15,
+    "draft": "02-overthewire-verified/015-layers-of-encoding.md",
+    "caption": "015-natas-method.png",
+    "target": "../screenshots/015-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 15,
+    "draft": "02-overthewire-verified/015-layers-of-encoding.md",
+    "caption": "015-natas-verify.png",
+    "target": "../screenshots/015-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 16,
+    "draft": "02-overthewire-verified/016-command-me.md",
+    "caption": "016-natas-method.png",
+    "target": "../screenshots/016-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 16,
+    "draft": "02-overthewire-verified/016-command-me.md",
+    "caption": "016-natas-verify.png",
+    "target": "../screenshots/016-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 17,
+    "draft": "02-overthewire-verified/017-filtered-but-broken.md",
+    "caption": "017-natas-method.png",
+    "target": "../screenshots/017-natas-method.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 17,
+    "draft": "02-overthewire-verified/017-filtered-but-broken.md",
+    "caption": "017-natas-verify.png",
+    "target": "../screenshots/017-natas-verify.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 18,
+    "draft": "05-rejected-flag/018-rotation-36.md",
+    "caption": "018-script-1.png",
+    "target": "../screenshots/018-script-1.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 21,
+    "draft": "03-answer-ready/021-packet-detective.md",
+    "caption": "021-packet-proof.png",
+    "target": "../screenshots/021-packet-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 22,
+    "draft": "03-answer-ready/022-ftp-credential-leak.md",
+    "caption": "022-packet-proof.png",
+    "target": "../screenshots/022-packet-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 33,
+    "draft": "01-pcgctf-solved/033-multi-base-layers.md",
+    "caption": "033-step-01.png",
+    "target": "../screenshots/033-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 33,
+    "draft": "01-pcgctf-solved/033-multi-base-layers.md",
+    "caption": "033-step-02.png",
+    "target": "../screenshots/033-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 34,
+    "draft": "01-pcgctf-solved/034-rot13.md",
+    "caption": "034-step-01.png",
+    "target": "../screenshots/034-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 42,
+    "draft": "06-unresolved-appendix/042-the-changing-door.md",
+    "caption": "042-actual-target-response.png",
+    "target": "../screenshots/042-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 57,
+    "draft": "03-answer-ready/057-the-viral-name.md",
+    "caption": "User-supplied contextual meme screenshot.",
+    "target": "../../unsolved/osint/057-the-viral-name/evidence/provided-meme-screenshot.png",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 57,
+    "draft": "03-answer-ready/057-the-viral-name.md",
+    "caption": "057-actual-browser-image.png",
+    "target": "../screenshots/057-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 63,
+    "draft": "01-pcgctf-solved/063-caesar-s-last-stand.md",
+    "caption": "063-step-01.png",
+    "target": "../screenshots/063-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 64,
+    "draft": "01-pcgctf-solved/064-broken-vigenere.md",
+    "caption": "064-step-01.png",
+    "target": "../screenshots/064-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 64,
+    "draft": "01-pcgctf-solved/064-broken-vigenere.md",
+    "caption": "064-step-02.png",
+    "target": "../screenshots/064-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 69,
+    "draft": "03-answer-ready/069-bitcoin-trail.md",
+    "caption": "069-packet-proof.png",
+    "target": "../screenshots/069-packet-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 71,
+    "draft": "01-pcgctf-solved/071-embedded-text.md",
+    "caption": "071-archive-evidence.png",
+    "target": "../screenshots/071-archive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 71,
+    "draft": "01-pcgctf-solved/071-embedded-text.md",
+    "caption": "071-actual-dictionary-attempt.png",
+    "target": "../screenshots/071-actual-dictionary-attempt.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 75,
+    "draft": "03-answer-ready/075-hidden.md",
+    "caption": "Recovered NTFS named-stream image.",
+    "target": "../../unsolved/forensics/075-hidden/evidence/flag.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 75,
+    "draft": "03-answer-ready/075-hidden.md",
+    "caption": "075-ntfs-stream-list.png",
+    "target": "../screenshots/075-ntfs-stream-list.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 75,
+    "draft": "03-answer-ready/075-hidden.md",
+    "caption": "075-ntfs-export.png",
+    "target": "../screenshots/075-ntfs-export.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 77,
+    "draft": "03-answer-ready/077-hit-a-brick-wall.md",
+    "caption": "077-decisive-result.png",
+    "target": "../screenshots/077-decisive-result.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 77,
+    "draft": "03-answer-ready/077-hit-a-brick-wall.md",
+    "caption": "077-brick-ascii-decode.png",
+    "target": "../screenshots/077-brick-ascii-decode.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 81,
+    "draft": "01-pcgctf-solved/081-turtles-all-the-way-down.md",
+    "caption": "Original image: declared height 848 hides the text.",
+    "target": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/81/ctf/20.png",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 81,
+    "draft": "01-pcgctf-solved/081-turtles-all-the-way-down.md",
+    "caption": "Restored height 1000: the original stored bottom rows reveal the flag.",
+    "target": "/home/nightingale/CTF/PCGCTF/final-writeups/evidence-solved/81/20-restored.png",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 81,
+    "draft": "01-pcgctf-solved/081-turtles-all-the-way-down.md",
+    "caption": "081-step-01.png",
+    "target": "../screenshots/081-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 81,
+    "draft": "01-pcgctf-solved/081-turtles-all-the-way-down.md",
+    "caption": "081-step-02.png",
+    "target": "../screenshots/081-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 82,
+    "draft": "01-pcgctf-solved/082-easy-packet-1-the-exposed-request.md",
+    "caption": "082-decisive-evidence.png",
+    "target": "../screenshots/082-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 83,
+    "draft": "04-exact-wording-missing/083-easy-packet-1-01-the-capture-signature.md",
+    "caption": "083-decisive-evidence.png",
+    "target": "../screenshots/083-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 83,
+    "draft": "04-exact-wording-missing/083-easy-packet-1-01-the-capture-signature.md",
+    "caption": "083-file-signature.png",
+    "target": "../screenshots/083-file-signature.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 84,
+    "draft": "01-pcgctf-solved/084-easy-packet-1-02-one-packet-wonder.md",
+    "caption": "084-decisive-evidence.png",
+    "target": "../screenshots/084-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 85,
+    "draft": "03-answer-ready/085-easy-packet-1-03-destination-at-layer-2.md",
+    "caption": "085-decisive-evidence.png",
+    "target": "../screenshots/085-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 86,
+    "draft": "03-answer-ready/086-easy-packet-1-04-source-at-layer-2.md",
+    "caption": "086-decisive-evidence.png",
+    "target": "../screenshots/086-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 87,
+    "draft": "01-pcgctf-solved/087-easy-packet-1-05-ethertype-ipv4.md",
+    "caption": "087-decisive-evidence.png",
+    "target": "../screenshots/087-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 88,
+    "draft": "01-pcgctf-solved/088-easy-packet-1-06-version-four.md",
+    "caption": "088-decisive-evidence.png",
+    "target": "../screenshots/088-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 89,
+    "draft": "03-answer-ready/089-easy-packet-1-07-the-20-byte-header.md",
+    "caption": "089-decisive-evidence.png",
+    "target": "../screenshots/089-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 90,
+    "draft": "03-answer-ready/090-easy-packet-1-08-total-packet-weight.md",
+    "caption": "090-decisive-evidence.png",
+    "target": "../screenshots/090-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 91,
+    "draft": "03-answer-ready/091-easy-packet-1-09-packet-identity.md",
+    "caption": "091-decisive-evidence.png",
+    "target": "../screenshots/091-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 92,
+    "draft": "01-pcgctf-solved/092-easy-packet-1-10-ttl-64-hops.md",
+    "caption": "092-decisive-evidence.png",
+    "target": "../screenshots/092-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 93,
+    "draft": "01-pcgctf-solved/093-easy-packet-1-11-protocol-6.md",
+    "caption": "093-decisive-evidence.png",
+    "target": "../screenshots/093-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 94,
+    "draft": "01-pcgctf-solved/094-easy-packet-1-12-who-sent-it.md",
+    "caption": "094-decisive-evidence.png",
+    "target": "../screenshots/094-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 95,
+    "draft": "01-pcgctf-solved/095-easy-packet-1-13-where-is-it-going.md",
+    "caption": "095-decisive-evidence.png",
+    "target": "../screenshots/095-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 96,
+    "draft": "01-pcgctf-solved/096-easy-packet-1-14-ephemeral-source.md",
+    "caption": "096-decisive-evidence.png",
+    "target": "../screenshots/096-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 97,
+    "draft": "01-pcgctf-solved/097-easy-packet-1-15-port-80.md",
+    "caption": "097-decisive-evidence.png",
+    "target": "../screenshots/097-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 98,
+    "draft": "01-pcgctf-solved/098-easy-packet-1-16-tcp-sequence-marker.md",
+    "caption": "098-decisive-evidence.png",
+    "target": "../screenshots/098-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 99,
+    "draft": "01-pcgctf-solved/099-easy-packet-1-17-tcp-acknowledgment-marker.md",
+    "caption": "099-decisive-evidence.png",
+    "target": "../screenshots/099-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 100,
+    "draft": "03-answer-ready/100-easy-packet-1-18-push-and-acknowledge.md",
+    "caption": "100-decisive-evidence.png",
+    "target": "../screenshots/100-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 101,
+    "draft": "01-pcgctf-solved/101-easy-packet-1-19-tcp-window.md",
+    "caption": "101-decisive-evidence.png",
+    "target": "../screenshots/101-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 102,
+    "draft": "04-exact-wording-missing/102-easy-packet-1-20-push-to-the-application.md",
+    "caption": "102-decisive-evidence.png",
+    "target": "../screenshots/102-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 103,
+    "draft": "03-answer-ready/103-easy-packet-1-21-speak-http.md",
+    "caption": "103-decisive-evidence.png",
+    "target": "../screenshots/103-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 104,
+    "draft": "01-pcgctf-solved/104-easy-packet-1-22-get-the-resource.md",
+    "caption": "104-decisive-evidence.png",
+    "target": "../screenshots/104-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 105,
+    "draft": "01-pcgctf-solved/105-easy-packet-1-23-the-requested-path.md",
+    "caption": "105-decisive-evidence.png",
+    "target": "../screenshots/105-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 106,
+    "draft": "01-pcgctf-solved/106-easy-packet-1-24-http-1-1.md",
+    "caption": "106-decisive-evidence.png",
+    "target": "../screenshots/106-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 107,
+    "draft": "01-pcgctf-solved/107-easy-packet-1-25-know-your-host.md",
+    "caption": "107-decisive-evidence.png",
+    "target": "../screenshots/107-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 108,
+    "draft": "01-pcgctf-solved/108-easy-packet-1-26-identify-the-client.md",
+    "caption": "108-decisive-evidence.png",
+    "target": "../screenshots/108-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 109,
+    "draft": "01-pcgctf-solved/109-easy-packet-1-27-keep-the-connection.md",
+    "caption": "109-decisive-evidence.png",
+    "target": "../screenshots/109-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 110,
+    "draft": "01-pcgctf-solved/110-easy-packet-1-28-basic-authentication.md",
+    "caption": "110-decisive-evidence.png",
+    "target": "../screenshots/110-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 111,
+    "draft": "03-answer-ready/111-easy-packet-1-29-the-exposed-credentials.md",
+    "caption": "111-decisive-evidence.png",
+    "target": "../screenshots/111-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 112,
+    "draft": "04-exact-wording-missing/112-easy-packet-1-30-cleartext-on-the-wire.md",
+    "caption": "112-decisive-evidence.png",
+    "target": "../screenshots/112-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 122,
+    "draft": "03-answer-ready/122-pcgctf-juice-shop-gateway.md",
+    "caption": "122-script-1.png",
+    "target": "../screenshots/122-script-1.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 239,
+    "draft": "01-pcgctf-solved/239-street-level-clue.md",
+    "caption": "The overhead arch directly names Carnaby Street; box that lettering in the publication version.",
+    "target": "/home/nightingale/CTF/PCGCTF/solved/osint-imint/239-street-level-clue/files/task2_1602089234031.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 239,
+    "draft": "01-pcgctf-solved/239-street-level-clue.md",
+    "caption": "239-actual-browser-image.png",
+    "target": "../screenshots/239-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 240,
+    "draft": "01-pcgctf-solved/240-tube-station-city.md",
+    "caption": "Original shared photograph; highlight the lower station-name sign.",
+    "target": "/home/nightingale/CTF/PCGCTF/solved/osint-imint/240-tube-station-city/files/task3_1602089306375.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 240,
+    "draft": "01-pcgctf-solved/240-tube-station-city.md",
+    "caption": "240-actual-browser-image.png",
+    "target": "../screenshots/240-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 241,
+    "draft": "01-pcgctf-solved/241-tube-station-station.md",
+    "caption": "Original shared photograph; highlight the lower station-name sign.",
+    "target": "/home/nightingale/CTF/PCGCTF/solved/osint-imint/240-tube-station-city/files/task3_1602089306375.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 241,
+    "draft": "01-pcgctf-solved/241-tube-station-station.md",
+    "caption": "241-actual-browser-image.png",
+    "target": "../screenshots/241-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 242,
+    "draft": "01-pcgctf-solved/242-tube-station-opening-year.md",
+    "caption": "Shared image used to fix the station identity before date research.",
+    "target": "/home/nightingale/CTF/PCGCTF/solved/osint-imint/240-tube-station-city/files/task3_1602089306375.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 242,
+    "draft": "01-pcgctf-solved/242-tube-station-opening-year.md",
+    "caption": "242-actual-browser-image.png",
+    "target": "../screenshots/242-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 243,
+    "draft": "01-pcgctf-solved/243-tube-station-platforms.md",
+    "caption": "The shared entrance image establishes the station used for platform research.",
+    "target": "/home/nightingale/CTF/PCGCTF/solved/osint-imint/240-tube-station-city/files/task3_1602089306375.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 243,
+    "draft": "01-pcgctf-solved/243-tube-station-platforms.md",
+    "caption": "243-actual-browser-image.png",
+    "target": "../screenshots/243-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 244,
+    "draft": "03-answer-ready/244-airport-context-building.md",
+    "caption": "Original airport photograph with YVR branding.",
+    "target": "../../unsolved/osint-imint/244-airport-context-building/files/task4_1603353588780.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 244,
+    "draft": "03-answer-ready/244-airport-context-building.md",
+    "caption": "244-actual-browser-image.png",
+    "target": "../screenshots/244-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 247,
+    "draft": "03-answer-ready/247-coffee-shop-city.md",
+    "caption": "Original coffee-shop view toward the opposite corner.",
+    "target": "../../unsolved/osint-imint/247-coffee-shop-city/files/task5_1602347907147.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 247,
+    "draft": "03-answer-ready/247-coffee-shop-city.md",
+    "caption": "Mike Pennington’s reference photograph of the Blairgowrie branch.",
+    "target": "../../unsolved/osint-imint/247-coffee-shop-city/evidence/reference-edinburgh-woollen-mill.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 247,
+    "draft": "03-answer-ready/247-coffee-shop-city.md",
+    "caption": "247-actual-browser-image.png",
+    "target": "../screenshots/247-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 252,
+    "draft": "01-pcgctf-solved/252-reverse-image-restaurant.md",
+    "caption": "Original restaurant photograph; compare its distinctive counter and signage to the primary video.",
+    "target": "/home/nightingale/CTF/PCGCTF/solved/osint-imint/252-reverse-image-restaurant/files/task6_1602348602115.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 252,
+    "draft": "01-pcgctf-solved/252-reverse-image-restaurant.md",
+    "caption": "252-actual-browser-image.png",
+    "target": "../screenshots/252-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 253,
+    "draft": "03-answer-ready/253-reverse-image-editor.md",
+    "caption": "Shared restaurant photograph from #252.",
+    "target": "../../solved/osint-imint/252-reverse-image-restaurant/files/task6_1602348602115.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 253,
+    "draft": "03-answer-ready/253-reverse-image-editor.md",
+    "caption": "253-actual-browser-image.png",
+    "target": "../screenshots/253-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 254,
+    "draft": "03-answer-ready/254-sculpture-identification.md",
+    "caption": "Supplied motorcycle-reindeer sculpture.",
+    "target": "../../unsolved/osint-imint/254-sculpture-identification/files/task7_1602636111226.png",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 254,
+    "draft": "03-answer-ready/254-sculpture-identification.md",
+    "caption": "Perry Tak’s matching Tjuvholmen reference photograph.",
+    "target": "../../unsolved/osint-imint/254-sculpture-identification/evidence/reference-rudolph-tjuvholmen.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 254,
+    "draft": "03-answer-ready/254-sculpture-identification.md",
+    "caption": "254-actual-browser-image.png",
+    "target": "../screenshots/254-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 256,
+    "draft": "03-answer-ready/256-justice-character.md",
+    "caption": "Original scales-bearing Justice figure.",
+    "target": "../../unsolved/osint-imint/256-justice-character/files/task8_1603365958159.png",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 256,
+    "draft": "03-answer-ready/256-justice-character.md",
+    "caption": "Tim Evanson’s matching statue photograph.",
+    "target": "../../unsolved/osint-imint/256-justice-character/evidence/reference-blind-justice.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 256,
+    "draft": "03-answer-ready/256-justice-character.md",
+    "caption": "256-actual-browser-image.png",
+    "target": "../screenshots/256-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 259,
+    "draft": "03-answer-ready/259-hotel-from-the-past.md",
+    "caption": "Observed five-second frame from the supplied video.",
+    "target": "../../unsolved/osint-imint/259-hotel-from-the-past/evidence/video-frame-00m05s.jpg",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 259,
+    "draft": "03-answer-ready/259-hotel-from-the-past.md",
+    "caption": "Owner-report photograph naming Novotel Singapore Clarke Quay.",
+    "target": "../../unsolved/osint-imint/259-hotel-from-the-past/evidence/hotel-owner-report-photo-p65.png",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 259,
+    "draft": "03-answer-ready/259-hotel-from-the-past.md",
+    "caption": "259-actual-browser-image.png",
+    "target": "../screenshots/259-actual-browser-image.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 262,
+    "draft": "01-pcgctf-solved/262-act-1-first-signal-patient-zero.md",
+    "caption": "262-decisive-evidence.png",
+    "target": "../screenshots/262-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 263,
+    "draft": "01-pcgctf-solved/263-act-1-first-signal-hardware-fingerprint.md",
+    "caption": "263-decisive-evidence.png",
+    "target": "../screenshots/263-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 264,
+    "draft": "01-pcgctf-solved/264-act-1-first-signal-name-the-host.md",
+    "caption": "264-decisive-evidence.png",
+    "target": "../screenshots/264-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 265,
+    "draft": "03-answer-ready/265-act-1-first-signal-domain-membership.md",
+    "caption": "265-decisive-evidence.png",
+    "target": "../screenshots/265-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 266,
+    "draft": "01-pcgctf-solved/266-act-1-first-signal-full-identity.md",
+    "caption": "266-decisive-evidence.png",
+    "target": "../screenshots/266-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 268,
+    "draft": "01-pcgctf-solved/268-act-2-the-compromise-infected-ipv4.md",
+    "caption": "268-decisive-evidence.png",
+    "target": "../screenshots/268-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 269,
+    "draft": "01-pcgctf-solved/269-act-2-the-compromise-victim-mac.md",
+    "caption": "269-decisive-evidence.png",
+    "target": "../screenshots/269-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 270,
+    "draft": "01-pcgctf-solved/270-act-2-the-compromise-victim-hostname.md",
+    "caption": "270-decisive-evidence.png",
+    "target": "../screenshots/270-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 271,
+    "draft": "01-pcgctf-solved/271-act-2-the-compromise-identify-the-user-user-account.md",
+    "caption": "271-decisive-evidence.png",
+    "target": "../screenshots/271-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 274,
+    "draft": "03-answer-ready/274-act-3-malware-investigation-compromised-endpoint.md",
+    "caption": "274-decisive-evidence.png",
+    "target": "../screenshots/274-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 275,
+    "draft": "03-answer-ready/275-act-3-malware-investigation-endpoint-mac.md",
+    "caption": "275-decisive-evidence.png",
+    "target": "../screenshots/275-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 297,
+    "draft": "03-answer-ready/297-act-1-easy-as-123-threat-identity.md",
+    "caption": "297-saved-evidence.png",
+    "target": "../screenshots/297-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 298,
+    "draft": "03-answer-ready/298-act-1-easy-as-123-domain-pivot.md",
+    "caption": "298-saved-evidence.png",
+    "target": "../screenshots/298-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 299,
+    "draft": "03-answer-ready/299-act-1-easy-as-123-protocol-deception.md",
+    "caption": "299-saved-evidence.png",
+    "target": "../screenshots/299-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 300,
+    "draft": "03-answer-ready/300-act-1-easy-as-123-malware-hash-pivot.md",
+    "caption": "300-saved-evidence.png",
+    "target": "../screenshots/300-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 301,
+    "draft": "03-answer-ready/301-act-2-you-dirty-rat-identify-the-rat.md",
+    "caption": "301-saved-evidence.png",
+    "target": "../screenshots/301-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 302,
+    "draft": "03-answer-ready/302-act-2-you-dirty-rat-infrastructure-owner.md",
+    "caption": "302-saved-evidence.png",
+    "target": "../screenshots/302-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 303,
+    "draft": "03-answer-ready/303-act-2-you-dirty-rat-c2-service-port.md",
+    "caption": "303-saved-evidence.png",
+    "target": "../screenshots/303-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 304,
+    "draft": "03-answer-ready/304-act-3-lumma-in-the-room-ah-identify-the-stealer.md",
+    "caption": "304-saved-evidence.png",
+    "target": "../screenshots/304-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 305,
+    "draft": "03-answer-ready/305-act-3-lumma-in-the-room-ah-domain-pivot.md",
+    "caption": "305-saved-evidence.png",
+    "target": "../screenshots/305-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 306,
+    "draft": "03-answer-ready/306-act-3-lumma-in-the-room-ah-registration-osint.md",
+    "caption": "306-saved-evidence.png",
+    "target": "../screenshots/306-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 307,
+    "draft": "03-answer-ready/307-act-4-first-to-last-malware-attribution.md",
+    "caption": "307-saved-evidence.png",
+    "target": "../screenshots/307-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 308,
+    "draft": "03-answer-ready/308-act-4-first-to-last-infrastructure-pivot.md",
+    "caption": "308-saved-evidence.png",
+    "target": "../screenshots/308-saved-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 310,
+    "draft": "03-answer-ready/310-down-the-rabbit-hole.md",
+    "caption": "310-actual-xmp-identifier.png",
+    "target": "../screenshots/310-actual-xmp-identifier.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 267,
+    "draft": "03-answer-ready/267-act-1-first-signal-calling-home.md",
+    "caption": "267-decisive-evidence.png",
+    "target": "../screenshots/267-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 272,
+    "draft": "03-answer-ready/272-act-2-the-compromise-who-is-brolf.md",
+    "caption": "272-decisive-evidence.png",
+    "target": "../screenshots/272-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 276,
+    "draft": "03-answer-ready/276-act-3-malware-investigation-endpoint-name.md",
+    "caption": "276-decisive-evidence.png",
+    "target": "../screenshots/276-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 277,
+    "draft": "03-answer-ready/277-act-3-malware-investigation-compromised-account.md",
+    "caption": "277-decisive-evidence.png",
+    "target": "../screenshots/277-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 282,
+    "draft": "03-answer-ready/282-act-4-lumma-in-the-room-lumma-victim.md",
+    "caption": "282-decisive-evidence.png",
+    "target": "../screenshots/282-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 283,
+    "draft": "03-answer-ready/283-act-4-lumma-in-the-room-victim-mac.md",
+    "caption": "283-decisive-evidence.png",
+    "target": "../screenshots/283-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 289,
+    "draft": "03-answer-ready/289-act-5-final-incident-map-the-network.md",
+    "caption": "289-decisive-evidence.png",
+    "target": "../screenshots/289-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 290,
+    "draft": "03-answer-ready/290-act-5-final-incident-host-one-mac.md",
+    "caption": "290-decisive-evidence.png",
+    "target": "../screenshots/290-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 291,
+    "draft": "03-answer-ready/291-act-5-final-incident-host-two-mac.md",
+    "caption": "291-decisive-evidence.png",
+    "target": "../screenshots/291-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 292,
+    "draft": "03-answer-ready/292-act-5-final-incident-host-three-mac.md",
+    "caption": "292-decisive-evidence.png",
+    "target": "../screenshots/292-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 39,
+    "draft": "06-unresolved-appendix/039-the-forgotten-path.md",
+    "caption": "039-actual-target-response.png",
+    "target": "../screenshots/039-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 40,
+    "draft": "06-unresolved-appendix/040-silent-witness.md",
+    "caption": "040-actual-target-response.png",
+    "target": "../screenshots/040-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 41,
+    "draft": "06-unresolved-appendix/041-the-cracked-seal.md",
+    "caption": "041-actual-target-response.png",
+    "target": "../screenshots/041-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 50,
+    "draft": "06-unresolved-appendix/050-commented-out-secrets.md",
+    "caption": "050-actual-target-response.png",
+    "target": "../screenshots/050-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 61,
+    "draft": "03-answer-ready/061-the-exposed-password.md",
+    "caption": "061-packet-proof.png",
+    "target": "../screenshots/061-packet-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 62,
+    "draft": "03-answer-ready/062-the-hidden-download.md",
+    "caption": "062-packet-proof.png",
+    "target": "../screenshots/062-packet-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 65,
+    "draft": "01-pcgctf-solved/065-small-exponent.md",
+    "caption": "065-step-01.png",
+    "target": "../screenshots/065-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 70,
+    "draft": "01-pcgctf-solved/070-http-file-extraction.md",
+    "caption": "070-step-01.png",
+    "target": "../screenshots/070-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 70,
+    "draft": "01-pcgctf-solved/070-http-file-extraction.md",
+    "caption": "070-step-02.png",
+    "target": "../screenshots/070-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 73,
+    "draft": "03-answer-ready/073-bad-blockchain.md",
+    "caption": "073-script-1.png",
+    "target": "../screenshots/073-script-1.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 74,
+    "draft": "03-answer-ready/074-elliot-s-secret-stash.md",
+    "caption": "Actual flag frame from thehidden video.",
+    "target": "../../unsolved/steganography-forensics/074-elliot-s-secret-stash/evidence/flag-frame-39s.png",
+    "kind": "Original source image or explicitly labeled analytical figure"
+  },
+  {
+    "id": 74,
+    "draft": "03-answer-ready/074-elliot-s-secret-stash.md",
+    "caption": "074-terminal-extraction.png",
+    "target": "../screenshots/074-terminal-extraction.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 78,
+    "draft": "01-pcgctf-solved/078-intercepted.md",
+    "caption": "078-step-01.png",
+    "target": "../screenshots/078-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 78,
+    "draft": "01-pcgctf-solved/078-intercepted.md",
+    "caption": "078-step-02.png",
+    "target": "../screenshots/078-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 79,
+    "draft": "03-answer-ready/079-sequence.md",
+    "caption": "079-decisive-result.png",
+    "target": "../screenshots/079-decisive-result.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 79,
+    "draft": "03-answer-ready/079-sequence.md",
+    "caption": "079-script-1.png",
+    "target": "../screenshots/079-script-1.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 80,
+    "draft": "03-answer-ready/080-to-the-moon.md",
+    "caption": "080-script-1.png",
+    "target": "../screenshots/080-script-1.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 80,
+    "draft": "03-answer-ready/080-to-the-moon.md",
+    "caption": "080-wallet-extraction.png",
+    "target": "../screenshots/080-wallet-extraction.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 80,
+    "draft": "03-answer-ready/080-to-the-moon.md",
+    "caption": "080-actual-stego-extraction.png",
+    "target": "../screenshots/080-actual-stego-extraction.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 113,
+    "draft": "06-unresolved-appendix/113-web-recon-view-source.md",
+    "caption": "113-actual-target-response.png",
+    "target": "../screenshots/113-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 114,
+    "draft": "06-unresolved-appendix/114-web-recon-hidden-directory.md",
+    "caption": "114-actual-target-response.png",
+    "target": "../screenshots/114-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 273,
+    "draft": "03-answer-ready/273-act-2-the-compromise-rat-check-in.md",
+    "caption": "273-decisive-evidence.png",
+    "target": "../screenshots/273-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 278,
+    "draft": "03-answer-ready/278-act-3-malware-investigation-user-identity.md",
+    "caption": "278-decisive-evidence.png",
+    "target": "../screenshots/278-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 279,
+    "draft": "03-answer-ready/279-act-3-malware-investigation-c2-destination.md",
+    "caption": "279-decisive-evidence.png",
+    "target": "../screenshots/279-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 284,
+    "draft": "03-answer-ready/284-act-4-lumma-in-the-room-victim-hostname.md",
+    "caption": "284-decisive-evidence.png",
+    "target": "../screenshots/284-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 285,
+    "draft": "03-answer-ready/285-act-4-lumma-in-the-room-compromised-user.md",
+    "caption": "285-decisive-evidence.png",
+    "target": "../screenshots/285-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 312,
+    "draft": "03-answer-ready/312-back-to-basics.md",
+    "caption": "312-actual-binary-strings.png",
+    "target": "../screenshots/312-actual-binary-strings.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 320,
+    "draft": "01-pcgctf-solved/320-hooked.md",
+    "caption": "320-step-01.png",
+    "target": "../screenshots/320-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 338,
+    "draft": "01-pcgctf-solved/338-headshot.md",
+    "caption": "338-actual-artifact-inventory.png",
+    "target": "../screenshots/338-actual-artifact-inventory.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 280,
+    "draft": "03-answer-ready/280-act-3-malware-investigation-malware-family.md",
+    "caption": "280-decisive-evidence.png",
+    "target": "../screenshots/280-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 286,
+    "draft": "03-answer-ready/286-act-4-lumma-in-the-room-full-user-name.md",
+    "caption": "286-decisive-evidence.png",
+    "target": "../screenshots/286-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 293,
+    "draft": "03-answer-ready/293-act-5-final-incident-find-the-victims.md",
+    "caption": "293-decisive-evidence.png",
+    "target": "../screenshots/293-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 35,
+    "draft": "01-pcgctf-solved/035-riddle-registry.md",
+    "caption": "035-step-01.png",
+    "target": "../screenshots/035-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 35,
+    "draft": "01-pcgctf-solved/035-riddle-registry.md",
+    "caption": "035-step-02.png",
+    "target": "../screenshots/035-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 43,
+    "draft": "06-unresolved-appendix/043-the-invisible-crown.md",
+    "caption": "043-actual-target-response.png",
+    "target": "../screenshots/043-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 49,
+    "draft": "06-unresolved-appendix/049-robots-that-talk-too-much.md",
+    "caption": "049-actual-target-response.png",
+    "target": "../screenshots/049-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 51,
+    "draft": "06-unresolved-appendix/051-the-javascript-slip.md",
+    "caption": "051-actual-target-response.png",
+    "target": "../screenshots/051-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 52,
+    "draft": "06-unresolved-appendix/052-configuration-left-behind.md",
+    "caption": "052-actual-target-response.png",
+    "target": "../screenshots/052-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 119,
+    "draft": "06-unresolved-appendix/119-ssrf-reach-the-internal-service.md",
+    "caption": "119-actual-target-response.png",
+    "target": "../screenshots/119-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 120,
+    "draft": "06-unresolved-appendix/120-access-control-user-agent-bypass.md",
+    "caption": "120-actual-target-response.png",
+    "target": "../screenshots/120-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 121,
+    "draft": "06-unresolved-appendix/121-server-configuration-htaccess-override.md",
+    "caption": "121-actual-target-response.png",
+    "target": "../screenshots/121-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 281,
+    "draft": "03-answer-ready/281-act-3-malware-investigation-beacon-evidence.md",
+    "caption": "281-decisive-evidence.png",
+    "target": "../screenshots/281-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 287,
+    "draft": "03-answer-ready/287-act-4-lumma-in-the-room-malicious-domain.md",
+    "caption": "287-decisive-evidence.png",
+    "target": "../screenshots/287-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 294,
+    "draft": "03-answer-ready/294-act-5-final-incident-first-ransomware.md",
+    "caption": "294-decisive-evidence.png",
+    "target": "../screenshots/294-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 295,
+    "draft": "03-answer-ready/295-act-5-final-incident-second-ransomware.md",
+    "caption": "295-decisive-evidence.png",
+    "target": "../screenshots/295-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 313,
+    "draft": "01-pcgctf-solved/313-ghost-of-squares-past.md",
+    "caption": "313-original-clues.png",
+    "target": "../screenshots/313-original-clues.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 315,
+    "draft": "01-pcgctf-solved/315-bedside-manner.md",
+    "caption": "315-actual-device-response.png",
+    "target": "../screenshots/315-actual-device-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 315,
+    "draft": "01-pcgctf-solved/315-bedside-manner.md",
+    "caption": "315-actual-device-proof.png",
+    "target": "../screenshots/315-actual-device-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 315,
+    "draft": "01-pcgctf-solved/315-bedside-manner.md",
+    "caption": "emedra-actual-browser-interface.png",
+    "target": "../screenshots/emedra-actual-browser-interface.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 316,
+    "draft": "01-pcgctf-solved/316-factory-setting.md",
+    "caption": "316-actual-device-response.png",
+    "target": "../screenshots/316-actual-device-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 316,
+    "draft": "01-pcgctf-solved/316-factory-setting.md",
+    "caption": "316-actual-device-proof.png",
+    "target": "../screenshots/316-actual-device-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 316,
+    "draft": "01-pcgctf-solved/316-factory-setting.md",
+    "caption": "316-actual-manual-credentials.png",
+    "target": "../screenshots/316-actual-manual-credentials.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 316,
+    "draft": "01-pcgctf-solved/316-factory-setting.md",
+    "caption": "emedra-actual-browser-interface.png",
+    "target": "../screenshots/emedra-actual-browser-interface.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 319,
+    "draft": "01-pcgctf-solved/319-car-crash.md",
+    "caption": "319-primary-company-anniversary.png",
+    "target": "../screenshots/319-primary-company-anniversary.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 321,
+    "draft": "01-pcgctf-solved/321-art-heist-the-forgery.md",
+    "caption": "321-actual-artifact-inventory.png",
+    "target": "../screenshots/321-actual-artifact-inventory.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 323,
+    "draft": "01-pcgctf-solved/323-inside-man.md",
+    "caption": "323-actual-artifact-inventory.png",
+    "target": "../screenshots/323-actual-artifact-inventory.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 327,
+    "draft": "01-pcgctf-solved/327-schedule-of-concern.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 327,
+    "draft": "01-pcgctf-solved/327-schedule-of-concern.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 327,
+    "draft": "01-pcgctf-solved/327-schedule-of-concern.md",
+    "caption": "327-step-02.png",
+    "target": "../screenshots/327-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 339,
+    "draft": "01-pcgctf-solved/339-file-dump-01.md",
+    "caption": "339-actual-artifact-inventory.png",
+    "target": "../screenshots/339-actual-artifact-inventory.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 288,
+    "draft": "03-answer-ready/288-act-4-lumma-in-the-room-fingerprint-api.md",
+    "caption": "288-decisive-evidence.png",
+    "target": "../screenshots/288-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 20,
+    "draft": "01-pcgctf-solved/020-base-maze.md",
+    "caption": "020-step-01.png",
+    "target": "../screenshots/020-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 20,
+    "draft": "01-pcgctf-solved/020-base-maze.md",
+    "caption": "020-step-02.png",
+    "target": "../screenshots/020-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 36,
+    "draft": "01-pcgctf-solved/036-commitment-issues.md",
+    "caption": "036-step-01.png",
+    "target": "../screenshots/036-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 36,
+    "draft": "01-pcgctf-solved/036-commitment-issues.md",
+    "caption": "036-step-02.png",
+    "target": "../screenshots/036-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 45,
+    "draft": "06-unresolved-appendix/045-the-open-warehouse.md",
+    "caption": "045-actual-target-response.png",
+    "target": "../screenshots/045-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 46,
+    "draft": "06-unresolved-appendix/046-the-open-door-api.md",
+    "caption": "046-actual-target-response.png",
+    "target": "../screenshots/046-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 47,
+    "draft": "06-unresolved-appendix/047-the-base64.md",
+    "caption": "047-actual-target-response.png",
+    "target": "../screenshots/047-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 53,
+    "draft": "06-unresolved-appendix/053-through-the-wrong-door.md",
+    "caption": "053-actual-target-response.png",
+    "target": "../screenshots/053-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 54,
+    "draft": "06-unresolved-appendix/054-the-exposed-repository.md",
+    "caption": "054-actual-target-response.png",
+    "target": "../screenshots/054-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 55,
+    "draft": "06-unresolved-appendix/055-environment-variables-gone-public.md",
+    "caption": "055-actual-target-response.png",
+    "target": "../screenshots/055-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 56,
+    "draft": "06-unresolved-appendix/056-the-hidden-storage.md",
+    "caption": "056-actual-target-response.png",
+    "target": "../screenshots/056-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 60,
+    "draft": "01-pcgctf-solved/060-cryptomaze.md",
+    "caption": "060-step-01.png",
+    "target": "../screenshots/060-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 60,
+    "draft": "01-pcgctf-solved/060-cryptomaze.md",
+    "caption": "060-step-02.png",
+    "target": "../screenshots/060-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 66,
+    "draft": "01-pcgctf-solved/066-common-modulus.md",
+    "caption": "066-step-01.png",
+    "target": "../screenshots/066-step-01.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 261,
+    "draft": "06-unresolved-appendix/261-password-hash-leak.md",
+    "caption": "261-actual-evidence-gap.png",
+    "target": "../screenshots/261-actual-evidence-gap.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 296,
+    "draft": "03-answer-ready/296-act-5-final-incident-final-assessment.md",
+    "caption": "296-decisive-evidence.png",
+    "target": "../screenshots/296-decisive-evidence.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 309,
+    "draft": "03-answer-ready/309-info-leaks.md",
+    "caption": "309-script-1.png",
+    "target": "../screenshots/309-script-1.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 317,
+    "draft": "01-pcgctf-solved/317-second-opinion.md",
+    "caption": "317-actual-device-response.png",
+    "target": "../screenshots/317-actual-device-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 317,
+    "draft": "01-pcgctf-solved/317-second-opinion.md",
+    "caption": "317-actual-device-proof.png",
+    "target": "../screenshots/317-actual-device-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 317,
+    "draft": "01-pcgctf-solved/317-second-opinion.md",
+    "caption": "emedra-actual-browser-interface.png",
+    "target": "../screenshots/emedra-actual-browser-interface.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 322,
+    "draft": "01-pcgctf-solved/322-hard-kept-secrets.md",
+    "caption": "322-actual-artifact-inventory.png",
+    "target": "../screenshots/322-actual-artifact-inventory.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 326,
+    "draft": "01-pcgctf-solved/326-admitted-under-another-name.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 326,
+    "draft": "01-pcgctf-solved/326-admitted-under-another-name.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 326,
+    "draft": "01-pcgctf-solved/326-admitted-under-another-name.md",
+    "caption": "326-step-02.png",
+    "target": "../screenshots/326-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 67,
+    "draft": "06-unresolved-appendix/067-weak-rsa.md",
+    "caption": "067-decisive-result.png",
+    "target": "../screenshots/067-decisive-result.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 116,
+    "draft": "06-unresolved-appendix/116-web-recon-read-the-headers.md",
+    "caption": "116-actual-target-response.png",
+    "target": "../screenshots/116-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 117,
+    "draft": "06-unresolved-appendix/117-infrastructure-unsecured-reverse-proxy.md",
+    "caption": "117-actual-target-response.png",
+    "target": "../screenshots/117-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 118,
+    "draft": "06-unresolved-appendix/118-path-traversal-off-by-slash.md",
+    "caption": "118-actual-target-response.png",
+    "target": "../screenshots/118-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 318,
+    "draft": "01-pcgctf-solved/318-live-boot.md",
+    "caption": "318-actual-device-response.png",
+    "target": "../screenshots/318-actual-device-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 318,
+    "draft": "01-pcgctf-solved/318-live-boot.md",
+    "caption": "318-actual-device-proof.png",
+    "target": "../screenshots/318-actual-device-proof.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 318,
+    "draft": "01-pcgctf-solved/318-live-boot.md",
+    "caption": "emedra-actual-browser-interface.png",
+    "target": "../screenshots/emedra-actual-browser-interface.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 328,
+    "draft": "01-pcgctf-solved/328-the-attending.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 328,
+    "draft": "01-pcgctf-solved/328-the-attending.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 328,
+    "draft": "01-pcgctf-solved/328-the-attending.md",
+    "caption": "328-step-02.png",
+    "target": "../screenshots/328-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 329,
+    "draft": "01-pcgctf-solved/329-prying-eyes.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 329,
+    "draft": "01-pcgctf-solved/329-prying-eyes.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 329,
+    "draft": "01-pcgctf-solved/329-prying-eyes.md",
+    "caption": "329-step-02.png",
+    "target": "../screenshots/329-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 330,
+    "draft": "01-pcgctf-solved/330-the-original-reading.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 330,
+    "draft": "01-pcgctf-solved/330-the-original-reading.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 330,
+    "draft": "01-pcgctf-solved/330-the-original-reading.md",
+    "caption": "330-step-02.png",
+    "target": "../screenshots/330-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 311,
+    "draft": "01-pcgctf-solved/311-sql-skillz.md",
+    "caption": "311-readonly-sqlite.png",
+    "target": "../screenshots/311-readonly-sqlite.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 325,
+    "draft": "01-pcgctf-solved/325-diagnosis.md",
+    "caption": "325-actual-artifact-inventory.png",
+    "target": "../screenshots/325-actual-artifact-inventory.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 331,
+    "draft": "01-pcgctf-solved/331-heavy-hand.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 331,
+    "draft": "01-pcgctf-solved/331-heavy-hand.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 331,
+    "draft": "01-pcgctf-solved/331-heavy-hand.md",
+    "caption": "331-step-02.png",
+    "target": "../screenshots/331-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 332,
+    "draft": "01-pcgctf-solved/332-upon-the-throne.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 332,
+    "draft": "01-pcgctf-solved/332-upon-the-throne.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 332,
+    "draft": "01-pcgctf-solved/332-upon-the-throne.md",
+    "caption": "332-step-02.png",
+    "target": "../screenshots/332-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 333,
+    "draft": "01-pcgctf-solved/333-after-the-lock.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 333,
+    "draft": "01-pcgctf-solved/333-after-the-lock.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 333,
+    "draft": "01-pcgctf-solved/333-after-the-lock.md",
+    "caption": "333-step-02.png",
+    "target": "../screenshots/333-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 337,
+    "draft": "01-pcgctf-solved/337-cereal-killer-04.md",
+    "caption": "337-actual-artifact-inventory.png",
+    "target": "../screenshots/337-actual-artifact-inventory.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 115,
+    "draft": "06-unresolved-appendix/115-web-recon-git-repository-leak.md",
+    "caption": "115-actual-target-response.png",
+    "target": "../screenshots/115-actual-target-response.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 334,
+    "draft": "01-pcgctf-solved/334-ghost-in-the-registry.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 334,
+    "draft": "01-pcgctf-solved/334-ghost-in-the-registry.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 334,
+    "draft": "01-pcgctf-solved/334-ghost-in-the-registry.md",
+    "caption": "334-step-02.png",
+    "target": "../screenshots/334-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 335,
+    "draft": "01-pcgctf-solved/335-too-good-to-be-true.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 335,
+    "draft": "01-pcgctf-solved/335-too-good-to-be-true.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 335,
+    "draft": "01-pcgctf-solved/335-too-good-to-be-true.md",
+    "caption": "335-step-02.png",
+    "target": "../screenshots/335-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 335,
+    "draft": "01-pcgctf-solved/335-too-good-to-be-true.md",
+    "caption": "Actual leading outliers",
+    "target": "../screenshots/335-leading-outliers.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 336,
+    "draft": "01-pcgctf-solved/336-two-places-at-once.md",
+    "caption": "aurora-live-databases.png",
+    "target": "../screenshots/aurora-live-databases.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 336,
+    "draft": "01-pcgctf-solved/336-two-places-at-once.md",
+    "caption": "aurora-live-schema.png",
+    "target": "../screenshots/aurora-live-schema.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 336,
+    "draft": "01-pcgctf-solved/336-two-places-at-once.md",
+    "caption": "336-step-02.png",
+    "target": "../screenshots/336-step-02.png",
+    "kind": "Actual screenshot"
+  },
+  {
+    "id": 260,
+    "draft": "01-pcgctf-solved/260-who-is-behind-the-platform.md",
+    "caption": "260-primary-profile.png",
+    "target": "../screenshots/260-primary-profile.png",
+    "kind": "Actual screenshot"
+  }
+]

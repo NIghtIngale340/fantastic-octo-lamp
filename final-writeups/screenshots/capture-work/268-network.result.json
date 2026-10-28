@@ -1,0 +1,13 @@
+{
+  "key": "268-network",
+  "id": 268,
+  "title": "Challenge #268 \u2014 offline packet evidence",
+  "command": "tshark -n -r /home/nightingale/CTF/PCGCTF/solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap -Y '(http.user_agent contains \"NetSupport\") && frame.number in {2638}' -d tcp.port==443,http -T fields -E header=y -e frame.number -e eth.src -e ip.src -e ip.dst -e http.user_agent -e http.request.uri",
+  "filename": "268-decisive-evidence.png",
+  "purpose": "Fresh execution of the draft\u2019s field-specific TShark command.",
+  "exit_code": 0,
+  "started_at_unix": 1793216108.0049162,
+  "finished_at_unix": 1793216108.6419005,
+  "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/268-network.terminal.log",
+  "capture_type": "Actual local PTY session, rendered by xterm.js"
+}

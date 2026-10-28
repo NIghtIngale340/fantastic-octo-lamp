@@ -1,0 +1,11 @@
+[2J[HChallenge #8 — actual evidence capture
+$ python /home/nightingale/CTF/PCGCTF/final-writeups/screenshots/capture-work/natas_evidence.py 8 method
+
+GET http://natas2.natas.labs.overthewire.org/files/users.txt HTTP 200
+Actual response excerpt, level passwords redacted:
+# username:password
+natas3:[REDACTED_LEVEL_PASSWORD]
+Response SHA-256: cfe8a1aad789a3c8963b3f768ee88b5474e48eddeee15aeb4a4348afa874766d
+No unredacted level password is displayed or saved in this capture.
+
+[Actual command exit code: 0]

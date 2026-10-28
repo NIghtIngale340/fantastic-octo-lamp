@@ -1,0 +1,119 @@
+[
+  {
+    "id": 21,
+    "name": "Packet Detective",
+    "answer": "zip",
+    "flag": "pcgCTF{zip}",
+    "filter": "ftp.request.command == \"RETR\" || ftp-data.command contains \"accountNum.zip\"",
+    "frames": [
+      11831,
+      11837
+    ],
+    "tcp_streams": [
+      19,
+      20
+    ],
+    "capture_challenge_id": 21,
+    "reason": "FTP RETR requests accountNum.zip in frame 11831; frame 11837 transfers a valid ZIP file. The two .jpg files earlier in the capture are FTP uploads (STOR), not this download. A Chrome extension .crx is also downloaded later over HTTP; because the question does not identify a protocol, the answer here follows the FTP download paired with the FTP Credential Leak question. The page says extension but gives a filename placeholder: accountNum.zip is the filename; zip is the extension. Exact grader wording remains unvalidated.",
+    "local_folder": "unsolved/network-analysis/021-packet-detective",
+    "platform_validation": "unconfirmed"
+  },
+  {
+    "id": 22,
+    "name": "FTP Credential Leak",
+    "answer": "AfricaCTF2021",
+    "flag": "pcgCTF{AfricaCTF2021}",
+    "filter": "ftp.request.command == \"PASS\" || ftp.response.code == 230",
+    "frames": [
+      500,
+      502,
+      587,
+      11816
+    ],
+    "tcp_streams": [
+      10,
+      13,
+      19
+    ],
+    "capture_challenge_id": 21,
+    "reason": "The shared evidence is the parent Packet Detective capture. FTP PASS exposes AfricaCTF2021; frame 502 reports Login successful. The username is kali. Repeated sessions show the same password.",
+    "local_folder": "unsolved/network-analysis/022-ftp-credential-leak",
+    "platform_validation": "unconfirmed"
+  },
+  {
+    "id": 61,
+    "name": "The Exposed Password",
+    "answer": "John1234!",
+    "flag": "pcgCTF{John1234!}",
+    "filter": "http.request.method == \"POST\" || frame.number == 48",
+    "frames": [
+      27,
+      46,
+      48
+    ],
+    "tcp_streams": [
+      1,
+      2
+    ],
+    "capture_challenge_id": 61,
+    "reason": "Frame 27 tries john1234, but response frame 29 rejects it. Frame 46 submits username=johndoe&password=John1234%21. URL decoding gives John1234!; frame 48 explicitly confirms a valid login. Use the capital J and trailing exclamation mark.",
+    "local_folder": "unsolved/network-analysis/061-the-exposed-password",
+    "platform_validation": "unconfirmed"
+  },
+  {
+    "id": 62,
+    "name": "THE HIDDEN DOWNLOAD",
+    "answer": "Cx689iO7Fu4G",
+    "flag": "pcgCTF{Cx689iO7Fu4G}",
+    "filter": "http",
+    "frames": [
+      11,
+      13
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "capture_challenge_id": 62,
+    "reason": "Frame 11 requests http://mywebsite.hv/password.zip. Frame 13 returns application/zip. The exported ZIP contains password.txt with the text: my password is: followed by Cx689iO7Fu4G. ZIP integrity was checked.",
+    "local_folder": "unsolved/network-analysis/062-the-hidden-download",
+    "platform_validation": "unconfirmed"
+  },
+  {
+    "id": 69,
+    "name": "Bitcoin Trail",
+    "answer": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    "flag": "pcgCTF{bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh}",
+    "filter": "frame.number == 196 || frame.number == 187 || frame.number == 218",
+    "frames": [
+      187,
+      196,
+      218
+    ],
+    "tcp_streams": [
+      17,
+      18
+    ],
+    "capture_challenge_id": 69,
+    "reason": "The wallet appears in a Bitcoin JSON-RPC sendtoaddress request (frame 196), as well as listunspent/gettransaction responses (frames 187 and 218). The address is an observed string from the supplied capture; no wallet interaction or transfer was performed.",
+    "local_folder": "unsolved/network-analysis/069-bitcoin-trail",
+    "platform_validation": "unconfirmed"
+  },
+  {
+    "id": 70,
+    "name": "HTTP File Extraction",
+    "answer": "Cx689iO7Fu4G",
+    "flag": "pcgCTF{Cx689iO7Fu4G}",
+    "filter": "http",
+    "frames": [
+      11,
+      13
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "capture_challenge_id": 70,
+    "reason": "This already site-solved challenge has a byte-identical PCAP to THE HIDDEN DOWNLOAD (#62); the same exported password.zip and password.txt recover Cx689iO7Fu4G. The flag itself was independently recovered here; no new submission was made.",
+    "local_folder": "solved/network-analysis/070-http-file-extraction",
+    "platform_validation": "site solved in original snapshot"
+  }
+]

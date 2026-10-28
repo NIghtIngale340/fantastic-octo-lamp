@@ -1,0 +1,60 @@
+[2J[HChallenge #71 — actual evidence capture
+$ zipinfo -v /home/nightingale/CTF/PCGCTF/solved/steganography/071-embedded-text/files/embedded-text.zip
+
+Archive:  /home/nightingale/CTF/PCGCTF/solved/steganography/071-embedded-text/files/embedded-text.zip
+There is no zipfile comment.
+
+End-of-central-directory record:
+-------------------------------
+
+  Zip archive file size:                    121928 (000000000001DC48h)
+  Actual end-cent-dir record offset:        121906 (000000000001DC32h)
+  Expected end-cent-dir record offset:      121906 (000000000001DC32h)
+  (based on the length of the central directory and its expected offset)
+
+  This zipfile constitutes the sole disk of a single-part archive; its
+  central directory contains 1 entry.
+  The central directory is 87 (0000000000000057h) bytes long,
+  and its (expected) offset in bytes from the beginning of the zipfile
+  is 121819 (000000000001DBDBh).
+
+
+Central directory entry #1:
+---------------------------
+
+  embedded-text.jpg
+
+  offset of local header from start of archive:   0
+                                                  (0000000000000000h) bytes
+  file system or operating system of origin:      Unix
+  version of encoding software:                   3.0
+  minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+  minimum software version required to extract:   2.0
+  compression method:                             deflated
+  compression sub-type (deflation):               normal
+  file security status:                           encrypted
+  extended local header:                          yes
+  file last modified on (DOS date/time):          2024 Feb 24 22:54:16
+  file last modified on (UT extra field modtime): 2024 Feb 25 03:54:15 local
+  file last modified on (UT extra field modtime): 2024 Feb 24 19:54:15 UTC
+  32-bit CRC value (hex):                         c9787ff7
+  compressed size:                                121728 bytes
+  uncompressed size:                              121896 bytes
+  length of filename:                             17 characters
+  length of extra field:                          24 bytes
+  length of file comment:                         0 characters
+  disk number on which file begins:               disk 1
+  apparent file type:                             binary
+  Unix file attributes (100644 octal):            -rw-r--r--
+  MS-DOS file attributes (00 hex):                none
+
+  The central-directory extra field contains:
+  - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+    The local extra field has UTC/GMT modification/access times.
+  - A subfield with ID 0x7875 (Unix UID/GID (any size)) and 11 data bytes:
+    01 04 f5 01 00 00 04 14 00 00 00.
+
+  There is no file comment.
+
+
+[Actual command exit code: 0]
