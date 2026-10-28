@@ -17,4 +17,4 @@ Checked: 2026-10-29T04:13:22+08:00.
 
 26 web challenge services were unavailable, seven original challenge payloads are missing, #319 lacks the original truck photo, and #261 has no target URL. Actual failure/inventory evidence is embedded. The exact wording cases, rejected flag, missing plaintexts and other unresolved answers remain explicit in the [verification queue](MISSING_EVIDENCE.md).
 
-[Capture results](SCREENSHOT_PLAN.md) · [Capture audit and hashes](screenshots/capture-manifest.json) · [Machine-readable quality report](quality-report.json).
+[Capture results](SCREENSHOT_PLAN.md) · [Capture audit and hashes](screenshots/capture-manifest.json).

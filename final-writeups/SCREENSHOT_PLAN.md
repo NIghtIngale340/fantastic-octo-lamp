@@ -6,7 +6,7 @@ Updated: 2026-10-29T04:13:22+08:00.
 
 **230 real captures across all 192 challenge drafts.** Terminal images show actual local PTY output; browser images show actual pages, original supplied images or live SQL results. Commands, timestamps, exit codes, transcripts and image SHA-256 values are retained in the [capture manifest](screenshots/capture-manifest.json). Passwords were redacted before display.
 
-The original 253 placement requests remain in [the machine-readable plan](screenshot-plan.json), each mapped to the actual captures. A related capture demonstrates only its stated action; it does not stand in for a missing artifact analysis, a full schema listing, a fresh external IOC query or an unrecorded grader result. No screenshot chores have been assigned to the user.
+The original 253 placement requests remain in the plan, each mapped to the actual captures. A related capture demonstrates only its stated action; it does not stand in for a missing artifact analysis, a full schema listing, a fresh external IOC query or an unrecorded grader result. No screenshot chores have been assigned to the user.
 
 ## Remaining evidence dependencies
 

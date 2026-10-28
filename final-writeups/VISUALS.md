@@ -4,7 +4,7 @@
 
 The drafts now embed **274 image references across all 192 challenges**, including **230 newly captured distinct PNGs** and preserved source images/analysis figures. Shared Aurora and Emedra screenshots are reused where relevant. Every new capture has a SHA-256 entry and explicit evidence scope in [capture-manifest.json](screenshots/capture-manifest.json).
 
-[Capture results and remaining dependencies](SCREENSHOT_PLAN.md) · [Full image-to-draft inventory](visual-evidence.json)
+[Capture results and remaining dependencies](SCREENSHOT_PLAN.md)
 
 | ID | Draft | Embedded visuals |
 |---:|---|---:|
