@@ -19,7 +19,7 @@ curl -sS --user natas0 http://natas0.natas.labs.overthewire.org/
 (`natas0` is the public starting password.) The comment was right there in the markup:
 
 ```html
-<!-- The password for natas1 is [REDACTED] -->
+<!-- The password for natas1 is scfWG6qNEIdzqVyfRwEGXyNUfFZkZeQ7 -->
 ```
 
 That value is the password *for natas1*, not a new natas0 login — easy to mix up. I confirmed it actually works by authenticating to the next level:
@@ -42,7 +42,11 @@ A 200 means the recovered password really did log into natas1 — better evidenc
 
 ## Flag
 
-The saved check authenticated to natas1 and returned HTTP 200. For PCGCTF, the candidate wraps the recovered password as `pcgCTF{<natas1 password>}`; I've kept the actual value in a private copy and redacted it here.
+The saved check authenticated to natas1 and returned HTTP 200. The recovered natas1 password is `scfWG6qNEIdzqVyfRwEGXyNUfFZkZeQ7`, so the PCGCTF flag is:
+
+```text
+pcgCTF{scfWG6qNEIdzqVyfRwEGXyNUfFZkZeQ7}
+```
 
 ## Takeaway
 

@@ -31,7 +31,11 @@ curl -sS --user natas2 -o /dev/null -w '%{http_code}\n' http://natas2.natas.labs
 
 ## Flag
 
-Recovered natas2 password (kept private); PCGCTF candidate is `pcgCTF{<natas2 password>}`.
+Recovered natas2 password: `vsDOxoXyq3wckCP1ZmTZ71ngIA606odB`, so the flag is:
+
+```text
+pcgCTF{vsDOxoXyq3wckCP1ZmTZ71ngIA606odB}
+```
 
 ## Takeaway
 

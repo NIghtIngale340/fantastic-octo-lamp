@@ -27,7 +27,11 @@ With the expected Referer, the page returns natas5's password. Confirmed against
 
 ## Flag
 
-Recovered natas5 password (kept private); PCGCTF candidate is `pcgCTF{<natas5 password>}`.
+Recovered natas5 password: `e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M`, so the flag is:
+
+```text
+pcgCTF{e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M}
+```
 
 ## Takeaway
 

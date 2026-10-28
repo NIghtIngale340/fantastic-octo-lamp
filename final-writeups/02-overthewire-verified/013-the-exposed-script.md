@@ -33,7 +33,11 @@ The page returns natas7's password.
 
 ## Flag
 
-Recovered natas7 password (kept private); PCGCTF candidate is `pcgCTF{<natas7 password>}`.
+Recovered natas7 password: `B1szg95UcTnrzwnF3i3TzYHlyYh8iBV0`, so the flag is:
+
+```text
+pcgCTF{B1szg95UcTnrzwnF3i3TzYHlyYh8iBV0}
+```
 
 ## Takeaway
 

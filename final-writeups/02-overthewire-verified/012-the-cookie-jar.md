@@ -26,7 +26,11 @@ With `loggedin=1` the page reveals natas6's password.
 
 ## Flag
 
-Recovered natas6 password (kept private); PCGCTF candidate is `pcgCTF{<natas6 password>}`.
+Recovered natas6 password: `7mhjtShJAcld2NYbKHEadnhEwRn2P8VT`, so the flag is:
+
+```text
+pcgCTF{7mhjtShJAcld2NYbKHEadnhEwRn2P8VT}
+```
 
 ## Takeaway
 
