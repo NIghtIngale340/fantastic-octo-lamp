@@ -9,7 +9,7 @@ Snapshot: October 28, 2026 (Asia/Manila). Solved status comes from the signed-in
 
 Folders: `solved/<category>/<id>-<challenge>/` and `unsolved/<category>/<id>-<challenge>/`. Each has the complete description and any direct attachments in `files/`.
 
-[CSV inventory](challenges.csv) · [Full metadata](challenges.json) · [Download checksums](downloads.json)
+[Full metadata](challenges.json)
 
 Existing files and writeups in the parent CTF folder were preserved. Target websites are linked in descriptions. Shared evidence is stored under the challenge that provides its download; follow the description references for related questions. Archives were downloaded without running their contents.
 

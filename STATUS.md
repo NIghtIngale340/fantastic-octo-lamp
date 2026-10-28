@@ -6,7 +6,7 @@ Updated: 2026-10-29T02:31:08+08:00 (Asia/Manila).
 
 [Natas verification](analysis-natas/verification.md) · [Remaining flags/answers ready](FLAGS_READY.md)
 
-[Complete draft collection: all 192 challenges](final-writeups/README.md). **Screenshot pass: 230 genuine terminal/browser captures are now embedded across the 192 drafts.** [Capture results and blockers](final-writeups/SCREENSHOT_PLAN.md). New evidence adds #77 as a ready candidate; the original snapshot remains in the collection’s sanitized status-snapshot.json. Current totals: **69 candidates ready, 3 answers awaiting exact wording, 1 rejected flag, 27 needing work**.
+[Complete draft collection: all 192 challenges](final-writeups/README.md). **Screenshot pass: 230 genuine terminal/browser captures are now embedded across the 192 drafts.** [Capture results and blockers](final-writeups/SCREENSHOT_PLAN.md). New evidence adds #77 as a ready candidate; the original snapshot remains in the repository history. Current totals: **69 candidates ready, 3 answers awaiting exact wording, 1 rejected flag, 27 needing work**.
 
 | Status | Count |
 | --- | ---: |
