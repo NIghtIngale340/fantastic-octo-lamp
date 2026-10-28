@@ -1,0 +1,68 @@
+{
+  "id": 119,
+  "name": "SSRF \u2014 Reach the Internal Service",
+  "value": 200,
+  "description": "\ud83d\udcd6 Scenario\r\n\r\nThe application provides a proxy functionality intended to retrieve remote resources.\r\n\r\nHowever, the application may not properly restrict where the server can make requests.\r\n\r\n\ud83c\udfaf Mission\r\n\r\nInvestigate the proxy functionality at:\r\n\r\nhttp://flag.cgcybercom.online\r\n\r\nDetermine whether the server can access a service bound only to the local interface.\r\n\r\n\ud83c\udfaf Objective\r\n\r\nAccess the internal service containing the flag.\r\n\r\nSubmit only the required answer using the flag format: pcgCTF{answer}\r\n",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Web Exploitation",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "rank:operator"
+  ],
+  "hints": [
+    {
+      "id": 139,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 140,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 141,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/web-exploitation/119-ssrf-reach-the-internal-service"
+}

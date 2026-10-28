@@ -1,0 +1,58 @@
+{
+  "id": 290,
+  "name": "ACT 5 - FINAL INCIDENT: Host One MAC",
+  "value": 125,
+  "description": "Determine the MAC address associated with workstation 10.3.14.131.\r\n\r\nEvidence:\r\n2017-02-11-traffic-analysis-exercise.pcap\r\n\r\nMission:\r\nIdentify the Layer-2 hardware address belonging to 10.3.14.131.\r\n\r\nSubmission requirement:\r\nAnswer: pcgCTF{...}\r\nFilter: ...\r\nEvidence: Packet/Stream ...\r\n\r\nHint:\r\nCorrelate DHCP or Ethernet traffic with the target IPv4 address.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "network",
+    "pcap",
+    "mac-address",
+    "dhcp",
+    "ethernet",
+    "wireshark",
+    "rank:apprentice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/network-forensics/290-act-5-final-incident-host-one-mac"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 301,
+  "name": "ACT 2 - YOU DIRTY RAT!: Identify the RAT",
+  "value": 100,
+  "description": "The packet-analysis team recovered external IOC 141.98.10.79.\r\n\r\nMission:\r\nUse public sources to identify the RAT family associated with this incident.\r\n\r\nSubmit:\r\nAnswer: pcgCTF{...}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "OSINT",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "osint",
+    "threat-intelligence",
+    "ip-pivot",
+    "strrat",
+    "rank:novice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 1,
+    "down": 0,
+    "count": 1
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/osint/301-act-2-you-dirty-rat-identify-the-rat"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 81,
+  "name": "TURTLES ALL THE WAY DOWN",
+  "value": 100,
+  "description": "At first glance, this appears to be nothing more than an archive filled with pictures of happy turtles.\r\nBut one of them doesn't belong.\r\nSomewhere among the collection is a turtle that isn't quite as happy as the others. The original image may also hold an important clue about what has been changed.\r\nFind the unusual image and uncover what has been hidden.\r\nYou are looking for a traditional flag{}.\r\n\r\n\ud83c\udfaf Mission\r\nInvestigate the collection of turtle images, identify the unusual image, and recover the hidden flag.\r\nPay particular attention to the dimensions and visual structure of the images.\r\n\r\n\ud83d\udee0\ufe0f Suggested Tools\r\nfile\r\nImageMagick\r\nExifTool\r\nPython/PIL\r\nImage viewer\r\nSteganography analysis tools\r\n\ud83d\udea9 Flag Format\r\n\r\nSubmit the recovered flag using the traditional format:\r\n\r\npcgCTF{theflaghere}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Steganography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [
+    "https://cgcybercom.online/files/8cab068b7069b8fe67a35942b662da50/turt.zip"
+  ],
+  "tags": [
+    "rank:initiate"
+  ],
+  "hints": [
+    {
+      "id": 89,
+      "cost": 0,
+      "title": "",
+      "content": "Most of the turtles are happy. One isn't."
+    },
+    {
+      "id": 90,
+      "cost": 0,
+      "title": "",
+      "content": "Compare the images rather than examining them individually."
+    },
+    {
+      "id": 91,
+      "cost": 0,
+      "title": "",
+      "content": "Image dimensions can reveal something unusual."
+    },
+    {
+      "id": 92,
+      "cost": 0,
+      "title": "",
+      "content": "The original image was a square."
+    },
+    {
+      "id": 93,
+      "cost": 0,
+      "title": "",
+      "content": "Look for an image whose current dimensions don't match what you would expect."
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/steganography/081-turtles-all-the-way-down"
+}

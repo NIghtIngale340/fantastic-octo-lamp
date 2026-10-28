@@ -1,0 +1,50 @@
+{
+  "id": 338,
+  "name": "Headshot",
+  "value": 150,
+  "description": "DEADFACE was able to compromise a fileshare that consisted of corporate headshots for Aurora Health employees. We believe they're tagging the photos with information that communicates to their group which employees to target in their future campaigns. Figure out which image DEADFACE tampered with - it will give us a heads up on who they plan to target. \r\n\r\nSubmit the answer as deadface{flag_text}.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Deadface",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 1,
+    "down": 0,
+    "count": 1
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/deadface/338-headshot"
+}

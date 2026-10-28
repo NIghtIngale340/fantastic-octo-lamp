@@ -1,0 +1,113 @@
+# 83 EASY PACKET 1 #01  The Capture Signature
+pcgCTF{pcap}
+
+# 85 EASY PACKET 1 #03  Destination at Layer 2
+pcgCTF{00:d0:bc:eb:e0:80}
+
+# 86 EASY PACKET 1 #04  Source at Layer 2
+pcgCTF{00:1b:63:94:b1:0e}
+
+# 89 EASY PACKET 1 #07  The 20-Byte Header
+pcgCTF{20}
+
+# 90 EASY PACKET 1 #08  Total Packet Weight
+pcgCTF{504}
+
+# 91 EASY PACKET 1 #09  Packet Identity
+pcgCTF{0xbed2}
+
+# 100 EASY PACKET 1 #18  Push and Acknowledge
+pcgCTF{PSH_ACK}
+
+# 102 EASY PACKET 1 #20  Push to the Application
+# Exact flag phrase unknown. Answer: Push buffered data to the receiving application without waiting for more data
+
+# 103 EASY PACKET 1 #21  Speak HTTP
+pcgCTF{HTTP}
+
+# 111 EASY PACKET 1 #29  The Exposed Credentials
+pcgCTF{usertest:password}
+
+# 112 EASY PACKET 1 #30  Cleartext on the Wire
+# Exact flag phrase unknown. Answer: HTTP Basic credentials are recoverable over unencrypted HTTP; use HTTPS (HTTP over TLS)
+
+# 265 ACT 1 - FIRST SIGNAL: Domain Membership
+pcgCTF{FIRSTTOLAST.TECH}
+
+# 267 ACT 1 - FIRST SIGNAL: Calling Home
+pcgCTF{146.59.71.167}
+
+# 272 ACT 2 - THE COMPROMISE: Who Is brolf?
+pcgCTF{Becka Rolf}
+
+# 273 ACT 2 - THE COMPROMISE: RAT Check-In
+pcgCTF{/fakeurl.htm}
+
+# 274 ACT 3 - MALWARE INVESTIGATION: Compromised Endpoint
+pcgCTF{172.16.1.66}
+
+# 275 ACT 3 - MALWARE INVESTIGATION: Endpoint MAC
+pcgCTF{00:1e:64:ec:f3:08}
+
+# 276 ACT 3 - MALWARE INVESTIGATION: Endpoint Name
+pcgCTF{DESKTOP-SKBR25F}
+
+# 277 ACT 3 - MALWARE INVESTIGATION: Compromised Account
+pcgCTF{ccollier}
+
+# 278 ACT 3 - MALWARE INVESTIGATION: User Identity
+pcgCTF{Clark Collier}
+
+# 279 ACT 3 - MALWARE INVESTIGATION: C2 Destination
+pcgCTF{141.98.10.79}
+
+# 280 ACT 3 - MALWARE INVESTIGATION: Malware Family
+pcgCTF{STRRAT}
+
+# 281 ACT 3 - MALWARE INVESTIGATION: Beacon Evidence
+pcgCTF{DESKTOP-SKBR25F}
+
+# 282 ACT 4 - LUMMA IN THE ROOM: Lumma Victim
+pcgCTF{10.1.21.58}
+
+# 283 ACT 4 - LUMMA IN THE ROOM: Victim MAC
+pcgCTF{00:21:5d:c8:0e:f2}
+
+# 284 ACT 4 - LUMMA IN THE ROOM: Victim Hostname
+pcgCTF{DESKTOP-ES9F3ML}
+
+# 285 ACT 4 - LUMMA IN THE ROOM: Compromised User
+pcgCTF{gwyatt}
+
+# 286 ACT 4 - LUMMA IN THE ROOM: Full User Name
+pcgCTF{Gabriel Wyatt}
+
+# 287 ACT 4 - LUMMA IN THE ROOM: Malicious Domain
+pcgCTF{whitepepper.su}
+
+# 288 ACT 4 - LUMMA IN THE ROOM: Fingerprint API
+pcgCTF{/api/set_agent}
+
+# 289 ACT 5 - FINAL INCIDENT: Map the Network
+pcgCTF{10.3.14.131_10.3.14.134_10.3.14.135}
+
+# 290 ACT 5 - FINAL INCIDENT: Host One MAC
+pcgCTF{00:25:64:18:4c:2a}
+
+# 291 ACT 5 - FINAL INCIDENT: Host Two MAC
+pcgCTF{14:da:e9:5b:42:1c}
+
+# 292 ACT 5 - FINAL INCIDENT: Host Three MAC
+pcgCTF{00:26:bb:4c:6b:e1}
+
+# 293 ACT 5 - FINAL INCIDENT: Find the Victims
+pcgCTF{10.3.14.131_10.3.14.134}
+
+# 294 ACT 5 - FINAL INCIDENT: First Ransomware
+pcgCTF{Spora}
+
+# 295 ACT 5 - FINAL INCIDENT: Second Ransomware
+pcgCTF{Cerber}
+
+# 296 ACT 5 - FINAL INCIDENT: Final Assessment
+pcgCTF{10.3.14.135}

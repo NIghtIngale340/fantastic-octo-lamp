@@ -1,0 +1,26 @@
+File name:           PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap
+File type:           Wireshark/tcpdump/... - pcap
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: 65535 bytes
+Number of packets:   1
+File size:           558 bytes
+Data size:           518 bytes
+Capture duration:    0.000000 seconds
+Earliest packet time: 2008-06-07 03:12:20.808028
+Latest packet time:   2008-06-07 03:12:20.808028
+Data byte rate:      0 bytes/s
+Data bit rate:       0 bits/s
+Average packet size: 518.00 bytes
+Average packet rate: 0 packets/s
+SHA256:              e4735559a704fcd56ac790602e875a713f94a665af16ecd3ad49ea40ff394faa
+SHA1:                d73b185be57bb354024b5bb0b76df663d3f8a4f6
+Strict time order:   True
+Number of interfaces in file: 1
+Interface #0 info:
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 65535
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Number of stat entries = 0
+                     Number of packets = 1

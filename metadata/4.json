@@ -1,0 +1,52 @@
+{
+  "id": 4,
+  "name": "Encoded Secret",
+  "value": 100,
+  "description": "we intercepted the code string:\r\n\r\nVVRGU1IyVXlOV3hrYlZaNVdETk9NR0l6UW1aaVIxWm9ZMjAxY0dKdFpEaz0=\r\n\r\nhelp me to decode this :\r\nThe message is hidden in Base64\u2026 but are you sure once is enough?",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Cryptography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "rank:novice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/cryptography/004-encoded-secret"
+}

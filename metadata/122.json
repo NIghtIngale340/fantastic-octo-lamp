@@ -1,0 +1,62 @@
+{
+  "id": 122,
+  "name": "PCGCTF Juice Shop Gateway",
+  "value": 100,
+  "description": "Description\r\n\r\nWelcome to the PCGCTF OWASP Juice Shop Laboratory.\r\n\r\nThis challenge is part of the PCGCTF Juice Shop Challenge Track.\r\n\r\nAll challenges belonging to the OWASP Juice Shop track are identified with the tag PCGCTF-JuiceShop-Challenges.\r\n\r\nThis challenge requires a local OWASP Juice Shop instance running on your machine.\r\n\r\nThe following files are provided with this challenge:\r\n\r\ndocker-compose.yml \u2014 Docker configuration for deploying the PCGCTF Juice Shop instance.\r\nPLAYER_SETUP.txt \u2014 Instructions for installing Docker, configuring the Juice Shop, setting the required CTF_KEY, and starting the application.\r\n\r\nComplete the environment setup before beginning the challenge.\r\n\r\nTarget\r\n\r\nOnce the Juice Shop is running, access:\r\n\r\nhttp://localhost:3000\r\nObjective\r\n\r\nPerform basic reconnaissance against your assigned Juice Shop instance.\r\n\r\nYour first task is to locate the hidden Score Board within the application.\r\n\r\nInvestigate the web application and identify information that is intentionally exposed but not immediately visible from the main page.\r\n\r\nThe Score Board contains the information required to complete this challenge.\r\n\r\nMission\r\n\r\nFind the hidden Score Board and obtain the flag associated with this challenge.\r\n\r\nSubmit the recovered flag to CTFd.\r\n\r\nFlag Format\r\npcgCTF{...}\r\n\r\n\r\nUnlock Condition\r\n\r\nPrerequisite: None\r\n\r\nSuccessfully solving PCGCTF Gateway will unlock the next challenge in the progression.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Reconnaissance",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [
+    "https://cgcybercom.online/files/d6d550192cdf8f728ca3b0c0aaf448d6/docker-compose.yml",
+    "https://cgcybercom.online/files/cc4217d51cca7f4187d66c532feea19f/PCGCTF_JuiceShop_Player_Setup_Guide.txt"
+  ],
+  "tags": [
+    "PCGCTF-JuiceShop-Challenges ",
+    "rank:apprentice"
+  ],
+  "hints": [
+    {
+      "id": 148,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/reconnaissance/122-pcgctf-juice-shop-gateway"
+}

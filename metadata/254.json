@@ -1,0 +1,56 @@
+{
+  "id": 254,
+  "name": "Sculpture \u2014 Identification",
+  "value": 100,
+  "description": "Use visual analysis and reverse image searching to identify the sculpture. Submit only the required answer using the flag format: pcgCTF{answer_here}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "OSINT / IMINT",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 8,
+  "files": [
+    "https://cgcybercom.online/files/929579de634066f385dd4306c6a7e213/task7_1602636111226.png"
+  ],
+  "tags": [
+    "PCGCTF-Searchlight-IMINT",
+    "rank:expert",
+    "prerequisite:Reverse Image \u2014 Editor"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/osint-imint/254-sculpture-identification"
+}

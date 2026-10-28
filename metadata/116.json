@@ -1,0 +1,58 @@
+{
+  "id": 116,
+  "name": "Web Recon \u2014 Read the Headers",
+  "value": 300,
+  "description": "\ud83d\udcd6 Scenario\r\n\r\nWeb servers communicate more than just the visible webpage.\r\n\r\nHTTP response headers can reveal useful information about the server, infrastructure, and security configuration.\r\n\r\n\ud83c\udfaf Mission\r\n\r\nInspect the HTTP response headers of:\r\n\r\n[Flag1.cgcybercom.online](Flag1.cgcybercom.online)\r\n\r\n\ud83c\udfaf Objective\r\n\r\nIdentify the information exposed through the server's HTTP headers.\r\n\r\nSubmit only the required answer using the flag format: pcgCTF{answer}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Web Exploitation",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "rank:novice"
+  ],
+  "hints": [
+    {
+      "id": 133,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/web-exploitation/116-web-recon-read-the-headers"
+}

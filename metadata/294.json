@@ -1,0 +1,59 @@
+{
+  "id": 294,
+  "name": "ACT 5 - FINAL INCIDENT: First Ransomware",
+  "value": 200,
+  "description": "Workstation 10.3.14.131 has been identified as infected.\r\n\r\nMission:\r\nIdentify the ransomware family responsible for the infection.\r\n\r\nEvidence:\r\n2017-02-11-traffic-analysis-exercise.pcap\r\n\r\nSubmission requirement:\r\nAnswer: pcgCTF{...}\r\nFilter: ...\r\nHint:\r\nInspect DNS and HTTP activity from 10.3.14.131. Look for the ransomware-specific domain and supporting network indicators.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "network",
+    "pcap",
+    "ransomware",
+    "spora",
+    "dns",
+    "http",
+    "malware",
+    "rank:initiate"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/network-forensics/294-act-5-final-incident-first-ransomware"
+}

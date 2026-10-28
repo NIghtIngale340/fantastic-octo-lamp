@@ -1,0 +1,50 @@
+{
+  "id": 329,
+  "name": "Prying Eyes",
+  "value": 300,
+  "description": "Aurora Health logs every time a staff member opens a patient chart. Someone was watching the VIP a little too closely. Find the user account that accessed the VIP patient's chart more times than any other account, and report their username.\r\n\r\nYou'll need the VIP's MRN first from Admitted Under Another Name. The audit log references patients by that same MRN.\r\n\r\nUse the provided MySQL shell.\r\n\r\nSubmit the username as deadface{username}. Example: deadface{jsmith}.\r\n\r\n[Access Database](https://aurora.dctf.io/)\r\n",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Deadface",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 1,
+    "down": 0,
+    "count": 1
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/deadface/329-prying-eyes"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 332,
+  "name": "Upon the Throne",
+  "value": 500,
+  "description": "Pull the threads together. Aurora's breach was not random: an insider clerk snooped a gubernatorial candidate's chart to build kompromat, and a diversion-flagged physician was coerced into faking the Veltrexa trial that would decide a drug's approval. Both insiders were being run by the same DEADFACE handler, whose codename was recovered in a compromised-account field (handler_ref) on each side of the house: the audit-system users and the EHR providers.\r\n\r\nMany handler codenames appear across those two tables - around fifteen on each side, so there is no obvious one to guess - but only one appears in both users and providers: the single operative managing an insider on each side. Find that codename.\r\n\r\nUse the provided MySQL shell.\r\n\r\nSubmit the codename as deadface{CODENAME}. Example: deadface{JOKER-4}.\r\n\r\n[Access Database](https://aurora.dctf.io/)\r\n\r\n\r\n\r\n\r\n",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Deadface",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 1,
+    "down": 0,
+    "count": 1
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/deadface/332-upon-the-throne"
+}

@@ -1,0 +1,20 @@
+# EASY PACKET 1 #22  GET the Resource
+
+Status: Solved  
+Category: Network Forensics  
+Points: 100  
+Challenge ID: 104  
+Source: https://cgcybercom.online/challenges#104
+
+## Description
+
+Analyze EASY PACKET 1.pcap in Wireshark. This challenge is unlocked by completing parent challenge #82  EASY PACKET 1  The Exposed Request.
+
+QUESTION: What HTTP request method is used?
+
+
+Submit only the required answer using the flag format: pcgCTF{answer}
+
+## Files
+
+No directly attached files. See description for shared evidence, target websites, and other references.

@@ -1,0 +1,58 @@
+{
+  "id": 263,
+  "name": "ACT 1 - FIRST SIGNAL: Hardware Fingerprint",
+  "value": 100,
+  "description": "The suspected compromised IPv4 address has been identified. Now determine the hardware identity of the affected endpoint.\r\n\r\nMission:\r\nDetermine the MAC address associated with the compromised endpoint.\r\n\r\nEvidence:\r\nACT12026-08-09-traffic-analysis-exercise.pcap\r\n\r\nSubmission requirement:\r\nAnswer: pcgCTF{...}\r\nFilter: ...\r\nEvidence: Packet/Stream ...\r\n\r\nHint:\r\nCorrelate the IPv4 address from Patient Zero with Ethernet, ARP, or DHCP traffic.\r\n\r\nPrerequisite:\r\nACT 1 - FIRST SIGNAL: Patient Zero\r\n\r\nRules:\r\nUse only the supplied packet capture. Do not execute files reconstructed from the capture.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "network",
+    "pcap",
+    "mac-address",
+    "arp",
+    "dhcp",
+    "wireshark",
+    "rank:apprentice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/network-forensics/263-act-1-first-signal-hardware-fingerprint"
+}

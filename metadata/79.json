@@ -1,0 +1,79 @@
+{
+  "id": 79,
+  "name": "SEQUENCE",
+  "value": 150,
+  "description": "The director of a company suspects that two employees are secretly communicating with each other.\r\nTheir messages appear completely ordinary and remain on-topic. Nothing immediately suggests that a secret conversation is taking place.\r\nHowever, investigators believe the employees are using a mathematical sequence to conceal their real message.\r\nA document has been recovered. Somewhere within it are subtle clues pointing toward the method being used.\r\n\r\n\ud83c\udfaf Mission\r\nAnalyze the document and identify the mathematical sequence being used to conceal the communication.\r\nUse the discovered sequence to recover the two-word secret message.\r\nThe first word is FLAG.\r\n\r\n\ud83d\udee0\ufe0f Suggested Tools\r\nText editor\r\nPython\r\nSpreadsheet\r\nMathematical sequence analysis\r\nManual pattern analysis\r\n\r\n\ud83d\udea9 Flag Format\r\nThe recovered message consists of two words.\r\nSubmit the complete message using the traditional flag format:\r\n\r\npcgCTF{flaghere..........}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Cryptography / Encoding",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 11,
+  "files": [
+    "https://cgcybercom.online/files/72163480678d9e7ef6aa78d83c30ac90/sequence.txt"
+  ],
+  "tags": [
+    "rank:expert"
+  ],
+  "hints": [
+    {
+      "id": 80,
+      "cost": 0,
+      "title": "",
+      "content": "The document contains subtle clues about the method."
+    },
+    {
+      "id": 81,
+      "cost": 0,
+      "title": "",
+      "content": "Look for a mathematical pattern rather than a conventional cipher."
+    },
+    {
+      "id": 82,
+      "cost": 0,
+      "title": "",
+      "content": "Think about an Italian mathematician associated with the Republic of Pisa."
+    },
+    {
+      "id": 83,
+      "cost": 0,
+      "title": "",
+      "content": "Once you identify the sequence, use it to determine which information in the document is significant."
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/cryptography-encoding/079-sequence"
+}

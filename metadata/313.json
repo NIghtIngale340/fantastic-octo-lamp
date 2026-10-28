@@ -1,0 +1,50 @@
+{
+  "id": 313,
+  "name": "Ghost of Squares Past",
+  "value": 200,
+  "description": "Intelligence gathered from DEADFACE communications suggests that the group has been using Savannah, Georgia's historic squares to conceal a coded message. Investigators recovered five clues, a combination of riddles and photographs, each pointing to a specific location within the city's historic district.\r\n\r\nDEADFACE appears to have arranged these locations into a compass pattern, with the first four representing North, East, South, and West, and the fifth marking the center.\r\n\r\nYour mission is to identify all five locations and reconstruct the hidden message before DEADFACE can put it to use.\r\n\r\nFor the first four locations, determine the year each square was established. For the final location, identify the surname engraved on its monument.\r\n\r\nFlag Format: Deadface{YEAR-YEAR-YEAR-YEAR-SURNAME}\r\n\r\nSubmit your findings in the order provided by the clues. The flag is the year each square was discovered and the name etched into the 5th point. All in order.\r\n\r\nPoint 1 - Riddle\r\nFirst of them all, where the city began, A banker's green heart in Oglethorpe's plan. A Quaker from Rhode Island sleeps under stone here Mark the year this first square was laid out, and draw near.\r\n\r\nPoint 2 - Location\r\nPoint 2\r\n\r\nPoint 3 - Riddle\r\nRiddle Just a ways away a battle of a northern frontier Gave its name to this ground eighteen-twelve drawing near. Where a feather once drifted and a founder stands tall, Mark the year it was laid out, the newest of all.\r\n\r\nPoint 4 - Location\r\nPoint 4\r\n\r\nPoint 5 - Riddle\r\nFour points now marked, good work, you did your best Their meeting point holds the key to this test. Carry their years in that order, and seek the lone name Carved in the stone where their center lays claim.\r\n\r\nSubmit the flag as: deadface{YYYY-YYYY-YYYY-YYYY-surname}. Example: deadface{1990-1982-1956-1985-smith}.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Deadface",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 1,
+    "down": 0,
+    "count": 1
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/deadface/313-ghost-of-squares-past"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 269,
+  "name": "ACT 2 - THE COMPROMISE: VICTIM MAC",
+  "value": 100,
+  "description": "Determine the MAC address belonging to the infected Windows endpoint identified in Patient Zero.\r\n\r\nEvidence:\r\n2026-02-28-traffic-analysis-exercise.pcap\r\n\r\nSubmission requirement:\r\nAnswer: pcgCTF{...}\r\nFilter: ...\r\nEvidence: Packet/Stream ...\r\n\r\nHint:\r\nStart broad, identify the relevant endpoint/conversation, then narrow your display filter and preserve a packet or stream reference.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "network",
+    "pcap",
+    "mac-address",
+    "arp",
+    "dhcp",
+    "wireshark",
+    "rank:apprentice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/network-forensics/269-act-2-the-compromise-victim-mac"
+}

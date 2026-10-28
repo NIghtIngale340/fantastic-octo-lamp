@@ -1,0 +1,19 @@
+services:
+  juice-shop:
+    image: bkimminich/juice-shop
+    container_name: pcgctf-juice-shop
+    restart: unless-stopped
+
+    ports:
+      - "3000:3000"
+
+    environment:
+      NODE_ENV: ctf
+      CTF_KEY: 0ae20b40bbb05e9cbde184f7e8625a6f21eaf6cb52259c1e0f4a287709a2c62b
+
+    volumes:
+      - pcgctf_juice_data:/app/data
+
+volumes:
+  pcgctf_juice_data:
+    name: pcgctf-juiceshop_pcgctf_juice_data

@@ -1,0 +1,58 @@
+{
+  "id": 293,
+  "name": "ACT 5 - FINAL INCIDENT: Find the Victims",
+  "value": 175,
+  "description": "Three internal workstations are present in the capture. Determine which two are infected and submit them in ascending order.\r\n\r\nEvidence:\r\n2017-02-11-traffic-analysis-exercise.pcap\r\n\r\nMission:\r\nIdentify the two compromised internal hosts.\r\n\r\nSubmission requirement:\r\nAnswer: pcgCTF{...._....}\r\nFilter: ...\r\nEvidence: Packet/Stream ...\r\n\r\nHint:\r\nCompare the external destinations and application-layer behavior of all three endpoints. Distinguish malicious ransomware traffic from normal workstation activity.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "network",
+    "pcap",
+    "incident-response",
+    "dfir",
+    "ransomware",
+    "triage",
+    "rank:novice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/network-forensics/293-act-5-final-incident-find-the-victims"
+}

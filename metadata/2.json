@@ -1,0 +1,52 @@
+{
+  "id": 2,
+  "name": "Picture Perfect Evidence",
+  "value": 100,
+  "description": "Investigators recovered this image from a compromised system.\r\nHidden inside the file is information about the device used to take it.\r\n\r\n[DownloadFILEhere](https://drive.google.com/file/d/1ERiw8MIif7uBIIdvysTga_XQnbJ5xSbt/view?usp=sharing)\r\n\r\nWhat is the camera make?\r\n\r\nFLag format: pcgCTF{******}",
+  "attribution": null,
+  "connection_info": "",
+  "next_id": null,
+  "category": "Cryptography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "rank:apprentice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 2,
+    "down": 0,
+    "count": 2
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/cryptography/002-picture-perfect-evidence"
+}

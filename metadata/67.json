@@ -1,0 +1,54 @@
+{
+  "id": 67,
+  "name": "Weak RSA",
+  "value": 300,
+  "description": "\r\nFind the weakness.\r\n\r\nHint:\r\n\r\nThe mathematics is strong.\r\n\r\nThe key generation isn't.\r\n\r\nFactor n.\r\n\r\nRecover the private key and decrypt the message.\r\n\r\nFlag format:\r\n\r\npcgctf{...}\r\n",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Cryptography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [
+    "https://cgcybercom.online/files/5e9a4adc0b7796cdb57f55a6359cc5cb/05_weak_rsa.txt"
+  ],
+  "tags": [
+    "rank:expert"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/cryptography/067-weak-rsa"
+}

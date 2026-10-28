@@ -1,0 +1,75 @@
+{
+  "id": 69,
+  "name": "Bitcoin Trail",
+  "value": 100,
+  "description": "A network capture was recovered from a system suspected of conducting an unauthorized cryptocurrency transaction.\r\n\r\nYour mission is to analyze the provided PCAP file and trace the network communication to identify the Bitcoin wallet address involved in the transaction.\r\n\ud83c\udfaf Mission\r\n\r\nWhat is the Bitcoin wallet address found in the PCAP file?\r\n\ud83d\udea9 Flag Format\r\nExample format:pcgCTF{b1tcoin.............}\r\n\r\nAnalyst Note: The objective is to identify the wallet address from the network evidence\u2014not to interact with or send funds to the address.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Analysis",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [
+    "https://cgcybercom.online/files/b7dff020f8609a1e2b5fc22500192e44/cryptocurrency_transfer_tracking.pcap"
+  ],
+  "tags": [
+    "rank:novice"
+  ],
+  "hints": [
+    {
+      "id": 34,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 35,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 36,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 37,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/network-analysis/069-bitcoin-trail"
+}

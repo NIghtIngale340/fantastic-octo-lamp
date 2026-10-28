@@ -1,0 +1,58 @@
+{
+  "id": 302,
+  "name": "ACT 2 - YOU DIRTY RAT!: Infrastructure Owner",
+  "value": 100,
+  "description": "Starting IOC: 141.98.10.79\r\n\r\nMission:\r\nUse an IP/ASN lookup to identify the organization currently announcing the 141.98.10.0/24 network containing this address.\r\n\r\nExpected answer should identify the announcing organization.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "OSINT",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "osint",
+    "ip",
+    "asn",
+    "bgp",
+    "infrastructure",
+    "strrat",
+    "rank:novice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/osint/302-act-2-you-dirty-rat-infrastructure-owner"
+}

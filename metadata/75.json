@@ -1,0 +1,75 @@
+{
+  "id": 75,
+  "name": "HIDDEN",
+  "value": 100,
+  "description": "Something unusual has been found inside the Windows System32 directory.\r\nThe file appears to be an ordinary .dll, and its name suggests that it should perform a particular function. But appearances can be misleading.\r\nInvestigate the file carefully. There may be something attached to it that isn't visible through a normal file listing.\r\n\r\n\ud83c\udfaf Mission\r\nAnalyze the suspicious DLL and uncover the hidden data associated with the file.\r\nRecover the concealed flag.\r\n\r\n\ud83d\udee0\ufe0f Suggested Tools\r\nWindows Command Prompt\r\nPowerShell\r\ndir\r\nstreams\r\nNTFS Alternate Data Stream (ADS) analysis tools\r\n\r\n\ud83d\udea9 Flag Format\r\nSubmit the recovered flag using the traditional format:\r\npcgCTF{theflaghere}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 2,
+  "files": [
+    "https://cgcybercom.online/files/f50f48801b35e2cbfe6ccc10737ed92e/winsock32.zip"
+  ],
+  "tags": [
+    "rank:initiate"
+  ],
+  "hints": [
+    {
+      "id": 68,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 69,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 70,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 71,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/forensics/075-hidden"
+}

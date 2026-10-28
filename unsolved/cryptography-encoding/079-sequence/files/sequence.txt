@@ -1,0 +1,56 @@
+For internal use only.
+
+Let's get started with our latest proposal for the new business venture. Angie, our predecessor, has spoken to me recently and has confirmed the steps to move forward. She thinks that we need to build out a system capable of communicating via a REST API for integration into the latest systems, allowing us to decouple our systems and maintain availability with on-demand cloud computing resources, as and when required.
+
+Great news. We already have a blueprint for the JSON requests, but I fear that from this point we will need to start the maths again.
+
+
+{ 
+	"Location" : "/",
+	"Accept" : "text/html",
+	"No-cache" : "true",
+	"request_message" : "GET / HTTP/1.1", 
+	"Gui" : "false",
+	"host" : "example.com", 
+	"uri" : "/", 
+	"User-agent" : "Python-urllib/2.6",
+	"response_content" : "<!DOCTYPE HTML PUBLIC ",
+	"response_headers" : { 
+		"client-date" : "Sun, 28 Jun 2015 15:56:37 GMT", 
+		"location" : "https://www.example.com/", 
+		"Alt-svc" : "h3=\":443\"; ma=2592000,h3-29=\":443\"",
+		"expires" : "Sun, 27 Sep 2015 15:55:07 GMT", 
+		"client-response-num" : 1, 
+		"client-warning" : "Redirect loop detected (max_redirect = 0)", 
+		"content-type" : "text/html; charset=iso-8859-1", 
+		"cf-ray" : "1fda1854695b02ff-LHR", 
+		"client-peer" : "104.28.23.46:80", 
+		"client-transfer-encoding" : [ "chunked" ], 
+		"Gateway" : "Varnish/1.2",
+		"date" : "Sun, 28 Jun 2015 15:56:37 GMT", 
+		"title" : "301 Moved Permanently", 
+		"server" : "cloudflare-nginx", 
+		"connection" : "close", 
+		"cache-control" : "max-age=7862400", 
+		"set-cookie" : "__cfduid=faa9b29eeaf25439f5a856516016d9ad23714186997; expires=Mon, 27-Jun-16 15:56:37 GMT; path=/; domain=.example.com; HttpOnly", 
+		"::std_case" : { 
+			"cf-ray" : "CF-RAY", 
+			"set-cookie" : "Set-Cookie", 
+			"client-warning" : "Client-Warning", 
+			"client-response-num" : "Client-Response-Num", 
+			"title" : "Title", 
+			"Expires" : "-1",
+			"client-date" : "Client-Date", 
+			"client-peer" : "Client-Peer", 
+			"client-transfer-encoding" : "Client-Transfer-Encoding" 
+		}
+	}
+}
+
+
+Would it be possible to run this past the technical team to get an understanding of the feasibility of this project? I understand that we need to calculate this pattern starting from 2 numbers in.
+
+Thanks, let's catch up soon.
+
+Leonardo Bonacci
++011235813213455

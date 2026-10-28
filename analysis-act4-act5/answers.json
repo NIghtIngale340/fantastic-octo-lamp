@@ -1,0 +1,290 @@
+[
+  {
+    "id": 282,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Lumma Victim",
+    "answer": "10.1.21.58",
+    "flag": "pcgCTF{10.1.21.58}",
+    "filter": "ip.dst == 153.92.1.49 && http.request",
+    "frames": [
+      24500,
+      25270
+    ],
+    "tcp_streams": [
+      99,
+      111
+    ],
+    "reason": "The source of both Chrome and Edge victim-fingerprinting requests is 10.1.21.58.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim"
+  },
+  {
+    "id": 283,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Victim MAC",
+    "answer": "00:21:5d:c8:0e:f2",
+    "flag": "pcgCTF{00:21:5d:c8:0e:f2}",
+    "filter": "ip.src == 10.1.21.58 && ip.dst == 153.92.1.49",
+    "frames": [
+      24500
+    ],
+    "tcp_streams": [
+      99
+    ],
+    "reason": "Ethernet source address on the infected host's C2 request.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/283-act-4-lumma-in-the-room-victim-mac"
+  },
+  {
+    "id": 284,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Victim Hostname",
+    "answer": "DESKTOP-ES9F3ML",
+    "flag": "pcgCTF{DESKTOP-ES9F3ML}",
+    "filter": "dhcp || (nbns && eth.src == 00:21:5d:c8:0e:f2)",
+    "frames": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "tcp_streams": [],
+    "reason": "DHCP Host Name is DESKTOP-ES9F3ML; DHCP offers/acknowledges 10.1.21.58. NBNS independently advertises the same hostname.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/284-act-4-lumma-in-the-room-victim-hostname"
+  },
+  {
+    "id": 285,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Compromised User",
+    "answer": "gwyatt",
+    "flag": "pcgCTF{gwyatt}",
+    "filter": "kerberos.CNameString == \"gwyatt\" || samr.samr_UserInfo21.account_name == \"gwyatt\"",
+    "frames": [
+      214,
+      358
+    ],
+    "tcp_streams": [
+      4,
+      8
+    ],
+    "reason": "Kerberos names gwyatt; the SAMR user-information response confirms the account.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/285-act-4-lumma-in-the-room-compromised-user"
+  },
+  {
+    "id": 286,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Full User Name",
+    "answer": "Gabriel Wyatt",
+    "flag": "pcgCTF{Gabriel Wyatt}",
+    "filter": "samr.samr_UserInfo21.full_name",
+    "frames": [
+      358
+    ],
+    "tcp_streams": [
+      8
+    ],
+    "reason": "The same SAMR UserInfo21 response pairs account gwyatt with full name Gabriel Wyatt. Preserve the space in the raw answer; the challenge does not specify underscore normalization.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/286-act-4-lumma-in-the-room-full-user-name"
+  },
+  {
+    "id": 287,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Malicious Domain",
+    "answer": "whitepepper.su",
+    "flag": "pcgCTF{whitepepper.su}",
+    "filter": "dns.a == 153.92.1.49 || (ip.dst == 153.92.1.49 && http.request)",
+    "frames": [
+      23723,
+      24500
+    ],
+    "tcp_streams": [
+      99
+    ],
+    "reason": "DNS maps whitepepper.su to 153.92.1.49; HTTP Host confirms the same domain.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/287-act-4-lumma-in-the-room-malicious-domain"
+  },
+  {
+    "id": 288,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Fingerprint API",
+    "answer": "/api/set_agent",
+    "flag": "pcgCTF{/api/set_agent}",
+    "filter": "ip.dst == 153.92.1.49 && http.request.uri contains \"/api/set_agent\"",
+    "frames": [
+      24500,
+      24601,
+      25270,
+      25286
+    ],
+    "tcp_streams": [
+      99,
+      111
+    ],
+    "reason": "The API endpoint is /api/set_agent. Query strings supply victim ID, token, agent=Chrome/Edge, and optionally act=log; they are not part of the requested path.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/288-act-4-lumma-in-the-room-fingerprint-api"
+  },
+  {
+    "id": 289,
+    "name": "ACT 5 - FINAL INCIDENT: Map the Network",
+    "answer": "10.3.14.131_10.3.14.134_10.3.14.135",
+    "flag": "pcgCTF{10.3.14.131_10.3.14.134_10.3.14.135}",
+    "filter": "ip.src == 10.3.14.131 || ip.src == 10.3.14.134 || ip.src == 10.3.14.135",
+    "frames": [
+      6,
+      1684,
+      1771
+    ],
+    "tcp_streams": [],
+    "reason": "These three client IPv4 addresses are ordered numerically. The gateway is 10.3.14.1. Despite the question describing all three as Windows, .135 exhibits Apple/macOS traffic.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/289-act-5-final-incident-map-the-network"
+  },
+  {
+    "id": 290,
+    "name": "ACT 5 - FINAL INCIDENT: Host One MAC",
+    "answer": "00:25:64:18:4c:2a",
+    "flag": "pcgCTF{00:25:64:18:4c:2a}",
+    "filter": "ip.src == 10.3.14.131",
+    "frames": [
+      1771
+    ],
+    "tcp_streams": [],
+    "reason": "Ethernet source on an IPv4 packet sent by 10.3.14.131.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/290-act-5-final-incident-host-one-mac"
+  },
+  {
+    "id": 291,
+    "name": "ACT 5 - FINAL INCIDENT: Host Two MAC",
+    "answer": "14:da:e9:5b:42:1c",
+    "flag": "pcgCTF{14:da:e9:5b:42:1c}",
+    "filter": "ip.src == 10.3.14.134",
+    "frames": [
+      1684,
+      1712
+    ],
+    "tcp_streams": [],
+    "reason": "Ethernet source on packets from 10.3.14.134; DHCP also identifies this host as Knutson-PC.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/291-act-5-final-incident-host-two-mac"
+  },
+  {
+    "id": 292,
+    "name": "ACT 5 - FINAL INCIDENT: Host Three MAC",
+    "answer": "00:26:bb:4c:6b:e1",
+    "flag": "pcgCTF{00:26:bb:4c:6b:e1}",
+    "filter": "ip.src == 10.3.14.135",
+    "frames": [
+      6
+    ],
+    "tcp_streams": [],
+    "reason": "Ethernet source on a DNS query sent by 10.3.14.135.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/292-act-5-final-incident-host-three-mac"
+  },
+  {
+    "id": 293,
+    "name": "ACT 5 - FINAL INCIDENT: Find the Victims",
+    "answer": "10.3.14.131_10.3.14.134",
+    "flag": "pcgCTF{10.3.14.131_10.3.14.134}",
+    "filter": "(ip.src == 10.3.14.131 && http.host == \"spora.biz\") || (ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892))",
+    "frames": [
+      8820,
+      11043,
+      16762
+    ],
+    "tcp_streams": [
+      179,
+      299
+    ],
+    "reason": "The .131 host accesses the Spora payment domain; .134 emits Cerber-pattern UDP/6892 traffic and visits the Cerber payment portal. These are the two infected endpoints in ascending order.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/293-act-5-final-incident-find-the-victims"
+  },
+  {
+    "id": 294,
+    "name": "ACT 5 - FINAL INCIDENT: First Ransomware",
+    "answer": "Spora",
+    "flag": "pcgCTF{Spora}",
+    "filter": "ip.src == 10.3.14.131 && http.host == \"spora.biz\"",
+    "frames": [
+      16762,
+      16772,
+      16979
+    ],
+    "tcp_streams": [
+      299
+    ],
+    "reason": "The first host accesses spora.biz, the ransomware-specific domain. The HTTP stream includes redirects and DDoS-Guard interstitials; those pages alone are not proof of executable delivery. Family attribution combines this ransomware-specific domain, the challenge's infection context, and primary Spora research.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/294-act-5-final-incident-first-ransomware"
+  },
+  {
+    "id": 295,
+    "name": "ACT 5 - FINAL INCIDENT: Second Ransomware",
+    "answer": "Cerber",
+    "flag": "pcgCTF{Cerber}",
+    "filter": "ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892)",
+    "frames": [
+      8820,
+      11043,
+      16354
+    ],
+    "tcp_streams": [
+      179,
+      296
+    ],
+    "reason": "UDP destination port 6892 and p27dokhpz2n7nvgr.1nmrtq.top match independently published Cerber post-infection behavior. The portal paths include a victim identifier, language selection, captcha, and bitcoin resources.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/295-act-5-final-incident-second-ransomware"
+  },
+  {
+    "id": 296,
+    "name": "ACT 5 - FINAL INCIDENT: Final Assessment",
+    "answer": "10.3.14.135",
+    "flag": "pcgCTF{10.3.14.135}",
+    "filter": "ip.src == 10.3.14.135",
+    "frames": [
+      6,
+      1350,
+      2055
+    ],
+    "tcp_streams": [
+      8
+    ],
+    "reason": "The third client exhibits ordinary Apple services and Reddit browsing, with neither ransomware-specific pattern attributed to .131 and .134. Clean means no observed evidence of infection in this capture, not a forensic guarantee about the endpoint.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/network-forensics/296-act-5-final-incident-final-assessment"
+  },
+  {
+    "id": 307,
+    "name": "ACT 4 - FIRST TO LAST: Malware Attribution",
+    "answer": "FormBook",
+    "flag": "pcgCTF{FormBook}",
+    "filter": "ip.dst == 146.59.71.167 && http.request",
+    "frames": [
+      11227,
+      11714,
+      21874
+    ],
+    "tcp_streams": [
+      242,
+      249,
+      421
+    ],
+    "reason": "The FIRST TO LAST capture shows short-path POST requests and GET check-ins to /irpw/ with 2kn1=..., Connection: close, no Referer, and the fixed Firefox/39.0 User-Agent. This matches the structure of official ET Open FormBook signature SID 2050745. The rule was inspected and matched structurally; an IDS engine was not run. Public report corroboration is listed below. Do not infer a malware family solely from a shared hosting IP.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/osint/307-act-4-first-to-last-malware-attribution"
+  },
+  {
+    "id": 308,
+    "name": "ACT 4 - FIRST TO LAST: Infrastructure Pivot",
+    "answer": "handyman24.eu",
+    "flag": "pcgCTF{handyman24.eu}",
+    "filter": "dns.qry.name == \"handyman24.eu\"",
+    "frames": [],
+    "tcp_streams": [],
+    "reason": "The question explicitly specifies this domain. A live public DNS lookup also returned 146.59.71.167. This is the requested public DNS pivot, while the captured C2 HTTP Host is www.grinswakebthu.info; shared IP hosting does not mean all hosted sites are malicious.",
+    "platform_validation": "paused; not confirmed",
+    "local_folder": "unsolved/osint/308-act-4-first-to-last-infrastructure-pivot"
+  }
+]

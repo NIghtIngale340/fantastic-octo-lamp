@@ -1,0 +1,52 @@
+{
+  "id": 33,
+  "name": "Multi-Base Layers",
+  "value": 100,
+  "description": "39313b75613738627032376e51695237702f5f68394d2f41553b2c274452376f693e6331302e4058394c32664d3163383622392f4b64513b2d3f6a6e39315e733b345a74716b\r\n\r\n**Story:** The analyst kept re-encoding the secret to be \"safer\". Now it's a mess of encodings.\r\n\r\n**Task:** Recover the original text in `encoded.txt`.\r\n\r\n**Hint:** It's **multi-layered**. Consider common bases and possibly hex-ascii at one end. When decoding stalls, try a different base.\r\n\r\nFlag format: pcgCTF{flagggg}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Cryptography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "rank:initiate"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/cryptography/033-multi-base-layers"
+}

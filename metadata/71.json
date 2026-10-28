@@ -1,0 +1,75 @@
+{
+  "id": 71,
+  "name": "EMBEDDED TEXT",
+  "value": 100,
+  "description": "The image appears ordinary at first glance.\r\n\r\nHowever, the analyst suspects that someone has concealed additional information inside the file. The visible image may only be the surface \u2014 something else is embedded within it.\r\n\r\nYour task is to examine the image and recover the hidden text.\r\n\r\n\ud83c\udfaf Mission\r\n\r\nAnalyze embedded-text.jpg and extract the hidden payload.\r\nRecover the concealed text and submit it as the flag.\r\n\r\nSuggested Tools\r\nsteghide\r\nstrings\r\nexiftool\r\nbinwalk\r\n\r\n\ud83d\udea9 Flag Format\r\n\r\nSubmit the recovered text using the standard PCGCTF flag format:\r\n\r\npcgCTF{theflaghere}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Steganography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 2,
+  "files": [
+    "https://cgcybercom.online/files/e0561768842f4b12295f1aca60fcd910/embedded-text.zip"
+  ],
+  "tags": [
+    "rank:novice"
+  ],
+  "hints": [
+    {
+      "id": 50,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 51,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 52,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 53,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/steganography/071-embedded-text"
+}

@@ -1,0 +1,60 @@
+{
+  "id": 268,
+  "name": "ACT 2 - THE COMPROMISE: Infected IPV4",
+  "value": 100,
+  "description": "A SOC alert reports NetSupport Manager RAT traffic from a Windows endpoint.\r\n\r\nAnalyze the supplied packet capture and identify the internal IPv4 address generating the suspicious NetSupport RAT traffic.\r\n\r\nEvidence:\r\n2026-02-28-traffic-analysis-exercise.pcap\r\n\r\nSubmission requirement:\r\nAnswer: pcgCTF{...}\r\nFilter: ...\r\nEvidence: Packet/Stream ...\r\nHint:\r\nStart broad, identify the relevant endpoint/conversation, then narrow your display filter and preserve a packet or stream reference.\r\n\r\nRules:\r\nAnalyze the supplied PCAP. Do not use public solution pages during the event. Do not execute reconstructed binaries or scripts.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [
+    "https://cgcybercom.online/files/faf0e2adc97e40d1866ec49f9c49d662/2026-02-28-traffic-analysis-exercise.pcap"
+  ],
+  "tags": [
+    "network",
+    "pcap",
+    "pcap-analysis",
+    "wireshark",
+    "incident-response",
+    "netsupport-rat",
+    "rank:apprentice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/network-forensics/268-act-2-the-compromise-infected-ipv4"
+}

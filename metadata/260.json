@@ -1,0 +1,50 @@
+{
+  "id": 260,
+  "name": "Who Is Behind the Platform?",
+  "value": 20000,
+  "description": "Every CTF needs a platform.\r\nBut every platform has a story.\r\nYou have been given access to a CTF platform. Somewhere within its public traces is the identity of the person who started the project.\r\nYour mission is to uncover the creator.\r\nYou are given only the following clues:\r\nClue 1\r\nThe platform is open source.\r\nClue 2\r\nIts source code contains the history of its development.\r\nClue 3\r\nThe person you're looking for was not merely a contributor \u2014 they started the project.\r\nClue 4\r\nTheir name appears in the project's earliest history.\r\n\r\nSubmit the answer using:\r\npcgCTF{yourFLAGHEREE.......................}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "GENERAL SKILLS",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 8,
+  "files": [],
+  "tags": [],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/general-skills/260-who-is-behind-the-platform"
+}

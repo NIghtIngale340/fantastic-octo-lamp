@@ -1,0 +1,56 @@
+{
+  "id": 300,
+  "name": "ACT 1 - EASY AS 123: Malware Hash Pivot",
+  "value": 100,
+  "description": "Search the following SHA-256 using public malware-analysis and threat-intelligence sources:\r\n\r\nc9e5bb7a368280d771edcfdb33717a3130560d2bb71773ab1aaffe0eb585fd2c\r\n\r\nMission:\r\nIdentify the malware tag or family reported for this sample.\r\nAnswer: pcgCTF{...}\r\nSuggested sources:\r\nMalwareBazaar, Joe Sandbox public reports, VirusTotal, and public threat reports.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "OSINT",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "osint",
+    "malware-hash",
+    "malwarebazaar",
+    "netsupport",
+    "rank:novice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/osint/300-act-1-easy-as-123-malware-hash-pivot"
+}

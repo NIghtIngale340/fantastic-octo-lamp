@@ -1,0 +1,139 @@
+Frame 10317: 413 bytes on wire (3304 bits), 413 bytes captured (3304 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 30, 2024 10:42:13.694115000 PST
+    UTC Arrival Time: Jul 30, 2024 02:42:13.694115000 UTC
+    Epoch Arrival Time: 1722307333.694115000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.002096000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 204.733280000 seconds]
+    Frame Number: 10317
+    Frame Length: 413 bytes (3304 bits)
+    Capture Length: 413 bytes (3304 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:ldap:gss-api:spnego-krb5]
+Ethernet II, Src: Dell_8c:97:35 (5c:f9:dd:8c:97:35), Dst: Intel_ec:f3:08 (00:1e:64:ec:f3:08)
+    Destination: Intel_ec:f3:08 (00:1e:64:ec:f3:08)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_8c:97:35 (5c:f9:dd:8c:97:35)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 3]
+Internet Protocol Version 4, Src: 172.16.1.4, Dst: 172.16.1.66
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 399
+    Identification: 0xca59 (51801)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0xd4a8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 172.16.1.4
+    Destination Address: 172.16.1.66
+    [Stream index: 2]
+Transmission Control Protocol, Src Port: 3268, Dst Port: 49800, Seq: 3146, Ack: 2854, Len: 359
+    Source Port: 3268
+    Destination Port: 49800
+    [Stream index: 126]
+    [Stream Packet Number: 14]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 359]
+    Sequence Number: 3146    (relative sequence number)
+    Sequence Number (raw): 1633592059
+    [Next Sequence Number: 3505    (relative sequence number)]
+    Acknowledgment Number: 2854    (relative ack number)
+    Acknowledgment number (raw): 515897433
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8194
+    [Calculated window size: 2097664]
+    [Window size scaling factor: 256]
+    Checksum: 0x6319 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.005513000 seconds]
+        [Time since previous frame in this TCP stream: 0.002096000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 10316]
+        [The RTT to ACK the segment was: 0.002096000 seconds]
+        [iRTT: 0.000342000 seconds]
+        [Bytes in flight: 359]
+        [Bytes sent since last PSH flag: 359]
+    TCP payload (359 bytes)
+    [PDU Size: 359]
+Lightweight Directory Access Protocol
+    SASL Buffer Length: 355
+    SASL Buffer
+        GSS-API Generic Security Service Application Program Interface
+            krb5_blob: 050405ff000c000c0000000014c336fc66c7db0219270254e2317591
+                krb5_tok_id: KRB_TOKEN_CFX_WRAP (0x0405)
+                krb5_cfx_flags: 0x05, AcceptorSubkey, SendByAcceptor
+                    .... .1.. = AcceptorSubkey: Set
+                    .... ..0. = Sealed: Not set
+                    .... ...1 = SendByAcceptor: Set
+                krb5_filler: ff
+                krb5_cfx_ec: 12
+                krb5_cfx_rrc: 12
+                krb5_cfx_seq: 348337916
+                krb5_sgn_cksum: 66c7db0219270254e2317591
+        GSS-API payload (327 bytes)
+            LDAPMessage searchResEntry(10) "CN=Clark Collier,CN=Users,DC=wiresharkworkshop,DC=online" [2 results]
+                messageID: 10
+                protocolOp: searchResEntry (4)
+                    searchResEntry
+                        objectName: CN=Clark Collier,CN=Users,DC=wiresharkworkshop,DC=online
+                        attributes: 3 items
+                            PartialAttributeList item distinguishedName
+                                type: distinguishedName
+                                vals: 1 item
+                                    AttributeValue: CN=Clark Collier,CN=Users,DC=wiresharkworkshop,DC=online
+                            PartialAttributeList item displayName
+                                type: displayName
+                                vals: 1 item
+                                    AttributeValue: Clark Collier
+                            PartialAttributeList item objectCategory
+                                type: objectCategory
+                                vals: 1 item
+                                    AttributeValue: CN=Person,CN=Schema,CN=Configuration,DC=wiresharkworkshop,DC=online
+                [Response To: 10316]
+                [Time: 0.002096000 seconds]
+            LDAPMessage searchResDone(10) success [2 results]
+                messageID: 10
+                protocolOp: searchResDone (5)
+                    searchResDone
+                        resultCode: success (0)
+                        matchedDN: <MISSING>
+                        errorMessage: <MISSING>
+                [Response To: 10316]
+                [Time: 0.002096000 seconds]
+

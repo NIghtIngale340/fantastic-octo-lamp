@@ -1,0 +1,135 @@
+Frame 9759: 242 bytes on wire (1936 bits), 242 bytes captured (1936 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 30, 2024 10:40:41.110601000 PST
+    UTC Arrival Time: Jul 30, 2024 02:40:41.110601000 UTC
+    Epoch Arrival Time: 1722307241.110601000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.000294000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 112.149766000 seconds]
+    Frame Number: 9759
+    Frame Length: 242 bytes (1936 bits)
+    Capture Length: 242 bytes (1936 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:ldap:gss-api:spnego-krb5]
+Ethernet II, Src: Dell_8c:97:35 (5c:f9:dd:8c:97:35), Dst: Intel_ec:f3:08 (00:1e:64:ec:f3:08)
+    Destination: Intel_ec:f3:08 (00:1e:64:ec:f3:08)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Dell_8c:97:35 (5c:f9:dd:8c:97:35)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 3]
+Internet Protocol Version 4, Src: 172.16.1.4, Dst: 172.16.1.66
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 228
+    Identification: 0xca09 (51721)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0xd5a3 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 172.16.1.4
+    Destination Address: 172.16.1.66
+    [Stream index: 2]
+Transmission Control Protocol, Src Port: 389, Dst Port: 49783, Seq: 3146, Ack: 2638, Len: 188
+    Source Port: 389
+    Destination Port: 49783
+    [Stream index: 109]
+    [Stream Packet Number: 14]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 188]
+    Sequence Number: 3146    (relative sequence number)
+    Sequence Number (raw): 3712526607
+    [Next Sequence Number: 3334    (relative sequence number)]
+    Acknowledgment Number: 2638    (relative ack number)
+    Acknowledgment number (raw): 197142562
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 8194
+    [Calculated window size: 2097664]
+    [Window size scaling factor: 256]
+    Checksum: 0x3d3e [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.008022000 seconds]
+        [Time since previous frame in this TCP stream: 0.000294000 seconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 9758]
+        [The RTT to ACK the segment was: 0.000294000 seconds]
+        [iRTT: 0.000487000 seconds]
+        [Bytes in flight: 188]
+        [Bytes sent since last PSH flag: 188]
+    TCP payload (188 bytes)
+    [PDU Size: 188]
+Lightweight Directory Access Protocol
+    SASL Buffer Length: 184
+    SASL Buffer
+        GSS-API Generic Security Service Application Program Interface
+            krb5_blob: 050405ff000c000c000000005c1d81f45f43104c850665985bfaf886
+                krb5_tok_id: KRB_TOKEN_CFX_WRAP (0x0405)
+                krb5_cfx_flags: 0x05, AcceptorSubkey, SendByAcceptor
+                    .... .1.. = AcceptorSubkey: Set
+                    .... ..0. = Sealed: Not set
+                    .... ...1 = SendByAcceptor: Set
+                krb5_filler: ff
+                krb5_cfx_ec: 12
+                krb5_cfx_rrc: 12
+                krb5_cfx_seq: 1545437684
+                krb5_sgn_cksum: 5f43104c850665985bfaf886
+        GSS-API payload (156 bytes)
+            LDAPMessage searchResEntry(4) "CN=Clark Collier,CN=Users,DC=wiresharkworkshop,DC=online" [2 results]
+                messageID: 4
+                protocolOp: searchResEntry (4)
+                    searchResEntry
+                        objectName: CN=Clark Collier,CN=Users,DC=wiresharkworkshop,DC=online
+                        attributes: 2 items
+                            PartialAttributeList item sn
+                                type: sn
+                                vals: 1 item
+                                    AttributeValue: Collier
+                            PartialAttributeList item givenName
+                                type: givenName
+                                vals: 1 item
+                                    AttributeValue: Clark
+                [Response To: 9758]
+                [Time: 0.000294000 seconds]
+            LDAPMessage searchResDone(4) success [2 results]
+                messageID: 4
+                protocolOp: searchResDone (5)
+                    searchResDone
+                        resultCode: success (0)
+                        matchedDN: <MISSING>
+                        errorMessage: <MISSING>
+                [Response To: 9758]
+                [Time: 0.000294000 seconds]
+

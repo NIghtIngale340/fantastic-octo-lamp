@@ -1,0 +1,50 @@
+{
+  "id": 315,
+  "name": "Bedside Manner",
+  "value": 200,
+  "description": "DEADFACE is taking credit for an attack that compromised patient data at St Dymphna's Medical Center. Somehow, DEADFACE acquired sensitive patient records from the medical center that used the device. Funny thing is, the device that housed the data is internal without access to the internet. Which means DEADFACE would have had to have physically infiltrated the medical center!\r\n\r\nThe medical center sent us security camera footage of two individuals who told staff they were with IT, but when we asked the IT department, they said they have no idea who they were.\r\n\r\nWe're giving you access to the device we believe was compromised. We're asking you to conduct a medical device penetration test on the machine to identify vulnerabilities so we can determine if (and how) the device was compromised.\r\n\r\nYour first task is to identify any lingering strings developer's may have left in the device's kiosk web browser.\r\n\r\n[Access the Device](http://emedra.dctf.io:8080/)",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Deadface",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/deadface/315-bedside-manner"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 1,
+  "name": "Hash Me If You Can",
+  "value": 100,
+  "description": "We found this hash in the system: 530d378bd60243f41d169aad7cd238ae816a6ee3\r\n\r\nCan you recover the password?\r\nFlag format: pcgCTF{password}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Cryptography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "rank:apprentice"
+  ],
+  "hints": [
+    {
+      "id": 1,
+      "cost": 10,
+      "title": "Passwords are rarely stored in plain text."
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 2,
+    "down": 0,
+    "count": 2
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/cryptography/001-hash-me-if-you-can"
+}

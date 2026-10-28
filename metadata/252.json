@@ -1,0 +1,56 @@
+{
+  "id": 252,
+  "name": "Reverse Image \u2014 Restaurant",
+  "value": 100,
+  "description": "Use reverse image searching to identify the restaurant shown in the provided image. Submit only the required answer using the flag format: pcgCTF{answer_here}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "OSINT / IMINT",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 10,
+  "files": [
+    "https://cgcybercom.online/files/e1bd4abd75edf22efdd8ea4f456f1442/task6_1602348602115.jpg"
+  ],
+  "tags": [
+    "PCGCTF-Searchlight-IMINT",
+    "rank:specialist",
+    "prerequisite:Coffee Shop \u2014 Owner"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/osint-imint/252-reverse-image-restaurant"
+}

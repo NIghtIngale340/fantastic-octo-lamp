@@ -1,0 +1,75 @@
+{
+  "id": 20,
+  "name": "Base Maze",
+  "value": 250,
+  "description": "The analyst kept re-encoding the secret to make it \"safer.\"\r\n\r\nNow the message is buried beneath multiple layers of encoding.\r\n\r\nYour task is to recover the original plaintext and find the hidden flag.\r\n\r\n\ud83c\udfaf Mission\r\n\r\nDecode the contents of encoded.txt and recover the original plaintext containing the flag.\r\n\ud83d\udea9 Flag Format\r\nFLAG: pcgCTF{waha_ha_hehe}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Cryptography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [
+    "https://cgcybercom.online/files/d42898f1b949c1609a824381e15a5871/encoded.txt"
+  ],
+  "tags": [
+    "rank:initiate"
+  ],
+  "hints": [
+    {
+      "id": 42,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 43,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 44,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 45,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 1,
+    "down": 0,
+    "count": 1
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/cryptography/020-base-maze"
+}

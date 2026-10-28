@@ -1,0 +1,63 @@
+{
+  "id": 39,
+  "name": "The Forgotten Path",
+  "value": 150,
+  "description": "[CLICK HERE TO NAVIGATE THE SITE](http://10.56.102.240:4280/)\r\nA hidden page exists, but the architect thought no one would look there.\r\n\r\nQuestion:\r\nWhat file reveals hidden directories on a web server?\r\n\r\nFLAG: pcgCTF{answer}\r\n",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Web Exploitation - DVWA",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "rank:apprentice"
+  ],
+  "hints": [
+    {
+      "id": 7,
+      "cost": 0,
+      "title": "1"
+    },
+    {
+      "id": 8,
+      "cost": 0,
+      "title": "2"
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/web-exploitation-dvwa/039-the-forgotten-path"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 121,
+  "name": "Server Configuration \u2014 .htaccess Override",
+  "value": 200,
+  "description": "\ud83d\udcd6 Scenario\r\n\r\nThe final application uses Apache configuration rules to determine how uploaded files are processed.\r\n\r\nA file-upload mechanism is available, but its interaction with .htaccess configuration files may create an unexpected behavior.\r\n\r\n\ud83c\udfaf Mission\r\n\r\nInvestigate:\r\n\r\nhttp://flag2.cgcybercom.online/index.php\r\n\r\nDetermine whether the server allows an uploaded .htaccess file to alter how .txt files are interpreted.\r\n\r\n\ud83c\udfaf Objective\r\n\r\nSuccessfully trigger the intended server-side behavior and retrieve the flag.\r\n\r\n\r\nSubmit only the required answer using the flag format: pcgCTF{answer}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Web Exploitation",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "rank:specialist"
+  ],
+  "hints": [
+    {
+      "id": 145,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 146,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 147,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/web-exploitation/121-server-configuration-htaccess-override"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 256,
+  "name": "Justice \u2014 Character",
+  "value": 100,
+  "description": "Analyze the statue and use visual or reverse image research to identify the character it depicts. Submit only the required answer using the flag format: pcgCTF{answer_here}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "OSINT / IMINT",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 4,
+  "files": [
+    "https://cgcybercom.online/files/6c975f3566f5afdaab0b5948caef72c0/task8_1603365958159.png"
+  ],
+  "tags": [
+    "PCGCTF-Searchlight-IMINT",
+    "rank:master",
+    "prerequisite:Sculpture \u2014 Photographer"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/osint-imint/256-justice-character"
+}

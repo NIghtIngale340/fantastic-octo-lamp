@@ -1,0 +1,50 @@
+{
+  "id": 328,
+  "name": "The Attending",
+  "value": 300,
+  "description": "Stay on the VIP. The patient flagged is_vip = 1 in Aurora's patients table had exactly one inpatient admission in November 2025. We suspect DEADFACE wants to know which physician signed off on that stay \u2014 it's the first name in the chain they leaned on. Identify the attending provider for that admission and report their system username.\r\n\r\nUse the provided MySQL shell.\r\n\r\nSubmit the username as deadface{username}. Example: deadface{jsmith}.\r\n\r\n\r\n\r\n",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Deadface",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 1,
+    "down": 0,
+    "count": 1
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/deadface/328-the-attending"
+}

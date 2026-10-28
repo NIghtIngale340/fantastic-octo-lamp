@@ -1,0 +1,149 @@
+PCGCTF – OWASP Juice Shop
+PLAYER SETUP GUIDE
+===================
+
+1. UPDATE KALI
+---------------
+Open Terminal:
+
+sudo apt update
+
+
+2. INSTALL DOCKER
+-----------------
+sudo apt install -y docker.io docker-compose
+
+Enable Docker:
+
+sudo systemctl enable --now docker
+
+Verify:
+
+sudo docker ps
+
+
+3. CREATE THE PCGCTF DIRECTORY
+------------------------------
+mkdir -p ~/PCGCTF-JuiceShop
+cd ~/PCGCTF-JuiceShop
+
+Copy the provided PCGCTF docker-compose.yml into this directory or copy the content of the docker-compose.yml provided
+then
+
+nano docker-compose.yml then paste the content
+
+Verify:
+
+ls
+
+You should see:
+
+docker-compose.yml
+
+
+4. CONFIGURE THE CTF KEY
+------------------------
+Open the Compose file:
+
+nano docker-compose.yml
+
+
+IMPORTANT:
+- Every player must use the SAME CTF_KEY.
+- Do NOT generate your own key.
+- Do NOT change the key.
+- Do NOT leave CTF_KEY empty.
+
+
+The CTF_KEY ensures that challenge flags remain consistent between player installations.
+
+Save in nano:
+CTRL + O
+ENTER
+CTRL + X
+
+
+5. DOWNLOAD THE JUICE SHOP IMAGE
+--------------------------------
+cd ~/PCGCTF-JuiceShop
+
+sudo docker-compose pull or sudo docker compose pull
+
+
+6. START JUICE SHOP
+-------------------
+sudo docker-compose up -d or docker compose up -d
+
+Check:
+
+sudo docker ps
+
+You should see:
+
+pcgctf-juice-shop
+
+with status:
+
+Up
+
+
+
+7. OPEN OWASP JUICE SHOP
+------------------------
+Open your browser:
+
+http://localhost:3000
+
+
+8. PARTICIPATE IN THE CTF
+-------------------------
+1. Open the assigned Juice Shop challenges.
+2. Identify and exploit the vulnerabilities.
+3. Obtain the challenge flag.
+4. Submit the flag to the corresponding challenge in CTFd.
+
+Flag format:
+
+pcgCTF{...}
+
+
+TROUBLESHOOTING
+===============
+
+Docker is not running:
+
+sudo systemctl enable --now docker
+
+Check Docker:
+
+sudo docker ps
+
+Check Juice Shop:
+
+sudo docker ps -a
+
+Restart Juice Shop:
+
+sudo docker-compose restart
+
+Completely restart the instance:
+
+sudo docker-compose down
+sudo docker-compose up -d
+
+Check logs:
+
+sudo docker-compose logs --tail=50
+
+
+IMPORTANT CTF RULES
+===================
+- Use only your assigned Juice Shop instance.
+- Do not modify the provided CTF_KEY.
+- Do not delete the provided Docker configuration.
+- Do not attack other players' machines.
+- Do not share flags or solutions during the competition.
+- Submit flags only through the official PCGCTF CTFd platform.
+- Contact the CTF administrator for technical problems.
+
+GOOD LUCK AND HAPPY HACKING!

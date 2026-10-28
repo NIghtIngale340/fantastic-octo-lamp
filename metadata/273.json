@@ -1,0 +1,59 @@
+{
+  "id": 273,
+  "name": "ACT 2 - THE COMPROMISE: RAT Check-In",
+  "value": 150,
+  "description": "The compromised endpoint is communicating with a NetSupport Manager RAT command-and-control server.\r\n\r\nIdentify the HTTP path repeatedly used for the RAT C2 check-ins.\r\n\r\nEvidence:\r\n2026-02-28-traffic-analysis-exercise.pcap\r\n\r\nSubmission requirement:\r\nAnswer: pcgCTF{...}\r\nFilter: ...\r\nEvidence: Packet/Stream ...\r\n\r\nHint:\r\nStart broad, identify the relevant endpoint/conversation, then narrow your display filter and preserve a packet or stream reference. Look for repeated HTTP POST requests with the NetSupport Manager user-agent.\r\n\r\nRules:\r\nAnalyze the supplied PCAP. Do not execute reconstructed binaries or scripts.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "network",
+    "pcap",
+    "wireshark",
+    "http",
+    "netsupport-rat",
+    "c2",
+    "command-and-control",
+    "rank:operator"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/network-forensics/273-act-2-the-compromise-rat-check-in"
+}

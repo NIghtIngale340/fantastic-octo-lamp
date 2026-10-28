@@ -1,0 +1,61 @@
+{
+  "id": 287,
+  "name": "ACT 4 - LUMMA IN THE ROOM: Malicious Domain",
+  "value": 200,
+  "description": "The IDS alert identifies 153.92.1.49 as the suspicious infrastructure. Determine the domain associated with that IP in the supplied network evidence.\r\n\r\nEvidence:\r\n2026-01-31-traffic-analysis-exercise.pcap\r\n\r\nMission:\r\nIdentify the malicious domain associated with 153.92.1.49.\r\n\r\nSubmission requirement:\r\nAnswer: pcgCTF{...}\r\nFilter: ...\r\nEvidence: Packet/Stream ...\r\n\r\nHint:\r\nStart broad, identify DNS traffic for 153.92.1.49, then correlate the returned domain with the HTTP Host header and TLS SNI.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "network",
+    "pcap",
+    "dns",
+    "http",
+    "tls",
+    "sni",
+    "domain",
+    "c2",
+    "lumma",
+    "rank:initiate"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/network-forensics/287-act-4-lumma-in-the-room-malicious-domain"
+}

@@ -1,0 +1,4286 @@
+[
+  {
+    "id": 3,
+    "type": "standard",
+    "name": "Ancient Message",
+    "value": 100,
+    "position": 1,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 38,
+    "type": "standard",
+    "name": "The Lazy Gatekeeper",
+    "value": 50,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 1,
+    "type": "standard",
+    "name": "Hash Me If You Can",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 2,
+    "type": "standard",
+    "name": "Picture Perfect Evidence",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 4,
+    "type": "standard",
+    "name": "Encoded Secret",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 5,
+    "type": "standard",
+    "name": "Silent Signal",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 6,
+    "type": "standard",
+    "name": "Hidden in Plain Sight",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 7,
+    "type": "standard",
+    "name": "Access Denied? Think Again",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 8,
+    "type": "standard",
+    "name": "Forgotten Files",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 9,
+    "type": "standard",
+    "name": "Robots Know Everything",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 10,
+    "type": "standard",
+    "name": "Trust the Referer",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 12,
+    "type": "standard",
+    "name": "The Cookie Jar",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 13,
+    "type": "standard",
+    "name": "The Exposed Script",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 14,
+    "type": "standard",
+    "name": "Path Explorer",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 15,
+    "type": "standard",
+    "name": "Layers of Encoding",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 16,
+    "type": "standard",
+    "name": "Command Me",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 17,
+    "type": "standard",
+    "name": "Filtered but Broken",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - Natas",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 18,
+    "type": "standard",
+    "name": "Rotation 36",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 21,
+    "type": "standard",
+    "name": "Packet Detective",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Analysis",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 22,
+    "type": "standard",
+    "name": "FTP Credential Leak",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Analysis",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 33,
+    "type": "standard",
+    "name": "Multi-Base Layers",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 34,
+    "type": "standard",
+    "name": "ROT13",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 42,
+    "type": "standard",
+    "name": "The Changing Door",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 57,
+    "type": "standard",
+    "name": "The Viral Name",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 63,
+    "type": "standard",
+    "name": "Caesar's Last Stand",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 64,
+    "type": "standard",
+    "name": "Broken Vigenere",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 69,
+    "type": "standard",
+    "name": "Bitcoin Trail",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Analysis",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 71,
+    "type": "standard",
+    "name": "EMBEDDED TEXT",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Steganography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 75,
+    "type": "standard",
+    "name": "HIDDEN",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 77,
+    "type": "standard",
+    "name": "HIT A BRICK WALL",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Forensics / Steganography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 81,
+    "type": "standard",
+    "name": "TURTLES ALL THE WAY DOWN",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Steganography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 82,
+    "type": "standard",
+    "name": "EASY PACKET 1  The Exposed Request",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 83,
+    "type": "standard",
+    "name": "EASY PACKET 1 #01  The Capture Signature",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 84,
+    "type": "standard",
+    "name": "EASY PACKET 1 #02  One Packet Wonder",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 85,
+    "type": "standard",
+    "name": "EASY PACKET 1 #03  Destination at Layer 2",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 86,
+    "type": "standard",
+    "name": "EASY PACKET 1 #04  Source at Layer 2",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 87,
+    "type": "standard",
+    "name": "EASY PACKET 1 #05  EtherType: IPv4",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 88,
+    "type": "standard",
+    "name": "EASY PACKET 1 #06  Version Four",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 89,
+    "type": "standard",
+    "name": "EASY PACKET 1 #07  The 20-Byte Header",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 90,
+    "type": "standard",
+    "name": "EASY PACKET 1 #08  Total Packet Weight",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 91,
+    "type": "standard",
+    "name": "EASY PACKET 1 #09  Packet Identity",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 92,
+    "type": "standard",
+    "name": "EASY PACKET 1 #10  TTL: 64 Hops",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 93,
+    "type": "standard",
+    "name": "EASY PACKET 1 #11  Protocol 6",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 94,
+    "type": "standard",
+    "name": "EASY PACKET 1 #12  Who Sent It?",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 95,
+    "type": "standard",
+    "name": "EASY PACKET 1 #13  Where Is It Going?",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 96,
+    "type": "standard",
+    "name": "EASY PACKET 1 #14  Ephemeral Source",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 97,
+    "type": "standard",
+    "name": "EASY PACKET 1 #15  Port 80",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 98,
+    "type": "standard",
+    "name": "EASY PACKET 1 #16  TCP Sequence Marker",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 99,
+    "type": "standard",
+    "name": "EASY PACKET 1 #17  TCP Acknowledgment Marker",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 100,
+    "type": "standard",
+    "name": "EASY PACKET 1 #18  Push and Acknowledge",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 101,
+    "type": "standard",
+    "name": "EASY PACKET 1 #19  TCP Window",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 102,
+    "type": "standard",
+    "name": "EASY PACKET 1 #20  Push to the Application",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 103,
+    "type": "standard",
+    "name": "EASY PACKET 1 #21  Speak HTTP",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 104,
+    "type": "standard",
+    "name": "EASY PACKET 1 #22  GET the Resource",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 105,
+    "type": "standard",
+    "name": "EASY PACKET 1 #23  The Requested Path",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 106,
+    "type": "standard",
+    "name": "EASY PACKET 1 #24  HTTP/1.1",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 107,
+    "type": "standard",
+    "name": "EASY PACKET 1 #25  Know Your Host",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 108,
+    "type": "standard",
+    "name": "EASY PACKET 1 #26  Identify the Client",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 109,
+    "type": "standard",
+    "name": "EASY PACKET 1 #27  Keep the Connection",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 110,
+    "type": "standard",
+    "name": "EASY PACKET 1 #28  Basic Authentication",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 111,
+    "type": "standard",
+    "name": "EASY PACKET 1 #29  The Exposed Credentials",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 112,
+    "type": "standard",
+    "name": "EASY PACKET 1 #30  Cleartext on the Wire",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 122,
+    "type": "standard",
+    "name": "PCGCTF Juice Shop Gateway",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Reconnaissance",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-JuiceShop-Challenges "
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 239,
+    "type": "standard",
+    "name": "Street-Level Clue",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 240,
+    "type": "standard",
+    "name": "Tube Station \u2014 City",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:novice"
+      },
+      {
+        "value": "prerequisite:Street-Level Clue"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 241,
+    "type": "standard",
+    "name": "Tube Station \u2014 Station",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:novice"
+      },
+      {
+        "value": "prerequisite:Tube Station \u2014 City"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 242,
+    "type": "standard",
+    "name": "Tube Station \u2014 Opening Year",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:novice"
+      },
+      {
+        "value": "prerequisite:Tube Station \u2014 Station"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 243,
+    "type": "standard",
+    "name": "Tube Station \u2014 Platforms",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:novice"
+      },
+      {
+        "value": "prerequisite:Tube Station \u2014 Opening Year"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 244,
+    "type": "standard",
+    "name": "Airport Context \u2014 Building",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:initiate"
+      },
+      {
+        "value": "prerequisite:Tube Station \u2014 Platforms"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 247,
+    "type": "standard",
+    "name": "Coffee Shop \u2014 City",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:operator"
+      },
+      {
+        "value": "prerequisite:Airport Context \u2014 City"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 252,
+    "type": "standard",
+    "name": "Reverse Image \u2014 Restaurant",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:specialist"
+      },
+      {
+        "value": "prerequisite:Coffee Shop \u2014 Owner"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 253,
+    "type": "standard",
+    "name": "Reverse Image \u2014 Editor",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:specialist"
+      },
+      {
+        "value": "prerequisite:Reverse Image \u2014 Restaurant"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 254,
+    "type": "standard",
+    "name": "Sculpture \u2014 Identification",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:expert"
+      },
+      {
+        "value": "prerequisite:Reverse Image \u2014 Editor"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 256,
+    "type": "standard",
+    "name": "Justice \u2014 Character",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:master"
+      },
+      {
+        "value": "prerequisite:Sculpture \u2014 Photographer"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 259,
+    "type": "standard",
+    "name": "Hotel From the Past",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT / IMINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-Searchlight-IMINT"
+      },
+      {
+        "value": "rank:grandmaster"
+      },
+      {
+        "value": "prerequisite:Justice \u2014 Opposite Building"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 262,
+    "type": "standard",
+    "name": "ACT 1 - FIRST SIGNAL: Patient Zero",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "pcap-analysis"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "incident-response"
+      },
+      {
+        "value": "formbook"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 263,
+    "type": "standard",
+    "name": "ACT 1 - FIRST SIGNAL: Hardware Fingerprint",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "mac-address"
+      },
+      {
+        "value": "arp"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 264,
+    "type": "standard",
+    "name": "ACT 1 - FIRST SIGNAL: Name the Host",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "hostname"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "llmnr"
+      },
+      {
+        "value": "nbns"
+      },
+      {
+        "value": "kerberos"
+      },
+      {
+        "value": "ldap"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 265,
+    "type": "standard",
+    "name": "ACT 1 - FIRST SIGNAL: Domain Membership",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "active-directory"
+      },
+      {
+        "value": "domain"
+      },
+      {
+        "value": "kerberos"
+      },
+      {
+        "value": "ldap"
+      },
+      {
+        "value": "smb"
+      },
+      {
+        "value": "dns"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 266,
+    "type": "standard",
+    "name": "ACT 1 - FIRST SIGNAL: Full Identity",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "fqdn"
+      },
+      {
+        "value": "active-directory"
+      },
+      {
+        "value": "hostname"
+      },
+      {
+        "value": "domain"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 268,
+    "type": "standard",
+    "name": "ACT 2 - THE COMPROMISE: Infected IPV4",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "pcap-analysis"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "incident-response"
+      },
+      {
+        "value": "netsupport-rat"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 269,
+    "type": "standard",
+    "name": "ACT 2 - THE COMPROMISE: VICTIM MAC",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "mac-address"
+      },
+      {
+        "value": "arp"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 270,
+    "type": "standard",
+    "name": "ACT 2 - THE COMPROMISE: VICTIM HOSTNAME",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "hostname"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "nbns"
+      },
+      {
+        "value": "kerberos"
+      },
+      {
+        "value": "ldap"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 271,
+    "type": "standard",
+    "name": "ACT 2 - THE COMPROMISE: Identify the User -User Account",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "active-directory"
+      },
+      {
+        "value": "kerberos"
+      },
+      {
+        "value": "user-account"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 274,
+    "type": "standard",
+    "name": "ACT 3 - MALWARE INVESTIGATION: Compromised Endpoint",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "pcap-analysis"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "incident-response"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 275,
+    "type": "standard",
+    "name": "ACT 3 - MALWARE INVESTIGATION: Endpoint MAC",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "mac-address"
+      },
+      {
+        "value": "arp"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 297,
+    "type": "standard",
+    "name": "ACT 1 - EASY AS 123: Threat Identity",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "threat-intelligence"
+      },
+      {
+        "value": "ip-pivot"
+      },
+      {
+        "value": "netsupport"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 298,
+    "type": "standard",
+    "name": "ACT 1 - EASY AS 123: Domain Pivot",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "dns"
+      },
+      {
+        "value": "domain-pivot"
+      },
+      {
+        "value": "threat-intelligence"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 299,
+    "type": "standard",
+    "name": "ACT 1 - EASY AS 123: Protocol Deception",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "protocol"
+      },
+      {
+        "value": "network-forensics"
+      },
+      {
+        "value": "http"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 300,
+    "type": "standard",
+    "name": "ACT 1 - EASY AS 123: Malware Hash Pivot",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "malware-hash"
+      },
+      {
+        "value": "malwarebazaar"
+      },
+      {
+        "value": "netsupport"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 301,
+    "type": "standard",
+    "name": "ACT 2 - YOU DIRTY RAT!: Identify the RAT",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "threat-intelligence"
+      },
+      {
+        "value": "ip-pivot"
+      },
+      {
+        "value": "strrat"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 302,
+    "type": "standard",
+    "name": "ACT 2 - YOU DIRTY RAT!: Infrastructure Owner",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "ip"
+      },
+      {
+        "value": "asn"
+      },
+      {
+        "value": "bgp"
+      },
+      {
+        "value": "infrastructure"
+      },
+      {
+        "value": "strrat"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 303,
+    "type": "standard",
+    "name": "ACT 2 - YOU DIRTY RAT!: C2 Service Port",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "strrat"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "port"
+      },
+      {
+        "value": "threat-intelligence"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 304,
+    "type": "standard",
+    "name": "ACT 3 - LUMMA IN THE ROOM-AH!: Identify the Stealer",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "threat-intelligence"
+      },
+      {
+        "value": "lumma"
+      },
+      {
+        "value": "stealer"
+      },
+      {
+        "value": "ip-pivot"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 305,
+    "type": "standard",
+    "name": "ACT 3 - LUMMA IN THE ROOM-AH!: Domain Pivot",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "dns"
+      },
+      {
+        "value": "domain-pivot"
+      },
+      {
+        "value": "lumma"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 306,
+    "type": "standard",
+    "name": "ACT 3 - LUMMA IN THE ROOM-AH!: Registration OSINT",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "whois"
+      },
+      {
+        "value": "domain-registration"
+      },
+      {
+        "value": "lumma"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 307,
+    "type": "standard",
+    "name": "ACT 4 - FIRST TO LAST: Malware Attribution",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "threat-intelligence"
+      },
+      {
+        "value": "formbook"
+      },
+      {
+        "value": "ip-pivot"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 308,
+    "type": "standard",
+    "name": "ACT 4 - FIRST TO LAST: Infrastructure Pivot",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "OSINT",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "osint"
+      },
+      {
+        "value": "dns"
+      },
+      {
+        "value": "reverse-dns"
+      },
+      {
+        "value": "domain-pivot"
+      },
+      {
+        "value": "formbook"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 310,
+    "type": "standard",
+    "name": "Down the Rabbit Hole",
+    "value": 100,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Aurora Patient Zero",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 267,
+    "type": "standard",
+    "name": "ACT 1 - FIRST SIGNAL: Calling Home",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "http"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "command-and-control"
+      },
+      {
+        "value": "formbook"
+      },
+      {
+        "value": "malware"
+      },
+      {
+        "value": "incident-response"
+      },
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 272,
+    "type": "standard",
+    "name": "ACT 2 - THE COMPROMISE: Who Is brolf?",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "active-directory"
+      },
+      {
+        "value": "ldap"
+      },
+      {
+        "value": "user-account"
+      },
+      {
+        "value": "identity"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 276,
+    "type": "standard",
+    "name": "ACT 3 - MALWARE INVESTIGATION: Endpoint Name",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "hostname"
+      },
+      {
+        "value": "kerberos"
+      },
+      {
+        "value": "ldap"
+      },
+      {
+        "value": "dns"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 277,
+    "type": "standard",
+    "name": "ACT 3 - MALWARE INVESTIGATION: Compromised Account",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "active-directory"
+      },
+      {
+        "value": "kerberos"
+      },
+      {
+        "value": "user-account"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 282,
+    "type": "standard",
+    "name": "ACT 4 - LUMMA IN THE ROOM: Lumma Victim",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "pcap-analysis"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "incident-response"
+      },
+      {
+        "value": "lumma"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 283,
+    "type": "standard",
+    "name": "ACT 4 - LUMMA IN THE ROOM: Victim MAC",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "mac-address"
+      },
+      {
+        "value": "arp"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 289,
+    "type": "standard",
+    "name": "ACT 5 - FINAL INCIDENT: Map the Network",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "pcap-analysis"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "network-mapping"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 290,
+    "type": "standard",
+    "name": "ACT 5 - FINAL INCIDENT: Host One MAC",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "mac-address"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "ethernet"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 291,
+    "type": "standard",
+    "name": "ACT 5 - FINAL INCIDENT: Host Two MAC",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "mac-address"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "ethernet"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 292,
+    "type": "standard",
+    "name": "ACT 5 - FINAL INCIDENT: Host Three MAC",
+    "value": 125,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "mac-address"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "ethernet"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 39,
+    "type": "standard",
+    "name": "The Forgotten Path",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 40,
+    "type": "standard",
+    "name": "Silent Witness",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 41,
+    "type": "standard",
+    "name": "The Cracked Seal",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 50,
+    "type": "standard",
+    "name": "Commented Out Secrets",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 61,
+    "type": "standard",
+    "name": "The Exposed Password",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Analysis",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 62,
+    "type": "standard",
+    "name": "THE HIDDEN DOWNLOAD",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Analysis",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 65,
+    "type": "standard",
+    "name": "Small Exponent",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 70,
+    "type": "standard",
+    "name": "HTTP File Extraction",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": " Network Analysis",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 73,
+    "type": "standard",
+    "name": "BAD BLOCKCHAIN",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Blockchain / Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:expert"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 74,
+    "type": "standard",
+    "name": "ELLIOT'S SECRET STASH",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Steganography / Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 78,
+    "type": "standard",
+    "name": "INTERCEPTED",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Forensics / Email Analysis",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 79,
+    "type": "standard",
+    "name": "SEQUENCE",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Cryptography / Encoding",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:expert"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 80,
+    "type": "standard",
+    "name": "TO THE MOON!",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Blockchain / Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:master"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 113,
+    "type": "standard",
+    "name": "Web Recon - View Source",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:apprentice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 114,
+    "type": "standard",
+    "name": "Web Recon \u2014 Hidden Directory",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 273,
+    "type": "standard",
+    "name": "ACT 2 - THE COMPROMISE: RAT Check-In",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "http"
+      },
+      {
+        "value": "netsupport-rat"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "command-and-control"
+      },
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 278,
+    "type": "standard",
+    "name": "ACT 3 - MALWARE INVESTIGATION: User Identity",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "active-directory"
+      },
+      {
+        "value": "ldap"
+      },
+      {
+        "value": "user-identity"
+      },
+      {
+        "value": "dfir"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 279,
+    "type": "standard",
+    "name": "ACT 3 - MALWARE INVESTIGATION: C2 Destination",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "command-and-control"
+      },
+      {
+        "value": "rat"
+      },
+      {
+        "value": "wireshark"
+      },
+      {
+        "value": "incident-response"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 284,
+    "type": "standard",
+    "name": "ACT 4 - LUMMA IN THE ROOM: Victim Hostname",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "hostname"
+      },
+      {
+        "value": "dhcp"
+      },
+      {
+        "value": "nbns"
+      },
+      {
+        "value": "kerberos"
+      },
+      {
+        "value": "ldap"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 285,
+    "type": "standard",
+    "name": "ACT 4 - LUMMA IN THE ROOM: Compromised User",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "windows"
+      },
+      {
+        "value": "active-directory"
+      },
+      {
+        "value": "kerberos"
+      },
+      {
+        "value": "user-account"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 312,
+    "type": "standard",
+    "name": "Back to Basics",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Aurora Patient Zero",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 320,
+    "type": "standard",
+    "name": "Hooked",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 338,
+    "type": "standard",
+    "name": "Headshot",
+    "value": 150,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 280,
+    "type": "standard",
+    "name": "ACT 3 - MALWARE INVESTIGATION: Malware Family",
+    "value": 175,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "malware"
+      },
+      {
+        "value": "strrat"
+      },
+      {
+        "value": "rat"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "command-and-control"
+      },
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 286,
+    "type": "standard",
+    "name": "ACT 4 - LUMMA IN THE ROOM: Full User Name",
+    "value": 175,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "active-directory"
+      },
+      {
+        "value": "ldap"
+      },
+      {
+        "value": "samr"
+      },
+      {
+        "value": "lsarpc"
+      },
+      {
+        "value": "user-identity"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 293,
+    "type": "standard",
+    "name": "ACT 5 - FINAL INCIDENT: Find the Victims",
+    "value": 175,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "incident-response"
+      },
+      {
+        "value": "dfir"
+      },
+      {
+        "value": "ransomware"
+      },
+      {
+        "value": "triage"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 35,
+    "type": "standard",
+    "name": "Riddle Registry",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Forensic",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 43,
+    "type": "standard",
+    "name": "The Invisible Crown",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 49,
+    "type": "standard",
+    "name": "Robots That Talk Too Much",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 51,
+    "type": "standard",
+    "name": "The JavaScript Slip",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 52,
+    "type": "standard",
+    "name": "Configuration Left Behind",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 119,
+    "type": "standard",
+    "name": "SSRF \u2014 Reach the Internal Service",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 120,
+    "type": "standard",
+    "name": "Access Control \u2014 User-Agent Bypass",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 121,
+    "type": "standard",
+    "name": "Server Configuration \u2014 .htaccess Override",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:specialist"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 281,
+    "type": "standard",
+    "name": "ACT 3 - MALWARE INVESTIGATION: Beacon Evidence",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "strrat"
+      },
+      {
+        "value": "beacon"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "malware"
+      },
+      {
+        "value": "hostname"
+      },
+      {
+        "value": "dfir"
+      },
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 287,
+    "type": "standard",
+    "name": "ACT 4 - LUMMA IN THE ROOM: Malicious Domain",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "dns"
+      },
+      {
+        "value": "http"
+      },
+      {
+        "value": "tls"
+      },
+      {
+        "value": "sni"
+      },
+      {
+        "value": "domain"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "lumma"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 294,
+    "type": "standard",
+    "name": "ACT 5 - FINAL INCIDENT: First Ransomware",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "ransomware"
+      },
+      {
+        "value": "spora"
+      },
+      {
+        "value": "dns"
+      },
+      {
+        "value": "http"
+      },
+      {
+        "value": "malware"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 295,
+    "type": "standard",
+    "name": "ACT 5 - FINAL INCIDENT: Second Ransomware",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "ransomware"
+      },
+      {
+        "value": "cerber"
+      },
+      {
+        "value": "dns"
+      },
+      {
+        "value": "http"
+      },
+      {
+        "value": "bitcoin"
+      },
+      {
+        "value": "tor"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 313,
+    "type": "standard",
+    "name": "Ghost of Squares Past",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 315,
+    "type": "standard",
+    "name": "Bedside Manner",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 316,
+    "type": "standard",
+    "name": "Factory Setting",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 319,
+    "type": "standard",
+    "name": "Car Crash",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 321,
+    "type": "standard",
+    "name": "Art Heist: The Forgery",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 323,
+    "type": "standard",
+    "name": "Inside Man",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 327,
+    "type": "standard",
+    "name": "Schedule of Concern",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 339,
+    "type": "standard",
+    "name": "File Dump 01",
+    "value": 200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 288,
+    "type": "standard",
+    "name": "ACT 4 - LUMMA IN THE ROOM: Fingerprint API",
+    "value": 225,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "http"
+      },
+      {
+        "value": "api"
+      },
+      {
+        "value": "fingerprinting"
+      },
+      {
+        "value": "lumma"
+      },
+      {
+        "value": "c2"
+      },
+      {
+        "value": "command-and-control"
+      },
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 20,
+    "type": "standard",
+    "name": "Base Maze",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 36,
+    "type": "standard",
+    "name": "Commitment Issues",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "General Skills",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 45,
+    "type": "standard",
+    "name": "The Open Warehouse",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 46,
+    "type": "standard",
+    "name": "The Open Door API",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 47,
+    "type": "standard",
+    "name": "The Base64",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 53,
+    "type": "standard",
+    "name": "Through the Wrong Door",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": " Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 54,
+    "type": "standard",
+    "name": " The Exposed Repository",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 55,
+    "type": "standard",
+    "name": "Environment Variables Gone Public",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 56,
+    "type": "standard",
+    "name": "The Hidden Storage",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation - DVWA",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 60,
+    "type": "standard",
+    "name": "CryptoMaze",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:master"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 66,
+    "type": "standard",
+    "name": "Common Modulus",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:expert"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 261,
+    "type": "standard",
+    "name": "Password Hash Leak",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Sensitive Data Exposure",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "PCGCTF-JuiceShop-Challenges"
+      },
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 296,
+    "type": "standard",
+    "name": "ACT 5 - FINAL INCIDENT: Final Assessment",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Network Forensics",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "network"
+      },
+      {
+        "value": "pcap"
+      },
+      {
+        "value": "incident-response"
+      },
+      {
+        "value": "dfir"
+      },
+      {
+        "value": "triage"
+      },
+      {
+        "value": "clean-host"
+      },
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 309,
+    "type": "standard",
+    "name": "Info Leaks",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Aurora Patient Zero",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 317,
+    "type": "standard",
+    "name": "Second Opinion",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 322,
+    "type": "standard",
+    "name": "Hard Kept Secrets",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 326,
+    "type": "standard",
+    "name": "Admitted Under Another Name",
+    "value": 250,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 67,
+    "type": "standard",
+    "name": "Weak RSA",
+    "value": 300,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Cryptography",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:expert"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 116,
+    "type": "standard",
+    "name": "Web Recon \u2014 Read the Headers",
+    "value": 300,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:novice"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 117,
+    "type": "standard",
+    "name": "Infrastructure \u2014 Unsecured Reverse Proxy",
+    "value": 300,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web / Infrastructure Security",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:specialist"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 118,
+    "type": "standard",
+    "name": "Path Traversal \u2014 Off by Slash",
+    "value": 300,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:operator"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 318,
+    "type": "standard",
+    "name": "Live Boot",
+    "value": 300,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 328,
+    "type": "standard",
+    "name": "The Attending",
+    "value": 300,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 329,
+    "type": "standard",
+    "name": "Prying Eyes",
+    "value": 300,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 330,
+    "type": "standard",
+    "name": "The Original Reading",
+    "value": 300,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 311,
+    "type": "standard",
+    "name": "SQL Skillz",
+    "value": 500,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Aurora Patient Zero",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 325,
+    "type": "standard",
+    "name": "Diagnosis",
+    "value": 500,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 331,
+    "type": "standard",
+    "name": "Heavy Hand",
+    "value": 500,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 332,
+    "type": "standard",
+    "name": "Upon the Throne",
+    "value": 500,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 333,
+    "type": "standard",
+    "name": "After the Lock",
+    "value": 600,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 337,
+    "type": "standard",
+    "name": "Cereal Killer 04",
+    "value": 600,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 115,
+    "type": "standard",
+    "name": "Web Recon \u2014 Git Repository Leak",
+    "value": 700,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": false,
+    "category": "Web Exploitation",
+    "module_id": null,
+    "tags": [
+      {
+        "value": "rank:initiate"
+      }
+    ],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 334,
+    "type": "standard",
+    "name": "Ghost in the Registry",
+    "value": 700,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 335,
+    "type": "standard",
+    "name": "Too Good to be True",
+    "value": 1200,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 336,
+    "type": "standard",
+    "name": "Two Places at Once",
+    "value": 1500,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "Deadface",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  },
+  {
+    "id": 260,
+    "type": "standard",
+    "name": "Who Is Behind the Platform?",
+    "value": 20000,
+    "position": 0,
+    "solves": null,
+    "solved_by_me": true,
+    "category": "GENERAL SKILLS",
+    "module_id": null,
+    "tags": [],
+    "template": "/plugins/challenges/assets/view.html",
+    "script": "/plugins/challenges/assets/view.js"
+  }
+]

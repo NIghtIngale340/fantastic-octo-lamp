@@ -1,0 +1,54 @@
+{
+  "id": 243,
+  "name": "Tube Station \u2014 Platforms",
+  "value": 100,
+  "description": "Research the identified station and determine the number of platforms it has. Submit only the required answer using the flag format: pcgCTF{answer_here}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "OSINT / IMINT",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "PCGCTF-Searchlight-IMINT",
+    "rank:novice",
+    "prerequisite:Tube Station \u2014 Opening Year"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/osint-imint/243-tube-station-platforms"
+}

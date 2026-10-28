@@ -1,0 +1,75 @@
+{
+  "id": 74,
+  "name": "ELLIOT'S SECRET STASH",
+  "value": 150,
+  "description": "Free stuff sounds harmless.\r\n\r\nBut sometimes, what looks like a useful download can contain something far more sinister \u2014 hidden in plain sight and stored without your knowledge.\r\nAn artifact associated with Elliot has been recovered. Your task is to investigate it and uncover the secret hidden inside.\r\n\r\n\ud83c\udfaf Mission\r\nAnalyze the provided artifact and recover the hidden message.\r\nThe challenge uses the traditional flag{} format.\r\n\r\n\ud83d\udcc1 Evidence\r\nInvestigate the provided challenge artifact.\r\n\r\n\ud83d\udee0\ufe0f Suggested Tools\r\nstrings\r\nfile\r\nexiftool\r\nBinwalk\r\nSteganography analysis tools\r\n\r\n\ud83d\udea9 Flag Format\r\nSubmit the recovered flag using the format:\r\npcgCTF{theflaghere}",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Steganography / Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 1,
+  "files": [
+    "https://cgcybercom.online/files/b11da8a1f89aa086d13b751d1fa0b72d/elliots_secret_stash.zip"
+  ],
+  "tags": [
+    "rank:novice"
+  ],
+  "hints": [
+    {
+      "id": 64,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 65,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 66,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 67,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/steganography-forensics/074-elliot-s-secret-stash"
+}

@@ -1,0 +1,71 @@
+{
+  "id": 64,
+  "name": "Broken Vigenere",
+  "value": 100,
+  "description": "A repeating-key cipher was intercepted.\r\n\r\nCiphertext:\r\n\r\nrtermt{xzetgstv_gh_gcv_vldnuj}\r\n\r\nRecover the flag.\r\n\r\nFlag format:\r\n\r\npcgctf{...}\r\n",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Cryptography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "rank:novice"
+  ],
+  "hints": [
+    {
+      "id": 31,
+      "cost": 0,
+      "title": "",
+      "content": "\n1. The key is related to cryptography.\n"
+    },
+    {
+      "id": 32,
+      "cost": 0,
+      "title": "",
+      "content": "2. The key repeats.\n"
+    },
+    {
+      "id": 33,
+      "cost": 0,
+      "title": "",
+      "content": "3. Kasiski examination may help."
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/cryptography/064-broken-vigenere"
+}

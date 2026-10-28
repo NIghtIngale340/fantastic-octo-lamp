@@ -1,0 +1,298 @@
+
+===================================================================
+Follow: tcp,ascii
+Filter: tcp.stream eq 298
+Node 0: 10.3.14.134:49255
+Node 1: 217.12.208.17:80
+417
+GET /media/flags.gif HTTP/1.1
+Accept: */*
+Referer: http://p27dokhpz2n7nvgr.1nmrtq.top/3402-41D8-C680-0091-CCCF/language?t=476376406
+Accept-Language: en-US
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
+Accept-Encoding: gzip, deflate
+Host: p27dokhpz2n7nvgr.1nmrtq.top
+Connection: Keep-Alive
+
+
+	1341
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 11 Feb 2017 03:05:07 GMT
+Content-Type: image/gif
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Check-Tor: false
+Accept-Ranges: bytes
+Expires: Sat, 11 Feb 2017 03:10:07 GMT
+Last-Modified: Tue, 07 Feb 2017 13:14:02 GMT
+ETag: "5899c81a-1964"
+Pragma: public
+Cache-Control: max-age=300
+Cache-Control: public
+
+1964
+GIF89a@.........\\.........P............
+2~.......aml. ........G.k5.KK.1G.ck.p.R.R....:\.V_```..F.>>.:'"c.U.~.wC.um.,6...OOO.&45Q..>,....)9.Z1.cR... pPR....!.....".ry.T.`.{.@U.....}.nl3.f.Q?DT......G.ck)H.!.......,....@........pH,....r.l:...tJ.Z...v..z...xL.....z.n....|N...r.0.b]..~...}....,...........1D|6..........7..............6......6....................................{..........>......>.{...........B....x..Ad.$(\.....>.D.G.".n..|.8p....=.. 2.G.#wt.x ....Tra..c..7s.........#N..QZQ_GI.....C..PJ%y.j..;8h.........DzT$Y.e.va...G.V....6.U.[..q.....n..].
+._.*."^L....\%. ......1C..x...&~..M....)R.^...k....p..6...s.....o.
+P. ..v....+_.;..!...fN.:n....(!........O......l.c......./1......CO$}.....W.........& m......". ..2...t...{..7...vl(.x.y(D.!..bw%.. ..NH]..%.@.Bh``.... ......:....H&.dm...b.+.....<Y.{.e.B{x.@e.%.)^
+[1...+....g2.Uj.....t.i..x....|.I..;.*....j..C.q........F*...Vj...f....v.....*......
+.............j...0.....k.....!...+......0$....6....F.....q..
+	1341
+.f....v....j@..0.k...r..C.B...........k....{.........,....l........7..../l...Wlq..[K...[.q..w,r...0.S(..2Cb.,.g0.,.Va....3..sd-....9.<..@...d6..4dH...._.v...hi..XgM...h...X..^.Q.
+....m..hk...f.95}1.....,.w.|..........W@D.z/@...7...C ....W.....!...w.8..'......w..l>z....x....x.........^........w.{....|...N.....<../....o`...P.<....7.../....m...W........../?...j...C.h...........H......L......:......&H.
+Z......7h.F.....a$.A..6B.(D..>x.....0..
+Th...@.!...w......@..
+....0..HL.....&:... ..d..*Z..K..
+....z..Z....H.....^....hE.-..p....H.:....x......<..........@...v...
+.G.!...<..6.H.=2.........x.....%...M.....% Ky=;z...X.. ..Y.....#%c'.9.r.*P..j....`...%...K.].......y.cn...t.6...^... ...D.+.xR............2.g.pPM.... Hg...9..p......)...S..........s}.
+.
+
+p.......h.F....O..T...0...N.&..G.'......(.(...>.. . X.La....m..C&P.6..q/.>Eh.N...*.qL.B.Dp..X..X..V....Z...h...ZU....g.`..*U.Z..p.+V.......r.kW/......^
+.`.K.0...}m...Z..:..s.`b.....v....f3[..r....._.kU.n.....a.*...V...ml1[..f....mno....P...m.j[....."..X....:.....t.K]../...n...?P....
+.x.K......M..z....:*
+p............o~..._......#b...t.....,.|.....{`..&L.
+[........a.\....p-TAbS<..-...',bZ...(N..U.b....1.1.k|c..X...q.S.c WX.C>E..<a*...7X2.....F..L.0........Yn....C/.9.[&s....0.Y
+j.....f*...!.3@\..>{..v.3;V.g.....Nt....F;.M.....M.EO.........J{.......7..OW:...4.M}j....:X..J..D...g.A.g]kE
+	1341
+#(e....)...........-l^.....uS..lb?.....O.]..\....6..Mnn.:...7...n].;...w...nx.[....}uPo{...../.)..{.;.:...\........o..Np._{IG*......$......7>.........IN.......p.it.$.`.+`8.v.......
+:....;5...M:..+..r.......N..[..X.......3.@.`..U.5..:..h'.........k....N..< ...#........q....O.....?.^...D......<...C.?...o<.u.... .A.Y. m..?Z..N}.C .F.r...}.Yo3..I.....E.....L.4...........~.D
+y.....r>...j.Q......n........v.....X...O?.............#...?...Z0....k.........'...k.G..w..'q.'U$...8....o_R.......'......w. 8....UB.(H."..,(q.8.-....ZSeU2..0H..pU7..9.WX.....4(.Z%....E.UH.qL..[....U...AH..7.O.W,W~..[.....\.5r,G...'j..yB]H.tpX(L.A..uvx.x..z..|..~.....q8...(.Pc..a,q..............8..h..x........x.........BC.v..bB....`...O......A.z1.( .....(..(P.,q.Q.........8..........R ........H.S .R............h...........0.C0........H\..........8..(.Pp..........N...q.# !Mp..........D0......Z..Y...=.........Y.....Q 1..2P.%..()..r .........)..4..7..:Y.....Y.?yZ...
+0....>.X.5.......6...........Jy#3y."... .\9X.I..5....#=..Z.Y...j..C."M.....-.A. .S.....B..b9....6..2...)..y.F..>...b!m...Y..q$BB.E..E....$M9$.).3....$..]J2!Kb$....y..I..9....L"(.y.."t.Y.."-........]..u....9..Y..y.....i..............Y...(...<..........vh7w-...y....r.Ct7.....@..:..Z...w|wx...............D
+*.......
+:.PV.......>t..
+. *h(..$J.'`.'..0..C.....0
+..7.5....C.p.j..B@.;....L0p.9d=?
+...2DZ...
+	1341
+..
+.7..7..!.....E...".7..\..R..9..j..kj=2..+.....+..2..e..g..l..i
+.p.O?dO......~......... .. .Gd~q.2.q....G... .7 .....*..:....>......t.2...
+....*@..d........9p....8....+...v.. .L......-...........: ..... .:p[......5 .Tr..z.......).....
+p.)......J..........8..'9a...)`.5`..Z..z..:K:P....(...P.2.K...F3..:..+..
+....QdD*@K...J..
+...*K...U....7..3.......Z......P`.%.;.<...........: .C..%P.-{..:K-@K. R...Q...E.;k..Z..@.. .._..a"....d..k.%...F+....s+....
+...+.{...%7.
+...........u.....:.P......+....Zs.........3t.&x..w....2\.....<...*...D.U[.Y..{..........D7.....5.....9...).......;..[..{....6._........(..)..)..).......8..r...........B..H........Y..[.....9...# y...............\.z).1...l......#...G"....$.$.i....*....._..,..,..c%.6..4,U7.....'R\...B.....U...5.7..4x.N.....c..T\.R,UU..N|.'2....`..M<[a\.A<._l.e<LEH.j..l.W..Xo.Z..\m.[t\....x,.z.X7....X.........v|......&....%X..\:.Z.%\.E..<.......hH].{..\].......[.....<..\..|...^.....I_.L.....y.,Pcf...f..|.5.v...,`..\.H.weI..9..L.5..bx.........[lf..<..\.....,....7...L.-&.....l."...E..,.T.....E..T@.
+..2@%.@.........[.
+..=........=..M.
+..|..}..!...m.'=....#..%..jJ./}....4..6}.......k..>..:M.B.....G..K=.....0.;..+L.,*.S..&m.*..3..[=..d=.^=....CZ.l].g.....m=.S. P...p.t=.v..x..{..}}.q<..-..B........}.......[=...\....M..}Z...................U....-..t...U._..................;..-.s.....7...-....
+	1341
+y..p....,.,]...J...............=.F.ubw.rEv.L`.9...v....-..).v'."Z.&............=.. .&#.............3.N....l..(.....C.&.......
+~g..B.....>P.B...gx......f.....7..[...A..`.N../..0.....>...~.(P.D..F..>Q...2C..<n.M..+.2w..\..*..*#.k....55..sx.+03...(.33.4.Q.d....3Q..!.3E;55P....Si.X..l....6.`.S..%..9....5i..
+P.`.........~...5I....6S.}............Q.._......S..Y....X.P....7.....|;X.>VgY..~.)P....g.%...S....X....N.WU.)...... ....)`..N.%..V.... 2@7......X..%......^......&....o..0.%.U....yU..U.?.w..4.U....oY./.......Z...O. .X..X...w..%.Xu.U.o......Db.D.E\4....\l..BO'............L..N..P...%A.EA.|.W.A.-B...........`3[.B.}..,.5.dh.....c?4FdE.P.v..x..z..y..bD.|.../.4..%.EU4....v_..........C.E...zO.%n....vo.=......o..?.._.............."..P.7=..Q...(.............!...(...*.(...
+..%.....5......\%Gy....]l..O.X.\.......,..e.B..g)+....r..2U..X....O.......@....'..yh......-...U..[<&./.K*.....R.}
+..i..."._..-...i...mo..../P.pQ..O-Q...Q.+r .d..s...r
+..........i...F6...V.7Ww7..wSsN......s.I.....:Zz...Y!..l.....<\;.....=]}.....>^~.....?_......`@....4x.aB...6.g.@D..)V.x.cF....@..dH.#C"0y.e..$Y.D`....3i..I.e..2x....hP.C..x.3...E.6u...h..S..E..@U.[e\.(.BX.c..5{.mZ
+]..u..nY.I...{..\.u......_.v.g.p.qb...7v.8.`...LNb.....Qd.|fD...C.vH.E...G.V..4B....p..7n..y....x..(h#.=<xr..y..~..m...W...Lt...w_.........=>|.....O............~...c.o........../...\....d.
+	174
+A$.\.A.-..B."<`B
+=....>...3N....U\..E.54.....O.._L...S.PG.7....-..F$..1D.e,...1. .$ElQ........<q....!..\.....<....\3./....8....:...O:.`..>..S.l...3B=;..D.]..F.}..u...;
+0
+
+
+626
+GET /3402-41D8-C680-0091-CCCF/captcha?nst HTTP/1.1
+Accept: image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Referer: http://p27dokhpz2n7nvgr.1nmrtq.top/3402-41D8-C680-0091-CCCF/language?t=476376406
+Accept-Language: en-US
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
+Accept-Encoding: gzip, deflate
+Host: p27dokhpz2n7nvgr.1nmrtq.top
+Connection: Keep-Alive
+
+
+	1341
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 11 Feb 2017 03:05:10 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Check-Tor: false
+Content-Encoding: gzip
+
+a6c
+...........Y{o....?.b2W........
+..4.Fj.*I.]EQ5.`O......m..=gx......F.
+..3..;/....8.......Y<.q...,.x.'..p..w...3....,...h."..m/M.Jm.w!..=.......).$(.<..W..3F
+.../....~.b..Y....6..3..........\..Tf.E|'B5.B>.....ED".`...,...f......g>....d.T.....K.].&..T..XJl.z.....f<.ho.C.z~~........L$.<.$..Gs..y>.\..<4..=Ky^].y...S1#,..%.S.....D2#.g.H^.h."....|.....}.......R'd.......?.m...y.."w2.BDD.. hx....l....H.|..u...u.@"..m.4.2.*.gA.5...h3.......+....*......I(..F.^.n....L..bN....G.9L$<...Z.].........[..~X....T.qN."..LL.j.G...$@... ..BABl.....Q..>..xf....o.........=...a..y...2....C.@,f..S).$^.S.Z.......F..c.
+..c...........+....^....;=..b6!,.._.eJ......'.. 1...^,'.I..%e..G}:.K.<....5u z4...../...~.uD..g....K..g...........;........../[..0c.g-.@n...K....E&.....e.[$...c..D6..... ..!. ....>.>|.<.wC.m.....~...D ...=.R..j*C...U;D.<..O.K.d..O.daKh.......4"..8....g..G.C........v0....<..b.
+'.-.:.O"..J....X....R.L&.+....3.I........'1.1...p/r.B....5&.>.x..YW..2...<....b|.....C....<..........G......Q}.J ...8.6..3^..+NY.."..9....2.2*=...k.&....*..........jZV.....b....l.1@./..!..I.4..,M9.6,..
++6..o.....!......!..<....d......S.k...q.Z{........8
+	1341
+..i...G......U;B........
+{T&.5*
+...v...........>....b......X..>..g.......t.-.Z..!L..H}.........|v..........9...p,..u..8......d...-9.k....t....c7...).hY5..H.B..S.$.B)h,.d...VX.S..._:...b......k_%........
+:4/.......+...Z...n......J?xY....L...z.(..G..l........?.YL<.....%....Gnn[.*...$..V#..|... *..`..W...~.s.%..<W..MD..HBy.t...C.I4.6..T...":.3...................s...y.0.....>.R.......%c.o..7.0.6.nq.)?.U..c#td..........v...:9.9......B@.P.B..............6..'..yH7..hW.xh......".}2..9\.0\q.H.G...h.p.y..........'.......q...5..B.....o.r8."$.{-f...i...b.e...q..}K.....i......`.Kp9.....0.....L(jj.F......6.>.&..<....TN..m./x.#.jf{{...3....Y..-YB..H..(..,....,...p.v,m..:.8.
+...~{.
+:../xy..
+G..>...Ds.........L...{.
+.*..1.....V.3Z.}z.iz.@-^..LgR:.].hoy.
+z.*[.bVBlv=.3..{..t`..NYx...Z...S.s...-.....:(.Y.....<4:..9.s..J>..L2Y$.v.G!....*..Z'z's.g.......=...W....-.?.P..f. ...f..Po...(f....."w......h....x.
+....M.]|..JE....W0.{..JnZ....a....
+)L...p..........$..ko...t....G.*...]..;s.{..Ed...t.@A..9.[R'.Zn..m.zJ...*J.......M...N...LfD. 9L.CB.q...BH.7....q.s..9\...w.k.....-....a..G.......-..f0...R..F.qP...4G.`...\....~l.....X...P/8i....j..u,......y1.i.............r....[w..w....=.M..p....:TVj%.v..Vd........
+....s>..
+.A.C....*".8..l....j'.Mh5.....1.j..v.~x7.`..j.Od.....-.a..-..$,.3.?$M....(.kl.!.o..e4W..G..#..>.<<..o-...-
+..P_.f.kg..F...w*.a.o.+.e.
+	204
+......<O..J.._)9.}...bm.^k.5;...-.......zt....$....]..VX}w.......p....{]..P....."...V..m..u.....";..*m....y.=..........4o.....
+..&.......K?...G.......=..P`..........d......{s........h\.....2.&&....
+0
+
+
+556
+POST /3402-41D8-C680-0091-CCCF/captcha/sp HTTP/1.1
+Accept: */*
+Accept-Language: en-us
+Referer: http://p27dokhpz2n7nvgr.1nmrtq.top/3402-41D8-C680-0091-CCCF/captcha?nst
+x-requested-with: XMLHttpRequest
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
+Host: p27dokhpz2n7nvgr.1nmrtq.top
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+
+	276
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 11 Feb 2017 03:05:11 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Check-Tor: false
+Content-Encoding: gzip
+
+3a
+.............MM.L.ON,...7.7.0HK.L55H2M.L60..*H.1..U...&...
+0
+
+
+298
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
+Host: p27dokhpz2n7nvgr.1nmrtq.top
+Connection: Keep-Alive
+
+
+	355
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 11 Feb 2017 03:05:12 GMT
+Content-Type: image/x-icon
+Content-Length: 0
+Connection: keep-alive
+X-Check-Tor: false
+X-Robots-Tag: noindex
+Accept-Ranges: bytes
+Expires: -1
+Last-Modified: Tue, 07 Feb 2017 13:14:02 GMT
+ETag: "5899c81a-0"
+Pragma: no-cache
+Cache-Control: no-cache no-store, must-revalidate
+
+
+559
+POST /3402-41D8-C680-0091-CCCF/captcha/click HTTP/1.1
+Accept: */*
+Accept-Language: en-us
+Referer: http://p27dokhpz2n7nvgr.1nmrtq.top/3402-41D8-C680-0091-CCCF/captcha?nst
+x-requested-with: XMLHttpRequest
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
+Host: p27dokhpz2n7nvgr.1nmrtq.top
+Content-Length: 7
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+
+7
+m=14576
+	243
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 11 Feb 2017 03:05:29 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Check-Tor: false
+Content-Encoding: gzip
+
+19
+...........I.............
+0
+
+
+405
+GET /media/images/bitcoin.png HTTP/1.1
+Accept: */*
+Referer: http://p27dokhpz2n7nvgr.1nmrtq.top/3402-41D8-C680-0091-CCCF
+Accept-Language: en-US
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
+Accept-Encoding: gzip, deflate
+Host: p27dokhpz2n7nvgr.1nmrtq.top
+Connection: Keep-Alive
+
+
+	1460
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 11 Feb 2017 03:05:35 GMT
+Content-Type: image/png
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Check-Tor: false
+Accept-Ranges: bytes
+Expires: Sat, 11 Feb 2017 03:10:35 GMT
+Last-Modified: Tue, 07 Feb 2017 13:14:02 GMT
+ETag: "5899c81a-d22"
+Pragma: public
+Cache-Control: max-age=300
+Cache-Control: public
+
+d22
+.PNG
+.
+...
+IHDR...\...........y?....sBIT....|.d.....pHYs...........~.....tEXtSoftware.Adobe Fireworks CS5q..6....IDATh.....U.u.?..w....T.A.T...@ST.
+!...73..-....6?@..T.Y...m.1.X...W.Q....=.IX..E.G..P...R.# .......?.}.;O.Y..k.._..>...=..s..........6..
+..u.y..3\....?.D}....JVw......$.J...0cL.m...o.....U2..g.m[.b.....Ta.....\.r....c....g.
+1......(.PhC.
+v.j.-.....).........`.9KU.w..q..-[>sLee%..{Dd&...c:.^|...oa.......#"r).........?~...BJ......}...
+..F..@.U.S.....b...q..]....)W.."2YD..g.k.G6...o.1.Ed....q.....njkk.~^'.H$....1).9GD.$...?.......Ye...7.\y.;..&.b..cp...."...]......)......[k.RDr.T..q... U.Q...`.........|...p....8.?E....W.m..?......u..D.*x-..OHL....w..;.. v.+.+.....zV.a.....u...k..;Nd.....^#".... .f...[
+....p..h8.C..w.c......w......!.Jva.ZD.+..Y...p'=......o...#b#o.[s'..%Hio
+_..2.d...........w.}.T..t:=.....SO9uuuA..J.....P...tz..8........t.x................i............
+...P2..qy........{U...8........gV.X......:inn...rU
+Ddg:.n.....C..m.....T.GE.......dV..\w.u%..T.c......8..OU...Az...{...&M.`..)"#U..1..Z....'....Q.R....Z.......dv.s.r]w......cz.j.... ...\.....t....a.X
+	1222
+5..5...kb.....&..o......[p..O... h..w....C.
+,...]!)W..7....`..................<x...yBD..T....C..].....Dd.......V.TTTLq].~....F=.i.9.,.eos....)...c...;..k.....iw..."./....%.B...b..H. ...u!".&...3..?....(.D8......A......7...V..OH..H..!.....
+.".0&.I.D.c..&...!d...h.2aq..1W.T.cL&$p.1.>O.1..u..Pv.1.'y..a...../...\(x.{..o.v.5.|..).@?H.R...z.....!.snN.3.fJ.....)=.`.r.y...3.'~.@MMM<....n.~.8.{..O6...1d.p[(:&2.9.........'k.....5.No....e..yD.....1.5....]..Z.ti.L&k...^^.Z..1..cLk.......U.T..t:....:..|.^].h.......17.cZ<..3....2"rw..F.>D..0.+.....-..9g..K.
+.....m?...(Z... ....D:.M....|m*.J......#r."..
+
+
+-.......B..d2?+..p..e...t:........rEdAD...l..U.V..TVV....$a....IU/....}k..N..D...466.........~.....j/.f....g..F....)..}.%......AG..p.....#[.:!...N..8.".....#.%..........m.v...*n.....b:/....]..../v..y..JKK...~.....Z{eD..c^..<o0.a^l_{{{.Uu.u......"z.H..`}b....pbN....c......Sr.....-.......^.
+........'...#.o%.....GD^
+.W.f.a.~... .F.s4i..t.L...qyYU.$.................=.vu..m[.ct.|./D.K#}Yk..1..+..w.W".n9..Y.=...Y....w.}.
+z......6@b../.I|g...........566.>....A@.....Eq.`,..}.~U.}o".x...X,vn.V.PVV....(!.D.{...:=...?2J..lZ.~=t...-Z.(.....e{....o.E.}o<..u....Ava....2.l...8...>../.xv<....!{.It.e.9m.z....:...1nm.!U.Q~'...tX...6-Y
+	1052
+......D.n~....9.Z[[...>.q..n>....1.......!"r^D.Z..3f.:....y../R....
+
+
+....9..Q{4..........
+............%n.Q........rhd.
+....e..........i.a...........E...C.8..gF....=...n...2. ..E.S..*++...555.kkk..9...y.d.*.A..I*.zPDFD.....>Q.......e...D......\...."o).z.z).....G..v.k.......$z.)./.......V.v...y.OS..........O..n
+...HD.F....C#....5.L......._.H....Hy(7IU.M.R....P....K..Uunx%u...d..!C..._'.mZ..d.#.W \Uw...m......;...]!".~E.U.<...CkG..m.P}.......$.D.O......%s.~3.T]]..&E.b@..L..(... .zSSSKX.&...8..H...>D."c.x..j..n..e......~..;^DF.H.c.9..tz...G...1.("........T*.....a...~h..H.G.x.p....H..u..yB
+8c.!.....}..[........ ...N..(.....+:>..:.X.a...9.......U.M..t:.l..=DdsX..t.....L&s.2.,....]m._U?T...O.d2.'+**.....1...l.6k.......#G..u..].......!.(.P.'3.....1...6...n.....2.2...&_[__.....@..o.......;....y...D...F.t.u.c...-....].<.9~<O.:u...C..l..u.%..7....(.[.n....OL.>...J.>}.c..6mZ/U.i...8Nskk..L&s.X.....ZZZ.....|k}}..c.9y...A.|........3...l6.)....s....>|..}.`..i........5.....w...........9s....K.i|.8.....4.....?.8M.).i.O1N.~.q..S........,8.....IEND.B`.
+
+	5
+0
+
+
+===================================================================

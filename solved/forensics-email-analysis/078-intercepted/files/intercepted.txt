@@ -1,0 +1,68 @@
+Delivered-To: challenger1_1_1@gmail.com
+Received: by 2002:a06:7260:1033:0:0:0:0 with SMTP id a47csp127135otp;
+        Tue, 30 Jun 2020 19:46:22 -0700 (PDT)
+X-Google-Smtp-Source: DAdhPJctPeM9+iF0IT33yUyCTFdMkBEHUS/6hMJn71iyE+tJpKoAV0feMIIiUftVCwvb/pm5Fpbg
+X-Received: by 2002:ab3:cd51:: with SMTP id z2mr11822053edx.15.1593571582386;
+        Tue, 30 Jun 2020 19:46:22 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1593571582; cv=none;
+        d=google.com; s=arc-20160816;
+        b=u1obFgvNdtGp6eFD5xuADeFWAVCErcsNuuUBY5BwtkbfQmusRSU/eKRlSFEeZZ+Uaw
+         HzvQD+nw5yHVHXGou84G0+7oOMo5C8xOoiAdj0omGHmwTtndB1VGtn+F6h4m/sDMVy80
+         Ra888a48x0C1mbDptH/TEJe4nnxw+bnfmFYUY8xWmb1PzeHoG/ucfvpDM0UpKSRV/839
+         OURahWsQoplaVgiMkwKKfNJHsdyQGGfPfo54cJ3XGRAZ+7ShGoHGEtulfYcLmCxLC97o
+         sBsTzYvgh7PoIrpsnn9Kl+jBeQ8uEJ53Lhbuofi6SgS9LHVtDR0YHnDSCt6D7XZiIq0A
+         f9ng==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=from:date:message-id:to:subject:dkim-signature;
+        bh=DbBM9mnI/kEencoSFFANX5nfzTKErVeDmbQPZIO/nCA=;
+        b=TAC0j2ZXwfu5ryYTGKH9Vfa95Wi/cjRG78YlTBouYt7/z3Oa9Z3neap+0KqYkxo4G0
+         gcvi/bhYc5jXN5rOb8sS8auj8r58A3Io3oU5/Uf/Q8g1RVzxSUl42kyzb9jtYSNKPV08
+         2w/pNMiIhG7R5PApdz9c9eJammLB3+yFYhegOAAlVa7cqd0+xbl8TI5N0vJGc6DcilSN
+         YFfKjMQDtGwm+MpdLNbv6YQqDUMFWKN+OnuJRAkHgSrEA5GtDTjiQd3Q/0U4Y8k44et5
+         6OlEJIavkINWWXSFsc1dH1f90tOj5lc5R1WzoluD6ASmmGYzGtEaxLpcxKzJPFUJelLr
+         zgVg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@compromised-server.com header.s=default header.b=l8YxcvzE;
+       spf=pass (google.com: domain of info@compromised-server.com designates 127.0.0.1 as permitted sender) smtp.mailfrom=info@compromised-server.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=compromised-server.com
+Return-Path: <info@compromised-server.com>
+Received: from mail.compromised-server.com (mail.compromised-server.com. [127.0.0.1])
+        by mx.google.com with ESMTPS id v4ei3164580edf.437.2020.06.30.19.46.22
+        for <challenger1_1_1@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 30 Jun 2020 19:46:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of info@compromised-server.com designates 127.0.0.1 as permitted sender) client-ip=127.0.0.1;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@compromised-server.com header.s=default header.b=l8YxcvzE;
+       spf=pass (google.com: domain of info@compromised-server.com designates 127.0.0.1 as permitted sender) smtp.mailfrom=info@compromised-server.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=compromised-server.com
+Received: by mail.compromised-server.com (Postfix, from userid 1000) id 1E4552218B; Wed,
+  1 Jul 2020 02:46:22 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=compromised-server.com; s=default; t=1592837582; bh=DbBM9mnI/kjfbcoPEGREF7nfzTKeVVeDmtQPZPO/nCA=; h=Subject:To:Date:From:From; b=chifNZIQ47Afdgdd2YogDpc9Vh4zltaW7i/AKYrbce28JfV48ZPERM15GX3vZ0
+         GMPuo6N1gUBQ2/63b+fXqekIbvDv5Znj4jRvsT5hxak6svZF6jOqli4DOvg6HqZ1f6
+         xFasAZ2s8ZenBI4TXgg9ROTfTQ7k/f97zGfOea38iHKQRvycWFf7u6Zlwc5jmZZDfe
+         Cn6xd9WrZCVs5fdXao74FDSSEduRTwZQbkXR6SuB4wYZ4uy+gQclqbRbVUmbWtgs
+	 nSHaMd7OXbWR6QlYNtSmq4zsgYo5sdxDYpRO/0TVeMUmAwUogFDp9NnfZD8JsIvzTo
+	 H8hlcfY295i+A==
+MIME-Version: 1.0
+To: <challenger1_1_1@gmail.com>
+Subject: Meeting
+From: info@compromised-server.com
+X-Mailer: mail (GNU Mailutils 3.5)
+X-Spam-Status: score=3.7 tests=DNS_FROM_RFC_POST, HTML_00_10, HTML_MESSAGE, HTML_SHORT_LENGTH version=3.1.7
+X-Spam-Level: LOW
+X-Spam-Signature: PABZTAYKDRkNAFkCBwlHBRtNXkUJQFQAXQQHFkQfDE4TDApNBwAfWVQcRBANRVkZCB0PBw4DSwscVQBPWRtIEUUOSQsJEB0MBQYcDRsJDTIJDkgIABoeRDsfCgwXDScbTAABCkNFSSwVDQEKSxERSFQbQhsEFgNhYwgLBQgWGAoUSAAHRBoPOkQYNg8FCxoZNBEWchwOXQQNC1A=
+X-Spam-Validator: 6b65792d746f2d7468652d6b696e67646f6d
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20200701024622.1E4720211E@mail.compromised-server.com>
+Date: Wed, 1 Jul 2020 02:46:22 +0000 (UTC)
+
+Hi
+
+I've sent you the required information.
+
+See you shortly.
+
+- challenger2_2_2

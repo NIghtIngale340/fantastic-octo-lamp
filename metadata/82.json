@@ -1,0 +1,61 @@
+{
+  "id": 82,
+  "name": "EASY PACKET 1  The Exposed Request",
+  "value": 100,
+  "description": "A network capture has been recovered from a suspicious communication session.\r\n\r\nDownload EASY PACKET 1.pcap and investigate it in Wireshark. Examine the Ethernet, IPv4, TCP, and HTTP layers. Pay particular attention to the HTTP request headers and the Authorization field.\r\n\r\nOBJECTIVE: Recover the credentials exposed in the captured HTTP Basic Authentication request and submit them in the format pcgCTF{flagheree}.\r\n\r\nHINT: Basic Authentication encodes credentials with Base64. Look for an Authorization header inside the HTTP request.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Network Forensics",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [
+    "https://cgcybercom.online/files/bac07bd70297f4781b1db81d7a83478f/EASY_PACKET_1.pcap"
+  ],
+  "tags": [
+    "rank:novice"
+  ],
+  "hints": [
+    {
+      "id": 94,
+      "cost": 0,
+      "title": "",
+      "content": "Basic Authentication encodes credentials with Base64. Look for an Authorization header inside the HTTP request."
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/network-forensics/082-easy-packet-1-the-exposed-request"
+}

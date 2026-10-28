@@ -1,0 +1,65 @@
+{
+  "id": 38,
+  "name": "The Lazy Gatekeeper",
+  "value": 50,
+  "description": "[CLICK HERE TO NAVIGATE THE SITE](http://10.56.102.240:4280/)\r\n\r\nThe gatekeeper claims only trusted users may enter.\r\nBut legends say he never changed his original keys.\r\nQuestion\r\nWho did the gatekeeper trust from the very beginning?\r\n\r\nFALG: pcgCTF{answer}\r\n",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Web Exploitation - DVWA",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [],
+  "tags": [
+    "rank:apprentice"
+  ],
+  "hints": [
+    {
+      "id": 5,
+      "cost": 0,
+      "title": "1",
+      "content": "1.\tThink of the most common default user. "
+    },
+    {
+      "id": 6,
+      "cost": 0,
+      "title": "2",
+      "content": "2.\tDevelopers rarely change initial credentials. "
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/web-exploitation-dvwa/038-the-lazy-gatekeeper"
+}

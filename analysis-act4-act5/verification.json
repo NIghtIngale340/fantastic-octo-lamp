@@ -1,0 +1,137 @@
+[
+  {
+    "challenge_id": 282,
+    "filter_matches": 6,
+    "cited_frames_verified": [
+      24500,
+      25270
+    ]
+  },
+  {
+    "challenge_id": 283,
+    "filter_matches": 1739,
+    "cited_frames_verified": [
+      24500
+    ]
+  },
+  {
+    "challenge_id": 284,
+    "filter_matches": 30,
+    "cited_frames_verified": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "challenge_id": 285,
+    "filter_matches": 14,
+    "cited_frames_verified": [
+      214,
+      358
+    ]
+  },
+  {
+    "challenge_id": 286,
+    "filter_matches": 5,
+    "cited_frames_verified": [
+      358
+    ]
+  },
+  {
+    "challenge_id": 287,
+    "filter_matches": 11,
+    "cited_frames_verified": [
+      23723,
+      24500
+    ]
+  },
+  {
+    "challenge_id": 288,
+    "filter_matches": 4,
+    "cited_frames_verified": [
+      24500,
+      24601,
+      25270,
+      25286
+    ]
+  },
+  {
+    "challenge_id": 289,
+    "filter_matches": 9110,
+    "cited_frames_verified": [
+      6,
+      1684,
+      1771
+    ]
+  },
+  {
+    "challenge_id": 290,
+    "filter_matches": 3121,
+    "cited_frames_verified": [
+      1771
+    ]
+  },
+  {
+    "challenge_id": 291,
+    "filter_matches": 3815,
+    "cited_frames_verified": [
+      1684,
+      1712
+    ]
+  },
+  {
+    "challenge_id": 292,
+    "filter_matches": 2174,
+    "cited_frames_verified": [
+      6
+    ]
+  },
+  {
+    "challenge_id": 293,
+    "filter_matches": 2211,
+    "cited_frames_verified": [
+      8820,
+      11043,
+      16762
+    ]
+  },
+  {
+    "challenge_id": 294,
+    "filter_matches": 7,
+    "cited_frames_verified": [
+      16762,
+      16772,
+      16979
+    ]
+  },
+  {
+    "challenge_id": 295,
+    "filter_matches": 2204,
+    "cited_frames_verified": [
+      8820,
+      11043,
+      16354
+    ]
+  },
+  {
+    "challenge_id": 296,
+    "filter_matches": 2174,
+    "cited_frames_verified": [
+      6,
+      1350,
+      2055
+    ]
+  },
+  {
+    "challenge_id": 307,
+    "filter_matches": 16,
+    "cited_frames_verified": [
+      11227,
+      11714,
+      21874
+    ]
+  }
+]

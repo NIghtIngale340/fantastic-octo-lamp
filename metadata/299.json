@@ -1,0 +1,56 @@
+{
+  "id": 299,
+  "name": "ACT 1 - EASY AS 123: Protocol Deception",
+  "value": 100,
+  "description": "Public reports indicate that the C2 used TCP port 443, but the application traffic was not TLS.\r\n\r\nMission:\r\nDetermine what cleartext application protocol was actually used.\r\n\r\nSubmit:\r\nAnswer: pcgCTF{...}\r\n\r\nHint:\r\nSearch the IOC together with terms such as 443, protocol, and the incident/exercise context.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "OSINT",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": false,
+  "attempts": 0,
+  "files": [],
+  "tags": [
+    "osint",
+    "protocol",
+    "network-forensics",
+    "http",
+    "rank:apprentice"
+  ],
+  "hints": [],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 0,
+    "down": 0,
+    "count": 0
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "unsolved/osint/299-act-1-easy-as-123-protocol-deception"
+}

@@ -1,0 +1,9 @@
+frame.number	ip.src	eth.src	ip.dst	tcp.stream	dhcp.option.hostname	ntlmssp.auth.username	ntlmssp.auth.domain	ntlmssp.auth.hostname	kerberos.CNameString	ldap.AttributeDescription	ldap.AttributeValue	samr.samr_DispEntryGeneral.account_name	samr.samr_DispEntryGeneral.full_name	samr.samr_UserInfo21.account_name	samr.samr_UserInfo21.full_name
+"2"	"10.3.14.254"	"00:09:7c:4e:79:b8"	"10.3.14.135"												
+"3"	"10.3.14.254"	"00:09:7c:4e:79:b8"	"10.3.14.135"												
+"4"	"10.3.14.254"	"00:09:7c:4e:79:b8"	"10.3.14.135"												
+"1682"	"10.3.14.254"	"00:09:7c:4e:79:b8"	"10.3.14.134"												
+"1683"	"10.3.14.254"	"00:09:7c:4e:79:b8"	"10.3.14.134"												
+"1712"	"10.3.14.134"	"14:da:e9:5b:42:1c"	"255.255.255.255"		"Knutson-PC"										
+"1713"	"10.3.14.254"	"00:09:7c:4e:79:b8"	"10.3.14.134"												
+"1770"	"10.3.14.254"	"00:09:7c:4e:79:b8"	"10.3.14.131"												

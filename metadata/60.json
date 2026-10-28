@@ -1,0 +1,75 @@
+{
+  "id": 60,
+  "name": "CryptoMaze",
+  "value": 250,
+  "description": "A hidden flag has been protected using two layers of cryptography.\r\n\r\nFirst, a Linear Feedback Shift Register (LFSR) is used to derive the key. The resulting key is then used with AES encryption to protect the flag.\r\n\r\nYour mission is to reverse the process, reconstruct the LFSR output, derive the AES key, and decrypt the encrypted flag.\r\n\r\n\ud83c\udfaf Mission\r\n\r\nRecover the original flag from the encrypted data.\r\n\r\n\ud83d\udcc1 Evidence\r\n\r\nDownload the encrypted flag file provided with this challenge.\r\n\r\nThe file contains:\r\n\r\nThe initial LFSR state\r\nThe LFSR taps\r\nThe encrypted flag in hexadecimal format\r\n\r\n\ud83e\udde0 Objectives\r\nUnderstand the provided LFSR configuration.\r\nReconstruct the LFSR sequence.\r\nDerive the AES key from the generated output.\r\nUse the derived key to decrypt the encrypted flag.\r\nSubmit the recovered flag.\r\n\ud83d\udee0\ufe0f Recommended Tools\r\nPython\r\nA cryptography library such as PyCryptodome\r\nHexadecimal analysis tools\r\n\r\n\ud83d\udea9 Flag Format\r\nFLAG:pcgCTF{scrambledeggg..}\r\n\r\n\r\nAnalyst Note: This challenge is designed to test your ability to reverse a custom key-generation process and apply cryptographic reasoning to recover protected data.",
+  "attribution": null,
+  "connection_info": null,
+  "next_id": null,
+  "category": "Cryptography",
+  "state": "visible",
+  "max_attempts": 0,
+  "position": 0,
+  "logic": "any",
+  "initial": null,
+  "decay": null,
+  "minimum": null,
+  "function": "static",
+  "scheduled_at": null,
+  "type": "standard",
+  "type_data": {
+    "id": "standard",
+    "name": "standard",
+    "templates": {
+      "create": "/plugins/challenges/assets/create.html",
+      "update": "/plugins/challenges/assets/update.html",
+      "view": "/plugins/challenges/assets/view.html"
+    },
+    "scripts": {
+      "create": "/plugins/challenges/assets/create.js",
+      "update": "/plugins/challenges/assets/update.js",
+      "view": "/plugins/challenges/assets/view.js"
+    }
+  },
+  "solves": null,
+  "solved_by_me": true,
+  "attempts": 1,
+  "files": [
+    "https://cgcybercom.online/files/37c3dfe3e11fef91c56f0afa3ad88821/output.txt"
+  ],
+  "tags": [
+    "rank:master"
+  ],
+  "hints": [
+    {
+      "id": 27,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 28,
+      "cost": 10,
+      "title": ""
+    },
+    {
+      "id": 29,
+      "cost": 0,
+      "title": ""
+    },
+    {
+      "id": 30,
+      "cost": 0,
+      "title": ""
+    }
+  ],
+  "module_id": null,
+  "rating": null,
+  "ratings": {
+    "up": 2,
+    "down": 0,
+    "count": 2
+  },
+  "solution_id": null,
+  "solution_state": "hidden",
+  "local_folder": "solved/cryptography/060-cryptomaze"
+}

@@ -1,0 +1,672 @@
+[
+  {
+    "id": 83,
+    "name": "EASY PACKET 1 #01  The Capture Signature",
+    "answer": "pcap (classic libpcap/tcpdump format)",
+    "flag": "pcgCTF{pcap}",
+    "filter": "frame.number == 1",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [],
+    "reason": "File magic d4 c3 b2 a1 indicates classic little-endian, microsecond-resolution PCAP; capinfos independently reports pcap. This is file-level evidence, not a packet protocol field. The platform may call this libpcap.",
+    "local_folder": "unsolved/network-forensics/083-easy-packet-1-01-the-capture-signature",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 85,
+    "name": "EASY PACKET 1 #03  Destination at Layer 2",
+    "answer": "00:d0:bc:eb:e0:80",
+    "flag": "pcgCTF{00:d0:bc:eb:e0:80}",
+    "filter": "frame.number == 1 && eth.dst == 00:d0:bc:eb:e0:80",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "Ethernet destination address; independently verified from the first six frame bytes.",
+    "local_folder": "unsolved/network-forensics/085-easy-packet-1-03-destination-at-layer-2",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 86,
+    "name": "EASY PACKET 1 #04  Source at Layer 2",
+    "answer": "00:1b:63:94:b1:0e",
+    "flag": "pcgCTF{00:1b:63:94:b1:0e}",
+    "filter": "frame.number == 1 && eth.src == 00:1b:63:94:b1:0e",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "Ethernet source address; independently verified from frame bytes 6\u201311.",
+    "local_folder": "unsolved/network-forensics/086-easy-packet-1-04-source-at-layer-2",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 89,
+    "name": "EASY PACKET 1 #07  The 20-Byte Header",
+    "answer": "20 bytes (IHL = 5)",
+    "flag": "pcgCTF{20}",
+    "filter": "frame.number == 1 && ip.hdr_len == 20",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "The IHL nibble is 5, meaning five 32-bit words: 5 \u00d7 4 = 20 bytes. The numeric flag candidate uses bytes, without a units suffix.",
+    "local_folder": "unsolved/network-forensics/089-easy-packet-1-07-the-20-byte-header",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 90,
+    "name": "EASY PACKET 1 #08  Total Packet Weight",
+    "answer": "504",
+    "flag": "pcgCTF{504}",
+    "filter": "frame.number == 1 && ip.len == 504",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "IPv4 Total Length is 504 bytes; the Ethernet header is not included.",
+    "local_folder": "unsolved/network-forensics/090-easy-packet-1-08-total-packet-weight",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 91,
+    "name": "EASY PACKET 1 #09  Packet Identity",
+    "answer": "0xbed2 (48850 decimal)",
+    "flag": "pcgCTF{0xbed2}",
+    "filter": "frame.number == 1 && ip.id == 0xbed2",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "The IPv4 Identification field is hexadecimal 0xbed2, decimal 48850. The flag candidate uses Wireshark's hexadecimal notation; the grader's numeric representation is unvalidated.",
+    "local_folder": "unsolved/network-forensics/091-easy-packet-1-09-packet-identity",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 100,
+    "name": "EASY PACKET 1 #18  Push and Acknowledge",
+    "answer": "PSH and ACK",
+    "flag": "pcgCTF{PSH_ACK}",
+    "filter": "frame.number == 1 && tcp.flags.push == 1 && tcp.flags.ack == 1",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "TCP flags value is 0x018. PSH and ACK are set; SYN, FIN, RST, and URG are clear. The underscore separator is a submission-format candidate, not an observed grader requirement.",
+    "local_folder": "unsolved/network-forensics/100-easy-packet-1-18-push-and-acknowledge",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 102,
+    "name": "EASY PACKET 1 #20  Push to the Application",
+    "answer": "Push buffered data to the receiving application without waiting for more data",
+    "flag": null,
+    "filter": "frame.number == 1 && tcp.flags.push == 1",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "PSH requests the push function: make buffered data available to the receiving user/application rather than waiting for additional data to fill a buffer. It is not a record boundary or a guarantee of immediate application scheduling. This conceptual answer is established, but the challenge does not disclose the exact phrase its flag matcher expects. Do not invent an accepted flag spelling. Reference: https://www.rfc-editor.org/rfc/rfc9293.html#section-3.9.1.2",
+    "local_folder": "unsolved/network-forensics/102-easy-packet-1-20-push-to-the-application",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 103,
+    "name": "EASY PACKET 1 #21  Speak HTTP",
+    "answer": "HTTP",
+    "flag": "pcgCTF{HTTP}",
+    "filter": "frame.number == 1 && http.request",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "The TCP payload starts GET /statuses/replies.xml HTTP/1.1 and is decoded as HTTP.",
+    "local_folder": "unsolved/network-forensics/103-easy-packet-1-21-speak-http",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 111,
+    "name": "EASY PACKET 1 #29  The Exposed Credentials",
+    "answer": "usertest:password",
+    "flag": "pcgCTF{usertest:password}",
+    "filter": "frame.number == 1 && http.authorization",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "Authorization is Basic dXNlcnRlc3Q6cGFzc3dvcmQ=. Base64 decoding yields username usertest and password password, separated by a colon. These are challenge-supplied packet contents.",
+    "local_folder": "unsolved/network-forensics/111-easy-packet-1-29-the-exposed-credentials",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 112,
+    "name": "EASY PACKET 1 #30  Cleartext on the Wire",
+    "answer": "HTTP Basic credentials are recoverable over unencrypted HTTP; use HTTPS (HTTP over TLS)",
+    "flag": null,
+    "filter": "frame.number == 1 && http.authorization",
+    "frames": [
+      1
+    ],
+    "tcp_streams": [
+      0
+    ],
+    "reason": "Base64 is encoding, not encryption: an observer can recover the username/password. Protect credential transport with HTTPS/TLS. This is the semantic answer; the exact compound phrase expected inside the flag is not specified. Reference: https://www.rfc-editor.org/rfc/rfc7617.html#section-1",
+    "local_folder": "unsolved/network-forensics/112-easy-packet-1-30-cleartext-on-the-wire",
+    "capture_challenge_id": 82,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 265,
+    "name": "ACT 1 - FIRST SIGNAL: Domain Membership",
+    "answer": "FIRSTTOLAST.TECH",
+    "flag": "pcgCTF{FIRSTTOLAST.TECH}",
+    "filter": "ip.addr == 172.16.8.49 && kerberos",
+    "frames": [
+      1939,
+      1961
+    ],
+    "tcp_streams": [
+      86,
+      88
+    ],
+    "reason": "The victim's machine-account Kerberos exchanges explicitly name realm FIRSTTOLAST.TECH, also usable as lowercase DNS domain firsttolast.tech.",
+    "local_folder": "unsolved/network-forensics/265-act-1-first-signal-domain-membership",
+    "capture_challenge_id": 262,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 267,
+    "name": "ACT 1 - FIRST SIGNAL: Calling Home",
+    "answer": "146.59.71.167",
+    "flag": "pcgCTF{146.59.71.167}",
+    "filter": "ip.src == 172.16.8.49 && ip.dst == 146.59.71.167 && http.request",
+    "frames": [
+      11227,
+      11714
+    ],
+    "tcp_streams": [
+      242,
+      249
+    ],
+    "reason": "The compromised host sends repeated short-path POSTs and a FormBook-pattern GET check-in to this IP. Domain www.grinswakebthu.info, path /irpw/, parameter 2kn1, fixed Firefox/39.0 user agent. Prior ACT 4 OSINT analysis independently preserved official ET signature 2050745 and matching network evidence. This is one confirmed C2 answer, not a claim that every contacted external IP is malicious.",
+    "local_folder": "unsolved/network-forensics/267-act-1-first-signal-calling-home",
+    "capture_challenge_id": 262,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 272,
+    "name": "ACT 2 - THE COMPROMISE: Who Is brolf?",
+    "answer": "Becka Rolf",
+    "flag": "pcgCTF{Becka Rolf}",
+    "filter": "samr.samr_UserInfo21.account_name == \"brolf\"",
+    "frames": [
+      339
+    ],
+    "tcp_streams": [
+      9
+    ],
+    "reason": "SAMR UserInfo21 pairs brolf with full_name Becka Rolf in one response.",
+    "local_folder": "unsolved/network-forensics/272-act-2-the-compromise-who-is-brolf",
+    "capture_challenge_id": 268,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 273,
+    "name": "ACT 2 - THE COMPROMISE: RAT Check-In",
+    "answer": "/fakeurl.htm",
+    "flag": "pcgCTF{/fakeurl.htm}",
+    "filter": "http.user_agent contains \"NetSupport\"",
+    "frames": [
+      2638
+    ],
+    "tcp_streams": [
+      40
+    ],
+    "reason": "264 HTTP requests use the NetSupport Manager/1.3 user agent. The request target can be absolute-form http://45.131.214.85/fakeurl.htm; the requested path is /fakeurl.htm. HTTP is carried on TCP port 443 in this capture, which does not make it TLS.",
+    "local_folder": "unsolved/network-forensics/273-act-2-the-compromise-rat-check-in",
+    "capture_challenge_id": 268,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 274,
+    "name": "ACT 3 - MALWARE INVESTIGATION: Compromised Endpoint",
+    "answer": "172.16.1.66",
+    "flag": "pcgCTF{172.16.1.66}",
+    "filter": "tcp contains \"STRRAT\"",
+    "frames": [
+      9119
+    ],
+    "tcp_streams": [
+      83
+    ],
+    "reason": "This source sends a plaintext STRRAT victim-profile beacon to 141.98.10.79:12132.",
+    "local_folder": "unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint",
+    "capture_challenge_id": 274,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 275,
+    "name": "ACT 3 - MALWARE INVESTIGATION: Endpoint MAC",
+    "answer": "00:1e:64:ec:f3:08",
+    "flag": "pcgCTF{00:1e:64:ec:f3:08}",
+    "filter": "frame.number == 9119",
+    "frames": [
+      9119
+    ],
+    "tcp_streams": [
+      83
+    ],
+    "reason": "Ethernet source on the confirmed victim's STRRAT beacon.",
+    "local_folder": "unsolved/network-forensics/275-act-3-malware-investigation-endpoint-mac",
+    "capture_challenge_id": 274,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 276,
+    "name": "ACT 3 - MALWARE INVESTIGATION: Endpoint Name",
+    "answer": "DESKTOP-SKBR25F",
+    "flag": "pcgCTF{DESKTOP-SKBR25F}",
+    "filter": "tcp contains \"STRRAT\"",
+    "frames": [
+      9119
+    ],
+    "tcp_streams": [
+      83
+    ],
+    "reason": "The host field in the decoded STRRAT beacon is DESKTOP-SKBR25F. Kerberos machine-account desktop-skbr25f$ independently corroborates it in frame 58.",
+    "local_folder": "unsolved/network-forensics/276-act-3-malware-investigation-endpoint-name",
+    "capture_challenge_id": 274,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 277,
+    "name": "ACT 3 - MALWARE INVESTIGATION: Compromised Account",
+    "answer": "ccollier",
+    "flag": "pcgCTF{ccollier}",
+    "filter": "kerberos.CNameString == \"ccollier\" || samr.samr_UserInfo21.account_name == \"ccollier\"",
+    "frames": [
+      913,
+      1070
+    ],
+    "tcp_streams": [
+      46,
+      21
+    ],
+    "reason": "Kerberos and SAMR identify account ccollier; the STRRAT beacon also carries ccollier.",
+    "local_folder": "unsolved/network-forensics/277-act-3-malware-investigation-compromised-account",
+    "capture_challenge_id": 274,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 278,
+    "name": "ACT 3 - MALWARE INVESTIGATION: User Identity",
+    "answer": "Clark Collier",
+    "flag": "pcgCTF{Clark Collier}",
+    "filter": "frame.number == 10317 || frame.number == 9759 || frame.number == 1070",
+    "frames": [
+      9759,
+      10317,
+      1070
+    ],
+    "tcp_streams": [
+      109,
+      126,
+      21
+    ],
+    "reason": "LDAP frame 9759 has sn=Collier and givenName=Clark; LDAP frame 10317 has displayName=Clark Collier and the matching user DN. SAMR frame 1070 pairs ccollier with Clark Collier, bridging the account to the directory name.",
+    "local_folder": "unsolved/network-forensics/278-act-3-malware-investigation-user-identity",
+    "capture_challenge_id": 274,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 279,
+    "name": "ACT 3 - MALWARE INVESTIGATION: C2 Destination",
+    "answer": "141.98.10.79",
+    "flag": "pcgCTF{141.98.10.79}",
+    "filter": "tcp contains \"STRRAT\"",
+    "frames": [
+      9119
+    ],
+    "tcp_streams": [
+      83
+    ],
+    "reason": "Destination of the recurring STRRAT beacons; destination TCP port 12132. Do not confuse this with the benign ip-api.com geolocation lookup.",
+    "local_folder": "unsolved/network-forensics/279-act-3-malware-investigation-c2-destination",
+    "capture_challenge_id": 274,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 280,
+    "name": "ACT 3 - MALWARE INVESTIGATION: Malware Family",
+    "answer": "STRRAT",
+    "flag": "pcgCTF{STRRAT}",
+    "filter": "tcp contains \"STRRAT\"",
+    "frames": [
+      9119
+    ],
+    "tcp_streams": [
+      83
+    ],
+    "reason": "The application payload literally begins ping|STRRAT| and includes the victim profile and version 1.6. No public solution page is needed for attribution.",
+    "local_folder": "unsolved/network-forensics/280-act-3-malware-investigation-malware-family",
+    "capture_challenge_id": 274,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 281,
+    "name": "ACT 3 - MALWARE INVESTIGATION: Beacon Evidence",
+    "answer": "DESKTOP-SKBR25F",
+    "flag": "pcgCTF{DESKTOP-SKBR25F}",
+    "filter": "tcp contains \"STRRAT\"",
+    "frames": [
+      9119
+    ],
+    "tcp_streams": [
+      83
+    ],
+    "reason": "The fourth pipe-separated beacon field is DESKTOP-SKBR25F. The complete first beacon is saved in act3-first-beacon.txt.",
+    "local_folder": "unsolved/network-forensics/281-act-3-malware-investigation-beacon-evidence",
+    "capture_challenge_id": 274,
+    "platform_validation": "not confirmed"
+  },
+  {
+    "id": 282,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Lumma Victim",
+    "answer": "10.1.21.58",
+    "flag": "pcgCTF{10.1.21.58}",
+    "filter": "ip.dst == 153.92.1.49 && http.request",
+    "frames": [
+      24500,
+      25270
+    ],
+    "tcp_streams": [
+      99,
+      111
+    ],
+    "reason": "The source of both Chrome and Edge victim-fingerprinting requests is 10.1.21.58.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim",
+    "capture_challenge_id": 282
+  },
+  {
+    "id": 283,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Victim MAC",
+    "answer": "00:21:5d:c8:0e:f2",
+    "flag": "pcgCTF{00:21:5d:c8:0e:f2}",
+    "filter": "ip.src == 10.1.21.58 && ip.dst == 153.92.1.49",
+    "frames": [
+      24500
+    ],
+    "tcp_streams": [
+      99
+    ],
+    "reason": "Ethernet source address on the infected host's C2 request.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/283-act-4-lumma-in-the-room-victim-mac",
+    "capture_challenge_id": 282
+  },
+  {
+    "id": 284,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Victim Hostname",
+    "answer": "DESKTOP-ES9F3ML",
+    "flag": "pcgCTF{DESKTOP-ES9F3ML}",
+    "filter": "dhcp || (nbns && eth.src == 00:21:5d:c8:0e:f2)",
+    "frames": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "tcp_streams": [],
+    "reason": "DHCP Host Name is DESKTOP-ES9F3ML; DHCP offers/acknowledges 10.1.21.58. NBNS independently advertises the same hostname.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/284-act-4-lumma-in-the-room-victim-hostname",
+    "capture_challenge_id": 282
+  },
+  {
+    "id": 285,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Compromised User",
+    "answer": "gwyatt",
+    "flag": "pcgCTF{gwyatt}",
+    "filter": "kerberos.CNameString == \"gwyatt\" || samr.samr_UserInfo21.account_name == \"gwyatt\"",
+    "frames": [
+      214,
+      358
+    ],
+    "tcp_streams": [
+      4,
+      8
+    ],
+    "reason": "Kerberos names gwyatt; the SAMR user-information response confirms the account.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/285-act-4-lumma-in-the-room-compromised-user",
+    "capture_challenge_id": 282
+  },
+  {
+    "id": 286,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Full User Name",
+    "answer": "Gabriel Wyatt",
+    "flag": "pcgCTF{Gabriel Wyatt}",
+    "filter": "samr.samr_UserInfo21.full_name",
+    "frames": [
+      358
+    ],
+    "tcp_streams": [
+      8
+    ],
+    "reason": "The same SAMR UserInfo21 response pairs account gwyatt with full name Gabriel Wyatt. Preserve the space in the raw answer; the challenge does not specify underscore normalization.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/286-act-4-lumma-in-the-room-full-user-name",
+    "capture_challenge_id": 282
+  },
+  {
+    "id": 287,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Malicious Domain",
+    "answer": "whitepepper.su",
+    "flag": "pcgCTF{whitepepper.su}",
+    "filter": "dns.a == 153.92.1.49 || (ip.dst == 153.92.1.49 && http.request)",
+    "frames": [
+      23723,
+      24500
+    ],
+    "tcp_streams": [
+      99
+    ],
+    "reason": "DNS maps whitepepper.su to 153.92.1.49; HTTP Host confirms the same domain.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/287-act-4-lumma-in-the-room-malicious-domain",
+    "capture_challenge_id": 282
+  },
+  {
+    "id": 288,
+    "name": "ACT 4 - LUMMA IN THE ROOM: Fingerprint API",
+    "answer": "/api/set_agent",
+    "flag": "pcgCTF{/api/set_agent}",
+    "filter": "ip.dst == 153.92.1.49 && http.request.uri contains \"/api/set_agent\"",
+    "frames": [
+      24500,
+      24601,
+      25270,
+      25286
+    ],
+    "tcp_streams": [
+      99,
+      111
+    ],
+    "reason": "The API endpoint is /api/set_agent. Query strings supply victim ID, token, agent=Chrome/Edge, and optionally act=log; they are not part of the requested path.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/288-act-4-lumma-in-the-room-fingerprint-api",
+    "capture_challenge_id": 282
+  },
+  {
+    "id": 289,
+    "name": "ACT 5 - FINAL INCIDENT: Map the Network",
+    "answer": "10.3.14.131_10.3.14.134_10.3.14.135",
+    "flag": "pcgCTF{10.3.14.131_10.3.14.134_10.3.14.135}",
+    "filter": "ip.src == 10.3.14.131 || ip.src == 10.3.14.134 || ip.src == 10.3.14.135",
+    "frames": [
+      6,
+      1684,
+      1771
+    ],
+    "tcp_streams": [],
+    "reason": "These three client IPv4 addresses are ordered numerically. The gateway is 10.3.14.1. Despite the question describing all three as Windows, .135 exhibits Apple/macOS traffic.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/289-act-5-final-incident-map-the-network",
+    "capture_challenge_id": 289
+  },
+  {
+    "id": 290,
+    "name": "ACT 5 - FINAL INCIDENT: Host One MAC",
+    "answer": "00:25:64:18:4c:2a",
+    "flag": "pcgCTF{00:25:64:18:4c:2a}",
+    "filter": "ip.src == 10.3.14.131",
+    "frames": [
+      1771
+    ],
+    "tcp_streams": [],
+    "reason": "Ethernet source on an IPv4 packet sent by 10.3.14.131.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/290-act-5-final-incident-host-one-mac",
+    "capture_challenge_id": 289
+  },
+  {
+    "id": 291,
+    "name": "ACT 5 - FINAL INCIDENT: Host Two MAC",
+    "answer": "14:da:e9:5b:42:1c",
+    "flag": "pcgCTF{14:da:e9:5b:42:1c}",
+    "filter": "ip.src == 10.3.14.134",
+    "frames": [
+      1684,
+      1712
+    ],
+    "tcp_streams": [],
+    "reason": "Ethernet source on packets from 10.3.14.134; DHCP also identifies this host as Knutson-PC.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/291-act-5-final-incident-host-two-mac",
+    "capture_challenge_id": 289
+  },
+  {
+    "id": 292,
+    "name": "ACT 5 - FINAL INCIDENT: Host Three MAC",
+    "answer": "00:26:bb:4c:6b:e1",
+    "flag": "pcgCTF{00:26:bb:4c:6b:e1}",
+    "filter": "ip.src == 10.3.14.135",
+    "frames": [
+      6
+    ],
+    "tcp_streams": [],
+    "reason": "Ethernet source on a DNS query sent by 10.3.14.135.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/292-act-5-final-incident-host-three-mac",
+    "capture_challenge_id": 289
+  },
+  {
+    "id": 293,
+    "name": "ACT 5 - FINAL INCIDENT: Find the Victims",
+    "answer": "10.3.14.131_10.3.14.134",
+    "flag": "pcgCTF{10.3.14.131_10.3.14.134}",
+    "filter": "(ip.src == 10.3.14.131 && http.host == \"spora.biz\") || (ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892))",
+    "frames": [
+      8820,
+      11043,
+      16762
+    ],
+    "tcp_streams": [
+      179,
+      299
+    ],
+    "reason": "The .131 host accesses the Spora payment domain; .134 emits Cerber-pattern UDP/6892 traffic and visits the Cerber payment portal. These are the two infected endpoints in ascending order.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/293-act-5-final-incident-find-the-victims",
+    "capture_challenge_id": 289
+  },
+  {
+    "id": 294,
+    "name": "ACT 5 - FINAL INCIDENT: First Ransomware",
+    "answer": "Spora",
+    "flag": "pcgCTF{Spora}",
+    "filter": "ip.src == 10.3.14.131 && http.host == \"spora.biz\"",
+    "frames": [
+      16762,
+      16772,
+      16979
+    ],
+    "tcp_streams": [
+      299
+    ],
+    "reason": "The first host accesses spora.biz, the ransomware-specific domain. The HTTP stream includes redirects and DDoS-Guard interstitials; those pages alone are not proof of executable delivery. Family attribution combines this ransomware-specific domain, the challenge's infection context, and primary Spora research.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/294-act-5-final-incident-first-ransomware",
+    "capture_challenge_id": 289
+  },
+  {
+    "id": 295,
+    "name": "ACT 5 - FINAL INCIDENT: Second Ransomware",
+    "answer": "Cerber",
+    "flag": "pcgCTF{Cerber}",
+    "filter": "ip.src == 10.3.14.134 && (http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport == 6892)",
+    "frames": [
+      8820,
+      11043,
+      16354
+    ],
+    "tcp_streams": [
+      179,
+      296
+    ],
+    "reason": "UDP destination port 6892 and p27dokhpz2n7nvgr.1nmrtq.top match independently published Cerber post-infection behavior. The portal paths include a victim identifier, language selection, captcha, and bitcoin resources.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/295-act-5-final-incident-second-ransomware",
+    "capture_challenge_id": 289
+  },
+  {
+    "id": 296,
+    "name": "ACT 5 - FINAL INCIDENT: Final Assessment",
+    "answer": "10.3.14.135",
+    "flag": "pcgCTF{10.3.14.135}",
+    "filter": "ip.src == 10.3.14.135",
+    "frames": [
+      6,
+      1350,
+      2055
+    ],
+    "tcp_streams": [
+      8
+    ],
+    "reason": "The third client exhibits ordinary Apple services and Reddit browsing, with neither ransomware-specific pattern attributed to .131 and .134. Clean means no observed evidence of infection in this capture, not a forensic guarantee about the endpoint.",
+    "platform_validation": "not confirmed",
+    "local_folder": "unsolved/network-forensics/296-act-5-final-incident-final-assessment",
+    "capture_challenge_id": 289
+  }
+]
