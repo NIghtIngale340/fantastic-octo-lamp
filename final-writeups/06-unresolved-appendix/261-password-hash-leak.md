@@ -1,60 +1,55 @@
 # Password Hash Leak
 
-## Challenge information
+**Platform:** PCGCTF · **Challenge ID:** 261 · **Category:** Sensitive Data Exposure · **Points:** 250
 
-Platform: **PCGCTF** · ID **261** · Category: **Sensitive Data Exposure** · Points: **250**. Difficulty was not supplied.
+**Status:** Unresolved — and blocked at the start. The saved task gives no target URL, endpoint, or session, so there's nothing to probe. Honest stub.
 
-Saved status: **Unresolved**. No accepted flag or successful exploit is recorded for this ID.
+## The challenge
 
-The [entire saved task](../../unsolved/sensitive-data-exposure/261-password-hash-leak/README.md) is: obtain the currently logged-in user’s password hash directly from a REST API endpoint. No URL, endpoint, attachment or session workflow is provided. The archive’s other web tracks include several different hosts; assigning this question to one of them would be speculation.
+Obtain the currently-logged-in user's password hash directly from a REST API endpoint.
 
-## Initial analysis
+## Where this stands
 
-The objective asks for a stored hash, not the plaintext password. A hash exposed by an API is still sensitive because an attacker can test password guesses offline. The phrase “currently logged-in user” also matters: returning a random account’s digest would not answer the task, even if it demonstrated an information leak.
+That's the *entire* saved task — no URL, no endpoint, no attachment, no account. The archive has several web hosts across other tracks, but assigning this challenge to one of them would be a guess, and I'm not going to send credentials to an unrelated service on a hunch.
 
-I inspected the saved description, inventory and teammate notes. None contains a captured API response, digest, matching account ID, or a completed solution for #261. Other writeups discuss Juice Shop, but that alone does not establish this challenge’s target. This independent inventory check identified the missing starting information before sending credentials to an unrelated service.
+The objective is also specific: it wants the *stored hash* for the *logged-in* user — a random account's digest wouldn't answer it, even if it demonstrated a leak. (A hash is still sensitive: it enables offline guessing.)
 
-## Reproducible next procedure
+## How you'd finish it (once the target is known)
 
-1. Open #261 in the original CTF platform and capture the full text, prerequisite and target link. This is the necessary first step; a command cannot discover an unspecified service safely or reproducibly.
-2. Log into the intended challenge instance using the supplied training account. In browser DevTools, enable Network and filter Fetch/XHR. Perform the account/profile action referenced by the challenge, then inspect the actual REST response.
-3. Match the response’s user identifier to the logged-in account. Inspect the exact JSON field containing the digest. A value called password is a clue, not proof of an algorithm or plaintext.
-4. Save a sanitized request/response pair. For terminal reproduction, use the real request’s method and path, keeping session material in a private environment variable rather than in the public draft:
-
-```sh
-curl --connect-timeout 5 --max-time 12 -sS \
-  -H "Authorization: Bearer $CTF_SESSION_TOKEN" \
-  "$CONFIRMED_CTF_BASE_URL/$OBSERVED_API_PATH" -o account-response.json
+```text
+1. Open #261 on the platform, capture the full prompt + target link.
+2. Log into the intended instance; in DevTools, filter Fetch/XHR.
+3. Trigger the profile/account action and inspect the REST response.
+4. Match the response's user id to the logged-in account, find the digest field.
 ```
 
-This is an explicitly **unexecuted template**. `CTF_SESSION_TOKEN`, `CONFIRMED_CTF_BASE_URL` and `OBSERVED_API_PATH` must come from the intended lab; they are not discovered values. `-H` reproduces the actual authorization header only if the captured application uses one. A cookie-based session requires the corresponding captured cookie workflow instead. The command saves the real JSON with `-o`, and the two timeout flags prevent an indefinite wait.
+A terminal reproduction, with session material kept out of the writeup:
 
 ```sh
-python -m json.tool account-response.json
+curl -sS -H "Authorization: Bearer $CTF_SESSION_TOKEN" \
+  "$CONFIRMED_BASE_URL/$OBSERVED_API_PATH" -o account-response.json
 ```
 
-This formats a response that has actually been saved; no response or exact digest is asserted here. Identify the account and digest together before extracting a flag. Do not crack the hash unless a further task asks for the password: this task’s stated objective is the hash itself.
+(An explicitly unexecuted template — those variables must come from the real lab.)
 
-## Captured screenshots and evidence
-
-Captured on 2026-10-29 from actual terminal sessions or browser views. Captions distinguish new results, preserved records, source images and blockers. No platform acceptance is inferred from these images.
-
-### Challenge #261 — actual evidence capture
+## Screenshot
 
 ![261-actual-evidence-gap.png](../screenshots/261-actual-evidence-gap.png)
 
-Read actual saved task to document missing target/API response, not a fabricated hash recovery.
+(Documents the missing target, not a recovered hash.)
 
-Command/action actually executed:
+## Flag
 
-```sh
-cat /home/nightingale/CTF/PCGCTF/unsolved/sensitive-data-exposure/261-password-hash-leak/README.md
-```
+None — there's no target or digest in the evidence to work from.
 
-[Actual command transcript](../screenshots/capture-work/261-description.terminal.log) · [Execution record](../screenshots/capture-work/261-description.result.json). Notice the result fields discussed in the corresponding solution step; the transcript retains lines that extend beyond the screenshot viewport.
+## Still to do
 
-**Blocked evidence:** the saved prompt contains no target URL or original response. The available prompt was captured; no leaked hash or successful request is claimed.
+- Get the original challenge's endpoint/prerequisite link; everything else is ready once that exists.
 
-## Result and lesson
+## Takeaway
 
-This remains unresolved because no target or digest is present in the evidence. The useful next action is obtaining the original challenge linkage, not guessing an endpoint or a hash. API serializers should explicitly allow only fields intended for clients, excluding stored authentication material.
+An API that serializes the stored password hash is the bug — serializers should allowlist client-facing fields and never include authentication material. (And don't guess at an endpoint by sending credentials to an unrelated host.)
+
+## Reference
+
+- [Original challenge description](../../unsolved/sensitive-data-exposure/261-password-hash-leak/README.md)
