@@ -17,10 +17,6 @@ USDOT 080806 → FMCSA SAFER → J.B. Hunt
 Founding date: 1961-08-10 → 08_10_1961
 ```
 
-## Screenshot
-
-![319-primary-company-anniversary.png](../screenshots/319-primary-company-anniversary.png)
-
 ## Flag
 
 ```text

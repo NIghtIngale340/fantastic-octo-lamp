@@ -10,21 +10,27 @@ Tie the victim IP (172.16.8.49) to its Ethernet MAC address.
 
 ## Solving it
 
-I wanted the MAC and IP from the *same* frame — a local broadcast the host sent is perfect, since the source MAC is definitely the workstation's (not a router's):
+Use [the shared capture](../../solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap) as `act1.pcap` for the commands below.
+
+Read the Ethernet and IP source fields together for the previously identified victim:
 
 ```sh
-tshark -nr act1.pcap -Y 'ip.src==172.16.8.49' -T fields -e eth.src -e ip.src -e ip.dst
+tshark -nr act1.pcap -Y 'ip.src==172.16.8.49' \
+  -T fields -e eth.src -e ip.src | sort -u
 ```
 
 ```text
-00:12:f0:28:d4:34  172.16.8.49  172.16.8.255
+00:12:f0:28:d4:34	172.16.8.49
+00:12:f0:28:d4:34	172.16.8.49,172.16.8.8
 ```
 
-A broadcast to `.255`, so the source MAC `00:12:f0:28:d4:34` is the victim's hardware address.
+The source MAC is `00:12:f0:28:d4:34`. The saved identity analysis also associates it with a local broadcast from the workstation.
 
 ## Screenshot
 
-![263-decisive-evidence.png](../screenshots/263-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/263-clear-method-v2.png)
 
 ## Flag
 

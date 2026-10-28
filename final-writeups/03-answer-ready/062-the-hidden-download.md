@@ -14,18 +14,22 @@ The capture carries the file bytes, not just URLs, so I found the ZIP response a
 
 ```sh
 tshark -nr http_file_extraction.pcap -Y http -T fields -e http.request.uri -e http.content_type
-tshark -r http_file_extraction.pcap --export-objects http,/tmp/out
-unzip -p /tmp/out/password.zip password.txt
+tshark -q -r http_file_extraction.pcap --export-objects http,objects
+unzip -p objects/password.zip password.txt
 ```
 
 ```text
+/password.zip
+/password.zip	application/zip
 my password is:
 Cx689iO7Fu4G
 ```
 
 ## Screenshot
 
-![062-packet-proof.png](../screenshots/062-packet-proof.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/062-final-method.png)
 
 ## Flag
 

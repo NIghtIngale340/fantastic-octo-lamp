@@ -10,11 +10,13 @@ Recover the HTTP check-in path the NetSupport RAT keeps hitting.
 
 ## Solving it
 
+Use [the shared capture](../../solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap) as `act2.pcap` for the commands below.
+
 Filtering the NetSupport requests shows the repeated URI:
 
 ```sh
-tshark -nr act2.pcap -Y 'http.user_agent contains "NetSupport"' \
-  -T fields -e http.request.uri
+tshark -nr act2.pcap -d tcp.port==443,http -Y 'http.user_agent contains "NetSupport"' \
+  -T fields -e http.request.uri | sort -u
 ```
 
 ```text
@@ -25,7 +27,9 @@ The check-in path is `/fakeurl.htm` — a classic NetSupport default. (Note it's
 
 ## Screenshot
 
-![273-decisive-evidence.png](../screenshots/273-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/273-clear-method.png)
 
 ## Flag
 
@@ -39,4 +43,4 @@ pcgCTF{/fakeurl.htm}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/273-act-2-the-compromise-rat-check-in/README.md)
+- [Original challenge description](../../unsolved/network-forensics/273-act-2-the-compromise-rat-check-in/README.md)

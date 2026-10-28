@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 335 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -10,25 +10,27 @@ Find the primary-endpoint value more than three standard deviations above the st
 
 ## Solving it
 
-I computed the mean and population standard deviation over all primary-efficacy values, then kept any row more than 3σ above the mean:
+Compute each primary-efficacy value’s z-score using the study mean and population standard deviation, then sort from highest to lowest:
 
 ```sql
-SELECT s.subject_code, r.value
+SELECT s.subject_code,s.arm,r.value,
+ ROUND((r.value-st.m)/st.sd,2) AS z_score
 FROM aurora_trials.results r
-JOIN aurora_trials.subjects s ON s.id = r.subject_id
-CROSS JOIN (
-  SELECT AVG(value) AS m, STDDEV_POP(value) AS sd
-  FROM aurora_trials.results WHERE measure = 'primary_efficacy_delta'
-) st
-WHERE r.measure = 'primary_efficacy_delta'
-  AND r.value > st.m + 3 * st.sd;
+JOIN aurora_trials.subjects s ON s.subject_id=r.subject_id
+CROSS JOIN (SELECT AVG(value) AS m,STDDEV_POP(value) AS sd
+            FROM aurora_trials.results
+            WHERE measure='primary_efficacy_delta') st
+WHERE r.measure='primary_efficacy_delta'
+ORDER BY z_score DESC;
 ```
+
+Selected result from the saved verification:
 
 ```text
 VELT-0148
 ```
 
-One subject, `VELT-0148`, sits past the 3σ line — a statistically implausible result.
+`VELT-0148` exceeds the threshold specified by the challenge. This identifies the requested outlier; the threshold alone does not prove that the result was fabricated.
 
 ## Screenshots
 
@@ -44,7 +46,7 @@ deadface{VELT-0148}
 
 ## Takeaway
 
-A value >3σ from the mean is a classic fabrication signal — compute the stats in-query with a CROSS JOIN rather than eyeballing the data.
+Use the study measure and standard-deviation definition specified by the question. An outlier warrants investigation, but is not proof of fabrication.
 
 ## Reference
 

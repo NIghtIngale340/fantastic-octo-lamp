@@ -2,13 +2,13 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 337 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the old snapshot, but `inner.dll` wasn't preserved. The flag is from the teammate's record; I can't show the disassembly here, so I'm flagging that.
+**Status:** Solved in the old snapshot, but `inner.dll` wasn't preserved. The flag is from the teammate's record; I can't show the disassembly here.
 
 ## The challenge
 
 Analyze the recovered Greys binary (`inner.dll`) and recover the spooky-cereal flag.
 
-## Solving it
+## Recorded method
 
 The method: identify the PE architecture and exports first (don't assume x86/x64 from the extension), run a `strings` pass as triage, then load it in a disassembler and follow the flag-building code from the right export:
 
@@ -16,15 +16,11 @@ The method: identify the PE architecture and exports first (don't assume x86/x64
 strings -n 6 inner.dll | rg -i "deadface|cereal|grey"
 ```
 
-The flag is assembled at runtime, so strings alone may not reveal it fully — but the recorded result is:
+The saved notes describe a flag assembled at runtime. Without the binary, that behavior cannot be checked here. The recorded result is:
 
 ```text
 deadface{Before_Consenting_to_Med_Exam_Ascertain_Destination_of_Finger!}
 ```
-
-## Screenshot
-
-![337-actual-artifact-inventory.png](../screenshots/337-actual-artifact-inventory.png)
 
 ## Flag
 

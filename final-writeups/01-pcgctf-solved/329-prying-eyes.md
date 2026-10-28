@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 329 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -13,11 +13,12 @@ Count accesses to the VIP's chart and identify the account with the most.
 I grouped the access-log rows for the VIP's chart by account and ordered by count:
 
 ```sql
-SELECT account, COUNT(*) AS n
-FROM chart_access_log
-WHERE patient_id = :vip
-GROUP BY account
-ORDER BY n DESC;
+SELECT u.user_id, u.username, u.role, COUNT(*) AS accesses
+FROM aurora_audit.access_log a
+JOIN aurora_audit.users u ON u.user_id=a.user_id
+WHERE a.patient_mrn='AH-0044719'
+GROUP BY u.user_id,u.username,u.role
+ORDER BY accesses DESC;
 ```
 
 The top account is `rborden` — the one snooping the chart most.
@@ -27,6 +28,8 @@ The top account is `rborden` — the one snooping the chart most.
 ![329-step-02.png](../screenshots/329-step-02.png)
 
 ## Flag
+
+Selected result from the saved verification:
 
 ```text
 deadface{rborden}

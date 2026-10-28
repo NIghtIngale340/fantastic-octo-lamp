@@ -1,0 +1,5 @@
+[2J[H$ tshark -nr act2.pcap -d tcp.port==443,http -Y 'http.user_agent contains "NetSupport"' \
+  -T fields -e http.request.uri | sort -u
+http://45.131.214.85/fakeurl.htm
+
+$ 

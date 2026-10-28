@@ -1,0 +1,6 @@
+[2J[H$ tshark -nr act1.pcap -Y 'ip.src==172.16.8.49 && http.request.uri contains "/irpw/"' \
+  -T fields -e ip.dst -e http.host -e http.request.uri.path | sort -u
+146.59.71.167	www.grinswakebthu.info	
+146.59.71.167	www.grinswakebthu.info	/irpw/
+
+$ 

@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 83 · **Category:** Network Forensics · **Points:** 100
 
-**Status:** Technically solved, but the exact accepted flag wording is unresolved — several obvious phrasings were rejected, and I don't have a confirmed string. Writing it up honestly.
+**Status:** Technically solved, but the exact accepted flag wording is unresolved — several obvious phrasings were rejected, and I don't have a confirmed string.
 
 ## The challenge
 
@@ -17,23 +17,22 @@ xxd -l 4 EASY_PACKET_1.pcap
 ```
 
 ```text
-d4c3 b2a1
+00000000: d4c3 b2a1                                ....
 ```
 
 `d4 c3 b2 a1` is the classic libpcap/tcpdump magic (little-endian). `capinfos` agrees:
 
 ```sh
 capinfos -t EASY_PACKET_1.pcap
-# File type: Wireshark/tcpdump/... - pcap
 ```
 
 So the format is classic **pcap (libpcap)**.
 
 ## Screenshots
 
-![083-decisive-evidence.png](../screenshots/083-decisive-evidence.png)
+Fresh local reproduction using the commands described above.
 
-![083-file-signature.png](../screenshots/083-file-signature.png)
+![Command and result](../screenshots/083-clear-method.png)
 
 ## Flag
 

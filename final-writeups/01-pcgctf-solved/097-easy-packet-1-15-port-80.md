@@ -22,7 +22,9 @@ Port 80 — plain HTTP.
 
 ## Screenshot
 
-![097-decisive-evidence.png](../screenshots/097-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/097-clear-method.png)
 
 ## Flag
 

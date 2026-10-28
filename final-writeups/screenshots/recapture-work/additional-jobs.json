@@ -1,0 +1,32 @@
+[
+  {
+    "id": 79,
+    "name": "079-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/079",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 10
+  },
+  {
+    "id": 77,
+    "name": "077-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/077",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 20
+  },
+  {
+    "id": 75,
+    "name": "075-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/075",
+    "commands": [
+      "mmls winsock32.dll",
+      "fls -r -o 128 winsock32.dll | rg 'passwords|flag.jpg'",
+      "icat -o 128 winsock32.dll 40-128-3 > flag.jpg",
+      "file flag.jpg"
+    ],
+    "rows": 26
+  }
+]

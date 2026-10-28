@@ -1,0 +1,66 @@
+[
+  {
+    "id": 20,
+    "name": "020-final-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/020",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 18
+  },
+  {
+    "id": 33,
+    "name": "033-final-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/033",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 18
+  },
+  {
+    "id": 64,
+    "name": "064-final-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/064",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 18
+  },
+  {
+    "id": 18,
+    "name": "018-final-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/018",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 18
+  },
+  {
+    "id": 69,
+    "name": "069-final-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/069",
+    "commands": [
+      "tshark -nr cryptocurrency_transfer_tracking.pcap -Y 'tcp contains \"sendtoaddress\"' \\\n  -T fields -e tcp.payload | xxd -r -p | strings"
+    ],
+    "rows": 19
+  },
+  {
+    "id": 62,
+    "name": "062-final-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/062",
+    "commands": [
+      "tshark -nr http_file_extraction.pcap -Y http -T fields -e http.request.uri -e http.content_type\ntshark -q -r http_file_extraction.pcap --export-objects http,objects\nunzip -p objects/password.zip password.txt"
+    ],
+    "rows": 20
+  },
+  {
+    "id": 70,
+    "name": "070-final-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/070",
+    "commands": [
+      "tshark -nr http_file_extraction.pcap -Y http -T fields -e frame.number -e http.request.uri -e http.content_type",
+      "tshark -q -r http_file_extraction.pcap --export-objects http,objects\nunzip -p objects/password.zip password.txt"
+    ],
+    "rows": 20
+  }
+]

@@ -22,7 +22,9 @@ An old iOS/macOS CFNetwork client — consistent with the Twitter API request.
 
 ## Screenshot
 
-![108-decisive-evidence.png](../screenshots/108-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/108-clear-method.png)
 
 ## Flag
 

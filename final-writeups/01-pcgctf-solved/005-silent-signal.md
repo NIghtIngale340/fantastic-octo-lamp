@@ -10,26 +10,31 @@ Translate a string of Morse into text. The description adds one formatting rule:
 
 ## Solving it
 
-Dots, dashes, letter-gaps and `/` between words make it obvious it's Morse before you touch a tool. I mapped the groups to letters, kept `/` as the word separator, and joined the decoded words with underscores as the challenge asked:
+The dots and dashes form Morse letters, with `/` separating words. Decode those groups, then replace the word spaces with underscores as requested:
 
-```sh
-python3 -c "
-m=dict(zip('.- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --..'.split(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
-msg='... -- ...'  # paste the Morse groups here
-print('_'.join(''.join(m[t] for t in w.split()) for w in msg.split('/')))"
+Save the following as `solve.py` then run `python3 solve.py`. [Download the script](../scripts/005-solve.py).
+
+```python
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+codes = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --.."
+morse = dict(zip(codes.split(), alphabet))
+message = '-.-. -.-- -... . .-. / ... . -.-. ..- .-. .. - -.-- / .. ... / . ...- . .-. -.-- --- -. . ... / .-. . ... .--. --- -. ... .. -... .. .-.. .. - -.--'
+words = ["".join(morse[group] for group in word.split())
+         for word in message.split("/")]
+print("_".join(words))
 ```
-
-Run against the challenge's Morse, that gives:
 
 ```text
 CYBER_SECURITY_IS_EVERYONES_RESPONSIBILITY
 ```
 
-Grammatical English, every group decoding with the same alphabet — that's the message.
+Run against the challenge's Morse, that gives:
 
 ## Screenshot
 
-![005-step-01.png](../screenshots/005-step-01.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/005-clear-method.png)
 
 ## Flag
 

@@ -10,22 +10,26 @@ Name the RAT family beaconing to `141.98.10.79`.
 
 ## Solving it
 
+Use [the shared capture](../../unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap) as `act.pcap`.
+
 The capture has ~102 outbound packets containing the string `STRRAT`, and the beacon names itself in cleartext:
 
 ```sh
-tshark -nr act.pcap -Y 'ip.dst==141.98.10.79 && tcp contains "STRRAT"' \
-  -T fields -e tcp.dstport -e data.data | head -1 | cut -f2 | xxd -r -p
+tshark -nr act.pcap -Y 'tcp.payload contains "STRRAT"' \
+  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings
 ```
 
 ```text
-ping|STRRAT|1BE8292C|DESKTOP-SKBR25F|ccollier|...
+ping|STRRAT|1BE8292C|DESKTOP-SKBR25F|ccollier|Microsoft Windows 11 Pro|64-bit|Windows Defender||1.6|US:United States|Not Installed|1 Sec
 ```
 
 `ping|STRRAT|...` — the family is STRRAT, matching the public analysis of this exercise.
 
 ## Screenshot
 
-![301-saved-evidence.png](../screenshots/301-saved-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/301-clear-method-v3.png)
 
 ## Flag
 
@@ -40,4 +44,4 @@ STRRAT's beacon names the family in plaintext; the host/account fields that foll
 ## References
 
 - [Malware-traffic-analysis: 2024-07-30](https://www.malware-traffic-analysis.net/2024/07/30/index.html)
-- [Original challenge description](../../solved/network-forensics/301-act-2-you-dirty-rat-identify-the-rat/README.md)
+- [Original challenge description](../../unsolved/osint/301-act-2-you-dirty-rat-identify-the-rat/README.md)

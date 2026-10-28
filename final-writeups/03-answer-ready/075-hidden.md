@@ -10,25 +10,30 @@ Recover the hidden message from a misleading DLL artifact.
 
 ## Solving it
 
-The "DLL" is a decoy — the real data is in an NTFS Alternate Data Stream attached to it. Listing and exporting the stream reveals a JPEG:
+Despite its `.dll` extension, `winsock32.dll` is a disk image. Its NTFS partition begins at sector 128. Use Sleuth Kit to identify the partition and list its files:
 
 ```sh
-# list ADS, then export the named stream to a file
-dir /r                # shows file:stream
-# the exported stream is a JPEG carrying the message
+mmls winsock32.dll
+fls -r -o 128 winsock32.dll
 ```
 
-The extracted JPEG shows:
+The listing contains the named stream `passwords.txt:flag.jpg`, with identifier `40-128-3`. Export it as a JPEG:
 
-```text
-me0w_hia!
+```sh
+icat -o 128 winsock32.dll 40-128-3 > flag.jpg
 ```
+
+Opening that JPEG reveals `flag{me0w_hia!}`. The challenge asks for the `pcgCTF` wrapper.
 
 ## Screenshots
 
-![075-ntfs-stream-list.png](../screenshots/075-ntfs-stream-list.png)
+Fresh local reproduction using the commands described above.
 
-![075-ntfs-export.png](../screenshots/075-ntfs-export.png)
+![Command and result](../screenshots/075-clear-method.png)
+
+Extracted JPEG:
+
+![Flag in the exported NTFS stream](../../unsolved/forensics/075-hidden/evidence/flag.jpg)
 
 ## Flag
 

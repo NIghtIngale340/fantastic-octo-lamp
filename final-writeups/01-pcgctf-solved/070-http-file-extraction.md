@@ -10,22 +10,22 @@ A ZIP was downloaded over HTTP in a packet capture. Pull it out and read the pas
 
 ## Solving it
 
-Since the capture holds the full HTTP transaction, I can rebuild the file from the response bytes without touching the real host. First, find the download:
+The capture contains an HTTP download of `password.zip`. Locate the request and response:
 
 ```sh
 tshark -nr http_file_extraction.pcap -Y http -T fields -e frame.number -e http.request.uri -e http.content_type
 ```
 
 ```text
-11  GET /password.zip
-13  application/zip
+11	/password.zip
+13	/password.zip	application/zip
 ```
 
 Then export the HTTP objects, check the archive, and print the member:
 
 ```sh
-tshark -r http_file_extraction.pcap --export-objects http,/tmp/out
-unzip -p /tmp/out/password.zip password.txt
+tshark -q -r http_file_extraction.pcap --export-objects http,objects
+unzip -p objects/password.zip password.txt
 ```
 
 ```text
@@ -33,13 +33,13 @@ my password is:
 Cx689iO7Fu4G
 ```
 
-That text file's contents are the answer — not the ZIP or any HTTP auth password. Case and digits matter.
+The password in `password.txt` is `Cx689iO7Fu4G`. Preserve its case when submitting it.
 
 ## Screenshots
 
-![070-step-01.png](../screenshots/070-step-01.png)
+Fresh local reproduction using the commands described above.
 
-![070-step-02.png](../screenshots/070-step-02.png)
+![Command and result](../screenshots/070-final-method.png)
 
 ## Flag
 

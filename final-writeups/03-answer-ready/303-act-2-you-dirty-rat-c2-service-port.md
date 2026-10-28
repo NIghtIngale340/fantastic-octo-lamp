@@ -10,11 +10,14 @@ What TCP port does the STRRAT C2 listen on?
 
 ## Solving it
 
+Use [the shared capture](../../unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap) as `act.pcap`.
+
 I restricted to the known C2 IP and the STRRAT marker, then read the *destination* port (not the client's ephemeral source port):
 
 ```sh
 tshark -nr act.pcap -Y 'ip.dst==141.98.10.79 && tcp contains "STRRAT"' \
   -T fields -e tcp.dstport | sort -u
+
 ```
 
 ```text
@@ -25,7 +28,9 @@ All ~102 beacon packets go to TCP 12132.
 
 ## Screenshot
 
-![303-saved-evidence.png](../screenshots/303-saved-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/303-clear-method-v3.png)
 
 ## Flag
 
@@ -40,4 +45,4 @@ Read the destination port, and keep the IOC attached — STRRAT's port is per-co
 ## References
 
 - [STRRAT traffic analysis](https://securityposture.medium.com/traffic-analysis-of-strrat-malware-6b9c212c6ae6)
-- [Original challenge description](../../solved/network-forensics/303-act-2-you-dirty-rat-c2-service-port/README.md)
+- [Original challenge description](../../unsolved/osint/303-act-2-you-dirty-rat-c2-service-port/README.md)

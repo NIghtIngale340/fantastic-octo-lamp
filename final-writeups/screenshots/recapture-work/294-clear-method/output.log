@@ -1,0 +1,21 @@
+[2J[H$ tshark -nr act5.pcap -Y 'ip.src==10.3.14.131 && http.request' -T fields -e http.host | sort -u
+cdn.content.prod.cms.msn.com
+ddgu.ddos-guard.net
+flaelweq
+fonts.googleapis.com
+fonts.gstatic.com
+graph.facebook.com
+graylog.hotjar.com:12080
+holinergroup.com
+insights.hotjar.com
+kuzem2.kku.edu.tr
+load.sumome.com
+qlyouxo
+spora.biz
+static.hotjar.com
+sumome-140a.kxcdn.com
+sumome.com
+vhkmhrmlscwsxy
+widgets.pinterest.com
+
+$ 

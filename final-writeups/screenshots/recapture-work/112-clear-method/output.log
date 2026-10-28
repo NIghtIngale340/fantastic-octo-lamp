@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e tcp.dstport -e http.authorization
+80	Basic dXNlcnRlc3Q6cGFzc3dvcmQ=
+
+$ 

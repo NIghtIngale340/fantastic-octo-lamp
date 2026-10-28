@@ -35,6 +35,8 @@ Opening the restored copy shows the hidden text: `flag{coffee_first_then_smiles}
 
 ## Screenshots
 
+The terminal image below displays a retained verification transcript.
+
 ![081-step-01.png](../screenshots/081-step-01.png)
 
 ![081-step-02.png](../screenshots/081-step-02.png)

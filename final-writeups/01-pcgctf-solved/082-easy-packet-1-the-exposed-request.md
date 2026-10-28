@@ -18,7 +18,7 @@ tshark -nr EASY_PACKET_1.pcap -Y http -T fields \
 ```
 
 ```text
-GET  twitter.com  /statuses/replies.xml  Basic dXNlcnRlc3Q6cGFzc3dvcmQ=
+GET	twitter.com	/statuses/replies.xml	Basic dXNlcnRlc3Q6cGFzc3dvcmQ=
 ```
 
 HTTP Basic is just Base64 of `username:password`, so the credential is fully recoverable — decode the token after `Basic`:
@@ -35,7 +35,9 @@ So the username is `usertest` and the password is `password`. (No need to log in
 
 ## Screenshot
 
-![082-decisive-evidence.png](../screenshots/082-decisive-evidence.png)
+Fresh local reproduction using the commands described above.
+
+![Command and result](../screenshots/082-clear-method.png)
 
 ## Flag
 

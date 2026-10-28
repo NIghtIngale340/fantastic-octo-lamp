@@ -1,0 +1,12 @@
+[2J[H$ tshark -nr act5.pcap -Y 'http.request || udp.dstport==6892' \
+  -T fields -e ip.src -e udp.dstport -e http.host -e http.request.uri | sort -u | head -n 8
+10.3.14.131		cdn.content.prod.cms.msn.com	/singletile/summary/alias/experiencebyname/today?market=en-US&tenant=amp&vertical=sports
+10.3.14.131		ddgu.ddos-guard.net	/ddgu/?h=aHR0cDovL3Nwb3JhLmJpeg&u=Lw
+10.3.14.131		flaelweq	/
+10.3.14.131		fonts.googleapis.com	/css?family=Open+Sans%3A400%2C700%2C400italic%2C700italic&subset=latin&ver=4.7.2
+10.3.14.131		fonts.googleapis.com	/css?family=Open+Sans:400,300,200,700
+10.3.14.131		fonts.gstatic.com	/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+10.3.14.131		fonts.gstatic.com	/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2
+10.3.14.131		fonts.gstatic.com	/s/opensans/v13/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2
+
+$ 

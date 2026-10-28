@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 313 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot, but two of the five clue images weren't preserved, so points 2 and 4 rest on the teammate's recorded reading rather than something I could re-check. Flagging that honestly.
+**Status:** Solved in the last snapshot, but two of the five clue images weren't preserved, so points 2 and 4 rest on the teammate's recorded reading rather than something I could re-check.
 
 ## The challenge
 
@@ -21,10 +21,6 @@ Centre:  Gordon monument  → gordon
 ```
 
 Assembled in clue order: `1733-1742-1815-1733-gordon`.
-
-## Screenshot
-
-![313-original-clues.png](../screenshots/313-original-clues.png)
 
 ## Flag
 

@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 333 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -10,16 +10,20 @@ Find the subject whose primary-efficacy result was modified *after* its study's 
 
 ## Solving it
 
-I compared each result's `modified_at` against the study's `data_lock` date and kept the one changed afterward:
+I compared each result's `modified_at` against the study's `data_lock_date` and kept the one changed afterward:
 
 ```sql
-SELECT s.subject_code, r.value, r.modified_at, st.data_lock
+SELECT s.subject_code,r.visit,r.value,r.recorded_at,r.modified_by,
+       r.modified_at,st.data_lock_date
 FROM aurora_trials.results r
-JOIN aurora_trials.subjects s ON s.id = r.subject_id
-JOIN aurora_trials.studies st ON st.id = s.study_id
-WHERE r.measure = 'primary_efficacy_delta'
-  AND r.modified_at > st.data_lock;
+JOIN aurora_trials.subjects s ON s.subject_id=r.subject_id
+JOIN aurora_trials.studies st ON st.study_id=s.study_id
+WHERE r.measure='primary_efficacy_delta'
+  AND r.modified_at >= st.data_lock_date
+ORDER BY r.modified_at;
 ```
+
+Selected result from the saved verification:
 
 ```text
 VELT-0137 | 6.00 | 2025-12-06 23:14:00 | data_lock 2025-12-01

@@ -16,6 +16,8 @@ The address isn't a text string — it's hidden in the serialized output *values
 curl -sS 'https://blockstream.info/api/address/1CTFzzCwntEm3a6CBGBfgxZdiArwY1HBSD/txs'
 ```
 
+Interpretation of the two selected output values from the saved transaction analysis:
+
 ```text
 output values (serialized, little-endian):
   c0a8000000000000  → c0 a8 = 192 168
@@ -26,6 +28,8 @@ output values (serialized, little-endian):
 Reading the leading bytes of each value gives the octets: `192.168.200.48`. (Reading the decimals directly, or reversing the tx order, would give a wrong answer.)
 
 ## Screenshot
+
+The terminal image below displays a retained verification transcript.
 
 ![073-script-1.png](../screenshots/073-script-1.png)
 
@@ -41,4 +45,4 @@ Reading the leading bytes of each value gives the octets: `192.168.200.48`. (Rea
 
 ## Reference
 
-- [Original challenge description](../../unsolved/network-analysis/073-bad-blockchain/README.md)
+- [Original challenge description](../../unsolved/blockchain-forensics/073-bad-blockchain/README.md)

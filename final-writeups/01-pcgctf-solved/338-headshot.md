@@ -2,13 +2,13 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 338 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the old snapshot, but `headshot.zip` wasn't preserved. The flag is from the teammate's record; I can't point to the exact tampered file here, so I'm flagging it.
+**Status:** Solved in the old snapshot, but `headshot.zip` wasn't preserved. The flag is from the teammate's record; I can't point to the exact tampered file here.
 
 ## The challenge
 
 Identify the one employee headshot that was tampered with and recover its hidden tag.
 
-## Solving it
+## Recorded method
 
 The method is metadata/structure comparison across all the headshots to find the anomaly, then read its hidden tag:
 
@@ -17,15 +17,11 @@ exiftool -a -G1 -s headshots/*
 strings -n 6 headshots/* | rg -i "deadface|comment|author"
 ```
 
-The tampered image carries the hidden tag:
+The saved notes give this hidden tag; the original images are needed to confirm its location:
 
 ```text
 deadface{b00m_h34Dsh0TTT}
 ```
-
-## Screenshot
-
-![338-actual-artifact-inventory.png](../screenshots/338-actual-artifact-inventory.png)
 
 ## Flag
 

@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 18 · **Category:** Cryptography · **Points:** 100
 
-**Status:** Rejected Flag — under investigation. The decode is proven by a full round-trip, but every obvious wrapper/case variant was rejected, and no accepted string is known. Honest writeup.
+**Status:** Rejected Flag — under investigation. Shift 19 produces readable text and a flag-shaped payload, but the recorded submission variants were rejected. No accepted string is known.
 
 ## The challenge
 
@@ -12,12 +12,27 @@ A Caesar shift over a custom 36-character alphabet (`A–Z` plus `0–9`). Recov
 
 The attachment defines the ring as `ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789` — so the position after `Z` is `0`, and digits rotate too. I decoded by rotating back 19 and verified by re-encrypting (`+19`) and checking the whole file matches:
 
+Save this as `solve.py` and run `python3 solve.py`. [Download the script](../scripts/018-solve.py).
+
 ```python
-alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
-rot = lambda t,s: ''.join(alphabet[(alphabet.index(c.upper())+s)%36] if c.upper() in alphabet else c for c in t)
-pt = rot(ciphertext, -19)
-assert rot(pt, 19) == ciphertext   # full round-trip
-print(pt)
+from pathlib import Path
+
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+ciphertext = Path("cipher.txt").read_text()
+
+def rotate(text, shift):
+    result = []
+    for character in text:
+        letter = character.upper()
+        if letter in alphabet:
+            result.append(alphabet[(alphabet.index(letter) + shift) % 36])
+        else:
+            result.append(character)
+    return "".join(result)
+
+plaintext = rotate(ciphertext, -19)
+assert rotate(plaintext, 19) == ciphertext
+print(plaintext)
 ```
 
 ```text
@@ -25,11 +40,13 @@ AGENT, THIS IS A SCRAMBLED BULLETIN. SHIFT ACROSS A CUSTOM ALPHABET (A-Z AND 0-9
 RECOVER THE HIDDEN CODE TO PROCEED: FLAG{CAESAR_SHIFT_19_ALNUM}
 ```
 
-The round-trip assertion over the whole file (whitespace included) is strong proof the transform is right — there's no second encoded suffix.
+The round-trip checks that this implementation reverses the transformation, including whitespace. It does not establish which shift the challenge intended; the readable instructions support trying shift 19.
 
 ## Screenshot
 
-![018-script-1.png](../screenshots/018-script-1.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/018-final-method.png)
 
 ## Flag — rejected, unresolved
 
@@ -50,7 +67,7 @@ The cipher is case-insensitive, so the original capitalization can't be recovere
 
 ## Takeaway
 
-A correct transformation and an accepted submission are two different checks. Here the decode is proven by a full round-trip; the submission isn't accepted. The honest result is a diagnostic record, not an invented flag.
+A readable decode and a reversible implementation do not establish that the grader accepts the resulting string. The rejection remains unresolved.
 
 ## Reference
 

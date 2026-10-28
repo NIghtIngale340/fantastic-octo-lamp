@@ -18,11 +18,11 @@ tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.uri
 /statuses/replies.xml
 ```
 
-
-
 ## Screenshot
 
-![105-decisive-evidence.png](../screenshots/105-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/105-clear-method.png)
 
 ## Flag
 

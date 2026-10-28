@@ -1,0 +1,10 @@
+[2J[H$ rg '^X-Spam-(Signature|Validator):' intercepted.txt
+X-Spam-Signature: PABZTAYKDRkNAFkCBwlHBRtNXkUJQFQAXQQHFkQfDE4TDApNBwAfWVQcRBANRVkZCB0PBw4DSwscVQBPWRtIEUUOSQsJEB0MBQYcDRsJDTIJDkgIABoeRDsfCgwXDScbTAABCkNFSSwVDQEKSxERSFQbQhsEFgNhYwgLBQgWGAoUSAAHRBoPOkQYNg8FCxoZNBEWchwOXQQNC1A=
+X-Spam-Validator: 6b65792d746f2d7468652d6b696e67646f6d
+
+$ python3 solve.py
+We are meeting at 5 pm opposite the left side trashcan next to the entrance of Fakecity Train Station. Bring the tools.
+
+flag{something_is_about_to_happen}
+
+$ 

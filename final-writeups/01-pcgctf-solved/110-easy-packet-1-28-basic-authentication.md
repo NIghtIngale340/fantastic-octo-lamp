@@ -22,7 +22,9 @@ The scheme is the first token — Basic. (The token itself decodes to credential
 
 ## Screenshot
 
-![110-decisive-evidence.png](../screenshots/110-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/110-clear-method.png)
 
 ## Flag
 

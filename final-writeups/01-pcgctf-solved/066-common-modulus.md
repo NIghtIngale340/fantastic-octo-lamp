@@ -12,11 +12,21 @@ The same message is encrypted under one modulus `n` with two coprime exponents (
 
 Shared modulus, coprime exponents → common-modulus attack. Bézout gives `2·3 − 1·5 = 1`, so `c1² · c2⁻¹ mod n` cancels the exponents and leaves the message. No private exponent required. I verified by re-encrypting the result under both public keys:
 
-```sh
-python3 -c "
-m = pow(c1,2,n) * pow(c2,-1,n) % n
-assert pow(m,3,n)==c1 and pow(m,5,n)==c2
-print(m.to_bytes((m.bit_length()+7)//8,'big').decode())"
+Save the following as `solve.py` beside the input file, then run `python3 solve.py`. [Download the script](../scripts/066-solve.py).
+
+```python
+from pathlib import Path
+import re
+
+text = Path("04_rsa_common_modulus.txt").read_text()
+values = {name: int(value) for name, value in
+          re.findall(r"(n|e1|e2|c1|c2)\s*=\s*(\d+)", text)}
+n, c1, c2 = values["n"], values["c1"], values["c2"]
+assert 2 * values["e1"] - values["e2"] == 1
+message = pow(c1, 2, n) * pow(c2, -1, n) % n
+assert pow(message, values["e1"], n) == c1
+assert pow(message, values["e2"], n) == c2
+print(message.to_bytes((message.bit_length() + 7) // 8, "big").decode())
 ```
 
 ```text
@@ -27,7 +37,9 @@ The recovered message reproduces both ciphertexts, so the algebra is right.
 
 ## Screenshot
 
-![066-step-01.png](../screenshots/066-step-01.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/066-clear-method.png)
 
 ## Flag
 

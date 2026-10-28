@@ -2,13 +2,13 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 321 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the old snapshot, but the original `CTF_Forgery_Paintings.zip` wasn't preserved. The flag below is from the teammate's record; I can't re-verify which file/chunk was decisive, so I'm flagging that.
+**Status:** Solved in the old snapshot, but the original `CTF_Forgery_Paintings.zip` wasn't preserved. The flag below is from the teammate's record; the exact file and metadata field cannot be rechecked.
 
 ## The challenge
 
 Spot the forged painting among five scans and recover the forger's signature.
 
-## Solving it
+## Recorded method
 
 The approach is metadata triage across all five files — compare author, comment, software and PNG text chunks, and the odd one out is the forgery:
 
@@ -16,15 +16,11 @@ The approach is metadata triage across all five files — compare author, commen
 exiftool -a -G1 -s paintings/*
 ```
 
-One file carries the forger's signature in its metadata/text chunks. The recorded flag is:
+The saved notes report a signature in one file’s metadata or text chunks. The missing archive prevents checking the exact location. The recorded flag is:
 
 ```text
 deadface{L4MIA_SIGNS_HER_WORK}
 ```
-
-## Screenshot
-
-![321-actual-artifact-inventory.png](../screenshots/321-actual-artifact-inventory.png)
 
 ## Flag
 

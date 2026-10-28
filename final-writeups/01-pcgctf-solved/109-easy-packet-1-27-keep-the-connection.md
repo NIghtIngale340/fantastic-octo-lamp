@@ -18,11 +18,11 @@ tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.connection
 keep-alive
 ```
 
-
-
 ## Screenshot
 
-![109-decisive-evidence.png](../screenshots/109-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/109-clear-method.png)
 
 ## Flag
 

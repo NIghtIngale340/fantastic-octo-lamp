@@ -24,11 +24,9 @@ curl -sS --user natas2 http://natas2.natas.labs.overthewire.org/files/users.txt
 
 It lists several accounts — I took the natas3 one and confirmed it logs into the next level.
 
-## Screenshots
+## Verification record
 
-![008-natas-method.png](../screenshots/008-natas-method.png)
-
-![008-natas-verify.png](../screenshots/008-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

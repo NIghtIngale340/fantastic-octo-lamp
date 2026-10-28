@@ -1,0 +1,6 @@
+[2J[H$ strings -n 4 'Aurora Health Mobile' | rg -i -A 2 'gateway'
+Last Gateway Check
+2026-05-30 09:42 UTC
+Aurora Diagnostics
+
+$ 

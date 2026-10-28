@@ -22,7 +22,9 @@ tshark -nr EASY_PACKET_1.pcap -T fields -e ip.hdr_len
 
 ## Screenshot
 
-![089-decisive-evidence.png](../screenshots/089-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/089-clear-method.png)
 
 ## Flag
 
@@ -32,4 +34,4 @@ pcgCTF{20 bytes}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/089-easy-packet-1-07-the-20-byte-header/README.md)
+- [Original challenge description](../../unsolved/network-forensics/089-easy-packet-1-07-the-20-byte-header/README.md)

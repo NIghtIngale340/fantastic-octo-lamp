@@ -1,0 +1,5 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.authorization
+echo 'dXNlcnRlc3Q6cGFzc3dvcmQ=' | base64 -d
+Basic dXNlcnRlc3Q6cGFzc3dvcmQ=
+usertest:password
+$ 

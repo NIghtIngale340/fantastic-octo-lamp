@@ -2,25 +2,25 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 308 · **Category:** Network Forensics / OSINT · **Points:** 100
 
-**Status:** Answer backed by the capture and cited public sources. Exact PCGCTF submission not re-confirmed.
+**Status:** Answer backed by the saved challenge prompt and DNS lookup. Exact PCGCTF submission not re-confirmed.
 
 ## The challenge
 
-Pivot to another domain in the same FormBook infrastructure.
+Identify the domain associated with starting IP `146.59.71.167` using a public DNS or reverse-host lookup. The saved challenge description explicitly names `handyman24.eu` as resolving to this address.
 
 ## Solving it
 
-FormBook fans its check-ins across several decoy hosts plus the real one. Listing the distinct Host headers in the campaign traffic surfaces the related C2 domain:
+The saved DNS lookup records `handyman24.eu` resolving to `146.59.71.167`. This is a public DNS pivot, rather than a domain recovered from HTTP Host headers.
 
-```sh
-tshark -nr act.pcap -Y 'http.request' -T fields -e http.host | sort -u
-```
+The capture's observed C2 HTTP Host is `www.grinswakebthu.info`. It is a separate name. Sharing an IP address does not establish that both domains have the same owner or role.
 
-Among the hosts, `handyman24.eu` is the one tied to this actor's infrastructure in the public writeup.
+The answer requested by the saved prompt is `handyman24.eu`. The screenshot shows the archived lookup record.
 
 ## Screenshot
 
-![308-saved-evidence.png](../screenshots/308-saved-evidence.png)
+Local inspection of the archived lookup response; this is not a new external lookup.
+
+![Command and result](../screenshots/308-clear-method.png)
 
 ## Flag
 
@@ -30,8 +30,9 @@ pcgCTF{handyman24.eu}
 
 ## Takeaway
 
-FormBook mixes real and decoy hosts; cross-referencing the capture's Host set against a published IOC list is what separates the live C2 domain from the noise.
+Keep a public DNS association separate from the hostname observed in captured C2 requests.
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/308-act-4-first-to-last-infrastructure-pivot/README.md)
+- [Original challenge description](../../unsolved/osint/308-act-4-first-to-last-infrastructure-pivot/README.md)
+- [Saved DNS and capture analysis](../../analysis-act4-act5/answers.md)

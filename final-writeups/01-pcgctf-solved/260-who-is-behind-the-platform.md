@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 260 · **Category:** General Skills · **Points:** 20000
 
-**Status:** Solved in the last snapshot. Creator identity confirmed from the primary profile; I haven't re-run the root-commit check, so I'm flagging that as unfinished rather than claiming it.
+**Status:** Solved in the last snapshot. The saved primary-profile evidence supports the creator's identity; the earliest-commit check remains unverified.
 
 ## The challenge
 
@@ -16,15 +16,7 @@ The clues point at CTFd (the platform software), not the organiser of this parti
 Kevin Chung — github.com/ColdHeat — "Creator of CTFd"
 ```
 
-The clean way to nail "who *started* it" is the root commit of the upstream repo:
-
-```sh
-git clone https://github.com/CTFd/CTFd.git /tmp/ctfd
-git -C /tmp/ctfd rev-list --max-parents=0 HEAD
-git -C /tmp/ctfd show --no-patch --format=fuller <root-commit>
-```
-
-I didn't run that clone in this pass, so I'm treating the root-commit author as still-to-confirm rather than asserting it. The profile statement alone already supports Kevin Chung.
+The saved profile supports Kevin Chung as the creator. The challenge also points to the project's earliest history; checking the root commit would complete that part of the evidence. It has not been rerun here.
 
 ## Screenshot
 
@@ -38,7 +30,7 @@ pcgCTF{Kevin Chung}
 
 ## Still to do
 
-- Run the root-commit commands and save the real author/date/hash.
+- Inspect the upstream repository’s earliest commit and record its author, date and hash.
 - Confirm the accepted capitalisation/spacing from the submission history.
 
 ## Takeaway

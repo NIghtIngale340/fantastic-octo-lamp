@@ -2,13 +2,13 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 323 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the old snapshot, but the APK wasn't preserved. The flag is from the teammate's record; I can't name the exact login class or show the bypass branch here, so I'm flagging that.
+**Status:** Solved in the old snapshot, but the APK wasn't preserved. The flag is from the teammate's record; I can't name the exact login class or show the bypass branch here.
 
 ## The challenge
 
 Find the hardcoded developer/backdoor credential that grants access ordinary customers can't get.
 
-## Solving it
+## Recorded method
 
 The method is to decompile and read the login activity for a credential constant that routes into a privileged path:
 
@@ -22,10 +22,6 @@ The recorded backdoor credential/flag is:
 ```text
 deadface{l3FT_b3Hind!}
 ```
-
-## Screenshot
-
-![323-actual-artifact-inventory.png](../screenshots/323-actual-artifact-inventory.png)
 
 ## Flag
 

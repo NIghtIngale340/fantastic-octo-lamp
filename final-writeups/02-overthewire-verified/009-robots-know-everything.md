@@ -25,11 +25,9 @@ curl -sS --user natas3 http://natas3.natas.labs.overthewire.org/s3cr3t/users.txt
 
 That file holds natas4's password, which logs into the next level.
 
-## Screenshots
+## Verification record
 
-![009-natas-method.png](../screenshots/009-natas-method.png)
-
-![009-natas-verify.png](../screenshots/009-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

@@ -19,11 +19,9 @@ curl -sS --user natas4 -e http://natas5.natas.labs.overthewire.org/ \
 
 With the expected Referer, the page returns natas5's password. Confirmed against the next level separately.
 
-## Screenshots
+## Verification record
 
-![010-natas-method.png](../screenshots/010-natas-method.png)
-
-![010-natas-verify.png](../screenshots/010-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

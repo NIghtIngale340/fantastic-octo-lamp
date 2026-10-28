@@ -10,22 +10,22 @@ Query the Aurora iOS app's local medication database for the current patient's m
 
 ## Solving it
 
-The IPA is a ZIP, and the app's database is a plain SQLite file — no keychain or encrypted backup involved. I pulled `Payload/aurora-patient-portal.app/aurora_meds.sqlite` out and opened it read-only:
+The IPA contains `Payload/aurora-patient-portal.app/aurora_meds.sqlite`, an unencrypted SQLite database. Its `medications` table has two medication columns for each patient.
+
+Using patient ID `847261` from the previous challenge, read the row without changing the database:
 
 ```sh
-sqlite3 'file:aurora_meds.sqlite?mode=ro' \
-  "SELECT medication FROM meds WHERE pid=847261 AND medication NOT LIKE '%Ibuprofen%';"
+sqlite3 -header -column 'file:aurora_meds.sqlite?mode=ro' \
+  "SELECT pid, medication_1, medication_2 FROM medications WHERE pid=847261;"
 ```
 
-```text
-Candesartan
-```
-
-The current patient (pid 847261) is on Candesartan besides the Ibuprofen.
+The row lists `Ibuprofen` and `Candesartan`. The question asks for the medication other than Ibuprofen, so the answer is `Candesartan`.
 
 ## Screenshot
 
-![311-readonly-sqlite.png](../screenshots/311-readonly-sqlite.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/311-clear-method-v2.png)
 
 ## Flag
 

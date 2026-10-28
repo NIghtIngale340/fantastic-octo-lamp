@@ -23,11 +23,9 @@ curl -sS --user natas2 -o /dev/null -w '%{http_code}\n' http://natas2.natas.labs
 # → 200
 ```
 
-## Screenshots
+## Verification record
 
-![007-natas-method.png](../screenshots/007-natas-method.png)
-
-![007-natas-verify.png](../screenshots/007-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

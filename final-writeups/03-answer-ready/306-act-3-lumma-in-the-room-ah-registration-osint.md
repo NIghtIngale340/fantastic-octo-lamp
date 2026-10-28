@@ -10,21 +10,23 @@ What year was the C2 domain `whitepepper.su` registered?
 
 ## Solving it
 
-A WHOIS lookup on the domain gives the creation date:
+The saved WHOIS response records the creation date. The following command shows how to retrieve that field; the response beneath it comes from the archived lookup:
 
 ```sh
 whois whitepepper.su | grep -i 'created\|registered'
 ```
 
 ```text
-created: 2025-...
+created:       2025-12-19T20:37:42Z
 ```
 
-The registration year is 2025 — consistent with freshly-stood-up malware infrastructure.
+The recorded registration year is 2025. The archived response was last updated on 28 October 2026.
 
 ## Screenshot
 
-![306-saved-evidence.png](../screenshots/306-saved-evidence.png)
+Local inspection of the archived lookup response; this is not a new external lookup.
+
+![Command and result](../screenshots/306-clear-method.png)
 
 ## Flag
 
@@ -38,4 +40,5 @@ A recent registration date is itself an IOC — throwaway C2 domains are usually
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/306-act-3-lumma-in-the-room-ah-registration-osint/README.md)
+- [Original challenge description](../../unsolved/osint/306-act-3-lumma-in-the-room-ah-registration-osint/README.md)
+- [Archived WHOIS response](../../analysis-team-verification/whitepepper-whois.txt)

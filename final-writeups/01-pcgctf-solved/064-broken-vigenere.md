@@ -12,36 +12,39 @@ Recover the repeating key and decrypt a Vigenère flag. The ciphertext starts `r
 
 We know the plaintext starts `pcgctf`. In Vigenère, ciphertext letter minus plaintext letter (mod 26) gives the key shift at that position, so the first six letters hand us the key:
 
-```sh
-python3 -c "print(''.join(chr((ord(c)-ord(p))%26+97) for c,p in zip('rtermt','pcgctf')))"
+Save this as `solve.py` and run `python3 solve.py`. [Download the script](../scripts/064-solve.py).
+
+```python
+ciphertext = "rtermt{xzetgstv_gh_gcv_vldnuj}"
+known_prefix = "pcgctf"
+key = "".join(chr((ord(c) - ord(p)) % 26 + ord("a"))
+              for c, p in zip(ciphertext, known_prefix))
+print("Key:", key)
+
+message = []
+position = 0
+for letter in ciphertext:
+    if "a" <= letter <= "z":
+        shift = ord(key[position % len(key)]) - ord("a")
+        message.append(chr((ord(letter) - ord("a") - shift) % 26 + ord("a")))
+        position += 1
+    else:
+        message.append(letter)
+print("".join(message))
 ```
 
 ```text
-crypto
-```
-
-`crypto` is a believable key — now test it on the whole thing, making sure punctuation doesn't consume a key character:
-
-```sh
-python3 -c "
-ct='rtermt{xzetgstv_gh_gcv_vldnuj}'; key='crypto'; j=0; out=''
-for c in ct:
-    if c.isalpha(): out+=chr((ord(c)-ord(key[j%6]))%26+97); j+=1
-    else: out+=c
-print(out)"
-```
-
-```text
+Key: crypto
 pcgctf{vigenere_is_not_enough}
 ```
 
-The whole flag reads out under the same key. This challenge uses lowercase `pcgctf`.
+The script recovers the key `crypto` and the complete flag. Punctuation does not advance the key index. The decoded prefix is lowercase `pcgctf`.
 
 ## Screenshots
 
-![064-step-01.png](../screenshots/064-step-01.png)
+Fresh local reproduction using the command described above.
 
-![064-step-02.png](../screenshots/064-step-02.png)
+![Command and result](../screenshots/064-final-method.png)
 
 ## Flag
 
@@ -51,7 +54,7 @@ pcgctf{vigenere_is_not_enough}
 
 ## Takeaway
 
-A repeating key leaks straight through a known plaintext prefix. The one detail that trips people up is keeping the key index aligned across punctuation.
+A repeating key leaks straight through a known plaintext prefix. Keep the key index aligned across punctuation.
 
 ## References
 

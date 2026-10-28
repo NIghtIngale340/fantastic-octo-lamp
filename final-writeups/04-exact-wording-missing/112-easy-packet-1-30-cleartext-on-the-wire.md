@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 112 · **Category:** Network Forensics · **Points:** 100
 
-**Status:** Technically solved, but the exact accepted wording is unresolved — short variants were rejected. Honest writeup.
+**Status:** Technically solved, but the exact accepted wording is unresolved — short variants were rejected.
 
 ## The challenge
 
@@ -14,14 +14,15 @@ Two things together make the weakness. The request carries HTTP Basic auth, and 
 
 ```sh
 tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e tcp.dstport -e http.authorization
-# 80   Basic dXNlcnRlc3Q6cGFzc3dvcmQ=
 ```
 
 Basic auth is just Base64 of `usertest:password` — reversible, not encrypted — and it's sent over port 80 with no TLS, so anyone with the capture reads the credentials. The fix is transport encryption: **HTTPS/TLS**. Base64 provides none ([RFC 7617](https://www.rfc-editor.org/rfc/rfc7617.html)).
 
 ## Screenshot
 
-![112-decisive-evidence.png](../screenshots/112-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/112-clear-method.png)
 
 ## Flag
 

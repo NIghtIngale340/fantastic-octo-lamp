@@ -1,0 +1,21 @@
+[2J[H$ mmls winsock32.dll
+DOS Partition Table
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Primary Table (#0)
+001:  -------   0000000000   0000000127   0000000128   Unallocated
+002:  000:000   0000000128   0000014463   0000014336   NTFS / exFAT (0x07)
+003:  -------   0000014464   0000020479   0000006016   Unallocated
+
+$ fls -r -o 128 winsock32.dll | rg 'passwords|flag.jpg'
+r/r 40-128-1:	passwords.txt
+r/r 40-128-3:	passwords.txt:flag.jpg
+
+$ icat -o 128 winsock32.dll 40-128-3 > flag.jpg
+
+$ file flag.jpg
+flag.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, little-endian, direntries=0], progressive, precision 8, 285x177, components 3
+
+$ 

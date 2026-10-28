@@ -1,0 +1,8 @@
+[2J[H$ xxd -l 4 EASY_PACKET_1.pcap
+00000000: d4c3 b2a1                                ....
+
+$ capinfos -t EASY_PACKET_1.pcap
+File name:           EASY_PACKET_1.pcap
+File type:           Wireshark/tcpdump/... - pcap
+
+$ 

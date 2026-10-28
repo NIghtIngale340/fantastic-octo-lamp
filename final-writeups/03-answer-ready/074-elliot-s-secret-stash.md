@@ -10,21 +10,23 @@ Recover the hidden message in the supplied audio.
 
 ## Solving it
 
-The Mr. Robot / Elliot theme points at DeepSound — a tool that hides files inside audio. The carrier has the DeepSound header, and it doesn't require a password here, so I extracted the embedded file:
+The ZIP contains a WAV file. The saved extraction identifies a DeepSound header in its audio data, using normal-quality mode without encryption.
+
+The [saved decoder](../../unsolved/steganography-forensics/074-elliot-s-secret-stash/solve.py) recovers each hidden byte from the low nibbles of two consecutive 16-bit audio samples. It checks the DeepSound record markers and the recovered MP4 hash before writing `digital revolut.mp4`.
+
+Run it from the original challenge directory:
 
 ```sh
-# DeepSound carrier → extract embedded file(s)
+python3 solve.py
 ```
 
-The recovered payload (a short video/message) contains:
-
-```text
-hello_Elliot
-```
+The hidden video briefly displays `flag{hello_Elliot}` at about 39 seconds. The recovered frame below shows the result. The challenge requests the `pcgCTF` wrapper, with the capital `E` preserved.
 
 ## Screenshot
 
-![074-terminal-extraction.png](../screenshots/074-terminal-extraction.png)
+Recovered video frame at approximately 39 seconds:
+
+![Flag visible in the recovered video](../../unsolved/steganography-forensics/074-elliot-s-secret-stash/evidence/flag-frame-39s.png)
 
 ## Flag
 
@@ -38,4 +40,4 @@ A missing password doesn't mean there's no payload — DeepSound can carry unenc
 
 ## Reference
 
-- [Original challenge description](../../unsolved/steganography/074-elliot-s-secret-stash/README.md)
+- [Original challenge description](../../unsolved/steganography-forensics/074-elliot-s-secret-stash/README.md)

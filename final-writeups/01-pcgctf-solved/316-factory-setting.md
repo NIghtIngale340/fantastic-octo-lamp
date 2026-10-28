@@ -19,6 +19,8 @@ Manual: factory technician account (documented defaults)
 
 ## Screenshots
 
+The terminal image below displays a retained verification transcript.
+
 ![316-actual-device-response.png](../screenshots/316-actual-device-response.png)
 
 ![316-actual-device-proof.png](../screenshots/316-actual-device-proof.png)

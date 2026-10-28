@@ -25,6 +25,8 @@ http://demonne-secure-portal.net/login?ref=vpn_auth&token=df4e91bc
 
 ## Screenshot
 
+The terminal image below displays a retained verification transcript.
+
 ![320-step-01.png](../screenshots/320-step-01.png)
 
 ## Flag

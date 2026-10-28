@@ -22,7 +22,9 @@ tshark shows it as hex `0xbed2`; the challenge wants decimal, which is 48850.
 
 ## Screenshot
 
-![091-decisive-evidence.png](../screenshots/091-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/091-clear-method.png)
 
 ## Flag
 
@@ -32,4 +34,4 @@ pcgCTF{48850}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/091-easy-packet-1-09-packet-identity/README.md)
+- [Original challenge description](../../unsolved/network-forensics/091-easy-packet-1-09-packet-identity/README.md)

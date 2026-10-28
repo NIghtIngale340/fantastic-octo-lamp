@@ -1,0 +1,4 @@
+[2J[H$ printf '%s\n' 'synt vf pbby' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+flag is cool
+
+$ 

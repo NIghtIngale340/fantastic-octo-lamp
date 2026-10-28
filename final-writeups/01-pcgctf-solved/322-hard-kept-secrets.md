@@ -2,13 +2,13 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 322 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the old snapshot, but the shared APK wasn't preserved. The token below is from the teammate's record — I can't point to the exact class/header in a decompile here, so I'm flagging it.
+**Status:** Solved in the old snapshot, but the shared APK wasn't preserved. The token below is from the teammate's record — I can't point to the exact class/header in a decompile here.
 
 ## The challenge
 
 Recover the internal API token embedded in the De Monne Android app.
 
-## Solving it
+## Recorded method
 
 The method is to decompile the APK and trace the token constant to where it's assigned to an outgoing request header:
 
@@ -24,10 +24,6 @@ deadface{zqJRlVwBA9Xm2lE5EPjgbj/4rOxlkYZgDtkdP7jV80rZgLFrlnOEn+VAu31YKQrR}
 ```
 
 (Two UI strings are noted as decoys; their exact locations weren't preserved.)
-
-## Screenshot
-
-![322-actual-artifact-inventory.png](../screenshots/322-actual-artifact-inventory.png)
 
 ## Flag
 

@@ -29,11 +29,9 @@ curl -sS --user natas8 --data-urlencode 'secret=oubWYf2kBq' -d 'submit=Submit' \
 
 The page returns natas9's password.
 
-## Screenshots
+## Verification record
 
-![015-natas-method.png](../screenshots/015-natas-method.png)
-
-![015-natas-verify.png](../screenshots/015-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

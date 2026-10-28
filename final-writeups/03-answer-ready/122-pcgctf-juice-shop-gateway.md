@@ -24,6 +24,8 @@ pcgCTF{73dbb9f2bac263e70119eb5e22d79e029e03a27e}
 
 ## Screenshot
 
+The terminal image below displays a retained verification transcript.
+
 ![122-script-1.png](../screenshots/122-script-1.png)
 
 ## Flag
@@ -38,4 +40,4 @@ The Score Board is an unlinked Angular route (`#/score-board`) — reachable dir
 
 ## Reference
 
-- [Original challenge description](../../unsolved/web-exploitation/122-pcgctf-juice-shop-gateway/README.md)
+- [Original challenge description](../../unsolved/reconnaissance/122-pcgctf-juice-shop-gateway/README.md)

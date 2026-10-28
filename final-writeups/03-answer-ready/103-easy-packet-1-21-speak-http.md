@@ -22,7 +22,9 @@ The protocol stack ends in `http` (a GET request), so the app-layer protocol is 
 
 ## Screenshot
 
-![103-decisive-evidence.png](../screenshots/103-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/103-clear-method.png)
 
 ## Flag
 
@@ -32,4 +34,4 @@ pcgCTF{HTTP}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/103-easy-packet-1-21-speak-http/README.md)
+- [Original challenge description](../../unsolved/network-forensics/103-easy-packet-1-21-speak-http/README.md)

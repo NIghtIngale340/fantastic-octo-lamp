@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -Y 'frame.number==1' -T fields -e ip.ttl
+64
+
+$ 

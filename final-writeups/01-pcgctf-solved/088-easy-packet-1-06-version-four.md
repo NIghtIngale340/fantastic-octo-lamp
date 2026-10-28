@@ -22,7 +22,9 @@ It's IPv4.
 
 ## Screenshot
 
-![088-decisive-evidence.png](../screenshots/088-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/088-clear-method.png)
 
 ## Flag
 

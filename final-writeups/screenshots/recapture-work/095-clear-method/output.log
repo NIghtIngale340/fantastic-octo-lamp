@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -T fields -e ip.dst
+128.121.146.100
+
+$ 

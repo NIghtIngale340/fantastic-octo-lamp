@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.window_size_value
+33088
+
+$ 

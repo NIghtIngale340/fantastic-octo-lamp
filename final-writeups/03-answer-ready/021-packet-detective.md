@@ -24,6 +24,8 @@ FTP splits control and data across two connections; the RETR on the control chan
 
 ## Screenshot
 
+The terminal image below displays a retained verification transcript.
+
 ![021-packet-proof.png](../screenshots/021-packet-proof.png)
 
 ## Flag

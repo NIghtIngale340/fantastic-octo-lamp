@@ -1,3 +1,5 @@
+**Historical capture index:** The entries below describe the earlier screenshot pass. The revised drafts use a newer selection of evidence, including fresh local captures. See [the current cleanup](EDITORIAL_REVIEW.md) and [capture manifest](screenshots/capture-manifest.json).
+
 # Screenshot capture results
 
 Updated: 2026-10-29T04:13:22+08:00.
@@ -148,7 +150,7 @@ The original 253 placement requests remain in the plan, each mapped to the actua
 | 270 | [ACT 2 - THE COMPROMISE: VICTIM HOSTNAME](01-pcgctf-solved/270-act-2-the-compromise-victim-hostname.md) | 1 | No capture dependency for the documented result |
 | 271 | [ACT 2 - THE COMPROMISE: Identify the User -User Account](01-pcgctf-solved/271-act-2-the-compromise-identify-the-user-user-account.md) | 1 | No capture dependency for the documented result |
 | 272 | [ACT 2 - THE COMPROMISE: Who Is brolf?](03-answer-ready/272-act-2-the-compromise-who-is-brolf.md) | 1 | No capture dependency for the documented result |
-| 274 | [ACT 2 - THE COMPROMISE: RAT Check-In](03-answer-ready/274-act-2-the-compromise-rat-check-in.md) | 1 | No capture dependency for the documented result |
+| 273 | [ACT 2 - THE COMPROMISE: RAT Check-In](03-answer-ready/273-act-2-the-compromise-rat-check-in.md) | 1 | No capture dependency for the documented result |
 | 274 | [ACT 3 - MALWARE INVESTIGATION: Compromised Endpoint](03-answer-ready/274-act-3-malware-investigation-compromised-endpoint.md) | 1 | No capture dependency for the documented result |
 | 275 | [ACT 3 - MALWARE INVESTIGATION: Endpoint MAC](03-answer-ready/275-act-3-malware-investigation-endpoint-mac.md) | 1 | No capture dependency for the documented result |
 | 276 | [ACT 3 - MALWARE INVESTIGATION: Endpoint Name](03-answer-ready/276-act-3-malware-investigation-endpoint-name.md) | 1 | No capture dependency for the documented result |

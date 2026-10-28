@@ -22,7 +22,9 @@ That's the window value as it appears on the wire (no scaling applied).
 
 ## Screenshot
 
-![101-decisive-evidence.png](../screenshots/101-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/101-clear-method.png)
 
 ## Flag
 

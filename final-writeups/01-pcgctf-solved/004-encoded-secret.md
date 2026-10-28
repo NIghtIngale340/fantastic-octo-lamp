@@ -10,11 +10,17 @@ Decode an intercepted Base64 string. The "once is enough?" hint is a tell that i
 
 ## Solving it
 
-Base64 is encoding, not encryption — you just peel it. After each decode I looked at the result instead of guessing how many layers there were:
+Each decoded string is another Base64 input until the third pass produces the flag. The following snippet prints all three stages:
 
-```sh
-python3 -c "import base64; x=b'VVRGU1IyVXlOV3hrYlZaNVdETk9NR0l6UW1aaVIxWm9ZMjAxY0dKdFpEaz0='
-for i in range(3): x=base64.b64decode(x); print(x.decode())"
+Save the following as `solve.py` then run `python3 solve.py`. [Download the script](../scripts/004-solve.py).
+
+```python
+import base64
+
+value = b"VVRGU1IyVXlOV3hrYlZaNVdETk9NR0l6UW1aaVIxWm9ZMjAxY0dKdFpEaz0="
+for _ in range(3):
+    value = base64.b64decode(value)
+    print(value.decode())
 ```
 
 ```text
@@ -23,11 +29,13 @@ Q1RGe25ldmVyX3N0b3BfbGVhcm5pbmd9
 CTF{never_stop_learning}
 ```
 
-Layers one and two are still valid Base64; layer three is the flag. A fourth decode fails because `{` and `}` aren't Base64 characters — that failure is the natural "you're done" signal.
+The third result is a readable flag, so the decoding stops there. A decoder error is not needed to establish the result.
 
 ## Screenshot
 
-![004-step-01.png](../screenshots/004-step-01.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/004-clear-method.png)
 
 ## Flag
 
@@ -39,7 +47,7 @@ The decoded prefix is `CTF`, and this challenge's saved description doesn't reco
 
 ## Takeaway
 
-You can recognize each encoding from its output alphabet, and a structured result (or a clean failure) tells you when to stop. More decoding isn't more certainty.
+Inspect the result after each layer so the next decoding step follows from the data.
 
 ## References
 

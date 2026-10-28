@@ -22,7 +22,9 @@ That's the destination.
 
 ## Screenshot
 
-![095-decisive-evidence.png](../screenshots/095-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/095-clear-method.png)
 
 ## Flag
 

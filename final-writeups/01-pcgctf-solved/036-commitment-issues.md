@@ -35,6 +35,8 @@ Source prefix is picoCTF; the challenge gives no replacement, so I kept it.
 
 ## Screenshots
 
+The terminal image below displays a retained verification transcript.
+
 ![036-step-01.png](../screenshots/036-step-01.png)
 
 ![036-step-02.png](../screenshots/036-step-02.png)

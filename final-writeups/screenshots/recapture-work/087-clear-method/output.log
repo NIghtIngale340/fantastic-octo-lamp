@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -T fields -e eth.type
+0x0800
+
+$ 

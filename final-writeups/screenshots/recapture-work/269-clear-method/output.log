@@ -1,0 +1,5 @@
+[2J[H$ tshark -nr act2.pcap -Y 'ip.src==10.2.28.88' -T fields -e eth.src -e ip.src | sort -u
+00:19:d1:b2:4d:ad	10.2.28.88
+00:19:d1:b2:4d:ad	10.2.28.88,10.2.28.2
+
+$ 

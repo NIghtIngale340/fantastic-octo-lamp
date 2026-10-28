@@ -10,23 +10,28 @@ Find the internal host making the suspicious FormBook-pattern connections.
 
 ## Solving it
 
-Rather than chasing the noisiest host, I looked for the repeating request pattern — one internal client hitting the same odd infrastructure. Filtering HTTP requests to it:
+Use [the shared capture](../../solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap) as `act1.pcap` for the commands below.
+
+The saved FormBook analysis identifies `/irpw/` check-ins. Filter for that request path and read the source address:
 
 ```sh
-tshark -nr act1.pcap -Y 'http.request && ip.dst==146.59.71.167' \
-  -T fields -e ip.src -e http.host -e http.request.uri
+tshark -nr act1.pcap -Y 'http.request.uri contains "/irpw/"' \
+  -T fields -e ip.src -e http.host -e http.request.uri.path | sort -u
 ```
 
 ```text
-172.16.8.49  www.grinswakebthu.info  /irpw/
-172.16.8.49  www.grinswakebthu.info  /irpw/?2kn1=...&kbBSJ=...
+146.59.71.167
+172.16.8.49	www.grinswakebthu.info
+172.16.8.49	www.grinswakebthu.info	/irpw/
 ```
 
-One host — 172.16.8.49 — repeatedly POSTing to `/irpw/` and then sending a GET with encoded check-in parameters. That's the victim.
+The matching requests come from `172.16.8.49`. The saved detailed analysis also records both POSTs and GETs with encoded check-in parameters from this host.
 
 ## Screenshot
 
-![262-decisive-evidence.png](../screenshots/262-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/262-clear-method-v2.png)
 
 ## Flag
 

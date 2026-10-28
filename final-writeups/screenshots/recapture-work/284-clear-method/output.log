@@ -1,0 +1,5 @@
+[2J[H$ tshark -nr act4.pcap -Y 'eth.src==00:21:5d:c8:0e:f2 && dhcp.option.hostname' \
+  -T fields -e dhcp.option.hostname | sort -u
+DESKTOP-ES9F3ML
+
+$ 

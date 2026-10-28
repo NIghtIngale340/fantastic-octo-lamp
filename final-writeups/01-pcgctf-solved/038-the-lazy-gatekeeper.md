@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 38 · **Category:** Web Exploitation — DVWA · **Points:** 50
 
-**Status:** Solved in the old snapshot, but the lab host is unreachable now and the exact accepted flag wasn't saved. Writing this one up honestly — the approach is sound, the live confirmation is missing.
+**Status:** Solved in the old snapshot, but the lab host is unreachable now and the exact accepted flag wasn't saved. The login method remains unconfirmed on this deployment.
 
 ## The challenge
 
@@ -20,13 +20,15 @@ The connection failed — the private lab host isn't reachable from here, so I c
 
 ## Screenshot
 
+The terminal image below displays a retained verification transcript.
+
 ![038-actual-target-response.png](../screenshots/038-actual-target-response.png)
 
 (The capture shows the failed connection attempt — not a working exploit.)
 
 ## Flag
 
-Not recovered. The snapshot records a solve but not the submitted string, and the host is down, so there's nothing to re-verify. No flag invented.
+Not recovered. The snapshot records a solve but not the submitted string, and the host is down, so there's nothing to re-verify.
 
 ## Still to do
 

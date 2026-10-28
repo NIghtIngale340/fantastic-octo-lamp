@@ -24,9 +24,9 @@ holder: hostbaltic UAB Host Baltic
 
 RIPE's route object (origin AS209605, aut-num `hostbaltic`) and IPinfo agree. The announcing organisation is `UAB Host Baltic`.
 
-## Screenshot
+## Supporting record
 
-![302-saved-evidence.png](../screenshots/302-saved-evidence.png)
+The lookup observations are preserved in the [saved verification records](../../analysis-team-verification/routing-status.json).
 
 ## Flag
 
@@ -41,4 +41,4 @@ For "who owns this network," trust the BGP route origin / aut-num, not a reverse
 ## References
 
 - [RIPEstat prefix overview](https://stat.ripe.net/data/prefix-overview/data.json?resource=141.98.10.0/24)
-- [Original challenge description](../../solved/network-forensics/302-act-2-you-dirty-rat-infrastructure-owner/README.md)
+- [Original challenge description](../../unsolved/osint/302-act-2-you-dirty-rat-infrastructure-owner/README.md)

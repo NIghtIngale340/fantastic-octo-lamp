@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr act3.pcap -Y 'tcp.payload contains "STRRAT"' -T fields -e ip.src -e ip.dst | sort -u
+172.16.1.66	141.98.10.79
+
+$ 

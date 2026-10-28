@@ -1,0 +1,5 @@
+[2J[H$ tshark -nr act.pcap -d tcp.port==443,http -Y 'ip.dst==45.131.214.85 && http.request' \
+  -T fields -e tcp.dstport -e http.request.method -e http.request.uri | sort -u | head -n 8
+443	POST	http://45.131.214.85/fakeurl.htm
+
+$ 

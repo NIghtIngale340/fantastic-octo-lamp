@@ -1,0 +1,12 @@
+[2J[H$ tshark -nr act5.pcap -Y 'ip.src==10.3.14.134 && (udp.dstport==6892 || http.request)' \
+  -T fields -e udp.dstport -e http.host -e http.request.uri | sort -u | head -n 8
+	api.blockcypher.com	/v1/btc/main/addrs/17gd1msp5FnMcEMF1MitTNSsYs7w7AQyCt?_=1486782174891
+	api.blockcypher.com	/v1/btc/main/txs/0c58687c2057837da6c08a090b75a41defe11c9927d3e0228d71a2bff2b264fa?_=1486782175218
+	login.yahoo.com	/config/login?logout=1&.src=ym&.intl=us&.direct=2&.done=http://www.yahoo.com&.last=http://mail.yahoo.com
+	mail.yahoo.com	/
+	mpp.vindicosuite.com	/sync/?pid=2009&pu=3WJ575V8UuCsBEm2lZg&n=1486782082&fsyn=1
+	p27dokhpz2n7nvgr.1nmrtq.top	/3402-41D8-C680-0091-CCCF
+	p27dokhpz2n7nvgr.1nmrtq.top	/3402-41D8-C680-0091-CCCF/captcha/click
+	p27dokhpz2n7nvgr.1nmrtq.top	/3402-41D8-C680-0091-CCCF/captcha/sp
+
+$ 

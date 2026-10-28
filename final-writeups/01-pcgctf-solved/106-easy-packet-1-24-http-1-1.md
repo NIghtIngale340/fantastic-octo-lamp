@@ -18,11 +18,11 @@ tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.version
 HTTP/1.1
 ```
 
-
-
 ## Screenshot
 
-![106-decisive-evidence.png](../screenshots/106-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/106-clear-method.png)
 
 ## Flag
 

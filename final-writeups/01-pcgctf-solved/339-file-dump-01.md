@@ -2,13 +2,13 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 339 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the old snapshot, but `File_Dump_Challenge.zip` wasn't preserved. The flag is from the teammate's record; I can't show the decisive artifact here, so I'm flagging it.
+**Status:** Solved in the old snapshot, but `File_Dump_Challenge.zip` wasn't preserved. The flag is from the teammate's record; I can't show the decisive artifact here.
 
 ## The challenge
 
 Identify the DEADFACE alias responsible for the stolen identity in the intercepted laptop dump.
 
-## Solving it
+## Recorded method
 
 The method is to triage the dump — file types and explicit identity artifacts first, then follow any real steganography clue to the alias:
 
@@ -17,15 +17,11 @@ exiftool -a -G1 -s recovered-dump/*
 rg -a -i "deadface|alias|handle" recovered-dump/
 ```
 
-The alias tied to the stolen identity is:
+The alias recorded in the saved solution is:
 
 ```text
 deadface{gh0st404}
 ```
-
-## Screenshot
-
-![339-actual-artifact-inventory.png](../screenshots/339-actual-artifact-inventory.png)
 
 ## Flag
 

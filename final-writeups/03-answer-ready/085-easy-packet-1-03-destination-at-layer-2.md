@@ -22,7 +22,9 @@ That's the layer-2 destination. The flag uses dash-separated uppercase.
 
 ## Screenshot
 
-![085-decisive-evidence.png](../screenshots/085-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/085-clear-method.png)
 
 ## Flag
 
@@ -32,4 +34,4 @@ pcgCTF{00-D0-BC-EB-E0-80}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/085-easy-packet-1-03-destination-at-layer-2/README.md)
+- [Original challenge description](../../unsolved/network-forensics/085-easy-packet-1-03-destination-at-layer-2/README.md)

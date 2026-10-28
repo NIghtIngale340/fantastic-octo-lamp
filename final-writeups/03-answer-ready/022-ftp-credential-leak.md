@@ -27,6 +27,8 @@ The password tied to the 230 is `AfricaCTF2021` (keep the exact capitalization).
 
 ## Screenshot
 
+The terminal image below displays a retained verification transcript.
+
 ![022-packet-proof.png](../screenshots/022-packet-proof.png)
 
 ## Flag

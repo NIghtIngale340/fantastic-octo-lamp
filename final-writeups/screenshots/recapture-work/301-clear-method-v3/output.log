@@ -1,0 +1,5 @@
+[2J[H$ tshark -nr act.pcap -Y 'tcp.payload contains "STRRAT"' \
+  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings
+ping|STRRAT|1BE8292C|DESKTOP-SKBR25F|ccollier|Microsoft Windows 11 Pro|64-bit|Windows Defender||1.6|US:United States|Not Installed|1 Sec
+
+$ 

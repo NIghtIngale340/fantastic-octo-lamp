@@ -19,6 +19,8 @@ deadface{h4rdc0d3d_k3ys_1n_th3_c0nf1g}
 
 ## Screenshots
 
+The terminal image below displays a retained verification transcript.
+
 ![318-actual-device-response.png](../screenshots/318-actual-device-response.png)
 
 ![318-actual-device-proof.png](../screenshots/318-actual-device-proof.png)

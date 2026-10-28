@@ -20,6 +20,8 @@ That's the challenge flag. (Note the comment frames it as a QA PIN — I kept th
 
 ## Screenshots
 
+The terminal image below displays a retained verification transcript.
+
 ![315-actual-device-response.png](../screenshots/315-actual-device-response.png)
 
 ![315-actual-device-proof.png](../screenshots/315-actual-device-proof.png)

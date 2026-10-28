@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.ack_raw
+1790813139
+
+$ 

@@ -10,7 +10,7 @@ natas7 navigates with a `page` parameter. Read natas8's password file through it
 
 ## Solving it
 
-The source hint points at `/etc/natas_webpass/natas8`. The `page` parameter gets included without being restricted to real page names — a local file inclusion — so I just feed it that path:
+The source hint points at `/etc/natas_webpass/natas8`. The `page` parameter gets included without being restricted to real page names — a local file inclusion, so the next step is to feed it that path:
 
 ```sh
 curl -sS --user natas7 \
@@ -19,11 +19,9 @@ curl -sS --user natas7 \
 
 The response contains natas8's password. This is a file-read flaw, not SQLi or a lucky URL guess.
 
-## Screenshots
+## Verification record
 
-![014-natas-method.png](../screenshots/014-natas-method.png)
-
-![014-natas-verify.png](../screenshots/014-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

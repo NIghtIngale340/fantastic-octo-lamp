@@ -10,22 +10,26 @@ What protocol is the C2 actually using on port 443?
 
 ## Solving it
 
+Use [the shared capture](../../solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap) as `act.pcap`.
+
 Port 443 usually means HTTPS, but a port is just a convention — the payload decides. Telling tshark to decode the 443 stream as HTTP, the request lines are fully readable:
 
 ```sh
 tshark -nr act.pcap -d tcp.port==443,http -Y 'ip.dst==45.131.214.85 && http.request' \
-  -T fields -e tcp.dstport -e http.request.method -e http.request.uri
+  -T fields -e tcp.dstport -e http.request.method -e http.request.uri | sort -u | head -n 8
 ```
 
 ```text
-443  POST  http://45.131.214.85/fakeurl.htm
+443	POST	http://45.131.214.85/fakeurl.htm
 ```
 
 Cleartext HTTP, no TLS handshake — the "443" is camouflage. So the protocol is HTTP.
 
 ## Screenshot
 
-![299-saved-evidence.png](../screenshots/299-saved-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/299-clear-method-v3.png)
 
 ## Flag
 
@@ -40,4 +44,4 @@ Don't infer TLS from port 443. `decode as` is just a viewing choice; the readabl
 ## References
 
 - [Analyst writeup (Easy as 123)](https://rvmchua.com/posts/mta-easy-as-123/)
-- [Original challenge description](../../solved/network-forensics/299-act-1-easy-as-123-protocol-deception/README.md)
+- [Original challenge description](../../unsolved/osint/299-act-1-easy-as-123-protocol-deception/README.md)

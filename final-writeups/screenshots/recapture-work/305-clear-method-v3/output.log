@@ -1,0 +1,6 @@
+[2J[H$ tshark -nr act.pcap -Y '(http.host && ip.dst==153.92.1.49) || dns.a==153.92.1.49' \
+  -T fields -e dns.qry.name -e http.host | sort -u | head -n 8
+	whitepepper.su
+whitepepper.su	
+
+$ 

@@ -22,7 +22,9 @@ Again the raw field, not the relative ack.
 
 ## Screenshot
 
-![099-decisive-evidence.png](../screenshots/099-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/099-clear-method.png)
 
 ## Flag
 

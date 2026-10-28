@@ -1,0 +1,10 @@
+[2J[H$ tshark -nr act2.pcap -Y 'eth.src==00:19:d1:b2:4d:ad && (dhcp.option.hostname || nbns.name)' \
+  -T fields -e dhcp.option.hostname -e nbns.name | sort -u
+	DESKTOP-TEYQ2NR<00>,DESKTOP-TEYQ2NR<00> (Workstation/Redirector)
+	DESKTOP-TEYQ2NR<20>,DESKTOP-TEYQ2NR<20> (Server service)
+	EASYAS123<00>,EASYAS123<00> (Workstation/Redirector)
+	EASYAS123<1d>,EASYAS123<1d> (Local Master Browser)
+	EASYAS123<1e>,EASYAS123<1e> (Browser Election Service)
+DESKTOP-TEYQ2NR	
+
+$ 

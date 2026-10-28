@@ -1,0 +1,6 @@
+[2J[H$ tshark -nr act1.pcap -Y 'kerberos.CNameString' -T fields -e kerberos.realm | sort -u
+FIRSTTOLAST
+FIRSTTOLAST.TECH
+firsttolast.tech
+
+$ 

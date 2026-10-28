@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 331 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -13,15 +13,18 @@ Rank prescribers by total quantity of Schedule II drugs dispensed in Q4 2025, an
 I joined dispenses to the drug table, filtered to Schedule II in the final quarter, summed quantity per prescriber, and took the top one:
 
 ```sql
-SELECT p.dea_number, SUM(d.quantity) AS total
+SELECT p.prescriber_id,p.first_name,p.last_name,p.dea_number,
+       SUM(d.quantity_dispensed) AS total
 FROM aurora_pharmacy.dispenses d
-JOIN aurora_pharmacy.drugs g ON g.id = d.drug_id
-JOIN aurora_ehr.prescribers p ON p.prescriber_id = d.prescriber_id
-WHERE g.dea_schedule = 'II'
-  AND d.dispensed_at >= '2025-10-01' AND d.dispensed_at < '2026-01-01'
-GROUP BY p.dea_number
+JOIN aurora_pharmacy.prescriptions rx ON rx.rx_id=d.rx_id
+JOIN aurora_pharmacy.drugs g ON g.drug_id=rx.drug_id
+JOIN aurora_pharmacy.prescribers p ON p.prescriber_id=rx.prescriber_id
+WHERE g.dea_schedule='II'
+  AND d.dispensed_at >= '2025-10-01'
+  AND d.dispensed_at < '2026-01-01'
+GROUP BY p.prescriber_id,p.first_name,p.last_name,p.dea_number
 ORDER BY total DESC
-LIMIT 1;
+LIMIT 5;
 ```
 
 Top prescriber's DEA number: `BR2938471`.
@@ -31,6 +34,8 @@ Top prescriber's DEA number: `BR2938471`.
 ![331-step-02.png](../screenshots/331-step-02.png)
 
 ## Flag
+
+Selected result from the saved verification:
 
 ```text
 deadface{BR2938471}

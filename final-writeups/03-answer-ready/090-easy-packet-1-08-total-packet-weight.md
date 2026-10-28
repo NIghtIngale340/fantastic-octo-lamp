@@ -22,7 +22,9 @@ tshark -nr EASY_PACKET_1.pcap -T fields -e ip.len
 
 ## Screenshot
 
-![090-decisive-evidence.png](../screenshots/090-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/090-clear-method.png)
 
 ## Flag
 
@@ -32,4 +34,4 @@ pcgCTF{504 bytes}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/090-easy-packet-1-08-total-packet-weight/README.md)
+- [Original challenge description](../../unsolved/network-forensics/090-easy-packet-1-08-total-packet-weight/README.md)

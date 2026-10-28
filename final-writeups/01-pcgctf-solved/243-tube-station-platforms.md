@@ -10,7 +10,7 @@ How many platforms does Piccadilly Circus have?
 
 ## Solving it
 
-The trap is answering "two" because it serves two lines. Each line has two numbered platforms. From TfL's station layout:
+The station serves two lines, each with two numbered platforms. TfL's station layout lists:
 
 ```text
 Bakerloo:   platforms 1 and 2

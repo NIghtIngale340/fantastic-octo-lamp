@@ -1,0 +1,7 @@
+[2J[H$ tshark -nr act5.pcap -Y 'http.host contains "spora" || http.host contains "p27dokhpz2n7nvgr" || udp.dstport==6892' \
+  -T fields -e ip.src -e udp.dstport -e http.host | sort -u
+10.3.14.131		spora.biz
+10.3.14.134		p27dokhpz2n7nvgr.1nmrtq.top
+10.3.14.134	6892	
+
+$ 

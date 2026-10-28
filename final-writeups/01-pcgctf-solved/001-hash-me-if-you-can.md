@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 1 · **Category:** Cryptography · **Points:** 100
 
-**Status:** Marked solved in the old snapshot, but the saved materials don't keep the password, and my dictionary run here didn't recover it either. I'm writing this one up honestly rather than inventing a flag.
+**Status:** Marked solved in the old snapshot, but the saved materials don't keep the password, and my dictionary run here didn't recover it either.
 
 ## The challenge
 
@@ -14,31 +14,23 @@ Recover the password behind this digest:
 
 ## Working it
 
-It's 40 hex characters, which is 20 bytes — the shape of a SHA-1 hash. That's a hypothesis, not proof, but it's the obvious first thing to try. A hash is one-way, so you can't "decode" it; the only honest move is to hash guesses and see if any match.
+The digest has 40 hexadecimal characters, which is consistent with SHA-1. That gives a starting point for password guessing, although the length alone does not identify the algorithm.
 
-I ran John against rockyou with the raw SHA-1 format:
+The saved dictionary run used John with the Raw-SHA1 format and RockYou. The screenshot includes the full command and run settings. This is a shorter version of that command, assuming the digest has been saved in `hash.txt`:
 
 ```sh
 john --format=raw-sha1 --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
 ```
 
-```text
-Loaded 1 password hash (Raw-SHA1)
-0g 0:00:00:01 DONE
-Session completed.
-```
+The recorded run completed without recovering a password. An additional check of platform names and common suffixes also found no match. These results only cover the guesses tested.
 
-Zero cracked. A quick extra pass over platform names and common suffixes didn't hit either. That doesn't prove it isn't SHA-1 — it just means the password isn't in these lists.
+## Verification record
 
-## Screenshots
-
-![001-digest-evidence.png](../screenshots/001-digest-evidence.png)
-
-![001-actual-dictionary-attempt.png](../screenshots/001-actual-dictionary-attempt.png)
+The [saved dictionary-run transcript](../screenshots/capture-work/001-dictionary-proof.terminal.log) records the command, its limits, and the unsuccessful result.
 
 ## Flag
 
-Not recovered. The snapshot says this was solved, but the accepted string isn't in the saved materials, and I'm not going to make one up.
+Not recovered. The saved scoreboard marks this challenge as solved, but the accepted password is missing from the archive.
 
 ## Still to do
 

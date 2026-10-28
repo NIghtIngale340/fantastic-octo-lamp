@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.host
+twitter.com
+
+$ 

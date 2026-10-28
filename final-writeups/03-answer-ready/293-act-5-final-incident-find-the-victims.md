@@ -10,17 +10,19 @@ Which two of the three clients show ransomware-specific activity?
 
 ## Solving it
 
-I looked at each host's outbound activity for ransomware IOCs:
+Use [the shared capture](../../unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap) as `act5.pcap` for the commands below.
+
+Check which source addresses send traffic matching the Spora portal, the Cerber portal, or the Cerber UDP/6892 pattern:
 
 ```sh
-tshark -nr act5.pcap -Y 'http.request || udp.dstport==6892' \
-  -T fields -e ip.src -e udp.dstport -e http.host -e http.request.uri
+tshark -nr act5.pcap -Y 'http.host contains "spora" || http.host contains "p27dokhpz2n7nvgr" || udp.dstport==6892' \
+  -T fields -e ip.src -e udp.dstport -e http.host | sort -u
 ```
 
 ```text
-10.3.14.134  6892   —                          —
-10.3.14.134  —      p27dokhpz2n7nvgr.1nmrtq.top /3402-...        (Cerber)
-10.3.14.131  —      spora.biz                  /                (Spora)
+10.3.14.131		spora.biz
+10.3.14.134		p27dokhpz2n7nvgr.1nmrtq.top
+10.3.14.134	6892
 ```
 
 - `10.3.14.131` → `spora.biz` (Spora)
@@ -30,7 +32,9 @@ The third host (10.3.14.135) shows neither, so the two victims are 131 and 134.
 
 ## Screenshot
 
-![293-decisive-evidence.png](../screenshots/293-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/293-clear-method-v2.png)
 
 ## Flag
 
@@ -44,4 +48,4 @@ Attribute by the specific IOC per host — a ransom-portal domain for one, Cerbe
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/293-act-5-final-incident-find-the-victims/README.md)
+- [Original challenge description](../../unsolved/network-forensics/293-act-5-final-incident-find-the-victims/README.md)

@@ -13,18 +13,18 @@ Identify the gateway named in the app's hidden diagnostic data.
 I ran a strings pass over the bundled executable to navigate to the diagnostic section, where the gateway label and value sit together:
 
 ```sh
-strings -n 4 <executable> | grep -i gateway
+strings -n 4 'Aurora Health Mobile' | rg -i -A 2 'gateway'
 ```
 
-```text
-DiagnosticInfo.items → gateway: gw-westlake-int-03
-```
+The relevant value is `gw-westlake-int-03`.
 
 The gateway is `gw-westlake-int-03` (the Westlake clinic, matching the bootstrap data from #309).
 
 ## Screenshot
 
-![312-actual-binary-strings.png](../screenshots/312-actual-binary-strings.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/312-clear-method-v2.png)
 
 ## Flag
 

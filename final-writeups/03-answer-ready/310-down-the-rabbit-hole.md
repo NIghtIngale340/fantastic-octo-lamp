@@ -13,18 +13,16 @@ Recover the patient ID from a hidden file-metadata field in the Aurora package.
 The ID isn't in the app UI — it's tucked into a resource's XMP metadata inside the bundle. Reading the embedded identifier field and corroborating it against the packaged data:
 
 ```sh
-exiftool -XMP:all <resource-in-bundle>
+exiftool -XMP:all aurora_chest_xray.jpg
 ```
 
-```text
-hidden identifier → 847261
-```
-
-The patient ID is `847261` (the same pid that #311's medication query keys on, which corroborates it).
+The XMP `Identifier` is `PID-847261`, so the numeric patient ID is `847261`. That ID also selects the medication row used in #311.
 
 ## Screenshot
 
-![310-actual-xmp-identifier.png](../screenshots/310-actual-xmp-identifier.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/310-clear-method-v2.png)
 
 ## Flag
 

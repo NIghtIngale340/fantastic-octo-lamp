@@ -1,0 +1,8 @@
+[2J[H$ tshark -nr act3.pcap -Y 'kerberos.CNameString || samr.samr_UserInfo21.account_name' \
+  -T fields -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name | sort -u | head -n 8
+	ccollier	Clark Collier
+DESKTOP-SKBR25F$		
+ccollier		
+desktop-skbr25f$		
+
+$ 

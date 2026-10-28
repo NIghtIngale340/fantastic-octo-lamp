@@ -1,0 +1,12 @@
+[2J[H$ tshark -nr act5.pcap -Y 'ip.src==10.3.14.135 && (http.request || dns.qry.name)' \
+  -T fields -e dns.qry.name -e http.host -e http.user_agent | sort -u | head -n 8
+	wu-calculator.apple.com	SpotlightNetHelper/917.36 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)
+*.localdomain		
+1-courier.push.apple.com		
+1-courier.sandbox.push.apple.com		
+10.3.14.1\\037		
+135.14.3.10.in-addr.arpa		
+9-courier.push.apple.com		
+Simons-Mac.local,Simons-Mac.local		
+
+$ 

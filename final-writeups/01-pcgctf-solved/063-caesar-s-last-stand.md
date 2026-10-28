@@ -10,7 +10,7 @@ Decode `cptpgs{pnrfne_jnf_bayl_gur_ortvaavat}`. The title and the Roman-general 
 
 ## Solving it
 
-The braces and underscores survive untouched, so it's a letter substitution. The fragment `gur` is a dead giveaway for ROT13 — that maps to `the`. One `tr` confirms it:
+The braces and underscores survive untouched, so it's a letter substitution. The fragment `gur` maps to `the` under ROT13. One `tr` confirms it:
 
 ```sh
 echo 'cptpgs{pnrfne_jnf_bayl_gur_ortvaavat}' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
@@ -24,7 +24,9 @@ Every word reads cleanly under the same rotation. The raw output is lowercase `p
 
 ## Screenshot
 
-![063-step-01.png](../screenshots/063-step-01.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/063-clear-method.png)
 
 ## Flag
 

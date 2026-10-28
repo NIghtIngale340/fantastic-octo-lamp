@@ -22,7 +22,9 @@ That's the sender.
 
 ## Screenshot
 
-![094-decisive-evidence.png](../screenshots/094-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/094-clear-method.png)
 
 ## Flag
 

@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 261 · **Category:** Sensitive Data Exposure · **Points:** 250
 
-**Status:** Unresolved — and blocked at the start. The saved task gives no target URL, endpoint, or session, so there's nothing to probe. Honest stub.
+**Status:** Unresolved. The saved task does not include a target URL or session.
 
 ## The challenge
 
@@ -32,12 +32,6 @@ curl -sS -H "Authorization: Bearer $CTF_SESSION_TOKEN" \
 
 (An explicitly unexecuted template — those variables must come from the real lab.)
 
-## Screenshot
-
-![261-actual-evidence-gap.png](../screenshots/261-actual-evidence-gap.png)
-
-(Documents the missing target, not a recovered hash.)
-
 ## Flag
 
 None — there's no target or digest in the evidence to work from.
@@ -45,10 +39,6 @@ None — there's no target or digest in the evidence to work from.
 ## Still to do
 
 - Get the original challenge's endpoint/prerequisite link; everything else is ready once that exists.
-
-## Takeaway
-
-An API that serializes the stored password hash is the bug — serializers should allowlist client-facing fields and never include authentication material. (And don't guess at an endpoint by sending credentials to an unrelated host.)
 
 ## Reference
 

@@ -10,6 +10,8 @@ MAC for 10.3.14.135.
 
 ## Solving it
 
+Use [the shared capture](../../unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap) as `act5.pcap` for the commands below.
+
 ```sh
 tshark -nr act5.pcap -Y 'ip.src==10.3.14.135' -T fields -e eth.src | head -1
 ```
@@ -20,7 +22,9 @@ tshark -nr act5.pcap -Y 'ip.src==10.3.14.135' -T fields -e eth.src | head -1
 
 ## Screenshot
 
-![292-decisive-evidence.png](../screenshots/292-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/292-clear-method.png)
 
 ## Flag
 
@@ -30,4 +34,4 @@ pcgCTF{00:26:bb:4c:6b:e1}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/292-act-5-final-incident-host-three-mac/README.md)
+- [Original challenge description](../../unsolved/network-forensics/292-act-5-final-incident-host-three-mac/README.md)

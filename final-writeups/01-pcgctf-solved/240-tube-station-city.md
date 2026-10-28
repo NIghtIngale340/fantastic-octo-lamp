@@ -10,7 +10,7 @@ Identify the city from a photo of an underground station entrance. (The city and
 
 ## Solving it
 
-The trick is not to confuse the network branding with the actual stop. The "Underground" roundel just tells you it's the London Underground network — the sign above the staircase names the specific station. Reading the entrance sign in the photo:
+The network branding and station name answer different questions. The "Underground" roundel just tells you it's the London Underground network — the sign above the staircase names the specific station. Reading the entrance sign in the photo:
 
 ```text
 PICCADILLY CIRCUS STATION

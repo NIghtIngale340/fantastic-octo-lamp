@@ -10,22 +10,26 @@ Identify the domain user account tied to the infected client.
 
 ## Solving it
 
+Use [the shared capture](../../solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap) as `act2.pcap` for the commands below.
+
 A SAMR query in the capture exposes the account directly:
 
 ```sh
 tshark -nr act2.pcap -Y 'samr.samr_UserInfo21.account_name' \
-  -T fields -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name
+  -T fields -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name | sort -u
 ```
 
 ```text
-brolf   Becka Rolf
+brolf	Becka Rolf
 ```
 
 The account is `brolf` (full name Becka Rolf — that's the follow-up question, #272).
 
 ## Screenshot
 
-![271-decisive-evidence.png](../screenshots/271-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/271-clear-method.png)
 
 ## Flag
 

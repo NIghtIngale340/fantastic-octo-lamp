@@ -2,7 +2,7 @@
 
 **Platform:** OverTheWire Natas (mirrored by PCGCTF) · **Challenge ID:** 6 · **Category:** Web Exploitation — Natas · **Points:** 100
 
-**Status:** Verified on OverTheWire from the saved live-auth record. PCGCTF acceptance is unconfirmed. The recovered next-level password is redacted here.
+**Status:** Verified on OverTheWire from the saved live-auth record. PCGCTF acceptance is unconfirmed. The recovered next-level password is included below; the saved verification ledger redacts runtime secrets.
 
 ## The challenge
 
@@ -34,11 +34,9 @@ curl -sS --user natas1 -o /dev/null -w '%{http_code}\n' http://natas1.natas.labs
 
 A 200 means the recovered password really did log into natas1 — better evidence than just "it looked like a password in a comment."
 
-## Screenshots
+## Verification record
 
-![006-natas-method.png](../screenshots/006-natas-method.png)
-
-![006-natas-verify.png](../screenshots/006-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

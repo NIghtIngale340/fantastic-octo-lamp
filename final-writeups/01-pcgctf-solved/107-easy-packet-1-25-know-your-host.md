@@ -18,11 +18,11 @@ tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.host
 twitter.com
 ```
 
-
-
 ## Screenshot
 
-![107-decisive-evidence.png](../screenshots/107-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/107-clear-method.png)
 
 ## Flag
 

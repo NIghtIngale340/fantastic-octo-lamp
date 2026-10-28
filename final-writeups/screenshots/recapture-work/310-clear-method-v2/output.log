@@ -1,0 +1,5 @@
+[2J[H$ exiftool -XMP:all aurora_chest_xray.jpg
+XMP Toolkit                     : Image::ExifTool 13.55
+Identifier                      : PID-847261
+
+$ 

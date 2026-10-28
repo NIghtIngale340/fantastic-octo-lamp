@@ -1,0 +1,7 @@
+[2J[H$ sqlite3 -header -column 'file:aurora_meds.sqlite?mode=ro' \
+  "SELECT pid, medication_1, medication_2 FROM medications WHERE pid=847261;"
+pid     medication_1  medication_2
+------  ------------  ------------
+847261  Ibuprofen     Candesartan 
+
+$ 

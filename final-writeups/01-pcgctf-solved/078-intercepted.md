@@ -23,16 +23,26 @@ X-Spam-Validator: 6b65792d746f2d7468652d6b696e67646f6d
 
 The validator hex decodes to `key-to-the-kingdom` — a key. The signature is Base64 of ciphertext. So it's repeating-key XOR: Base64-decode the signature, use the validator as the key, XOR (which is its own inverse):
 
-```sh
-python3 -c "
+Save the following as `solve.py` beside the input file, then run `python3 solve.py`. [Download the script](../scripts/078-solve.py).
+
+```python
+from pathlib import Path
 import base64
-c=base64.b64decode(SIGNATURE); k=b'key-to-the-kingdom'
-print(bytes(b^k[i%len(k)] for i,b in enumerate(c)).decode())"
+import re
+
+email = Path("intercepted.txt").read_text()
+signature = re.search(r"^X-Spam-Signature: (.+)$", email, re.M)[1]
+validator = re.search(r"^X-Spam-Validator: (.+)$", email, re.M)[1]
+ciphertext = base64.b64decode(signature)
+key = bytes.fromhex(validator)
+plaintext = bytes(value ^ key[i % len(key)]
+                  for i, value in enumerate(ciphertext))
+print(plaintext.decode())
 ```
 
 ```text
-We are meeting at 5 pm opposite the left side trashcan next to the entrance
-of Fakecity Train Station. Bring the tools.
+We are meeting at 5 pm opposite the left side trashcan next to the entrance of Fakecity Train Station. Bring the tools.
+
 flag{something_is_about_to_happen}
 ```
 
@@ -40,9 +50,9 @@ A coherent message plus a full flag — the two headers were a key/ciphertext pa
 
 ## Screenshots
 
-![078-step-01.png](../screenshots/078-step-01.png)
+Fresh local reproduction using the commands described above.
 
-![078-step-02.png](../screenshots/078-step-02.png)
+![Command and result](../screenshots/078-clear-method.png)
 
 ## Flag
 

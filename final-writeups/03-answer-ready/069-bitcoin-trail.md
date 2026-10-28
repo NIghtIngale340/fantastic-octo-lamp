@@ -10,13 +10,14 @@ Identify the Bitcoin address in the transfer RPC data.
 
 ## Solving it
 
-I read the RPC transfer conversation in the capture and pulled the address from the method's parameter:
+Search for the Bitcoin JSON-RPC method `sendtoaddress`, then decode the matching TCP payload:
 
 ```sh
-tshark -nr cryptocurrency_transfer_tracking.pcap -Y 'frame.number==196' -V
+tshark -nr cryptocurrency_transfer_tracking.pcap -Y 'tcp contains "sendtoaddress"' \
+  -T fields -e tcp.payload | xxd -r -p | strings
 ```
 
-The RPC call's parameter is the destination address:
+The JSON request contains `"method": "sendtoaddress"`. Its first parameter is the destination address, followed by the amount `0.015`:
 
 ```text
 bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
@@ -24,7 +25,9 @@ bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
 
 ## Screenshot
 
-![069-packet-proof.png](../screenshots/069-packet-proof.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/069-final-method.png)
 
 ## Flag
 

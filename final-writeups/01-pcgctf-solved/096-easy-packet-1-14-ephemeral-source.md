@@ -22,7 +22,9 @@ A high ephemeral port, as you'd expect from the client side.
 
 ## Screenshot
 
-![096-decisive-evidence.png](../screenshots/096-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/096-clear-method.png)
 
 ## Flag
 

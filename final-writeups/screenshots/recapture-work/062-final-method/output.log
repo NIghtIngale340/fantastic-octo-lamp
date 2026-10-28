@@ -1,0 +1,9 @@
+[2J[H$ tshark -nr http_file_extraction.pcap -Y http -T fields -e http.request.uri -e http.content_type
+tshark -q -r http_file_extraction.pcap --export-objects http,objects
+unzip -p objects/password.zip password.txt
+/password.zip	
+/password.zip	application/zip
+my password is:
+Cx689iO7Fu4G
+
+$ 

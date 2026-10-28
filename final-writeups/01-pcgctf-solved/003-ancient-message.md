@@ -10,21 +10,21 @@ Decrypt `Frdvw Jxdug Fbehu Frppdqg`. The description hands us the method: a Caes
 
 ## Solving it
 
-Caesar just shifts every letter by a fixed amount, so decrypting is shifting back three. A quick Python snippet does it while leaving the spaces and capitals alone:
+The description gives a shift of three. Shifting each letter back three places produces the message. This can be done with `tr`:
 
 ```sh
-python3 -c "import codecs; print(''.join(chr((ord(c)-ord('A' if c.isupper() else 'a')-3)%26+ord('A' if c.isupper() else 'a')) if c.isalpha() else c for c in 'Frdvw Jxdug Fbehu Frppdqg'))"
+printf '%s\n' 'Frdvw Jxdug Fbehu Frppdqg' | tr 'A-Za-z' 'X-ZA-Wx-za-w'
 ```
 
 ```text
 Coast Guard Cyber Command
 ```
 
-Every word comes out readable, which confirms the shift direction. (You could also do this with `tr 'A-Za-z' 'X-ZA-Wx-za-w'` if you prefer.)
-
 ## Screenshot
 
-![003-step-01.png](../screenshots/003-step-01.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/003-clear-method.png)
 
 ## Flag
 
@@ -36,7 +36,7 @@ The challenge doesn't say to swap spaces for underscores, so I kept the spaces.
 
 ## Takeaway
 
-A given Caesar shift is a rule, not a password — preserve case and punctuation and the plaintext falls right out.
+The shift changes letters while leaving spaces and punctuation intact.
 
 ## References
 

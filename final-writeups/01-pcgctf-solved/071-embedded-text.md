@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 71 · **Category:** Steganography · **Points:** 100
 
-**Status:** Solved in the old snapshot, but the archive password and hidden text weren't saved, and my bounded cracking attempt here didn't recover them. Honest partial.
+**Status:** Solved in the old snapshot, but the archive password and hidden text weren't saved, and my bounded cracking attempt here didn't recover them.
 
 ## The challenge
 
@@ -35,15 +35,13 @@ Session completed.
 
 No luck in those bounded searches. Without the JPEG I can't run the steghide step — that stays a next step, not a result I'm claiming.
 
-## Screenshots
+## Verification record
 
-![071-archive-evidence.png](../screenshots/071-archive-evidence.png)
-
-![071-actual-dictionary-attempt.png](../screenshots/071-actual-dictionary-attempt.png)
+The [saved dictionary-run transcript](../screenshots/capture-work/071-dictionary-proof.terminal.log) records the command, its limits, and the unsuccessful result.
 
 ## Flag
 
-Not recovered. The snapshot records a solve but doesn't keep the string, and I couldn't open the archive here. No flag invented.
+Not recovered. The snapshot records a solve but doesn't keep the string, and I couldn't open the archive here.
 
 ## Still to do
 

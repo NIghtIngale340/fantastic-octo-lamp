@@ -10,7 +10,7 @@ Count the packets in the capture. The evidence is `EASY_PACKET_1.pcap`, the shar
 
 ## Solving it
 
-I just counted the frames:
+Count the frames:
 ```sh
 tshark -nr EASY_PACKET_1.pcap | wc -l
 ```
@@ -23,7 +23,9 @@ There's exactly one packet — which is also why every other question in this se
 
 ## Screenshot
 
-![084-decisive-evidence.png](../screenshots/084-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/084-clear-method.png)
 
 ## Flag
 

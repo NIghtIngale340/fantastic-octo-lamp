@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 67 · **Category:** Cryptography · **Points:** 300
 
-**Status:** Unresolved. The math is standard once `n` is factored, but I didn't recover a factor of this 512-bit modulus in a bounded effort, so there's no plaintext or flag. Honest writeup. (Flag format is lowercase `pcgctf{...}`.)
+**Status:** Unresolved. The math is standard once `n` is factored, but I didn't recover a factor of this 512-bit modulus in a bounded effort, so there's no plaintext or flag. (Flag format is lowercase `pcgctf{...}`.)
 
 ## The challenge
 
@@ -35,11 +35,13 @@ assert p*q == n and pow(m, e, n) == c
 
 ## Screenshot
 
+The terminal image below displays a retained verification transcript.
+
 ![067-decisive-result.png](../screenshots/067-decisive-result.png)
 
 ## Flag
 
-Not recovered — the modulus isn't factored yet. No invented plaintext.
+Not recovered — the modulus isn't factored yet.
 
 ## Still to do
 

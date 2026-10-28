@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 326 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -13,8 +13,12 @@ Find the VIP record in the patient registry and report its real Medical Record N
 The VIP is admitted under an alias, so I queried for the record and pulled the actual MRN column rather than the shown name:
 
 ```sql
-SELECT mrn FROM patients WHERE is_vip = 1;
+SELECT patient_id, mrn, first_name, last_name, alias, is_vip
+FROM aurora_ehr.patients
+WHERE is_vip = 1;
 ```
+
+Selected result from the saved verification:
 
 ```text
 AH-0044719

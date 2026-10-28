@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -T fields -e eth.src
+00:1b:63:94:b1:0e
+
+$ 

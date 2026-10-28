@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 330 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -13,10 +13,14 @@ Recover the original primary-efficacy value that was overwritten in the trial au
 The audit trail keeps the before/after of each change, so I read the row where `primary_efficacy_delta` was edited:
 
 ```sql
-SELECT old_value, new_value, changed_by
-FROM audit_trail
-WHERE field = 'primary_efficacy_delta';
+SELECT change_id, record_ref, field_name, old_value, new_value,
+       changed_by, changed_at, reason
+FROM aurora_trials.data_changes
+WHERE field_name='primary_efficacy_delta'
+ORDER BY changed_at;
 ```
+
+Selected result from the saved verification:
 
 ```text
 old_value: 2.3   new_value: 6.0   changed_by: mreyes

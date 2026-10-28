@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 327 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -11,8 +11,12 @@ Count the drugs in Aurora's formulary classified as DEA Schedule II. The flag is
 ## Solving it
 
 ```sql
-SELECT COUNT(*) FROM formulary WHERE dea_schedule = 'II';
+SELECT dea_schedule, COUNT(*) AS drug_count
+FROM aurora_pharmacy.drugs
+GROUP BY dea_schedule;
 ```
+
+Selected result from the saved verification:
 
 ```text
 9

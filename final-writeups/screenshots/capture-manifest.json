@@ -5799,8 +5799,2020 @@
       "evidence_kind": "actual_browser_capture",
       "image_captured_at": "2026-10-28T20:14:16.537133+00:00",
       "sha256": "1f05a4e4bf403f34d789670127922ab2126993ed997dc71cbdc5b156f48f6892"
+    },
+    {
+      "key": "fresh-034-simple-rot13",
+      "id": 34,
+      "command": "printf '%s\\n' 'synt vf pbby' | tr 'A-Za-z' 'N-ZA-Mn-za-m'",
+      "commands": [
+        "printf '%s\\n' 'synt vf pbby' | tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+      ],
+      "image": "screenshots/034-simple-rot13.png",
+      "filename": "034-simple-rot13.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/034-simple-rot13/output.log",
+      "sha256": "3afee3ba53ff8ff15b387d602be9fe9081cd6ef5ae92c81153663988b652b2d2",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:38:26+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-003-clear-method",
+      "id": 3,
+      "command": "printf '%s\\n' 'Frdvw Jxdug Fbehu Frppdqg' | tr 'A-Za-z' 'X-ZA-Wx-za-w'",
+      "commands": [
+        "printf '%s\\n' 'Frdvw Jxdug Fbehu Frppdqg' | tr 'A-Za-z' 'X-ZA-Wx-za-w'"
+      ],
+      "image": "screenshots/003-clear-method.png",
+      "filename": "003-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/003-clear-method/output.log",
+      "sha256": "2a6ddbefd8f30be2b163c5efef751d29476b295052002e436f6846a6db0523d6",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:39:51+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-034-clear-method",
+      "id": 34,
+      "command": "printf '%s\\n' 'synt vf pbby' | tr 'A-Za-z' 'N-ZA-Mn-za-m'",
+      "commands": [
+        "printf '%s\\n' 'synt vf pbby' | tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+      ],
+      "image": "screenshots/034-clear-method.png",
+      "filename": "034-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/034-clear-method/output.log",
+      "sha256": "2f536a4248663d07005fc765770319f348c1b6fcfc2deca1183b5a9b94aa652d",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:39:53+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-005-clear-method",
+      "id": 5,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/005-clear-method.png",
+      "filename": "005-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/005-clear-method/output.log",
+      "sha256": "bfb3a3d4ccd96bb24669ee68d8c9cc658dc5f6501d252333c0cd89812a55044b",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:39:55+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-004-clear-method",
+      "id": 4,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/004-clear-method.png",
+      "filename": "004-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/004-clear-method/output.log",
+      "sha256": "b40db156628e4dab0592bbeeabea6e3f4109e31c786e7fe16573aadfcff75d91",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:39:57+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-060-clear-method",
+      "id": 60,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/060-clear-method.png",
+      "filename": "060-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/060-clear-method/output.log",
+      "sha256": "9ada9548be33162d3b41f879e1c4a491c685b6c44d080cd24e0b993bd8d0545d",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:39:59+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-065-clear-method",
+      "id": 65,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/065-clear-method.png",
+      "filename": "065-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/065-clear-method/output.log",
+      "sha256": "babd1250d82c5a2ede9f36652421a71d2fd91b40915de4a136335e2ce796b7fc",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:01+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-066-clear-method",
+      "id": 66,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/066-clear-method.png",
+      "filename": "066-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/066-clear-method/output.log",
+      "sha256": "5d999856ee7fa0fd5e0f66285c39f83205921882d51f77903ddcdc7f470b1a8f",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:03+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-078-clear-method",
+      "id": 78,
+      "command": "rg '^X-Spam-(Signature|Validator):' intercepted.txt\n\npython3 solve.py",
+      "commands": [
+        "rg '^X-Spam-(Signature|Validator):' intercepted.txt",
+        "python3 solve.py"
+      ],
+      "image": "screenshots/078-clear-method.png",
+      "filename": "078-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/078-clear-method/output.log",
+      "sha256": "28190e0c9b9062ae35d410a7cb4860ccf19fac55635ae915dccb7c72132478fa",
+      "exit_code": 0,
+      "exit_codes": [
+        "0",
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:05+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-002-clear-method",
+      "id": 2,
+      "command": "exiftool -Make -Model -Software 'cydex (1).jpg'",
+      "commands": [
+        "exiftool -Make -Model -Software 'cydex (1).jpg'"
+      ],
+      "image": "screenshots/002-clear-method.png",
+      "filename": "002-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/002-clear-method/output.log",
+      "sha256": "307edf3128575cc97d88f299747bf37fd30d659b9b87a609a5c617939415e538",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:07+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-035-clear-method",
+      "id": 35,
+      "command": "pdfinfo confidential_2.pdf | rg 'Author|Pages|File size'\n\nprintf '%s' 'Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ==' | base64 -d",
+      "commands": [
+        "pdfinfo confidential_2.pdf | rg 'Author|Pages|File size'",
+        "printf '%s' 'Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ==' | base64 -d"
+      ],
+      "image": "screenshots/035-clear-method.png",
+      "filename": "035-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/035-clear-method/output.log",
+      "sha256": "924a3dd0af902a4ec74b57eb6660d3140c8686aba465233f93c54e5f84d644ef",
+      "exit_code": 0,
+      "exit_codes": [
+        "0",
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:09+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-063-clear-method",
+      "id": 63,
+      "command": "printf '%s\\n' 'cptpgs{pnrfne_jnf_bayl_gur_ortvaavat}' | tr 'A-Za-z' 'N-ZA-Mn-za-m'",
+      "commands": [
+        "printf '%s\\n' 'cptpgs{pnrfne_jnf_bayl_gur_ortvaavat}' | tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+      ],
+      "image": "screenshots/063-clear-method.png",
+      "filename": "063-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/063-clear-method/output.log",
+      "sha256": "5ebd085f1057e79b19241115f41fca2574a0ffa7dfdc190db7d6d72308c9479c",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:11+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-082-clear-method",
+      "id": 82,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields \\\n  -e http.request.method -e http.host -e http.request.uri -e http.authorization\n\necho 'dXNlcnRlc3Q6cGFzc3dvcmQ=' | base64 -d",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields \\\n  -e http.request.method -e http.host -e http.request.uri -e http.authorization",
+        "echo 'dXNlcnRlc3Q6cGFzc3dvcmQ=' | base64 -d"
+      ],
+      "image": "screenshots/082-clear-method.png",
+      "filename": "082-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/082-clear-method/output.log",
+      "sha256": "b2c3fe11e12f8a619ba1eca373f17612a9051337602677f56971e7a22f2822bc",
+      "exit_code": 0,
+      "exit_codes": [
+        "0",
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:14+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-084-clear-method",
+      "id": 84,
+      "command": "tshark -nr EASY_PACKET_1.pcap | wc -l",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap | wc -l"
+      ],
+      "image": "screenshots/084-clear-method.png",
+      "filename": "084-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/084-clear-method/output.log",
+      "sha256": "abc3e3246a8f143b9510311d9b6f02ab49fe4eb22768c7bcafac0cc106fa7372",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:16+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-087-clear-method",
+      "id": 87,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.type",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.type"
+      ],
+      "image": "screenshots/087-clear-method.png",
+      "filename": "087-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/087-clear-method/output.log",
+      "sha256": "ae14b5bed84d6c5755ec8c686f64b1886eca3be94b6eab5795838b04ad310779",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:18+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-088-clear-method",
+      "id": 88,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.version",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.version"
+      ],
+      "image": "screenshots/088-clear-method.png",
+      "filename": "088-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/088-clear-method/output.log",
+      "sha256": "bb4e2809d9d0173cfe32b93ded7afa40ca10dee5858fa5ce62c0d8b075e9b11f",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:20+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-092-clear-method",
+      "id": 92,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y 'frame.number==1' -T fields -e ip.ttl",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y 'frame.number==1' -T fields -e ip.ttl"
+      ],
+      "image": "screenshots/092-clear-method.png",
+      "filename": "092-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/092-clear-method/output.log",
+      "sha256": "17fb2b6b7b9d6e7782d9f05647bff90c6fac909af23a514e202a5e4a1b53403d",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:22+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-093-clear-method",
+      "id": 93,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.proto",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.proto"
+      ],
+      "image": "screenshots/093-clear-method.png",
+      "filename": "093-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/093-clear-method/output.log",
+      "sha256": "5212e7f076cfb9a11a0f02d69a82429950302ed9b845df391b6c11b3b4484163",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:24+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-094-clear-method",
+      "id": 94,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.src",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.src"
+      ],
+      "image": "screenshots/094-clear-method.png",
+      "filename": "094-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/094-clear-method/output.log",
+      "sha256": "d15e13a616a243a1ac49d2845475cc61b3420066c28021de3aaa8561429c75a5",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:26+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-095-clear-method",
+      "id": 95,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.dst",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.dst"
+      ],
+      "image": "screenshots/095-clear-method.png",
+      "filename": "095-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/095-clear-method/output.log",
+      "sha256": "dc2bdd6775b86805364037463d03843057df172f1df2caffda76ba79b9df8c4c",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:29+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-096-clear-method",
+      "id": 96,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.srcport",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.srcport"
+      ],
+      "image": "screenshots/096-clear-method.png",
+      "filename": "096-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/096-clear-method/output.log",
+      "sha256": "68b9308e37e03174f0ae72f33ec8b04ee8d3a857f55265a55efbb09f79a181a0",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:31+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-097-clear-method",
+      "id": 97,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.dstport",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.dstport"
+      ],
+      "image": "screenshots/097-clear-method.png",
+      "filename": "097-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/097-clear-method/output.log",
+      "sha256": "0a3ec2b6c42590f962e2957f19aadec89208d21fdf544846c6cee40c1da7c001",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:33+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-098-clear-method",
+      "id": 98,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.seq_raw",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.seq_raw"
+      ],
+      "image": "screenshots/098-clear-method.png",
+      "filename": "098-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/098-clear-method/output.log",
+      "sha256": "694e57b59e2ea5fb0e7211559f78036ef9adb11c641adda0a4533e191d957ca3",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:35+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-099-clear-method",
+      "id": 99,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.ack_raw",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.ack_raw"
+      ],
+      "image": "screenshots/099-clear-method.png",
+      "filename": "099-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/099-clear-method/output.log",
+      "sha256": "0a413584a163b0061f69e332aec8ed028585541e074bff2a2a3e3343392b4ddf",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:37+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-101-clear-method",
+      "id": 101,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.window_size_value",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.window_size_value"
+      ],
+      "image": "screenshots/101-clear-method.png",
+      "filename": "101-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/101-clear-method/output.log",
+      "sha256": "15639b18a81d91f9a8b49b64c08139247b55ce4c9fefa14cdc1896f10149617e",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:40+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-104-clear-method",
+      "id": 104,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.method",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.method"
+      ],
+      "image": "screenshots/104-clear-method.png",
+      "filename": "104-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/104-clear-method/output.log",
+      "sha256": "ffcd43cbfd49719076adc664c4b54a8ce244f27529297c4eb627df1715315a7b",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:42+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-105-clear-method",
+      "id": 105,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.uri",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.uri"
+      ],
+      "image": "screenshots/105-clear-method.png",
+      "filename": "105-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/105-clear-method/output.log",
+      "sha256": "358e458c974debfcce552b01f25e8eb37fa9df42c3b0511cd832ac2604b8d21d",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:44+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-106-clear-method",
+      "id": 106,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.version",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.version"
+      ],
+      "image": "screenshots/106-clear-method.png",
+      "filename": "106-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/106-clear-method/output.log",
+      "sha256": "abb45da6bd90bd4d882bdd888a3f09ddfd2e94776ebc83803445af96d2e31227",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:46+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-107-clear-method",
+      "id": 107,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.host",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.host"
+      ],
+      "image": "screenshots/107-clear-method.png",
+      "filename": "107-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/107-clear-method/output.log",
+      "sha256": "51289550852368e1fc29c5ba979609ae4ff730441e999bdeae849b5ccc0bf29b",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:48+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-108-clear-method",
+      "id": 108,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.user_agent",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.user_agent"
+      ],
+      "image": "screenshots/108-clear-method.png",
+      "filename": "108-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/108-clear-method/output.log",
+      "sha256": "bd6bb68eb02d17d28318d6e44ad9fafb929970c5e119021afba5d847f4c42a72",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:50+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-109-clear-method",
+      "id": 109,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.connection",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.connection"
+      ],
+      "image": "screenshots/109-clear-method.png",
+      "filename": "109-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/109-clear-method/output.log",
+      "sha256": "88fd2d453f139e66fe13418aa2833431d8dd93ab4fdb368a77b846e8eb552a63",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:53+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-110-clear-method",
+      "id": 110,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.authorization",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.authorization"
+      ],
+      "image": "screenshots/110-clear-method.png",
+      "filename": "110-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/110-clear-method/output.log",
+      "sha256": "3777c095d8c33c6d849b862d853730b4e7f6d4f14ecefc91dec6a3fd6d22827c",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:55+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-262-clear-method",
+      "id": 262,
+      "command": "tshark -nr act1.pcap -Y 'http.request && ip.dst==146.59.71.167' \\\n  -T fields -e ip.src -e http.host -e http.request.uri | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'http.request && ip.dst==146.59.71.167' \\\n  -T fields -e ip.src -e http.host -e http.request.uri | sort -u | head -n 8"
+      ],
+      "image": "screenshots/262-clear-method.png",
+      "filename": "262-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/262-clear-method/output.log",
+      "sha256": "7db1ba09d388b99646c213b148871d53def34769cbfef755b0ac6451ee892fe1",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:40:58+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-263-clear-method",
+      "id": 263,
+      "command": "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49' -T fields -e eth.src -e ip.src -e ip.dst | sort -u",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49' -T fields -e eth.src -e ip.src -e ip.dst | sort -u"
+      ],
+      "image": "screenshots/263-clear-method.png",
+      "filename": "263-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/263-clear-method/output.log",
+      "sha256": "bc8086f25b546db574e9dde416981455ef38e094beea44c27434b5ee11cc2f2e",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:01+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-264-clear-method",
+      "id": 264,
+      "command": "tshark -nr act1.pcap -Y 'eth.src==00:12:f0:28:d4:34 && dhcp.option.hostname' \\\n  -T fields -e dhcp.option.hostname | sort -u",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'eth.src==00:12:f0:28:d4:34 && dhcp.option.hostname' \\\n  -T fields -e dhcp.option.hostname | sort -u"
+      ],
+      "image": "screenshots/264-clear-method.png",
+      "filename": "264-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/264-clear-method/output.log",
+      "sha256": "d4e3f4992733f947eeffe2732a73ffade6561f39d7848b30c937e4ae7fe7c5b5",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:03+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-266-clear-method",
+      "id": 266,
+      "command": "tshark -nr act1.pcap -Y 'kerberos.CNameString' \\\n  -T fields -e kerberos.CNameString -e kerberos.realm | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'kerberos.CNameString' \\\n  -T fields -e kerberos.CNameString -e kerberos.realm | sort -u | head -n 8"
+      ],
+      "image": "screenshots/266-clear-method.png",
+      "filename": "266-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/266-clear-method/output.log",
+      "sha256": "4af333ea1a7501ce1cf79a8a4d63aa0b5cf4a7d2f41958c19c3b3793e1f3575f",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:06+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-268-clear-method",
+      "id": 268,
+      "command": "tshark -nr act2.pcap -d tcp.port==443,http -Y 'http.user_agent contains \"NetSupport\"' \\\n  -T fields -e ip.src -e ip.dst -e http.user_agent -e http.request.uri | sort -u",
+      "commands": [
+        "tshark -nr act2.pcap -d tcp.port==443,http -Y 'http.user_agent contains \"NetSupport\"' \\\n  -T fields -e ip.src -e ip.dst -e http.user_agent -e http.request.uri | sort -u"
+      ],
+      "image": "screenshots/268-clear-method.png",
+      "filename": "268-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/268-clear-method/output.log",
+      "sha256": "9e9e9e750039bf02339bc9eb1152258ff5f21184a6e2fe9323f1d162e3fa8433",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:09+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-269-clear-method",
+      "id": 269,
+      "command": "tshark -nr act2.pcap -Y 'ip.src==10.2.28.88' -T fields -e eth.src -e ip.src | sort -u",
+      "commands": [
+        "tshark -nr act2.pcap -Y 'ip.src==10.2.28.88' -T fields -e eth.src -e ip.src | sort -u"
+      ],
+      "image": "screenshots/269-clear-method.png",
+      "filename": "269-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/269-clear-method/output.log",
+      "sha256": "6967993d620eeb7e0a2b08a8185321318cfea4089561e2b7480053e59baef05d",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:11+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-270-clear-method",
+      "id": 270,
+      "command": "tshark -nr act2.pcap -Y 'eth.src==00:19:d1:b2:4d:ad && (dhcp.option.hostname || nbns.name)' \\\n  -T fields -e dhcp.option.hostname -e nbns.name | sort -u",
+      "commands": [
+        "tshark -nr act2.pcap -Y 'eth.src==00:19:d1:b2:4d:ad && (dhcp.option.hostname || nbns.name)' \\\n  -T fields -e dhcp.option.hostname -e nbns.name | sort -u"
+      ],
+      "image": "screenshots/270-clear-method.png",
+      "filename": "270-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/270-clear-method/output.log",
+      "sha256": "d783bb4bb99ab12e52fc075ae13bd6aba3d565a308a1e56dcb9fda09343d4b72",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:14+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-271-clear-method",
+      "id": 271,
+      "command": "tshark -nr act2.pcap -Y 'samr.samr_UserInfo21.account_name' \\\n  -T fields -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name | sort -u",
+      "commands": [
+        "tshark -nr act2.pcap -Y 'samr.samr_UserInfo21.account_name' \\\n  -T fields -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name | sort -u"
+      ],
+      "image": "screenshots/271-clear-method.png",
+      "filename": "271-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/271-clear-method/output.log",
+      "sha256": "7ede31c7fd7fe38f7c956f3023e3d627f755d2bdc9f748926485c7d7e5da6cc4",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:16+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-085-clear-method",
+      "id": 85,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.dst",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.dst"
+      ],
+      "image": "screenshots/085-clear-method.png",
+      "filename": "085-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/085-clear-method/output.log",
+      "sha256": "ea83b5ae4df9d5fda6b8bb127b9af3bb71c46262daf5e1a5cd49b5fc2aafe78a",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:19+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-086-clear-method",
+      "id": 86,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.src",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.src"
+      ],
+      "image": "screenshots/086-clear-method.png",
+      "filename": "086-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/086-clear-method/output.log",
+      "sha256": "6b622007d1e524d65e26972669e6833468484e37aa77e88db32fd026a9b1b6e6",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:21+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-089-clear-method",
+      "id": 89,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.hdr_len",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.hdr_len"
+      ],
+      "image": "screenshots/089-clear-method.png",
+      "filename": "089-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/089-clear-method/output.log",
+      "sha256": "e93aa2675f50354fce8d46556741662955fec08c022e4aca6058110d00df32df",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:23+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-090-clear-method",
+      "id": 90,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.len",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.len"
+      ],
+      "image": "screenshots/090-clear-method.png",
+      "filename": "090-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/090-clear-method/output.log",
+      "sha256": "19067d9e2b3f77c7c094295dcfba0285191e551ba841832a6051623e667807e0",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:25+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-091-clear-method",
+      "id": 91,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.id",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.id"
+      ],
+      "image": "screenshots/091-clear-method.png",
+      "filename": "091-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/091-clear-method/output.log",
+      "sha256": "4ea99c48fc92cbde079194355213df7eeefd7d268fa6b007ccd54ea62f6ba6e2",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:27+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-100-clear-method",
+      "id": 100,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.flags -e tcp.flags.push -e tcp.flags.ack",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.flags -e tcp.flags.push -e tcp.flags.ack"
+      ],
+      "image": "screenshots/100-clear-method.png",
+      "filename": "100-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/100-clear-method/output.log",
+      "sha256": "4fb27bb5881b85954db56116a11d747550d4fc04e388eefa16508b8549470308",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:30+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-103-clear-method",
+      "id": 103,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e frame.protocols",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e frame.protocols"
+      ],
+      "image": "screenshots/103-clear-method.png",
+      "filename": "103-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/103-clear-method/output.log",
+      "sha256": "4afc70b4d625277b0b768edf24fd343e936163685b0b29814034abee47616c2c",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:32+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-111-clear-method",
+      "id": 111,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.authorization\necho 'dXNlcnRlc3Q6cGFzc3dvcmQ=' | base64 -d",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.authorization\necho 'dXNlcnRlc3Q6cGFzc3dvcmQ=' | base64 -d"
+      ],
+      "image": "screenshots/111-clear-method.png",
+      "filename": "111-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/111-clear-method/output.log",
+      "sha256": "19c23003ba85f5bf286d31331002bc2ecd1366c33d3ecff39abdcefb02f7aed3",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:34+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-265-clear-method",
+      "id": 265,
+      "command": "tshark -nr act1.pcap -Y 'kerberos.CNameString' -T fields -e kerberos.realm | sort -u",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'kerberos.CNameString' -T fields -e kerberos.realm | sort -u"
+      ],
+      "image": "screenshots/265-clear-method.png",
+      "filename": "265-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/265-clear-method/output.log",
+      "sha256": "d584374b4748099edb6863ad51b262fd3e96e07cc6568c6dafc4bc9c4733c25a",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:37+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-267-clear-method",
+      "id": 267,
+      "command": "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49 && http.request' \\\n  -T fields -e ip.dst -e http.host -e http.request.uri | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49 && http.request' \\\n  -T fields -e ip.dst -e http.host -e http.request.uri | sort -u | head -n 8"
+      ],
+      "image": "screenshots/267-clear-method.png",
+      "filename": "267-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/267-clear-method/output.log",
+      "sha256": "a8077292691ec2e4ffcd729ea8d5894668e023b87b39f3d9b320b39eead36522",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:39+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-272-clear-method",
+      "id": 272,
+      "command": "tshark -nr act2.pcap -Y 'samr.samr_UserInfo21.account_name==\"brolf\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u",
+      "commands": [
+        "tshark -nr act2.pcap -Y 'samr.samr_UserInfo21.account_name==\"brolf\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u"
+      ],
+      "image": "screenshots/272-clear-method.png",
+      "filename": "272-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/272-clear-method/output.log",
+      "sha256": "1cec0fe2e7629f47ec206146721b4d3ef4276be9d78b1b1af97a8c6794e22bdb",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:42+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-273-clear-method",
+      "id": 273,
+      "command": "tshark -nr act2.pcap -d tcp.port==443,http -Y 'http.user_agent contains \"NetSupport\"' \\\n  -T fields -e http.request.uri | sort -u",
+      "commands": [
+        "tshark -nr act2.pcap -d tcp.port==443,http -Y 'http.user_agent contains \"NetSupport\"' \\\n  -T fields -e http.request.uri | sort -u"
+      ],
+      "image": "screenshots/273-clear-method.png",
+      "filename": "273-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/273-clear-method/output.log",
+      "sha256": "3486d9c2fca3ca08d9e6d88b8b9039e2d35ff3f718b2261b4b9c3e6858f09680",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:45+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-274-clear-method",
+      "id": 274,
+      "command": "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' -T fields -e ip.src -e ip.dst | sort -u",
+      "commands": [
+        "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' -T fields -e ip.src -e ip.dst | sort -u"
+      ],
+      "image": "screenshots/274-clear-method.png",
+      "filename": "274-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/274-clear-method/output.log",
+      "sha256": "6104c66770474f5446aa249e1fc1f1ab8b76314482d35ec1589c6eb4d44a8f91",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:47+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-275-clear-method",
+      "id": 275,
+      "command": "tshark -nr act3.pcap -Y 'ip.src==172.16.1.66' -T fields -e eth.src -e ip.src | sort -u",
+      "commands": [
+        "tshark -nr act3.pcap -Y 'ip.src==172.16.1.66' -T fields -e eth.src -e ip.src | sort -u"
+      ],
+      "image": "screenshots/275-clear-method.png",
+      "filename": "275-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/275-clear-method/output.log",
+      "sha256": "940f02fd712a6a374b692fbf7cc3c33f9175c197df5d66edf47af7583e754a76",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:49+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-276-clear-method",
+      "id": 276,
+      "command": "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' \\\n  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings",
+      "commands": [
+        "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' \\\n  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings"
+      ],
+      "image": "screenshots/276-clear-method.png",
+      "filename": "276-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/276-clear-method/output.log",
+      "sha256": "e0a660a4154535c43b2f736483d555c1c74fe90e35fd927895abf51ad88dc276",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:52+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-277-clear-method",
+      "id": 277,
+      "command": "tshark -nr act3.pcap -Y 'kerberos.CNameString || samr.samr_UserInfo21.account_name' \\\n  -T fields -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act3.pcap -Y 'kerberos.CNameString || samr.samr_UserInfo21.account_name' \\\n  -T fields -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name | sort -u | head -n 8"
+      ],
+      "image": "screenshots/277-clear-method.png",
+      "filename": "277-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/277-clear-method/output.log",
+      "sha256": "85fdfa654e126ba345b01962f8006b6f2de78cec71e8020e42a94084ee83d494",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:54+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-278-clear-method",
+      "id": 278,
+      "command": "tshark -nr act3.pcap -Y 'samr.samr_UserInfo21.account_name==\"ccollier\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u",
+      "commands": [
+        "tshark -nr act3.pcap -Y 'samr.samr_UserInfo21.account_name==\"ccollier\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u"
+      ],
+      "image": "screenshots/278-clear-method.png",
+      "filename": "278-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/278-clear-method/output.log",
+      "sha256": "4bdc2d6f4021fc643058ffeac1b0bbd762f4d19105759ffac4b7ad207fbb04ee",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:57+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-279-clear-method",
+      "id": 279,
+      "command": "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' -T fields -e ip.dst -e tcp.dstport | sort -u",
+      "commands": [
+        "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' -T fields -e ip.dst -e tcp.dstport | sort -u"
+      ],
+      "image": "screenshots/279-clear-method.png",
+      "filename": "279-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/279-clear-method/output.log",
+      "sha256": "b60ff9a8c8c01e49018b33db0e89b39e0e874cfcbb413c10713754024dc2d2d1",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:41:59+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-280-clear-method",
+      "id": 280,
+      "command": "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' \\\n  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings",
+      "commands": [
+        "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' \\\n  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings"
+      ],
+      "image": "screenshots/280-clear-method.png",
+      "filename": "280-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/280-clear-method/output.log",
+      "sha256": "e0a660a4154535c43b2f736483d555c1c74fe90e35fd927895abf51ad88dc276",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:02+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-282-clear-method",
+      "id": 282,
+      "command": "tshark -nr act4.pcap -Y 'http.request.uri contains \"/api/set_agent\"' \\\n  -T fields -e ip.src -e http.host -e http.request.uri | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act4.pcap -Y 'http.request.uri contains \"/api/set_agent\"' \\\n  -T fields -e ip.src -e http.host -e http.request.uri | sort -u | head -n 8"
+      ],
+      "image": "screenshots/282-clear-method.png",
+      "filename": "282-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/282-clear-method/output.log",
+      "sha256": "805b7a39ba033a7ee78d62ec457d07e557b1b709e45abca66bc1eee305e14745",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:05+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-283-clear-method",
+      "id": 283,
+      "command": "tshark -nr act4.pcap -Y 'ip.src==10.1.21.58' -T fields -e eth.src -e ip.src | sort -u",
+      "commands": [
+        "tshark -nr act4.pcap -Y 'ip.src==10.1.21.58' -T fields -e eth.src -e ip.src | sort -u"
+      ],
+      "image": "screenshots/283-clear-method.png",
+      "filename": "283-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/283-clear-method/output.log",
+      "sha256": "685f6c9e335cb6c7f3e991cb7e9afde7b6674e29c9852fc3d924ff4c49602a9d",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:09+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-284-clear-method",
+      "id": 284,
+      "command": "tshark -nr act4.pcap -Y 'eth.src==00:21:5d:c8:0e:f2 && dhcp.option.hostname' \\\n  -T fields -e dhcp.option.hostname | sort -u",
+      "commands": [
+        "tshark -nr act4.pcap -Y 'eth.src==00:21:5d:c8:0e:f2 && dhcp.option.hostname' \\\n  -T fields -e dhcp.option.hostname | sort -u"
+      ],
+      "image": "screenshots/284-clear-method.png",
+      "filename": "284-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/284-clear-method/output.log",
+      "sha256": "c3dce8642da367c0c299199f00dbc45cf59d3f5681a37b0257bdd154fd07a435",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:12+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-285-clear-method",
+      "id": 285,
+      "command": "tshark -nr act4.pcap -Y 'kerberos.CNameString || samr.samr_UserInfo21.account_name' \\\n  -T fields -e kerberos.CNameString -e samr.samr_UserInfo21.account_name | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act4.pcap -Y 'kerberos.CNameString || samr.samr_UserInfo21.account_name' \\\n  -T fields -e kerberos.CNameString -e samr.samr_UserInfo21.account_name | sort -u | head -n 8"
+      ],
+      "image": "screenshots/285-clear-method.png",
+      "filename": "285-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/285-clear-method/output.log",
+      "sha256": "3347d96a8259a54a9197701d58fdcce0ecfa2afdd0637b1019027af33f4469b0",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:16+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-286-clear-method",
+      "id": 286,
+      "command": "tshark -nr act4.pcap -Y 'samr.samr_UserInfo21.account_name==\"gwyatt\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u",
+      "commands": [
+        "tshark -nr act4.pcap -Y 'samr.samr_UserInfo21.account_name==\"gwyatt\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u"
+      ],
+      "image": "screenshots/286-clear-method.png",
+      "filename": "286-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/286-clear-method/output.log",
+      "sha256": "6d14250d33e9f7b0f1dbcca4770dc2015147a8b9b93e8cb49249c658e6332063",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:19+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-287-clear-method",
+      "id": 287,
+      "command": "tshark -nr act4.pcap -Y 'dns.a==153.92.1.49 || (http.host && ip.dst==153.92.1.49)' \\\n  -T fields -e dns.qry.name -e dns.a -e http.host | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act4.pcap -Y 'dns.a==153.92.1.49 || (http.host && ip.dst==153.92.1.49)' \\\n  -T fields -e dns.qry.name -e dns.a -e http.host | sort -u | head -n 8"
+      ],
+      "image": "screenshots/287-clear-method.png",
+      "filename": "287-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/287-clear-method/output.log",
+      "sha256": "a19944192d8f23f1b996b312a6462f00e0c475e3f05cfe1481e78ceae92156e3",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:23+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-288-clear-method",
+      "id": 288,
+      "command": "tshark -nr act4.pcap -Y 'http.host==\"whitepepper.su\"' -T fields -e http.request.uri | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act4.pcap -Y 'http.host==\"whitepepper.su\"' -T fields -e http.request.uri | sort -u | head -n 8"
+      ],
+      "image": "screenshots/288-clear-method.png",
+      "filename": "288-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/288-clear-method/output.log",
+      "sha256": "c4f2ea389077170e0b2ea4a2ceeb8120262cd4b1d5d0a2063aff07c84f90d1f4",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:26+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-289-clear-method",
+      "id": 289,
+      "command": "tshark -nr act5.pcap -Y 'ip.src==10.3.14.0/24' -T fields -e ip.src | sort -u",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'ip.src==10.3.14.0/24' -T fields -e ip.src | sort -u"
+      ],
+      "image": "screenshots/289-clear-method.png",
+      "filename": "289-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/289-clear-method/output.log",
+      "sha256": "c0fba2142be72893458f23036ad3fc5352514d0ce7d975f815f5fd7aa883f30e",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:29+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-290-clear-method",
+      "id": 290,
+      "command": "tshark -nr act5.pcap -Y 'ip.src==10.3.14.131' -T fields -e eth.src | head -1",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'ip.src==10.3.14.131' -T fields -e eth.src | head -1"
+      ],
+      "image": "screenshots/290-clear-method.png",
+      "filename": "290-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/290-clear-method/output.log",
+      "sha256": "e6f5e18c7d7f86fc92d52eae5ef39fd48c7e2faacf4b837c04434005958cd6b5",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:32+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-291-clear-method",
+      "id": 291,
+      "command": "tshark -nr act5.pcap -Y 'ip.src==10.3.14.134' -T fields -e eth.src | head -1",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'ip.src==10.3.14.134' -T fields -e eth.src | head -1"
+      ],
+      "image": "screenshots/291-clear-method.png",
+      "filename": "291-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/291-clear-method/output.log",
+      "sha256": "c08b1cd16c0377a5672043251b11e67a44c4416e4bef8122f81637ac51aa5f82",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:34+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-292-clear-method",
+      "id": 292,
+      "command": "tshark -nr act5.pcap -Y 'ip.src==10.3.14.135' -T fields -e eth.src | head -1",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'ip.src==10.3.14.135' -T fields -e eth.src | head -1"
+      ],
+      "image": "screenshots/292-clear-method.png",
+      "filename": "292-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/292-clear-method/output.log",
+      "sha256": "8bd99b4b8764a1df0f6341642952d131571fa300bbce5febb895a2c9dee9c82e",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:36+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-293-clear-method",
+      "id": 293,
+      "command": "tshark -nr act5.pcap -Y 'http.request || udp.dstport==6892' \\\n  -T fields -e ip.src -e udp.dstport -e http.host -e http.request.uri | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'http.request || udp.dstport==6892' \\\n  -T fields -e ip.src -e udp.dstport -e http.host -e http.request.uri | sort -u | head -n 8"
+      ],
+      "image": "screenshots/293-clear-method.png",
+      "filename": "293-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/293-clear-method/output.log",
+      "sha256": "e6a905803bf5af0fbda539aae9931c586916358e0468e18c27c41ac1226a5aff",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:39+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-294-clear-method",
+      "id": 294,
+      "command": "tshark -nr act5.pcap -Y 'ip.src==10.3.14.131 && http.request' -T fields -e http.host | sort -u",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'ip.src==10.3.14.131 && http.request' -T fields -e http.host | sort -u"
+      ],
+      "image": "screenshots/294-clear-method.png",
+      "filename": "294-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/294-clear-method/output.log",
+      "sha256": "91272f49e61c3c8af0b895da1ca4bb56cec41ce4781cb41e5666f40413e9d449",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:42+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-295-clear-method",
+      "id": 295,
+      "command": "tshark -nr act5.pcap -Y 'ip.src==10.3.14.134 && (udp.dstport==6892 || http.request)' \\\n  -T fields -e udp.dstport -e http.host -e http.request.uri | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'ip.src==10.3.14.134 && (udp.dstport==6892 || http.request)' \\\n  -T fields -e udp.dstport -e http.host -e http.request.uri | sort -u | head -n 8"
+      ],
+      "image": "screenshots/295-clear-method.png",
+      "filename": "295-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/295-clear-method/output.log",
+      "sha256": "a92aec4cc1f9e33eae069c4a74c7b07227566de88fb8437de19c52ebc18ff424",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:44+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-296-clear-method",
+      "id": 296,
+      "command": "tshark -nr act5.pcap -Y 'ip.src==10.3.14.135 && (http.request || dns.qry.name)' \\\n  -T fields -e dns.qry.name -e http.host -e http.user_agent | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'ip.src==10.3.14.135 && (http.request || dns.qry.name)' \\\n  -T fields -e dns.qry.name -e http.host -e http.user_agent | sort -u | head -n 8"
+      ],
+      "image": "screenshots/296-clear-method.png",
+      "filename": "296-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/296-clear-method/output.log",
+      "sha256": "ff8f2d9fa2830e14ca7603b512e04214dabf628d6749872c8124cd72ebf596e5",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:47+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-083-clear-method",
+      "id": 83,
+      "command": "xxd -l 4 EASY_PACKET_1.pcap\n\ncapinfos -t EASY_PACKET_1.pcap",
+      "commands": [
+        "xxd -l 4 EASY_PACKET_1.pcap",
+        "capinfos -t EASY_PACKET_1.pcap"
+      ],
+      "image": "screenshots/083-clear-method.png",
+      "filename": "083-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/083-clear-method/output.log",
+      "sha256": "c6ce1e28048289e5e68e32d749a8c6cd9ca3cb0e338de20af09f6e9bb178a65e",
+      "exit_code": 0,
+      "exit_codes": [
+        "0",
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:49+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-102-clear-method",
+      "id": 102,
+      "command": "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.flags.push -e tcp.flags.ack",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.flags.push -e tcp.flags.ack"
+      ],
+      "image": "screenshots/102-clear-method.png",
+      "filename": "102-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/102-clear-method/output.log",
+      "sha256": "7c4a0f263e640c6dcf25a693aa15075a8bc6d8b8b7096e78734d9b4be32d3bc5",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:51+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-112-clear-method",
+      "id": 112,
+      "command": "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e tcp.dstport -e http.authorization",
+      "commands": [
+        "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e tcp.dstport -e http.authorization"
+      ],
+      "image": "screenshots/112-clear-method.png",
+      "filename": "112-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/112-clear-method/output.log",
+      "sha256": "b977254682fb1f1119df41a1f1ffe2567ee4a6f9de1f3c730709e2162d033a96",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:54+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-306-clear-method",
+      "id": 306,
+      "command": "rg '^domain:|^created:' whitepepper-whois.txt",
+      "commands": [
+        "rg '^domain:|^created:' whitepepper-whois.txt"
+      ],
+      "image": "screenshots/306-clear-method.png",
+      "filename": "306-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/306-clear-method/output.log",
+      "sha256": "87a76fa52b73e8c1c181d382df5203f51d6f74ae023591b501adee344730e7a4",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:56+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-308-clear-method",
+      "id": 308,
+      "command": "cat handyman24-dns.json",
+      "commands": [
+        "cat handyman24-dns.json"
+      ],
+      "image": "screenshots/308-clear-method.png",
+      "filename": "308-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/308-clear-method/output.log",
+      "sha256": "931239387f55440a6da91b33d3041432ff396adeb5bd5a8846f1ebcbac795384",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:42:58+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-079-clear-method",
+      "id": 79,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/079-clear-method.png",
+      "filename": "079-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/079-clear-method/output.log",
+      "sha256": "f87d9445fb05912ac254bb1107df531efb750015189c3238c2486c55370666ab",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:44:56+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-077-clear-method",
+      "id": 77,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/077-clear-method.png",
+      "filename": "077-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/077-clear-method/output.log",
+      "sha256": "fe440f422ff6538ac1ec7193a4183f7a682530ff20a5b999614a28f0fac57cbe",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:44:58+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-075-clear-method",
+      "id": 75,
+      "command": "mmls winsock32.dll\n\nfls -r -o 128 winsock32.dll | rg 'passwords|flag.jpg'\n\nicat -o 128 winsock32.dll 40-128-3 > flag.jpg\n\nfile flag.jpg",
+      "commands": [
+        "mmls winsock32.dll",
+        "fls -r -o 128 winsock32.dll | rg 'passwords|flag.jpg'",
+        "icat -o 128 winsock32.dll 40-128-3 > flag.jpg",
+        "file flag.jpg"
+      ],
+      "image": "screenshots/075-clear-method.png",
+      "filename": "075-clear-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/075-clear-method/output.log",
+      "sha256": "493b6c1e37b66b13407d7bd856a4c3d4d0dae324e4b41389008b5f0bf116f52b",
+      "exit_code": 0,
+      "exit_codes": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:45:00+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-262-clear-method-v2",
+      "id": 262,
+      "command": "tshark -nr act1.pcap -Y 'http.request.uri contains \"/irpw/\"' \\\n  -T fields -e ip.src -e http.host -e http.request.uri.path | sort -u",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'http.request.uri contains \"/irpw/\"' \\\n  -T fields -e ip.src -e http.host -e http.request.uri.path | sort -u"
+      ],
+      "image": "screenshots/262-clear-method-v2.png",
+      "filename": "262-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/262-clear-method-v2/output.log",
+      "sha256": "fe5b6cb489a008b9e1d4ffebfe38d34a671290b2e2a7d350f11b214f6bd8d032",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:45:03+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-263-clear-method-v2",
+      "id": 263,
+      "command": "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49' \\\n  -T fields -e eth.src -e ip.src | sort -u",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49' \\\n  -T fields -e eth.src -e ip.src | sort -u"
+      ],
+      "image": "screenshots/263-clear-method-v2.png",
+      "filename": "263-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/263-clear-method-v2/output.log",
+      "sha256": "a0a7376d1214acd6a43684e54f1bde4363809c49a2b6ee077f7255cb3dd26570",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:45:06+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-266-clear-method-v2",
+      "id": 266,
+      "command": "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49 && kerberos.CNameString' \\\n  -T fields -e kerberos.CNameString -e kerberos.realm | sort -u",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49 && kerberos.CNameString' \\\n  -T fields -e kerberos.CNameString -e kerberos.realm | sort -u"
+      ],
+      "image": "screenshots/266-clear-method-v2.png",
+      "filename": "266-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/266-clear-method-v2/output.log",
+      "sha256": "35c009dd41b465d3cbbcc4ea3deb74c420542555f5956449caff27b77d34718f",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:45:09+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-267-clear-method-v2",
+      "id": 267,
+      "command": "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49 && http.request.uri contains \"/irpw/\"' \\\n  -T fields -e ip.dst -e http.host -e http.request.uri.path | sort -u",
+      "commands": [
+        "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49 && http.request.uri contains \"/irpw/\"' \\\n  -T fields -e ip.dst -e http.host -e http.request.uri.path | sort -u"
+      ],
+      "image": "screenshots/267-clear-method-v2.png",
+      "filename": "267-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/267-clear-method-v2/output.log",
+      "sha256": "606b814169d930b15fb30651ba052e01cc2b7d057be7c059b95cca371bdf0f79",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:45:12+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-293-clear-method-v2",
+      "id": 293,
+      "command": "tshark -nr act5.pcap -Y 'http.host contains \"spora\" || http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport==6892' \\\n  -T fields -e ip.src -e udp.dstport -e http.host | sort -u",
+      "commands": [
+        "tshark -nr act5.pcap -Y 'http.host contains \"spora\" || http.host contains \"p27dokhpz2n7nvgr\" || udp.dstport==6892' \\\n  -T fields -e ip.src -e udp.dstport -e http.host | sort -u"
+      ],
+      "image": "screenshots/293-clear-method-v2.png",
+      "filename": "293-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/293-clear-method-v2/output.log",
+      "sha256": "fea1caa2af8243f06e67cb7a7e52b16d932d737944521d923e48192d90008306",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:45:15+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-297-clear-method-v3",
+      "id": 297,
+      "command": "tshark -nr act.pcap -d tcp.port==443,http -Y 'ip.dst==45.131.214.85 && http.request' \\\n  -T fields -e http.request.uri -e http.user_agent | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act.pcap -d tcp.port==443,http -Y 'ip.dst==45.131.214.85 && http.request' \\\n  -T fields -e http.request.uri -e http.user_agent | sort -u | head -n 8"
+      ],
+      "image": "screenshots/297-clear-method-v3.png",
+      "filename": "297-clear-method-v3.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/297-clear-method-v3/output.log",
+      "sha256": "4f1ce9b44b269a236bd6dfa882e6af10589207385f27dccf08bb63713b91df97",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:00+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-299-clear-method-v3",
+      "id": 299,
+      "command": "tshark -nr act.pcap -d tcp.port==443,http -Y 'ip.dst==45.131.214.85 && http.request' \\\n  -T fields -e tcp.dstport -e http.request.method -e http.request.uri | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act.pcap -d tcp.port==443,http -Y 'ip.dst==45.131.214.85 && http.request' \\\n  -T fields -e tcp.dstport -e http.request.method -e http.request.uri | sort -u | head -n 8"
+      ],
+      "image": "screenshots/299-clear-method-v3.png",
+      "filename": "299-clear-method-v3.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/299-clear-method-v3/output.log",
+      "sha256": "77bdfd09eecbb450c02d2d8504db9d2ddc78240de5e948970874bce9ccac5cda",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:02+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-301-clear-method-v3",
+      "id": 301,
+      "command": "tshark -nr act.pcap -Y 'tcp.payload contains \"STRRAT\"' \\\n  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings",
+      "commands": [
+        "tshark -nr act.pcap -Y 'tcp.payload contains \"STRRAT\"' \\\n  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings"
+      ],
+      "image": "screenshots/301-clear-method-v3.png",
+      "filename": "301-clear-method-v3.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/301-clear-method-v3/output.log",
+      "sha256": "e644a4ba06314de288a4231caa52a8b425b53959636ae3ef646e60f132907c20",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:05+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-303-clear-method-v3",
+      "id": 303,
+      "command": "tshark -nr act.pcap -Y 'ip.dst==141.98.10.79 && tcp contains \"STRRAT\"' \\\n  -T fields -e tcp.dstport | sort -u",
+      "commands": [
+        "tshark -nr act.pcap -Y 'ip.dst==141.98.10.79 && tcp contains \"STRRAT\"' \\\n  -T fields -e tcp.dstport | sort -u"
+      ],
+      "image": "screenshots/303-clear-method-v3.png",
+      "filename": "303-clear-method-v3.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/303-clear-method-v3/output.log",
+      "sha256": "2d4af6905961951c026cceab383b49337bdfa257c5ec2e2029845d28ef9b2fbe",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:08+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-304-clear-method-v3",
+      "id": 304,
+      "command": "tshark -nr act.pcap -Y 'ip.dst==153.92.1.49 && http.request' \\\n  -T fields -e http.host -e http.request.uri | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act.pcap -Y 'ip.dst==153.92.1.49 && http.request' \\\n  -T fields -e http.host -e http.request.uri | sort -u | head -n 8"
+      ],
+      "image": "screenshots/304-clear-method-v3.png",
+      "filename": "304-clear-method-v3.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/304-clear-method-v3/output.log",
+      "sha256": "d7451cedaa7d509573cae1449425f4c24ce9d5ad8c3ecfc44adf428421b29941",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:11+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-305-clear-method-v3",
+      "id": 305,
+      "command": "tshark -nr act.pcap -Y '(http.host && ip.dst==153.92.1.49) || dns.a==153.92.1.49' \\\n  -T fields -e dns.qry.name -e http.host | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act.pcap -Y '(http.host && ip.dst==153.92.1.49) || dns.a==153.92.1.49' \\\n  -T fields -e dns.qry.name -e http.host | sort -u | head -n 8"
+      ],
+      "image": "screenshots/305-clear-method-v3.png",
+      "filename": "305-clear-method-v3.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/305-clear-method-v3/output.log",
+      "sha256": "e5cb26dd1550ae91219c47848560e40ffd9343ccdde5ffaa5ae522eb4ef41695",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:15+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-307-clear-method-v3",
+      "id": 307,
+      "command": "tshark -nr act.pcap -Y 'http.request' -T fields -e http.host -e http.request.uri | head | sort -u | head -n 8",
+      "commands": [
+        "tshark -nr act.pcap -Y 'http.request' -T fields -e http.host -e http.request.uri | head | sort -u | head -n 8"
+      ],
+      "image": "screenshots/307-clear-method-v3.png",
+      "filename": "307-clear-method-v3.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/307-clear-method-v3/output.log",
+      "sha256": "285299345864a75d7aab7a61d619aa51867f85a309fd62852959f980a4db9568",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:18+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-311-clear-method-v2",
+      "id": 311,
+      "command": "sqlite3 -header -column 'file:aurora_meds.sqlite?mode=ro' \\\n  \"SELECT pid, medication_1, medication_2 FROM medications WHERE pid=847261;\"",
+      "commands": [
+        "sqlite3 -header -column 'file:aurora_meds.sqlite?mode=ro' \\\n  \"SELECT pid, medication_1, medication_2 FROM medications WHERE pid=847261;\""
+      ],
+      "image": "screenshots/311-clear-method-v2.png",
+      "filename": "311-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/311-clear-method-v2/output.log",
+      "sha256": "34d2f570c90c9a1d07d9b5c4aa18e9df49fcf919706a8a94e395af75965170c6",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:20+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-310-clear-method-v2",
+      "id": 310,
+      "command": "exiftool -XMP:all aurora_chest_xray.jpg",
+      "commands": [
+        "exiftool -XMP:all aurora_chest_xray.jpg"
+      ],
+      "image": "screenshots/310-clear-method-v2.png",
+      "filename": "310-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/310-clear-method-v2/output.log",
+      "sha256": "7723aa414e13719db7ff6a02557908a470181827911972030eb7e8681902071e",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:22+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-312-clear-method-v2",
+      "id": 312,
+      "command": "strings -n 4 'Aurora Health Mobile' | rg -i -A 2 'gateway'",
+      "commands": [
+        "strings -n 4 'Aurora Health Mobile' | rg -i -A 2 'gateway'"
+      ],
+      "image": "screenshots/312-clear-method-v2.png",
+      "filename": "312-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/312-clear-method-v2/output.log",
+      "sha256": "ab3ea23c37958df0c5b918051785a5bd40b769bc46721d7e1ac0a888164e46b9",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:24+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-309-clear-method-v2",
+      "id": 309,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/309-clear-method-v2.png",
+      "filename": "309-clear-method-v2.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/309-clear-method-v2/output.log",
+      "sha256": "84a41c57723a358a0f7a93f4757b7d44cc2cb07f5cd76a7e7a4864eec845362e",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:47:26+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-020-final-method",
+      "id": 20,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/020-final-method.png",
+      "filename": "020-final-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/020-final-method/output.log",
+      "sha256": "45addbed262081a3fbacf4dc5391bdf73482539074db8b4e8bf2b7c1b0be19b5",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:48:29+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-033-final-method",
+      "id": 33,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/033-final-method.png",
+      "filename": "033-final-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/033-final-method/output.log",
+      "sha256": "45addbed262081a3fbacf4dc5391bdf73482539074db8b4e8bf2b7c1b0be19b5",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:48:31+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-064-final-method",
+      "id": 64,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/064-final-method.png",
+      "filename": "064-final-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/064-final-method/output.log",
+      "sha256": "71027b3dc29af334197429d0538b947f3ce7777017520f3a553e4138d35d48cd",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:48:33+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-018-final-method",
+      "id": 18,
+      "command": "python3 solve.py",
+      "commands": [
+        "python3 solve.py"
+      ],
+      "image": "screenshots/018-final-method.png",
+      "filename": "018-final-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/018-final-method/output.log",
+      "sha256": "34c8b835d73badf6fe4750f7dc3a284503136651c943264a0eb1808b4d446504",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:48:35+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-069-final-method",
+      "id": 69,
+      "command": "tshark -nr cryptocurrency_transfer_tracking.pcap -Y 'tcp contains \"sendtoaddress\"' \\\n  -T fields -e tcp.payload | xxd -r -p | strings",
+      "commands": [
+        "tshark -nr cryptocurrency_transfer_tracking.pcap -Y 'tcp contains \"sendtoaddress\"' \\\n  -T fields -e tcp.payload | xxd -r -p | strings"
+      ],
+      "image": "screenshots/069-final-method.png",
+      "filename": "069-final-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/069-final-method/output.log",
+      "sha256": "e5da6edfa77a2c0baea96a37285f347a3acb8d601db922449a849fccc0076200",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:48:37+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-062-final-method",
+      "id": 62,
+      "command": "tshark -nr http_file_extraction.pcap -Y http -T fields -e http.request.uri -e http.content_type\ntshark -q -r http_file_extraction.pcap --export-objects http,objects\nunzip -p objects/password.zip password.txt",
+      "commands": [
+        "tshark -nr http_file_extraction.pcap -Y http -T fields -e http.request.uri -e http.content_type\ntshark -q -r http_file_extraction.pcap --export-objects http,objects\nunzip -p objects/password.zip password.txt"
+      ],
+      "image": "screenshots/062-final-method.png",
+      "filename": "062-final-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/062-final-method/output.log",
+      "sha256": "4f3c26011cfa6d0a6afe458f9497ccda8a76089763803c3ef9b7157dcadef56c",
+      "exit_code": 0,
+      "exit_codes": [
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:48:40+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
+    },
+    {
+      "key": "fresh-070-final-method",
+      "id": 70,
+      "command": "tshark -nr http_file_extraction.pcap -Y http -T fields -e frame.number -e http.request.uri -e http.content_type\n\ntshark -q -r http_file_extraction.pcap --export-objects http,objects\nunzip -p objects/password.zip password.txt",
+      "commands": [
+        "tshark -nr http_file_extraction.pcap -Y http -T fields -e frame.number -e http.request.uri -e http.content_type",
+        "tshark -q -r http_file_extraction.pcap --export-objects http,objects\nunzip -p objects/password.zip password.txt"
+      ],
+      "image": "screenshots/070-final-method.png",
+      "filename": "070-final-method.png",
+      "log": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/070-final-method/output.log",
+      "sha256": "80c6c598bab153ba697e18d202cfb6856ea8d5956848b3634717d7c6018f3ebb",
+      "exit_code": 0,
+      "exit_codes": [
+        "0",
+        "0"
+      ],
+      "capture_type": "Commands freshly executed inside the captured Konsole window; not a transcript replay",
+      "image_captured_at": "2026-10-29T06:48:42+0800",
+      "purpose": "Readable local reproduction aligned with the revised draft; commands execute in the captured terminal window."
     }
   ],
   "terminal_render_updated_at": "2026-10-29T04:36:42+0800",
-  "terminal_render_note": "Terminal PNGs were re-rendered in Konsole from the retained PTY transcripts. Command output, transcript links and challenge associations are unchanged; the xterm.js originals are preserved in screenshots/xtermjs-backup/."
+  "terminal_render_note": "Terminal PNGs were re-rendered in Konsole from the retained PTY transcripts. Command output, transcript links and challenge associations are unchanged; the xterm.js originals are preserved in screenshots/xtermjs-backup/.",
+  "editorial_cleanup_date": "2026-10-29"
 }

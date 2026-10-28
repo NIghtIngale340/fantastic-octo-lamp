@@ -10,19 +10,24 @@ Recover the MAC of the infected NetSupport client (10.2.28.88).
 
 ## Solving it
 
+Use [the shared capture](../../solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap) as `act2.pcap` for the commands below.
+
 Same frame as the RAT check-in gives the source MAC alongside the IP:
 
 ```sh
-tshark -nr act2.pcap -Y 'ip.src==10.2.28.88' -T fields -e eth.src -e ip.src
+tshark -nr act2.pcap -Y 'ip.src==10.2.28.88' -T fields -e eth.src -e ip.src | sort -u
 ```
 
 ```text
-00:19:d1:b2:4d:ad  10.2.28.88
+00:19:d1:b2:4d:ad	10.2.28.88
+00:19:d1:b2:4d:ad	10.2.28.88,10.2.28.2
 ```
 
 ## Screenshot
 
-![269-decisive-evidence.png](../screenshots/269-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/269-clear-method.png)
 
 ## Flag
 

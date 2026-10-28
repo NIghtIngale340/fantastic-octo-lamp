@@ -1,0 +1,8 @@
+[2J[H$ pdfinfo confidential_2.pdf | rg 'Author|Pages|File size'
+Author:          Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ==
+Pages:           1
+File size:       186054 bytes
+
+$ printf '%s' 'Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ==' | base64 -d
+CTF{puzzl3d_m3tadata_f0und!_42440c7d}
+$ 

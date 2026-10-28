@@ -1,0 +1,1 @@
+[{"id": 34, "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work", "commands": ["printf '%s\\n' 'synt vf pbby' | tr 'A-Za-z' 'N-ZA-Mn-za-m'"], "name": "034-simple-rot13"}]

@@ -19,9 +19,9 @@ Analyst report: vadusa.xyz ↔ 45.131.214.85
 
 Refanged, the domain is `vadusa.xyz`.
 
-## Screenshot
+## Supporting record
 
-![298-saved-evidence.png](../screenshots/298-saved-evidence.png)
+The lookup observations are preserved in the [saved verification records](../../analysis-team-verification/public-source-observations.json).
 
 ## Flag
 
@@ -36,4 +36,4 @@ A database's dash-separated tag (`vadusa-xyz`) is a normalized label — resolve
 ## References
 
 - [Analyst writeup (Easy as 123)](https://rvmchua.com/posts/mta-easy-as-123/)
-- [Original challenge description](../../solved/network-forensics/298-act-1-easy-as-123-domain-pivot/README.md)
+- [Original challenge description](../../unsolved/osint/298-act-1-easy-as-123-domain-pivot/README.md)

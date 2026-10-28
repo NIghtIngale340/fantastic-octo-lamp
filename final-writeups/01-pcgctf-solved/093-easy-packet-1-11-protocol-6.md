@@ -22,7 +22,9 @@ Protocol number 6 is TCP.
 
 ## Screenshot
 
-![093-decisive-evidence.png](../screenshots/093-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/093-clear-method.png)
 
 ## Flag
 

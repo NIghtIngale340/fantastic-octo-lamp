@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 336 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -10,25 +10,29 @@ Identify the legitimate account logged into two different workstations at identi
 
 ## Solving it
 
-I looked for the same account with access-log rows at the same instant on different workstations, and counted those collisions:
+Group access records by account and timestamp, keeping timestamps with more than one workstation. Count those timestamps per account:
 
 ```sql
-SELECT u.username, COUNT(*) AS collisions
-FROM aurora_audit.access_log a
-JOIN aurora_audit.access_log b
-  ON a.user_id = b.user_id
- AND a.accessed_at = b.accessed_at
- AND a.workstation <> b.workstation
-JOIN aurora_audit.users u ON u.user_id = a.user_id
-GROUP BY u.username
+SELECT u.user_id,u.username,COUNT(*) AS collisions
+FROM (SELECT user_id,accessed_at
+      FROM aurora_audit.access_log
+      GROUP BY user_id,accessed_at
+      HAVING COUNT(DISTINCT workstation)>1) t
+JOIN aurora_audit.users u ON u.user_id=t.user_id
+GROUP BY u.user_id,u.username
 ORDER BY collisions DESC;
 ```
 
+The saved result is:
+
 ```text
-kbhat   (e.g. 2025-11-04 23:54:03 on WS-028 and WS-008)
+user_id  username  collisions
+16       kbhatt    8
 ```
 
-`kbhat` is logged into two workstations at once, repeatedly — credentials in use by more than one person.
+The database username is **`kbhatt`**, with two `t`s. The teammate's submission record reports **`deadface{kbhat}`**, with one `t`, as the accepted spelling. The flag below preserves that reported spelling; it is not the literal username returned by the query.
+
+The eight matching timestamps identify the account described by the exercise. The logs alone do not identify who was using its credentials.
 
 ## Screenshot
 
@@ -42,7 +46,7 @@ deadface{kbhat}
 
 ## Takeaway
 
-Impossible-travel / simultaneous-session detection is a self-join on (user, timestamp) with different workstations — a shared or stolen credential falls right out.
+Keep the evidence value and a reported accepted spelling separate when the two differ.
 
 ## Reference
 

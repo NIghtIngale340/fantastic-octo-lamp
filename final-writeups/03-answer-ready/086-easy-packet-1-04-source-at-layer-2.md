@@ -22,7 +22,9 @@ The layer-2 source, again dash-separated uppercase in the flag.
 
 ## Screenshot
 
-![086-decisive-evidence.png](../screenshots/086-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/086-clear-method.png)
 
 ## Flag
 
@@ -32,4 +34,4 @@ pcgCTF{00-1B-63-94-B1-0E}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/086-easy-packet-1-04-source-at-layer-2/README.md)
+- [Original challenge description](../../unsolved/network-forensics/086-easy-packet-1-04-source-at-layer-2/README.md)

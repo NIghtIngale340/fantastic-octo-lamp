@@ -19,11 +19,9 @@ curl -sS --user natas10 --data-urlencode 'needle=.* /etc/natas_webpass/natas11' 
 
 `.*` matches every line, and grep prints matches from both files — so natas11's password shows up in the output.
 
-## Screenshots
+## Verification record
 
-![017-natas-method.png](../screenshots/017-natas-method.png)
-
-![017-natas-verify.png](../screenshots/017-natas-verify.png)
+The [saved authentication ledger](../evidence/ready-natas/natas-verification-redacted.json) records the method check and next-level authentication. Runtime passwords are redacted in that ledger.
 
 ## Flag
 

@@ -6,7 +6,7 @@
 
 ## The challenge
 
-Find the camera "make" hidden in a JPEG's metadata. The thing in the picture isn't the answer — the device that took it is.
+Find the camera make recorded in the JPEG metadata.
 
 ## Solving it
 
@@ -17,18 +17,18 @@ exiftool -Make -Model -Software 'cydex (1).jpg'
 ```
 
 ```text
-Make     : Iphone17PROMaxFULLYPAID
-Model    : --
-Software : MediaTek Camera Application
+Make                            : Iphone17PROMaxFULLYPAID
+Camera Model Name               : --
+Software                        : MediaTek Camera Application
 ```
 
-The make is `Iphone17PROMaxFULLYPAID`. Obviously that's not a real camera string — an iPhone make with a MediaTek software field is nonsense — so it's clearly been planted for the challenge. The answer is that exact string, odd capitalization and all; don't "tidy" it into a real brand name.
+The `Make` field contains `Iphone17PROMaxFULLYPAID`. This is the value the question asks for, so its capitalization is preserved in the flag. The other tags do not establish which device actually took the photo.
 
 ## Screenshots
 
-![002-step-01.png](../screenshots/002-step-01.png)
+Fresh local reproduction using the command described above.
 
-![002-step-02.png](../screenshots/002-step-02.png)
+![Command and result](../screenshots/002-clear-method.png)
 
 ## Flag
 

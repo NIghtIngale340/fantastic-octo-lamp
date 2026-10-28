@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 332 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the last snapshot; reproduced from the database.
+**Status:** Solved in the saved snapshot. The query and screenshots below come from the saved database verification.
 
 ## The challenge
 
@@ -13,12 +13,14 @@ Find the handler codename that appears in both the audit users and the EHR provi
 Both tables carry a `handler_ref`, so I joined on it (trimmed and case-normalized, excluding blanks) to find the codename linking an audit account to a provider:
 
 ```sql
-SELECT u.handler_ref
+SELECT u.handler_ref,u.username,p.provider_id
 FROM aurora_audit.users u
 JOIN aurora_ehr.providers p
-  ON LOWER(TRIM(u.handler_ref)) = LOWER(TRIM(p.handler_ref))
-WHERE TRIM(u.handler_ref) <> '';
+ ON UPPER(TRIM(u.handler_ref))=UPPER(TRIM(p.handler_ref))
+WHERE u.handler_ref IS NOT NULL AND TRIM(u.handler_ref)<>'';
 ```
+
+Selected result from the saved verification:
 
 ```text
 REVENANT-7

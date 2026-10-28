@@ -27,6 +27,8 @@ The earlier attempt fails; the one that succeeds uses `John1234!`.
 
 ## Screenshot
 
+The terminal image below displays a retained verification transcript.
+
 ![061-packet-proof.png](../screenshots/061-packet-proof.png)
 
 ## Flag

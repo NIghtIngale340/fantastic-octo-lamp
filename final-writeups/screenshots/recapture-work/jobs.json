@@ -1,0 +1,708 @@
+[
+  {
+    "id": 3,
+    "name": "003-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/003",
+    "commands": [
+      "printf '%s\\n' 'Frdvw Jxdug Fbehu Frppdqg' | tr 'A-Za-z' 'X-ZA-Wx-za-w'"
+    ],
+    "rows": 8
+  },
+  {
+    "id": 34,
+    "name": "034-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/034",
+    "commands": [
+      "printf '%s\\n' 'synt vf pbby' | tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+    ],
+    "rows": 8
+  },
+  {
+    "id": 5,
+    "name": "005-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/005",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 15
+  },
+  {
+    "id": 4,
+    "name": "004-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/004",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 15
+  },
+  {
+    "id": 60,
+    "name": "060-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/060",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 15
+  },
+  {
+    "id": 65,
+    "name": "065-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/065",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 15
+  },
+  {
+    "id": 66,
+    "name": "066-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/066",
+    "commands": [
+      "python3 solve.py"
+    ],
+    "rows": 15
+  },
+  {
+    "id": 78,
+    "name": "078-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/078",
+    "commands": [
+      "rg '^X-Spam-(Signature|Validator):' intercepted.txt",
+      "python3 solve.py"
+    ],
+    "rows": 15
+  },
+  {
+    "id": 2,
+    "name": "002-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/002",
+    "commands": [
+      "exiftool -Make -Model -Software 'cydex (1).jpg'"
+    ],
+    "rows": 10
+  },
+  {
+    "id": 35,
+    "name": "035-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/035",
+    "commands": [
+      "pdfinfo confidential_2.pdf | rg 'Author|Pages|File size'",
+      "printf '%s' 'Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ==' | base64 -d"
+    ],
+    "rows": 12
+  },
+  {
+    "id": 63,
+    "name": "063-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/063",
+    "commands": [
+      "printf '%s\\n' 'cptpgs{pnrfne_jnf_bayl_gur_ortvaavat}' | tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+    ],
+    "rows": 8
+  },
+  {
+    "id": 82,
+    "name": "082-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/082",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields \\\n  -e http.request.method -e http.host -e http.request.uri -e http.authorization",
+      "echo 'dXNlcnRlc3Q6cGFzc3dvcmQ=' | base64 -d"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 84,
+    "name": "084-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/084",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap | wc -l"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 87,
+    "name": "087-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/087",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.type"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 88,
+    "name": "088-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/088",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.version"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 92,
+    "name": "092-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/092",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y 'frame.number==1' -T fields -e ip.ttl"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 93,
+    "name": "093-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/093",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.proto"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 94,
+    "name": "094-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/094",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.src"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 95,
+    "name": "095-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/095",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.dst"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 96,
+    "name": "096-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/096",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.srcport"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 97,
+    "name": "097-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/097",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.dstport"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 98,
+    "name": "098-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/098",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.seq_raw"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 99,
+    "name": "099-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/099",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.ack_raw"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 101,
+    "name": "101-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/101",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.window_size_value"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 104,
+    "name": "104-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/104",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.method"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 105,
+    "name": "105-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/105",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.uri"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 106,
+    "name": "106-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/106",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.request.version"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 107,
+    "name": "107-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/107",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.host"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 108,
+    "name": "108-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/108",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.user_agent"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 109,
+    "name": "109-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/109",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.connection"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 110,
+    "name": "110-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/110",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.authorization"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 262,
+    "name": "262-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/262",
+    "commands": [
+      "tshark -nr act1.pcap -Y 'http.request && ip.dst==146.59.71.167' \\\n  -T fields -e ip.src -e http.host -e http.request.uri | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 263,
+    "name": "263-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/263",
+    "commands": [
+      "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49' -T fields -e eth.src -e ip.src -e ip.dst | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 264,
+    "name": "264-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/264",
+    "commands": [
+      "tshark -nr act1.pcap -Y 'eth.src==00:12:f0:28:d4:34 && dhcp.option.hostname' \\\n  -T fields -e dhcp.option.hostname | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 266,
+    "name": "266-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/266",
+    "commands": [
+      "tshark -nr act1.pcap -Y 'kerberos.CNameString' \\\n  -T fields -e kerberos.CNameString -e kerberos.realm | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 268,
+    "name": "268-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/268",
+    "commands": [
+      "tshark -nr act2.pcap -d tcp.port==443,http -Y 'http.user_agent contains \"NetSupport\"' \\\n  -T fields -e ip.src -e ip.dst -e http.user_agent -e http.request.uri | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 269,
+    "name": "269-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/269",
+    "commands": [
+      "tshark -nr act2.pcap -Y 'ip.src==10.2.28.88' -T fields -e eth.src -e ip.src | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 270,
+    "name": "270-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/270",
+    "commands": [
+      "tshark -nr act2.pcap -Y 'eth.src==00:19:d1:b2:4d:ad && (dhcp.option.hostname || nbns.name)' \\\n  -T fields -e dhcp.option.hostname -e nbns.name | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 271,
+    "name": "271-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/271",
+    "commands": [
+      "tshark -nr act2.pcap -Y 'samr.samr_UserInfo21.account_name' \\\n  -T fields -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 85,
+    "name": "085-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/085",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.dst"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 86,
+    "name": "086-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/086",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e eth.src"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 89,
+    "name": "089-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/089",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.hdr_len"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 90,
+    "name": "090-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/090",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.len"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 91,
+    "name": "091-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/091",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e ip.id"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 100,
+    "name": "100-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/100",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.flags -e tcp.flags.push -e tcp.flags.ack"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 103,
+    "name": "103-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/103",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e frame.protocols"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 111,
+    "name": "111-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/111",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e http.authorization\necho 'dXNlcnRlc3Q6cGFzc3dvcmQ=' | base64 -d"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 265,
+    "name": "265-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/265",
+    "commands": [
+      "tshark -nr act1.pcap -Y 'kerberos.CNameString' -T fields -e kerberos.realm | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 267,
+    "name": "267-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/267",
+    "commands": [
+      "tshark -nr act1.pcap -Y 'ip.src==172.16.8.49 && http.request' \\\n  -T fields -e ip.dst -e http.host -e http.request.uri | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 272,
+    "name": "272-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/272",
+    "commands": [
+      "tshark -nr act2.pcap -Y 'samr.samr_UserInfo21.account_name==\"brolf\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 273,
+    "name": "273-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/273",
+    "commands": [
+      "tshark -nr act2.pcap -d tcp.port==443,http -Y 'http.user_agent contains \"NetSupport\"' \\\n  -T fields -e http.request.uri | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 274,
+    "name": "274-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/274",
+    "commands": [
+      "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' -T fields -e ip.src -e ip.dst | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 275,
+    "name": "275-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/275",
+    "commands": [
+      "tshark -nr act3.pcap -Y 'ip.src==172.16.1.66' -T fields -e eth.src -e ip.src | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 276,
+    "name": "276-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/276",
+    "commands": [
+      "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' \\\n  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 277,
+    "name": "277-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/277",
+    "commands": [
+      "tshark -nr act3.pcap -Y 'kerberos.CNameString || samr.samr_UserInfo21.account_name' \\\n  -T fields -e kerberos.CNameString -e samr.samr_UserInfo21.account_name -e samr.samr_UserInfo21.full_name | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 278,
+    "name": "278-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/278",
+    "commands": [
+      "tshark -nr act3.pcap -Y 'samr.samr_UserInfo21.account_name==\"ccollier\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 279,
+    "name": "279-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/279",
+    "commands": [
+      "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' -T fields -e ip.dst -e tcp.dstport | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 280,
+    "name": "280-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/280",
+    "commands": [
+      "tshark -nr act3.pcap -Y 'tcp.payload contains \"STRRAT\"' \\\n  -T fields -e tcp.payload | head -n 1 | xxd -r -p | strings"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 282,
+    "name": "282-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/282",
+    "commands": [
+      "tshark -nr act4.pcap -Y 'http.request.uri contains \"/api/set_agent\"' \\\n  -T fields -e ip.src -e http.host -e http.request.uri | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 283,
+    "name": "283-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/283",
+    "commands": [
+      "tshark -nr act4.pcap -Y 'ip.src==10.1.21.58' -T fields -e eth.src -e ip.src | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 284,
+    "name": "284-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/284",
+    "commands": [
+      "tshark -nr act4.pcap -Y 'eth.src==00:21:5d:c8:0e:f2 && dhcp.option.hostname' \\\n  -T fields -e dhcp.option.hostname | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 285,
+    "name": "285-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/285",
+    "commands": [
+      "tshark -nr act4.pcap -Y 'kerberos.CNameString || samr.samr_UserInfo21.account_name' \\\n  -T fields -e kerberos.CNameString -e samr.samr_UserInfo21.account_name | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 286,
+    "name": "286-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/286",
+    "commands": [
+      "tshark -nr act4.pcap -Y 'samr.samr_UserInfo21.account_name==\"gwyatt\"' \\\n  -T fields -e samr.samr_UserInfo21.full_name | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 287,
+    "name": "287-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/287",
+    "commands": [
+      "tshark -nr act4.pcap -Y 'dns.a==153.92.1.49 || (http.host && ip.dst==153.92.1.49)' \\\n  -T fields -e dns.qry.name -e dns.a -e http.host | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 288,
+    "name": "288-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/288",
+    "commands": [
+      "tshark -nr act4.pcap -Y 'http.host==\"whitepepper.su\"' -T fields -e http.request.uri | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 289,
+    "name": "289-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/289",
+    "commands": [
+      "tshark -nr act5.pcap -Y 'ip.src==10.3.14.0/24' -T fields -e ip.src | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 290,
+    "name": "290-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/290",
+    "commands": [
+      "tshark -nr act5.pcap -Y 'ip.src==10.3.14.131' -T fields -e eth.src | head -1"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 291,
+    "name": "291-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/291",
+    "commands": [
+      "tshark -nr act5.pcap -Y 'ip.src==10.3.14.134' -T fields -e eth.src | head -1"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 292,
+    "name": "292-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/292",
+    "commands": [
+      "tshark -nr act5.pcap -Y 'ip.src==10.3.14.135' -T fields -e eth.src | head -1"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 293,
+    "name": "293-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/293",
+    "commands": [
+      "tshark -nr act5.pcap -Y 'http.request || udp.dstport==6892' \\\n  -T fields -e ip.src -e udp.dstport -e http.host -e http.request.uri | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 294,
+    "name": "294-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/294",
+    "commands": [
+      "tshark -nr act5.pcap -Y 'ip.src==10.3.14.131 && http.request' -T fields -e http.host | sort -u"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 295,
+    "name": "295-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/295",
+    "commands": [
+      "tshark -nr act5.pcap -Y 'ip.src==10.3.14.134 && (udp.dstport==6892 || http.request)' \\\n  -T fields -e udp.dstport -e http.host -e http.request.uri | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 296,
+    "name": "296-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/296",
+    "commands": [
+      "tshark -nr act5.pcap -Y 'ip.src==10.3.14.135 && (http.request || dns.qry.name)' \\\n  -T fields -e dns.qry.name -e http.host -e http.user_agent | sort -u | head -n 8"
+    ],
+    "rows": 26
+  },
+  {
+    "id": 83,
+    "name": "083-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/083",
+    "commands": [
+      "xxd -l 4 EASY_PACKET_1.pcap",
+      "capinfos -t EASY_PACKET_1.pcap"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 102,
+    "name": "102-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/102",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.flags.push -e tcp.flags.ack"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 112,
+    "name": "112-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/112",
+    "commands": [
+      "tshark -nr EASY_PACKET_1.pcap -Y http -T fields -e tcp.dstport -e http.authorization"
+    ],
+    "rows": 14
+  },
+  {
+    "id": 306,
+    "name": "306-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/306",
+    "commands": [
+      "rg '^domain:|^created:' whitepepper-whois.txt"
+    ],
+    "rows": 20
+  },
+  {
+    "id": 308,
+    "name": "308-clear-method",
+    "cwd": "/home/nightingale/CTF/PCGCTF/final-writeups/screenshots/recapture-work/308",
+    "commands": [
+      "cat handyman24-dns.json"
+    ],
+    "rows": 20
+  }
+]

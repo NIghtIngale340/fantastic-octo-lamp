@@ -2,13 +2,13 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 325 · **Category:** Deadface · **Points:** 100
 
-**Status:** Solved in the old snapshot, but the APK wasn't preserved. The flag is from the teammate's record; I can't show the exact exported component here, so I'm flagging it.
+**Status:** Solved in the old snapshot, but the APK wasn't preserved. The flag is from the teammate's record; I can't show the exact exported component here.
 
 ## The challenge
 
 Identify the hidden Android activity the manifest exposes, and recover its flag.
 
-## Solving it
+## Recorded method
 
 The method is to decode the manifest and find an exported diagnostic activity, then inspect its implementation:
 
@@ -22,10 +22,6 @@ The recorded flag from that activity is:
 ```text
 deadface{flaG_ManIfesT3d}
 ```
-
-## Screenshot
-
-![325-actual-artifact-inventory.png](../screenshots/325-actual-artifact-inventory.png)
 
 ## Flag
 

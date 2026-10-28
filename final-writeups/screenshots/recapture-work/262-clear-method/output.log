@@ -1,0 +1,6 @@
+[2J[H$ tshark -nr act1.pcap -Y 'http.request && ip.dst==146.59.71.167' \
+  -T fields -e ip.src -e http.host -e http.request.uri | sort -u | head -n 8
+172.16.8.49	www.grinswakebthu.info	/irpw/
+172.16.8.49	www.grinswakebthu.info	/irpw/?2kn1=kzCvvy54rrIQXFKjfYifb866d+M9hs2fv6bSi3WikvZmjVluebu6mUUhZtMb+2Gf6oxOm28aYOpkAiGzpoG3XIhyRfkkPR06YbIov6+BKgDj686nddFR9ZDwA1TR6R82KrYMll+QIfUC&kbBSJ=Ep6t_fJ_
+
+$ 

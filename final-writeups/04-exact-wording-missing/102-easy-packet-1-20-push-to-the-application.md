@@ -2,7 +2,7 @@
 
 **Platform:** PCGCTF · **Challenge ID:** 102 · **Category:** Network Forensics · **Points:** 100
 
-**Status:** Technically solved, but the exact accepted wording is unresolved — several plausible phrasings were rejected. Honest writeup.
+**Status:** Technically solved, but the exact accepted wording is unresolved — several plausible phrasings were rejected.
 
 ## The challenge
 
@@ -14,14 +14,15 @@ The packet confirms PSH is set:
 
 ```sh
 tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.flags.push -e tcp.flags.ack
-# True  True
 ```
 
 But the question is about meaning: the PUSH function tells the receiver to hand the buffered data up to the application *promptly*, instead of waiting to accumulate more. It does **not** mark message boundaries — TCP is still a byte stream — and it doesn't guarantee any particular read size ([RFC 9293](https://www.rfc-editor.org/rfc/rfc9293.html)).
 
 ## Screenshot
 
-![102-decisive-evidence.png](../screenshots/102-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/102-clear-method.png)
 
 ## Flag
 

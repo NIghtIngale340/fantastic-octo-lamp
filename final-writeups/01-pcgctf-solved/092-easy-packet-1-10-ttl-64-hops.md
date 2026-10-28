@@ -26,7 +26,9 @@ So the answer is 64. No OS-fingerprinting or path-length guessing needed — the
 
 ## Screenshot
 
-![092-decisive-evidence.png](../screenshots/092-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/092-clear-method.png)
 
 ## Flag
 

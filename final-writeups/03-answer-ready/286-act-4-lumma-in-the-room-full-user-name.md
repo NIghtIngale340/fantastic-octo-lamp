@@ -10,9 +10,11 @@ Resolve `gwyatt` to a full name.
 
 ## Solving it
 
+Use [the shared capture](../../unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap) as `act4.pcap` for the commands below.
+
 ```sh
 tshark -nr act4.pcap -Y 'samr.samr_UserInfo21.account_name=="gwyatt"' \
-  -T fields -e samr.samr_UserInfo21.full_name
+  -T fields -e samr.samr_UserInfo21.full_name | sort -u
 ```
 
 ```text
@@ -21,7 +23,9 @@ Gabriel Wyatt
 
 ## Screenshot
 
-![286-decisive-evidence.png](../screenshots/286-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/286-clear-method.png)
 
 ## Flag
 
@@ -35,4 +39,4 @@ pcgCTF{Gabriel Wyatt}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/286-act-4-lumma-in-the-room-full-user-name/README.md)
+- [Original challenge description](../../unsolved/network-forensics/286-act-4-lumma-in-the-room-full-user-name/README.md)

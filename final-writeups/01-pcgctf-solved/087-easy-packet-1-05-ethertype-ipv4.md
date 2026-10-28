@@ -23,7 +23,9 @@ EtherType 0x0800 is IPv4. The question asks for the protocol name, not the hex v
 
 ## Screenshot
 
-![087-decisive-evidence.png](../screenshots/087-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/087-clear-method.png)
 
 ## Flag
 

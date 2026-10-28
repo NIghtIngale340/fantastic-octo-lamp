@@ -19,6 +19,8 @@ deadface{hdm1_l34ks_th3_wh0l3_p4t13nt}
 
 ## Screenshots
 
+The terminal image below displays a retained verification transcript.
+
 ![317-actual-device-response.png](../screenshots/317-actual-device-response.png)
 
 ![317-actual-device-proof.png](../screenshots/317-actual-device-proof.png)

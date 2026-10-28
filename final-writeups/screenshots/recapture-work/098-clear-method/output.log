@@ -1,0 +1,4 @@
+[2J[H$ tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.seq_raw
+3111702488
+
+$ 

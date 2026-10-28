@@ -15,14 +15,16 @@ tshark -nr EASY_PACKET_1.pcap -T fields -e tcp.flags -e tcp.flags.push -e tcp.fl
 ```
 
 ```text
-0x0018  True  True
+0x0018	True	True
 ```
 
 Flags 0x018 = PSH + ACK — a data segment that also acknowledges.
 
 ## Screenshot
 
-![100-decisive-evidence.png](../screenshots/100-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/100-clear-method.png)
 
 ## Flag
 
@@ -32,4 +34,4 @@ pcgCTF{PSH and ACK}
 
 ## Reference
 
-- [Original challenge description](../../solved/network-forensics/100-easy-packet-1-18-push-and-acknowledge/README.md)
+- [Original challenge description](../../unsolved/network-forensics/100-easy-packet-1-18-push-and-acknowledge/README.md)

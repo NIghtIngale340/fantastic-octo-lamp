@@ -22,7 +22,7 @@ Producer: kkr4m
 Pages:    1
 ```
 
-The Author field is a long Base64 string instead of a name — that's the whole challenge. Decode it:
+The Author field is a long Base64 string instead of a name — this supplies the requested value. Decode it:
 
 ```sh
 echo 'Q1RGe3B1enpsM2RfbTN0YWRhdGFfZjB1bmQhXzQyNDQwYzdkfQ==' | base64 -d
@@ -36,9 +36,9 @@ The source prefix is `CTF` and the description gives no replacement rule, so I k
 
 ## Screenshots
 
-![035-step-01.png](../screenshots/035-step-01.png)
+Fresh local reproduction using the commands described above.
 
-![035-step-02.png](../screenshots/035-step-02.png)
+![Command and result](../screenshots/035-clear-method.png)
 
 ## Flag
 

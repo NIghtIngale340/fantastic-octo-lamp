@@ -22,7 +22,9 @@ I used `tcp.seq_raw` to get the absolute value rather than Wireshark's relative 
 
 ## Screenshot
 
-![098-decisive-evidence.png](../screenshots/098-decisive-evidence.png)
+Fresh local reproduction using the command described above.
+
+![Command and result](../screenshots/098-clear-method.png)
 
 ## Flag
 
