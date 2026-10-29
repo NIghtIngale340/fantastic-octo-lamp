@@ -1,0 +1,18 @@
+{
+  "challenge_id": 214,
+  "name": "XXE DoS",
+  "flag": "pcgCTF{47a21cc2b293f6dfaf7432bb827ab999cfcbfcd4}",
+  "first_submission_response": {
+    "success": true,
+    "data": {
+      "status": "correct",
+      "message": "Correct"
+    }
+  },
+  "status_check": {
+    "solved_by_me": true,
+    "value": 1000
+  },
+  "local_solve_observed": false,
+  "note": "libxml2 amplification guard returned HTTP 410 before the 2-second VM timeout."
+}

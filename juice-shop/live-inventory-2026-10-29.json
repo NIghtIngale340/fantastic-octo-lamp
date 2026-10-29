@@ -1,0 +1,1457 @@
+{
+  "source": "https://cgcybercom.online/challenges",
+  "observed_on": "2026-10-29 Asia/Manila",
+  "challenges": [
+    {
+      "category": "Reconnaissance",
+      "id": 122,
+      "name": "PCGCTF Juice Shop Gateway",
+      "points": 100,
+      "solved": true,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges-",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 134,
+      "name": "Web3 Sandbox",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 127,
+      "name": "Admin Section",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-for-Demos",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 152,
+      "name": "Five-Star Feedback",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 209,
+      "name": "View Basket",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good-for-Demos",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 235,
+      "name": "AI Debugging",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "Requires-LLM-API",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 154,
+      "name": "Forged Feedback",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 155,
+      "name": "Forged Review",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 174,
+      "name": "Manipulate Basket",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 187,
+      "name": "Product Tampering",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 222,
+      "name": "CSRF",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 145,
+      "name": "Easter Egg",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Contraption",
+        "Good-for-Demos",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Access Control",
+      "id": 195,
+      "name": "SSRF",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code-Analysis",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 141,
+      "name": "Confidential Document",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-for-Demos",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 123,
+      "name": "Password Hash Leak",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 131,
+      "name": "NFT Takeover",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Good-for-Demos",
+        "Web3",
+        "With-Coding-Challenge",
+        "rank:operator"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 172,
+      "name": "Login MC SafeSearch",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "OSINT",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 225,
+      "name": "Meta Geo Stalking",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 226,
+      "name": "Visual Geo Stalking",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 231,
+      "name": "Exposed Credentials",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 261,
+      "name": "Password Hash Leak",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 168,
+      "name": "Login Amy",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 157,
+      "name": "Forgotten Developer Backup",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Good-for-Demos",
+        "Prerequisite",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 158,
+      "name": "Forgotten Sales Backup",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 161,
+      "name": "GDPR Data Theft",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 165,
+      "name": "Leaked Unsafe Product",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "OSINT",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 224,
+      "name": "Reset Uvogin's Password",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 237,
+      "name": "Login Cloud Admin",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 146,
+      "name": "Email Leak",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 194,
+      "name": "Retrieve Blueprint",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Sensitive Data Exposure",
+      "id": 232,
+      "name": "Leaked API Key",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 142,
+      "name": "DOM XSS",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good-for-Demos",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 223,
+      "name": "Bonus Payload",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Tutorial",
+        "With-Coding-Challenge",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 188,
+      "name": "Reflected XSS",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Danger-Zone",
+        "Good-for-Demos",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 124,
+      "name": "API-only XSS",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "With-Coding-Challenge",
+        "rank:operator"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 140,
+      "name": "Client-side XSS Protection",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 139,
+      "name": "CSP Bypass",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 162,
+      "name": "HTTP-Header XSS",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 199,
+      "name": "Server-side XSS Protection",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "XSS",
+      "id": 208,
+      "name": "Video XSS",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 149,
+      "name": "Error Handling",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 144,
+      "name": "Deprecated Interface",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Prerequisite",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 220,
+      "name": "Misplaced IaC Files",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 218,
+      "name": "Cross-Site Imaging",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Security Misconfiguration",
+      "id": 173,
+      "name": "Login Support Team",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute-Force",
+        "Code-Analysis",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Unvalidated Redirects",
+      "id": 181,
+      "name": "Outdated Allowlist",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code-Analysis",
+        "With-Coding-Challenge",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Unvalidated Redirects",
+      "id": 212,
+      "name": "Allowlist Bypass",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 185,
+      "name": "Privacy Policy",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-Practice",
+        "Tutorial",
+        "Good-for-Demos",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 197,
+      "name": "Score Board",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Code-Analysis",
+        "With-Coding-Challenge",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 229,
+      "name": "Mass Dispel",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 198,
+      "name": "Security Policy",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-Practice",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 230,
+      "name": "Security Advisory",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "id": 133,
+      "name": "Wallet Depletion",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With-Coding-Challenge",
+        "Requires-Alchemy-API-Key",
+        "Requires-Alchemy-API",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 189,
+      "name": "Repetitive Registration",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 216,
+      "name": "Zero Stars",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 217,
+      "name": "Missing Encoding",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 147,
+      "name": "Empty User Registration",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 126,
+      "name": "Admin Registration",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:operator"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 132,
+      "name": "Mint the Honey Pot",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Web3",
+        "With-Coding-Challenge",
+        "Requires-Alchemy-API-Key",
+        "Requires-Alchemy-API",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 183,
+      "name": "Payback Time",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 205,
+      "name": "Upload Size",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 206,
+      "name": "Upload Type",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:novice"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 221,
+      "name": "Deluxe Fraud",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 150,
+      "name": "Expired Coupon",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Improper Input Validation",
+      "id": 227,
+      "name": "Poison Null Byte",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Prerequisite",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Observability Failures",
+      "id": 219,
+      "name": "Exposed Metrics",
+      "points": 100,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-Practice",
+        "With-Coding-Challenge",
+        "rank:apprentice"
+      ]
+    },
+    {
+      "category": "Observability Failures",
+      "id": 125,
+      "name": "Access Log",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Observability Failures",
+      "id": 175,
+      "name": "Misplaced Signature File",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-Practice",
+        "Contraption",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Observability Failures",
+      "id": 164,
+      "name": "Leaked Access Logs",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 167,
+      "name": "Login Admin",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "Good-for-Demos",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 233,
+      "name": "Chatbot Prompt Injection",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-for-Demos",
+        "AI/LLM",
+        "With-Coding-Challenge",
+        "Requires-LLM-API",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 143,
+      "name": "Database Schema",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 169,
+      "name": "Login Bender",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 171,
+      "name": "Login Jim",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Tutorial",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 234,
+      "name": "Greedy Chatbot Manipulation",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "With-Coding-Challenge",
+        "Requires-LLM-API",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 236,
+      "name": "System Prompt Extraction",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "AI/LLM",
+        "Requires-LLM-API",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 138,
+      "name": "Christmas Special",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 148,
+      "name": "Ephemeral Accountant",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 178,
+      "name": "NoSQL DoS",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 180,
+      "name": "NoSQL Manipulation",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 207,
+      "name": "User Credentials",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 179,
+      "name": "NoSQL Exfiltration",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Injection",
+      "id": 196,
+      "name": "SSTi",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Danger-Zone",
+        "Code-Analysis",
+        "rank:god"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 182,
+      "name": "Password Strength",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute-Force",
+        "Tutorial",
+        "With-Coding-Challenge",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 129,
+      "name": "Bjoern's Favorite Pet",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:operator"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 160,
+      "name": "GDPR Data Erasure",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 192,
+      "name": "Reset Jim's Password",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 170,
+      "name": "Login Bjoern",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Code-Analysis",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 190,
+      "name": "Reset Bender's Password",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 137,
+      "name": "Change Bender's Password",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 191,
+      "name": "Reset Bjoern's Password",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "With-Coding-Challenge",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Broken Authentication",
+      "id": 203,
+      "name": "Two Factor Authentication",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 211,
+      "name": "Weird Crypto",
+      "points": 250,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:initiate"
+      ]
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 177,
+      "name": "Nested Easter Egg",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Good-for-Demos",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 153,
+      "name": "Forged Coupon",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Good-for-Demos",
+        "Code-Analysis",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 163,
+      "name": "Imaginary Challenge",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Code-Analysis",
+        "rank:god"
+      ]
+    },
+    {
+      "category": "Cryptographic Issues",
+      "id": 184,
+      "name": "Premium Paywall",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Broken Anti Automation",
+      "id": 136,
+      "name": "CAPTCHA Bypass",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute-Force",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Broken Anti Automation",
+      "id": 151,
+      "name": "Extra Language",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Brute-Force",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Broken Anti Automation",
+      "id": 193,
+      "name": "Reset Morty's Password",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "Brute-Force",
+        "With-Coding-Challenge",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Broken Anti Automation",
+      "id": 176,
+      "name": "Multiple Likes",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Security through Obscurity",
+      "id": 186,
+      "name": "Privacy Policy Inspection",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "Good-for-Demos",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Security through Obscurity",
+      "id": 200,
+      "name": "Steganography",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Shenanigans",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Security through Obscurity",
+      "id": 130,
+      "name": "Blockchain Hype",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Contraption",
+        "Code-Analysis",
+        "Web3",
+        "With-Coding-Challenge",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "XXE",
+      "id": 213,
+      "name": "XXE Data Access",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "XXE",
+      "id": 214,
+      "name": "XXE DoS",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 238,
+      "name": "Vulnerable Infrastructure",
+      "points": 450,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "With-Coding-Challenge",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 166,
+      "name": "Legacy Typosquatting",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 210,
+      "name": "Vulnerable Library",
+      "points": 700,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:specialist"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 159,
+      "name": "Frontend Typosquatting",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 202,
+      "name": "Supply Chain Attack",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 204,
+      "name": "Unsigned JWT",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 228,
+      "name": "Local File Read",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "OSINT",
+        "Danger-Zone",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 128,
+      "name": "Arbitrary File Write",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "Prerequisite",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Vulnerable Components",
+      "id": 156,
+      "name": "Forged Signed JWT",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "rank:master"
+      ]
+    },
+    {
+      "category": "Insecure Deserialization",
+      "id": 135,
+      "name": "Blocked RCE DoS",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Insecure Deserialization",
+      "id": 215,
+      "name": "Memory Bomb",
+      "points": 1000,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:expert"
+      ]
+    },
+    {
+      "category": "Insecure Deserialization",
+      "id": 201,
+      "name": "Successful RCE DoS",
+      "points": 1350,
+      "solved": false,
+      "tags": [
+        "PCGCTF-JuiceShop-Challenges",
+        "Danger-Zone",
+        "rank:god"
+      ]
+    }
+  ]
+}

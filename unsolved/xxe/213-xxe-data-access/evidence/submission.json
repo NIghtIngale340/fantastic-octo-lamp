@@ -1,0 +1,16 @@
+{
+  "challenge_id": 213,
+  "name": "XXE Data Access",
+  "flag": "pcgCTF{2892edcae3ade1c4faf5c44bc8eb63ed163204b5}",
+  "first_submission_response": {
+    "success": true,
+    "data": {
+      "status": "correct",
+      "message": "Correct"
+    }
+  },
+  "status_check": {
+    "solved_by_me": true,
+    "value": 450
+  }
+}
