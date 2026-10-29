@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the capture and cited public sources. Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Packet 24500 · TCP stream 99 · [2026-01-31-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Name the info-stealer talking to `153.92.1.49`.

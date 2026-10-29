@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by cited WHOIS records (time-sensitive). Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Source: [TCI WHOIS creation timestamp for WHITEPEPPER.SU](../../analysis-team-verification/whitepepper-whois.txt). Packet/stream: not applicable to this OSINT lookup.
+
 ## The challenge
 
 What year was the C2 domain `whitepepper.su` registered?

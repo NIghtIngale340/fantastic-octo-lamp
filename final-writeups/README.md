@@ -8,7 +8,7 @@ Prepared: 2026-10-29T02:31:08+08:00 (Asia/Manila).
 
 The five requested snapshot groups contained 164 challenges: 81 PCGCTF solves, 11 OverTheWire verifies, 68 ready candidates, 3 missing-wording answers and 1 rejected flag. The additional 28 unresolved challenges are included rather than omitted. During this review, #77 was independently decoded from brick colors, so the current collection has **69 ready candidates and 27 unresolved appendix entries**; the original snapshot is preserved separately. The 81 PCGCTF and 11 OverTheWire solved counts were not changed.
 
-[Technical-category index](BY_TECHNICAL_CATEGORY.md) · [Missing evidence and remaining work](MISSING_EVIDENCE.md) · [Screenshot capture results](SCREENSHOT_PLAN.md) · [Captured visual evidence](VISUALS.md) · [Quality report](QUALITY_REPORT.md)
+[Packet and stream evidence](NETWORK_EVIDENCE.md) · [Technical-category index](BY_TECHNICAL_CATEGORY.md) · [Missing evidence and remaining work](MISSING_EVIDENCE.md) · [Screenshot capture results](SCREENSHOT_PLAN.md) · [Captured visual evidence](VISUALS.md) · [Quality report](QUALITY_REPORT.md)
 
 **Evidence:** Fresh captures accompany the revised offline examples. Earlier browser results and terminal transcripts remain archived and are labeled where used. Empty inventories, failed-connection screenshots and lookup-note dumps have been removed from the reading flow where they did not help explain a result. See the [capture manifest](screenshots/capture-manifest.json).
 

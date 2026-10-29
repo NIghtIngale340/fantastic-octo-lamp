@@ -4,6 +4,8 @@
 
 **Status:** Solved in the last snapshot; reproduced locally. (This capture is byte-identical to Hidden Download #62 — same file, reused extraction.)
 
+**Evidence:** Packets 11, 13 · TCP stream 0 · [http_file_extraction.pcap](../../solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap).
+
 ## The challenge
 
 A ZIP was downloaded over HTTP in a packet capture. Pull it out and read the password in its text file.

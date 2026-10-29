@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the saved challenge prompt and DNS lookup. Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Source: [Public DNS answer linking handyman24.eu to 146.59.71.167](../../analysis-act4-act5/handyman24-dns.json). Packet/stream: not applicable to this OSINT lookup.
+
 ## The challenge
 
 Identify the domain associated with starting IP `146.59.71.167` using a public DNS or reverse-host lookup. The saved challenge description explicitly names `handyman24.eu` as resolving to this address.

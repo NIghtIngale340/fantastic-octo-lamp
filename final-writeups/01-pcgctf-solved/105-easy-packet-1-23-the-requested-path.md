@@ -4,6 +4,8 @@
 
 **Status:** Solved in the authenticated snapshot; field re-pulled from the capture for this writeup.
 
+**Evidence:** Packet 1 · TCP stream 0 · [EASY_PACKET_1.pcap](../../solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap).
+
 ## The challenge
 
 Recover the requested HTTP path. The evidence is `EASY_PACKET_1.pcap`, the shared capture for this whole series.

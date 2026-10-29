@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the capture. Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Packets 27, 29, 46, 48 · TCP streams 1, 2 · [http_authentication.pcap](../../unsolved/network-analysis/061-the-exposed-password/files/http_authentication.pcap).
+
 ## The challenge
 
 Recover the password from the successful HTTP login.

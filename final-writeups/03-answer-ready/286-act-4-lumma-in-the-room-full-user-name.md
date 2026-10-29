@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 4 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packet 358 · TCP stream 8 · [2026-01-31-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Resolve `gwyatt` to a full name.

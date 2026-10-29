@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the capture. Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Packet 196 · TCP stream 17 · [cryptocurrency_transfer_tracking.pcap](../../unsolved/network-analysis/069-bitcoin-trail/files/cryptocurrency_transfer_tracking.pcap).
+
 ## The challenge
 
 Identify the Bitcoin address in the transfer RPC data.

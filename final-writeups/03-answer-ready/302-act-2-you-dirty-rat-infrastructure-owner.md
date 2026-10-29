@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by cited public sources (time-sensitive). Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Source: [RIPEstat prefix-overview response for 141.98.10.0/24, origin AS209605](../../analysis-team-verification/routing-status.json). Packet/stream: not applicable to this OSINT lookup.
+
 ## The challenge
 
 Who announces the network holding the C2 (`141.98.10.0/24`)?

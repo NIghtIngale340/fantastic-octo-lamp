@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 5 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packets 8820, 11043, 16762 · TCP streams 179, 299 · UDP stream 197 · [2017-02-11-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Which two of the three clients show ransomware-specific activity?

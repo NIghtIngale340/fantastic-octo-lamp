@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the capture. Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Packets 23723, 24500 · TCP stream 99 · UDP stream 99 · [2026-01-31-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Pivot from the Lumma C2 IP (`153.92.1.49`) to its domain.

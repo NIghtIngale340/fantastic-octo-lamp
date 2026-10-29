@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 1 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packets 11227, 11714 · TCP streams 242, 249 · [ACT12026-08-09-traffic-analysis-exercise.pcap](../../solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Name one confirmed C2 IPv4 address the compromised host contacted.

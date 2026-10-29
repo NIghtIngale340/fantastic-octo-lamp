@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the capture and cited public sources. Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Packet 9119 · TCP stream 83 · [2024-07-30-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/274-act-3-malware-investigation-compromised-endpoint/files/2024-07-30-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 What TCP port does the STRRAT C2 listen on?

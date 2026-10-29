@@ -1,0 +1,5 @@
+Capture: EASY_PACKET_1.pcap
+Magic bytes at offsets 0-3: d4 c3 b2 a1
+
+File name:           /home/nightingale/CTF/PCGCTF/solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap
+Number of packets:   1

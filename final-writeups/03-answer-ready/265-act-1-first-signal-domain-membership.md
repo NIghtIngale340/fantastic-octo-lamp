@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 1 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packets 1939, 1961 · TCP streams 86, 88 · [ACT12026-08-09-traffic-analysis-exercise.pcap](../../solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 What Active Directory domain is the compromised workstation joined to?

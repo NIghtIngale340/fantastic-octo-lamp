@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 5 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packets 1684, 1712 · UDP stream 40 · [2017-02-11-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 MAC for 10.3.14.134.

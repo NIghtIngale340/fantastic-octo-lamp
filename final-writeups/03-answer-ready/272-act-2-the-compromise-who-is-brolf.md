@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 2 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packet 339 · TCP stream 9 · [2026-02-28-traffic-analysis-exercise.pcap](../../solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Resolve the account `brolf` to its full name.

@@ -4,6 +4,8 @@
 
 **Status:** Technically solved, but the exact accepted flag wording is unresolved — several obvious phrasings were rejected, and I don't have a confirmed string.
 
+**Evidence:** Capture header, bytes 0–3: `d4 c3 b2 a1` in [EASY_PACKET_1.pcap](../../solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap). Packet/stream: not applicable to identifying the file format.
+
 ## The challenge
 
 Identify the capture-file format from the artifact (`EASY_PACKET_1.pcap`).

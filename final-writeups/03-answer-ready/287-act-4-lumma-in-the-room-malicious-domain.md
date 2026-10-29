@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 4 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packets 23723, 24500 · TCP stream 99 · UDP stream 99 · [2026-01-31-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Identify the C2 domain behind 153.92.1.49.

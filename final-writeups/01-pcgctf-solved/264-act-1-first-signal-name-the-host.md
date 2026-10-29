@@ -4,6 +4,8 @@
 
 **Status:** Solved in the authenticated snapshot; reproduced from the Act 1 capture.
 
+**Evidence:** Packets 1828, 1830 · UDP stream 0 · [ACT12026-08-09-traffic-analysis-exercise.pcap](../../solved/network-forensics/262-act-1-first-signal-patient-zero/files/ACT12026-08-09-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Recover the victim's Windows hostname.

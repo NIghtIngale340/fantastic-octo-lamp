@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 4 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packets 1, 3, 5 · UDP streams 0, 2 · [2026-01-31-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Recover the Lumma victim's hostname.

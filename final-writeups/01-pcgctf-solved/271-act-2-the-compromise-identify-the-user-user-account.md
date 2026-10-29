@@ -4,6 +4,8 @@
 
 **Status:** Solved in the authenticated snapshot; reproduced from the Act 2 capture.
 
+**Evidence:** Packet 339 · TCP stream 9 · [2026-02-28-traffic-analysis-exercise.pcap](../../solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Identify the domain user account tied to the infected client.

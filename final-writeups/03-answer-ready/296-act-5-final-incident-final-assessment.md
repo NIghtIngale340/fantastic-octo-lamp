@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 5 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packets 6, 1350, 2055 · TCP stream 8 · UDP streams 1, 85 · [2017-02-11-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap). These are traffic examples; the [saved indicator check](../evidence/network/act5-indicator-source-counts.json) supports the absence finding within this capture.
+
 ## The challenge
 
 Which client shows neither ransomware pattern?

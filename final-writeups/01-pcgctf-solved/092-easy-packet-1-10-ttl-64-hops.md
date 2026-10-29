@@ -4,6 +4,8 @@
 
 **Status:** Solved in the authenticated snapshot. I re-pulled the field from the capture for this writeup.
 
+**Evidence:** Packet 1 · TCP stream 0 · [EASY_PACKET_1.pcap](../../solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap).
+
 ## The challenge
 
 Read the IPv4 TTL out of the packet. The evidence is `EASY_PACKET_1.pcap` — the same capture the rest of this Easy Packet series uses (SHA-256 `e4735559…394faa`).

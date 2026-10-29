@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the capture. Exact PCGCTF submission not re-confirmed. (Same capture/answer as HTTP File Extraction #70.)
 
+**Evidence:** Packets 11, 13 · TCP stream 0 · [http_file_extraction.pcap](../../solved/network-analysis/070-http-file-extraction/files/http_file_extraction.pcap).
+
 ## The challenge
 
 Recover the text inside a ZIP downloaded over HTTP.

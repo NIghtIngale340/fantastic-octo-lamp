@@ -4,6 +4,8 @@
 
 **Status:** Technically solved, but the exact accepted wording is unresolved — short variants were rejected.
 
+**Evidence:** Packet 1 · TCP stream 0 · [EASY_PACKET_1.pcap](../../solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap).
+
 ## The challenge
 
 Explain the credential-exposure weakness and the transport fix.

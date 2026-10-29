@@ -4,6 +4,8 @@
 
 **Status:** Solved in the authenticated snapshot; reproduced from the Act 2 capture.
 
+**Evidence:** Packets 2, 135 · UDP streams 0, 13 · [2026-02-28-traffic-analysis-exercise.pcap](../../solved/network-forensics/268-act-2-the-compromise-infected-ipv4/files/2026-02-28-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Recover the infected client's hostname.

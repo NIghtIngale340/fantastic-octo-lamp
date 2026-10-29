@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the capture. Exact PCGCTF submission not re-confirmed (the challenge wording is slightly ambiguous — see below).
 
+**Evidence:** Packets 11831, 11837 · TCP streams 19, 20 · [UNODC-GPC-001-003-JohnDoe-NetworkCapture-2021-04-29.pcapng](../../unsolved/network-analysis/021-packet-detective/files/UNODC-GPC-001-003-JohnDoe-NetworkCapture-2021-04-29.pcapng).
+
 ## The challenge
 
 Identify the extension of a file downloaded in the supplied capture.

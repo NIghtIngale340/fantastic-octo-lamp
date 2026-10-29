@@ -4,6 +4,8 @@
 
 **Status:** Solved in the authenticated snapshot; field re-pulled from the capture for this writeup.
 
+**Evidence:** [Capture inventory](../evidence/network/packet-locators/capture-inventory.txt): one packet in [EASY_PACKET_1.pcap](../../solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap). A capture-wide count has no individual stream locator.
+
 ## The challenge
 
 Count the packets in the capture. The evidence is `EASY_PACKET_1.pcap`, the shared capture for this whole series.

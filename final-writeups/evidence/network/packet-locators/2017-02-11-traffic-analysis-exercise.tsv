@@ -1,0 +1,13 @@
+frame.number	tcp.stream	udp.stream	ip.src	ip.dst	eth.src	dns.qry.name	http.host	http.request.uri	http.user_agent	udp.dstport
+"6"		"1"	"10.3.14.135"	"10.3.14.1"	"00:26:bb:4c:6b:e1"	"1-courier.sandbox.push.apple.com"				"53"
+"1350"	"8"		"10.3.14.135"	"17.254.32.16"	"00:26:bb:4c:6b:e1"		"wu-calculator.apple.com"	"/dgw?imei=APPLE&apptype=finance"	"SpotlightNetHelper/917.36 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)"	
+"1684"			"10.3.14.134"	"224.0.0.22"	"14:da:e9:5b:42:1c"					
+"1712"		"40"	"10.3.14.134"	"255.255.255.255"	"14:da:e9:5b:42:1c"					"67"
+"1771"			"10.3.14.131"	"224.0.0.22"	"00:25:64:18:4c:2a"					
+"2055"		"85"	"10.3.14.135"	"10.3.14.1"	"00:26:bb:4c:6b:e1"	"www.reddit.com"				"53"
+"8820"		"197"	"10.3.14.134"	"91.119.56.0"	"14:da:e9:5b:42:1c"					"6892"
+"11043"	"179"		"10.3.14.134"	"217.12.208.17"	"14:da:e9:5b:42:1c"		"p27dokhpz2n7nvgr.1nmrtq.top"	"/3402-41D8-C680-0091-CCCF?iframe&_=1486782175308"	"Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"	
+"16354"	"296"		"10.3.14.134"	"217.12.208.17"	"14:da:e9:5b:42:1c"		"p27dokhpz2n7nvgr.1nmrtq.top"	"/3402-41D8-C680-0091-CCCF"	"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"	
+"16762"	"299"		"10.3.14.131"	"186.2.163.47"	"00:25:64:18:4c:2a"		"spora.biz"	"/"	"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"	
+"16772"	"299"		"10.3.14.131"	"186.2.163.47"	"00:25:64:18:4c:2a"		"spora.biz"	"/"	"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"	
+"16979"	"299"		"10.3.14.131"	"186.2.163.47"	"00:25:64:18:4c:2a"		"spora.biz"	"/"	"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"	

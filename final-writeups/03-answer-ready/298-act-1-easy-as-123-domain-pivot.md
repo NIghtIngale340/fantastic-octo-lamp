@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by cited public sources. Exact PCGCTF submission not re-confirmed.
 
+**Evidence:** Source: [MalwareBazaar IP/domain tags and the cited incident report](../../analysis-team-verification/public-source-observations.json). Packet/stream: not applicable to this OSINT lookup.
+
 ## The challenge
 
 Pivot from C2 IP `45.131.214.85` to its associated domain.

@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 5 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packets 16762, 16772, 16979 · TCP stream 299 · [2017-02-11-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/289-act-5-final-incident-map-the-network/files/2017-02-11-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Attribute the ransomware on 10.3.14.131.

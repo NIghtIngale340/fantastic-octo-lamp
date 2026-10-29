@@ -4,6 +4,8 @@
 
 **Status:** Technically solved, but the exact accepted wording is unresolved — several plausible phrasings were rejected.
 
+**Evidence:** Packet 1 · TCP stream 0 · [EASY_PACKET_1.pcap](../../solved/network-forensics/082-easy-packet-1-the-exposed-request/files/EASY_PACKET_1.pcap).
+
 ## The challenge
 
 Explain what the TCP PSH flag does to application delivery — not just that it's set.

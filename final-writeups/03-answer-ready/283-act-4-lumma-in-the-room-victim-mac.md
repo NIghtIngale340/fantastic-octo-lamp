@@ -4,6 +4,8 @@
 
 **Status:** Answer backed by the Act 4 capture. Exact PCGCTF submission not independently re-confirmed.
 
+**Evidence:** Packet 24500 · TCP stream 99 · [2026-01-31-traffic-analysis-exercise.pcap](../../unsolved/network-forensics/282-act-4-lumma-in-the-room-lumma-victim/files/2026-01-31-traffic-analysis-exercise.pcap).
+
 ## The challenge
 
 Read the Lumma victim's MAC (10.1.21.58).
