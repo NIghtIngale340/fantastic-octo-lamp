@@ -46,17 +46,19 @@ Audited 29 October 2026. The audit is generated from the solve list, not written
 | --- | --- |
 | **Problems solved** | **175** across 24 categories |
 | **Points earned** | 63,025 (43,025 excluding one 20,000-point outlier) |
-| **Solves with a writeup** | **163 of 175** |
-| **Solves with no writeup** | **12** — enumerated below, nothing hidden |
-| **Writeup drafts in total** | 198 (155 solved, 43 unsolved or unconfirmed) |
+| **Solves with a writeup** | **167 of 175** |
+| **Solves with no writeup** | **8** — enumerated below, nothing hidden |
+| **Writeup drafts in total** | 199 (156 solved, 43 unsolved or unconfirmed) |
 | **Captured evidence images** | 757 screenshots, plus 128 evidence artifacts |
 
-### The 12 gaps
+### The 8 gaps
 
 Stated plainly rather than rounded away:
 
-- **6 Juice Shop solves** — *Error Handling*, *Score Board*, *CAPTCHA Bypass*, *Extra Language*, *Reset Morty's Password*, *Multiple Likes*. Solved live against the instance; never written up.
+- **2 Juice Shop solves** — *Error Handling* and *Score Board*. Solved live against the instance; never written up.
 - **6 OSINT / IMINT solves** — the *Country*, *City*, *Street*, *Email*, *Photographer* and *Location* sub-answers. These were added to the scoreboard after the 28 October inventory snapshot, so no challenge folder or draft was ever created for them.
+
+The four *Broken Anti Automation* solves were undocumented until 29 October 2026, when they were recovered from a loose bundle and written up in [writeups/solved/broken-anti-automation.md](writeups/solved/broken-anti-automation.md).
 
 ### A note on what "solved" means here
 
@@ -118,8 +120,7 @@ fantastic-octo-lamp/
 │   ├── audit_coverage.py         #   Regenerates docs/coverage.md
 │   └── check_links.py            #   Fails if broken links increase
 │
-├── 📂 team/                      # Per-member working records
-└── 📂 archive/                   # Superseded bundles kept for provenance
+└── 📂 team/                      # Per-member working records
 ```
 
 ---
@@ -136,7 +137,7 @@ fantastic-octo-lamp/
 | Vulnerable Components | 9 | 9 |
 | OSINT | 8 | 8 |
 | Network Analysis | 4 | 4 |
-| Broken Anti-Automation | 4 | 0 |
+| Broken Anti-Automation | 4 | 4 |
 | Insecure Deserialization | 3 | 3 |
 | Steganography | 2 | 2 |
 | XXE | 2 | 2 |
@@ -144,7 +145,7 @@ fantastic-octo-lamp/
 | Blockchain / Forensics | 2 | 2 |
 | General Skills | 2 | 2 |
 | *Nine single-challenge categories* | 9 | 7 |
-| **Total** | **175** | **163** |
+| **Total** | **175** | **167** |
 
 Full per-category figures, including the exact missing entries, are in [docs/coverage.md](docs/coverage.md).
 
@@ -256,6 +257,7 @@ python scripts/check_links.py --max 48
 | --- | --- |
 | [docs/coverage.md](docs/coverage.md) | Generated audit: all 175 solves mapped to their writeup, gaps named |
 | [docs/writeup-index.md](docs/writeup-index.md) | Master index of all 198 drafts with verification status |
+| [docs/submission-log.md](docs/submission-log.md) | The nine flags the platform confirmed `correct`, and how they were submitted |
 | [docs/status.md](docs/status.md) | Full status list across the 192-challenge snapshot |
 | [docs/flags-ready.md](docs/flags-ready.md) | Answers ready for submission |
 | [docs/network-evidence.md](docs/network-evidence.md) | Packet and stream evidence index |
@@ -276,7 +278,7 @@ Runtime credentials recovered during the OverTheWire levels are redacted in the 
 
 ## Still Open
 
-- [ ] **Write up the 6 Juice Shop solves** — the gap with the clearest fix; the instance work is already done
+- [ ] **Write up *Error Handling* and *Score Board*** — the gap with the clearest fix; the instance work is already done
 - [ ] **Recover the 6 late IMINT sub-answers** — needs the post-snapshot scoreboard state
 - [ ] **Close the 48 pre-existing broken evidence links** — mostly artifacts that were never copied into the archive
 - [ ] **Confirm submission strings** for drafts currently marked *needs flag verification*
