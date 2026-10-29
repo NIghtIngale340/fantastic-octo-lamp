@@ -1,0 +1,33 @@
+# The Open Door API
+
+**Platform:** PCGCTF · **Challenge ID:** 46 · **Category:** Web Exploitation — DVWA · **Points:** 250
+
+**Status:** Unresolved. The saved connection attempt failed, so no live response or flag was recovered.
+
+## The challenge
+
+An API endpoint has no authentication — anyone can call it.
+
+## Investigation notes
+
+The concept is missing API authentication. The next check is to call the endpoint directly and see whether it returns data with no credentials.
+
+The saved connection attempt used:
+
+```sh
+curl --connect-timeout 5 --max-time 12 -sS -D - http://10.56.102.240:4280/
+```
+
+The result was a **connect timeout** — no response body to inspect.
+
+## Flag
+
+None recovered. The lab is unreachable from this environment, and the grader's exact wording inside `pcgCTF{...}` isn't known either.
+
+## Next step
+
+Once the lab is reachable, test the challenge-specific approach above and record the response and submission result.
+
+## Reference
+
+- [Original challenge description](../../challenges/unsolved/web-exploitation-dvwa/046-the-open-door-api/README.md)

@@ -1,0 +1,33 @@
+# Environment Variables Gone Public
+
+**Platform:** PCGCTF · **Challenge ID:** 55 · **Category:** Web Exploitation — DVWA · **Points:** 250
+
+**Status:** Unresolved. The saved connection attempt failed, so no live response or flag was recovered.
+
+## The challenge
+
+The `.env` file is web-accessible — secrets in environment config.
+
+## Investigation notes
+
+The concept is an exposed `.env`. The next check is to request `/.env` and read the keys/credentials.
+
+The saved connection attempt used:
+
+```sh
+curl --connect-timeout 5 --max-time 12 -sS -D - http://10.56.102.240:4280/
+```
+
+The result was a **connect timeout** — no response body to inspect.
+
+## Flag
+
+None recovered. The lab is unreachable from this environment, and the grader's exact wording inside `pcgCTF{...}` isn't known either.
+
+## Next step
+
+Once the lab is reachable, test the challenge-specific approach above and record the response and submission result.
+
+## Reference
+
+- [Original challenge description](../../challenges/unsolved/web-exploitation-dvwa/055-environment-variables-gone-public/README.md)

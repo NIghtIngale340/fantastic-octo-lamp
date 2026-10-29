@@ -1,0 +1,11 @@
+# Editor state — holds a signed-in account label, email and session id
+.vscode/
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Scratch output
+*.tmp
+__pycache__/

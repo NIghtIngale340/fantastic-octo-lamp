@@ -1,0 +1,33 @@
+# The Base64
+
+**Platform:** PCGCTF · **Challenge ID:** 47 · **Category:** Web Exploitation — DVWA · **Points:** 250
+
+**Status:** Unresolved. The saved connection attempt failed, so no live response or flag was recovered.
+
+## The challenge
+
+The title says Base64, but the question text is identical to #46 — it's really about missing API authentication.
+
+## Investigation notes
+
+The title and the actual question disagree; I trust the question. Treat it as missing API auth (#46) unless the live service actually supplies a Base64 value to decode.
+
+The saved connection attempt used:
+
+```sh
+curl --connect-timeout 5 --max-time 12 -sS -D - http://10.56.102.240:4280/
+```
+
+The result was a **connect timeout** — no response body to inspect.
+
+## Flag
+
+None recovered. The lab is unreachable from this environment, and the grader's exact wording inside `pcgCTF{...}` isn't known either.
+
+## Next step
+
+Once the lab is reachable, test the challenge-specific approach above and record the response and submission result.
+
+## Reference
+
+- [Original challenge description](../../challenges/unsolved/web-exploitation-dvwa/047-the-base64/README.md)
